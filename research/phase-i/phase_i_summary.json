@@ -1,0 +1,26 @@
+{
+  "accessibility_baseline": "PASS",
+  "automated_validation": {
+    "passed": 100,
+    "total": 100
+  },
+  "build": "PASS",
+  "data_cutoff": "2026-09-22",
+  "findings": 6,
+  "findings_version": "revenue-tides-findings-1.0.0",
+  "headline_findings": ["F1", "F2", "F4"],
+  "manual_qa": "PASS",
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "observations": 75,
+  "phase": "I",
+  "responsive_viewports": [1440, 1024, 768, 390],
+  "series": 9,
+  "status": "PASS",
+  "stop_boundary": "STOPPED BEFORE PHASE J",
+  "tests": {
+    "passed": 62,
+    "total": 62
+  },
+  "typescript": "PASS",
+  "webdata_version": "revenue-tides-webdata-1.0.0"
+}

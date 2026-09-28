@@ -1,0 +1,4 @@
+claim_id,game_id,period,claim_text_summary,attributed_to,source_id,claim_type,claim_status,our_causal_conclusion
+claim_001,whiteout_survival,2025-03,Sensor Tower linked the March revenue leadership to the second-anniversary event and other updates.,Sensor Tower,st_monthly_2025_03,PERFORMANCE_ATTRIBUTION,ATTRIBUTED_CLAIM,false
+claim_002,pokemon_go,2025-06,Sensor Tower attributed the June revenue-growth rank partly to GO Fest 2025 events.,Sensor Tower,st_monthly_2025_06,PERFORMANCE_ATTRIBUTION,ATTRIBUTED_CLAIM,false
+claim_003,honor_of_kings_cn,2025-10,Sensor Tower stated that the tenth-anniversary campaign coincided with an October revenue uplift.,Sensor Tower,st_monthly_2025_10,PERFORMANCE_ATTRIBUTION,ATTRIBUTED_CLAIM,false

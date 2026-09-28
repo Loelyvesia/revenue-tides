@@ -1,0 +1,7 @@
+# Project Summary
+
+Revenue Tides studies the fiscal-quarter commercial trajectories of publisher-defined games, IPs, and franchises through official public company disclosures. It does not combine heterogeneous revenue figures into a global ranking. Instead, it identifies entity scope, fiscal period, reporting definition, evidence class, and metric version before describing change within a stable series.
+
+The final corpus covers four publishers, nine analytical series, 75 observations, 26 curated official events, and three issuer-attributed claims. Eighteen observations are deterministically derived from official totals and rounded shares; they retain compatible lower and upper bounds and a flag showing whether quarter-to-quarter direction is stable. Six frozen Findings examine reporting-definition differences, platform-launch timing, rebound and recovery, persistent decline inside a bounded metric window, and the uncertainty introduced by rounded shares.
+
+The signature interaction, Quarter Prism, lets a reviewer move through fiscal quarters while seeing the value together with its entity scope, metric version, evidence class, uncertainty interval, event context, attribution, and source. The Tidal Ledger visual system uses ledger surfaces, calibration ticks, version seams, and a separate event rail to make analytical boundaries visible. The project's contribution is not a universal revenue number; it is a reproducible way to preserve what each observation means, what it supports, and where comparison must stop.

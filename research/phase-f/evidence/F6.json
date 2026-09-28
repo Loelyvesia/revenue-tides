@@ -1,0 +1,83 @@
+{
+  "candidate_id": "CF06",
+  "claim_ids": [],
+  "event_ids": [],
+  "finding_id": "F6",
+  "findings_version": "revenue-tides-findings-1.0.0",
+  "limitations": "Applies to deterministic estimates from rounded official shares, not directly reported title revenue.",
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "metric_definition_ids": [
+    "md_nm_mcoc_derived_v1",
+    "md_nm_jackpot_world_derived_v1",
+    "md_nm_lotsa_slots_derived_v1"
+  ],
+  "numeric_claims": [
+    {
+      "claim_id": "F6_N1",
+      "operation": "sign_sensitive_count",
+      "unit": "changes",
+      "value": "9"
+    },
+    {
+      "claim_id": "F6_N2",
+      "operation": "eligible_derived_change_count",
+      "unit": "changes",
+      "value": "15"
+    },
+    {
+      "claim_id": "F6_N3",
+      "operation": "sign_sensitive_share",
+      "precision": 1,
+      "unit": "percent",
+      "value": "60.0"
+    },
+    {
+      "claim_id": "F6_N4",
+      "operation": "sign_stable_count",
+      "unit": "changes",
+      "value": "6"
+    }
+  ],
+  "observation_ids": [
+    "obs_jackpot_2024q3",
+    "obs_jackpot_2024q4",
+    "obs_jackpot_2025q1",
+    "obs_jackpot_2025q2",
+    "obs_jackpot_2025q3",
+    "obs_jackpot_2025q4",
+    "obs_lotsa_2024q3",
+    "obs_lotsa_2024q4",
+    "obs_lotsa_2025q1",
+    "obs_lotsa_2025q2",
+    "obs_lotsa_2025q3",
+    "obs_lotsa_2025q4",
+    "obs_mcoc_2024q3",
+    "obs_mcoc_2024q4",
+    "obs_mcoc_2025q1",
+    "obs_mcoc_2025q2",
+    "obs_mcoc_2025q3",
+    "obs_mcoc_2025q4"
+  ],
+  "periods": [
+    "2024Q3",
+    "2025Q4"
+  ],
+  "series_ids": [
+    "series_mcoc",
+    "series_jackpot_world",
+    "series_lotsa_slots"
+  ],
+  "source_ids": [
+    "src_nm_1q25_pres",
+    "src_nm_2q25_pres",
+    "src_nm_3q24_pres",
+    "src_nm_3q25_pres",
+    "src_nm_4q24_pres",
+    "src_nm_4q25_pres"
+  ],
+  "transformations": [
+    "uncertainty_sign_sensitivity_count",
+    "leave_one_change_out_share"
+  ],
+  "uncertainty": "The finding is an uncertainty result and remains a majority under leave-one-change-out testing."
+}

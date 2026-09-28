@@ -1,0 +1,65 @@
+{
+  "causality_policy": "Events are temporal context only; issuer explanations remain attributed claims.",
+  "claim_count": 3,
+  "companies": [
+    {
+      "IR_url": "https://m-corporate.nc.com/kr/ir/irArchive/earningsRelease.do",
+      "company_id": "ncsoft",
+      "fiscal_calendar_status": "Calendar-year fiscal reporting; quarter labels verified against exact period ends in official quarterly materials.",
+      "name": "NCSOFT",
+      "reporting_currency": "KRW"
+    },
+    {
+      "IR_url": "https://company.netmarble.com/en/invest/library",
+      "company_id": "netmarble",
+      "fiscal_calendar_status": "Calendar-year fiscal reporting; quarter labels verified against exact period ends in official quarterly materials.",
+      "name": "Netmarble",
+      "reporting_currency": "KRW"
+    },
+    {
+      "IR_url": "https://www.pearlabyss.com/en-US/IR/Data/Performance",
+      "company_id": "pearl_abyss",
+      "fiscal_calendar_status": "Calendar-year fiscal reporting; quarter labels verified against exact period ends in official quarterly materials.",
+      "name": "Pearl Abyss",
+      "reporting_currency": "KRW"
+    },
+    {
+      "IR_url": "https://shiftup.co.kr/eng/ir/ir.php?code=ir_eng&idx=475&page=1&ptype=list",
+      "company_id": "shift_up",
+      "fiscal_calendar_status": "Calendar-year fiscal reporting; quarter labels verified against exact period ends in official quarterly materials.",
+      "name": "SHIFT UP",
+      "reporting_currency": "KRW"
+    }
+  ],
+  "comparison_policy": {
+    "absolute_cross_company": "NOT_COMPARABLE",
+    "normalized_unitless_shape": "ALLOWED_WHEN_FROZEN_ELIGIBILITY_PERMITS",
+    "within_stable_series": "WITHIN_SERIES_ONLY"
+  },
+  "corpus_series_count": 9,
+  "data_cutoff": "2026-09-22",
+  "event_count": 26,
+  "findings_version": "revenue-tides-findings-1.0.0",
+  "global_caveats": [
+    "CAVEAT_PUBLISHER_DEFINED_REVENUE",
+    "CAVEAT_CROSS_COMPANY_NOT_COMPARABLE",
+    "CAVEAT_EVENT_NOT_CAUSAL",
+    "CAVEAT_DERIVED_ROUNDING",
+    "CAVEAT_VERSION_BREAK",
+    "CAVEAT_CURATED_EVENTS"
+  ],
+  "headline_finding_ids": [
+    "F1",
+    "F2",
+    "F4"
+  ],
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "observation_count": 75,
+  "primary_temporal_unit": "FISCAL_QUARTER",
+  "project_id": "revenue-tides",
+  "subtitle_en": "Quarterly game and IP commercial metrics from public company disclosures",
+  "subtitle_zh": "公开公司披露中的游戏与 IP 季度商业指标",
+  "title_en": "Revenue Tides — The Commercial Life of Games",
+  "title_zh": "付费潮汐——游戏商业生命线",
+  "webdata_version": "revenue-tides-webdata-1.0.0"
+}

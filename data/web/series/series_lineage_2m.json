@@ -1,0 +1,597 @@
+{
+  "attributed_claims": [
+    {
+      "attributed": true,
+      "claim_id": "claim_l2m_sea_q2_2025",
+      "claim_type": "PERFORMANCE_ATTRIBUTION",
+      "issuer": "NCSOFT",
+      "period": "2025Q2",
+      "series_id": "series_lineage_2m",
+      "source_id": "src_nc_2q25_results_html",
+      "summary": "NCSOFT attributed the quarter's Lineage 2M sales increase to service expansion in Southeast Asia."
+    }
+  ],
+  "events": [
+    {
+      "curated": true,
+      "date_precision": "DAY",
+      "end_date": null,
+      "event_id": "evt_l2m_5y",
+      "event_type": "ANNIVERSARY_UPDATE",
+      "fiscal_period": "2024Q4",
+      "name": "Fifth anniversary My Chronicle update",
+      "platform_scope": "Mobile; PURPLE",
+      "region_scope": "Korea",
+      "series_id": "series_lineage_2m",
+      "source_id": "src_nc_l2m_5y_html",
+      "start_date": "2024-11-27"
+    },
+    {
+      "curated": true,
+      "date_precision": "DAY",
+      "end_date": null,
+      "event_id": "evt_l2m_sea_launch",
+      "event_type": "REGIONAL_LAUNCH",
+      "fiscal_period": "2025Q2",
+      "name": "Southeast Asia service launch",
+      "platform_scope": "Mobile; PURPLE",
+      "region_scope": "Six Southeast Asian countries",
+      "series_id": "series_lineage_2m",
+      "source_id": "src_nc_l2m_sea_html",
+      "start_date": "2025-05-20"
+    },
+    {
+      "curated": true,
+      "date_precision": "DAY",
+      "end_date": null,
+      "event_id": "evt_l2m_pledge",
+      "event_type": "MAJOR_UPDATE",
+      "fiscal_period": "2025Q2",
+      "name": "THE PLEDGE update",
+      "platform_scope": "Mobile; PURPLE",
+      "region_scope": "Japan service",
+      "series_id": "series_lineage_2m",
+      "source_id": "src_nc_l2m_pledge_html",
+      "start_date": "2025-05-28"
+    },
+    {
+      "curated": true,
+      "date_precision": "DAY",
+      "end_date": null,
+      "event_id": "evt_l2m_requiem",
+      "event_type": "MAJOR_UPDATE",
+      "fiscal_period": "2026Q2",
+      "name": "REQUIEM update",
+      "platform_scope": "Mobile; PURPLE",
+      "region_scope": "Korea",
+      "series_id": "series_lineage_2m",
+      "source_id": "src_nc_l2m_requiem_html",
+      "start_date": "2026-05-27"
+    }
+  ],
+  "findings": [
+    "F1"
+  ],
+  "identity": {
+    "caveat_ids": [
+      "CAVEAT_CROSS_COMPANY_NOT_COMPARABLE",
+      "CAVEAT_CURATED_EVENTS",
+      "CAVEAT_EVENT_NOT_CAUSAL",
+      "CAVEAT_PUBLISHER_DEFINED_REVENUE",
+      "CAVEAT_VERSION_BREAK"
+    ],
+    "company": "NCSOFT",
+    "company_id": "ncsoft",
+    "entity": "Lineage 2M",
+    "entity_type": "GAME_TITLE",
+    "platform_scope": "Mobile and PURPLE client under publisher title/IP scope",
+    "publisher_defined_name": "리니지2M",
+    "reporting_scope": [
+      "NCSOFT mobile title/IP publisher revenue presentation"
+    ],
+    "series_id": "series_lineage_2m"
+  },
+  "metric_versions": [
+    {
+      "accounting_scope": "NCSOFT mobile title chart; other mobile games excluded",
+      "caveat_ids": [
+        "CAVEAT_PUBLISHER_DEFINED_REVENUE",
+        "CAVEAT_VERSION_BREAK"
+      ],
+      "comparable_group_id": "cg_nc_lineage_2m_legacy_v1",
+      "comparison_scope": "WITHIN_SERIES_ONLY",
+      "economic_meaning": "Lineage 2M revenue shown in NCSOFT's legacy mobile-game chart.",
+      "evidence_class": "OFFICIAL_REPORTED",
+      "geographic_scope": "Consolidated reporting regions",
+      "label": "Lineage 2M mobile game revenue - legacy scope",
+      "metric_definition_id": "md_nc_lineage_2m_legacy_v1",
+      "platform_scope": "Mobile",
+      "unit_basis": "KRW million",
+      "valid_period": {
+        "first": "2024Q3",
+        "last": "2025Q4"
+      },
+      "version": "legacy_v1",
+      "version_break": {
+        "baseline_restart": true,
+        "break_after": null,
+        "break_before": null,
+        "break_reason": "Legacy mobile-title presentation versus royalty-integrated IP revenue presentation.",
+        "cross_version_change_allowed": false,
+        "same_quarter_overlap": false
+      }
+    },
+    {
+      "accounting_scope": "NCSOFT mobile IP line; other mobile games excluded; royalties integrated",
+      "caveat_ids": [
+        "CAVEAT_PUBLISHER_DEFINED_REVENUE",
+        "CAVEAT_VERSION_BREAK"
+      ],
+      "comparable_group_id": "cg_nc_lineage_2m_royalty_v2",
+      "comparison_scope": "WITHIN_SERIES_ONLY",
+      "economic_meaning": "Lineage 2M revenue shown in NCSOFT's five-quarter IP revenue presentation with royalties integrated.",
+      "evidence_class": "OFFICIAL_REPORTED",
+      "geographic_scope": "Consolidated reporting regions",
+      "label": "Lineage 2M IP revenue including royalties - restated/new scope",
+      "metric_definition_id": "md_nc_lineage_2m_royalty_v2",
+      "platform_scope": "Mobile title/IP presentation",
+      "unit_basis": "KRW million",
+      "valid_period": {
+        "first": "2025Q2",
+        "last": "2026Q2"
+      },
+      "version": "royalty_integrated_v2",
+      "version_break": {
+        "baseline_restart": true,
+        "break_after": null,
+        "break_before": null,
+        "break_reason": "Legacy mobile-title presentation versus royalty-integrated IP revenue presentation.",
+        "cross_version_change_allowed": false,
+        "same_quarter_overlap": false
+      }
+    }
+  ],
+  "observations": [
+    {
+      "baseline_index": 100,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": 0,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": false,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_nc_lineage_2m_legacy_v1",
+      "metric_version": "legacy_v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_l2m_v1_2024q3",
+      "period_end": "2024-09-30",
+      "period_index": 8098,
+      "period_key": "2024Q3",
+      "period_start": "2024-07-01",
+      "qoq": {
+        "absolute_change": null,
+        "eligible": false,
+        "percent_change": null,
+        "previous_observation_id": null
+      },
+      "quarter": "2024Q3",
+      "recovery": {
+        "quarters": null,
+        "status": "AT_OR_ABOVE_ROLLING_PEAK"
+      },
+      "rolling_peak": 43143,
+      "source_id": "src_nc_4q24_pres",
+      "source_page": "6",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 43143
+    },
+    {
+      "baseline_index": 95.64239853510419,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -4.3576014648958115,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_nc_lineage_2m_legacy_v1",
+      "metric_version": "legacy_v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_l2m_v1_2024q4",
+      "period_end": "2024-12-31",
+      "period_index": 8099,
+      "period_key": "2024Q4",
+      "period_start": "2024-10-01",
+      "qoq": {
+        "absolute_change": -1880,
+        "eligible": true,
+        "percent_change": -4.3576014648958115,
+        "previous_observation_id": "obs_l2m_v1_2024q3"
+      },
+      "quarter": "2024Q4",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 43143,
+      "source_id": "src_nc_4q24_pres",
+      "source_page": "6",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 41263
+    },
+    {
+      "baseline_index": 87.79176227893285,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -12.20823772106715,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_nc_lineage_2m_legacy_v1",
+      "metric_version": "legacy_v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_l2m_v1_2025q1",
+      "period_end": "2025-03-31",
+      "period_index": 8100,
+      "period_key": "2025Q1",
+      "period_start": "2025-01-01",
+      "qoq": {
+        "absolute_change": -3387,
+        "eligible": true,
+        "percent_change": -8.208322225722803,
+        "previous_observation_id": "obs_l2m_v1_2024q4"
+      },
+      "quarter": "2025Q1",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 43143,
+      "source_id": "src_nc_2q25_pres",
+      "source_page": "5",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 37876
+    },
+    {
+      "baseline_index": 111.2277773914656,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": 0,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_nc_lineage_2m_legacy_v1",
+      "metric_version": "legacy_v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_l2m_v1_2025q2",
+      "period_end": "2025-06-30",
+      "period_index": 8101,
+      "period_key": "2025Q2",
+      "period_start": "2025-04-01",
+      "qoq": {
+        "absolute_change": 10111,
+        "eligible": true,
+        "percent_change": 26.695004752349774,
+        "previous_observation_id": "obs_l2m_v1_2025q1"
+      },
+      "quarter": "2025Q2",
+      "recovery": {
+        "quarters": 3,
+        "status": "AT_OR_ABOVE_ROLLING_PEAK"
+      },
+      "rolling_peak": 47987,
+      "source_id": "src_nc_2q25_pres",
+      "source_page": "5",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 47987
+    },
+    {
+      "baseline_index": 100,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": 0,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": false,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_nc_lineage_2m_royalty_v2",
+      "metric_version": "royalty_integrated_v2",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_l2m_v2_2025q2",
+      "period_end": "2025-06-30",
+      "period_index": 8101,
+      "period_key": "2025Q2",
+      "period_start": "2025-04-01",
+      "qoq": {
+        "absolute_change": null,
+        "eligible": false,
+        "percent_change": null,
+        "previous_observation_id": null
+      },
+      "quarter": "2025Q2",
+      "recovery": {
+        "quarters": null,
+        "status": "AT_OR_ABOVE_ROLLING_PEAK"
+      },
+      "rolling_peak": 47987,
+      "source_id": "src_nc_2q26_pres",
+      "source_page": "6",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 47987
+    },
+    {
+      "baseline_index": 109.33407505273162,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -1.702544439118928,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_nc_lineage_2m_legacy_v1",
+      "metric_version": "legacy_v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_l2m_v1_2025q3",
+      "period_end": "2025-09-30",
+      "period_index": 8102,
+      "period_key": "2025Q3",
+      "period_start": "2025-07-01",
+      "qoq": {
+        "absolute_change": -817,
+        "eligible": true,
+        "percent_change": -1.702544439118928,
+        "previous_observation_id": "obs_l2m_v1_2025q2"
+      },
+      "quarter": "2025Q3",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 47987,
+      "source_id": "src_nc_4q25_pres",
+      "source_page": "6",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 47170
+    },
+    {
+      "baseline_index": 98.29745556088108,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -1.702544439118928,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_nc_lineage_2m_royalty_v2",
+      "metric_version": "royalty_integrated_v2",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_l2m_v2_2025q3",
+      "period_end": "2025-09-30",
+      "period_index": 8102,
+      "period_key": "2025Q3",
+      "period_start": "2025-07-01",
+      "qoq": {
+        "absolute_change": -817,
+        "eligible": true,
+        "percent_change": -1.702544439118928,
+        "previous_observation_id": "obs_l2m_v2_2025q2"
+      },
+      "quarter": "2025Q3",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 47987,
+      "source_id": "src_nc_2q26_pres",
+      "source_page": "6",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 47170
+    },
+    {
+      "baseline_index": 105.03442041582643,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -5.568174713985037,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_nc_lineage_2m_legacy_v1",
+      "metric_version": "legacy_v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_l2m_v1_2025q4",
+      "period_end": "2025-12-31",
+      "period_index": 8103,
+      "period_key": "2025Q4",
+      "period_start": "2025-10-01",
+      "qoq": {
+        "absolute_change": -1855,
+        "eligible": true,
+        "percent_change": -3.932584269662921,
+        "previous_observation_id": "obs_l2m_v1_2025q3"
+      },
+      "quarter": "2025Q4",
+      "recovery": {
+        "quarters": null,
+        "status": "NOT_RECOVERED_WITHIN_OBSERVED_WINDOW"
+      },
+      "rolling_peak": 47987,
+      "source_id": "src_nc_4q25_pres",
+      "source_page": "6",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 45315
+    },
+    {
+      "baseline_index": 94.43182528601496,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -5.568174713985037,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_nc_lineage_2m_royalty_v2",
+      "metric_version": "royalty_integrated_v2",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_l2m_v2_2025q4",
+      "period_end": "2025-12-31",
+      "period_index": 8103,
+      "period_key": "2025Q4",
+      "period_start": "2025-10-01",
+      "qoq": {
+        "absolute_change": -1855,
+        "eligible": true,
+        "percent_change": -3.932584269662921,
+        "previous_observation_id": "obs_l2m_v2_2025q3"
+      },
+      "quarter": "2025Q4",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 47987,
+      "source_id": "src_nc_2q26_pres",
+      "source_page": "6",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 45315
+    },
+    {
+      "baseline_index": 78.1399128930752,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -21.86008710692479,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_nc_lineage_2m_royalty_v2",
+      "metric_version": "royalty_integrated_v2",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_l2m_v2_2026q1",
+      "period_end": "2026-03-31",
+      "period_index": 8104,
+      "period_key": "2026Q1",
+      "period_start": "2026-01-01",
+      "qoq": {
+        "absolute_change": -7818,
+        "eligible": true,
+        "percent_change": -17.25256537570341,
+        "previous_observation_id": "obs_l2m_v2_2025q4"
+      },
+      "quarter": "2026Q1",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 47987,
+      "source_id": "src_nc_2q26_pres",
+      "source_page": "6",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 37497
+    },
+    {
+      "baseline_index": 77.40638089482569,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -22.59361910517432,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_nc_lineage_2m_royalty_v2",
+      "metric_version": "royalty_integrated_v2",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_l2m_v2_2026q2",
+      "period_end": "2026-06-30",
+      "period_index": 8105,
+      "period_key": "2026Q2",
+      "period_start": "2026-04-01",
+      "qoq": {
+        "absolute_change": -352,
+        "eligible": true,
+        "percent_change": -0.9387417660079473,
+        "previous_observation_id": "obs_l2m_v2_2026q1"
+      },
+      "quarter": "2026Q2",
+      "recovery": {
+        "quarters": null,
+        "status": "NOT_RECOVERED_WITHIN_OBSERVED_WINDOW"
+      },
+      "rolling_peak": 47987,
+      "source_id": "src_nc_2q26_pres",
+      "source_page": "6",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 37145
+    }
+  ],
+  "series_id": "series_lineage_2m",
+  "sources": [
+    "src_nc_2q25_pres",
+    "src_nc_2q25_results_html",
+    "src_nc_2q26_pres",
+    "src_nc_4q24_pres",
+    "src_nc_4q25_pres",
+    "src_nc_l2m_5y_html",
+    "src_nc_l2m_pledge_html",
+    "src_nc_l2m_requiem_html",
+    "src_nc_l2m_sea_html"
+  ]
+}

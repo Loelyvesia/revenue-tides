@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="t d">
+  <title id="t">Quarter Prism wireframe</title><desc id="d">Main signature interaction showing trajectory context, selected quarter decomposition, version lanes, context rail, and evidence footer.</desc>
+  <defs><pattern id="h" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line y2="8" stroke="#59615E"/></pattern></defs><rect width="1200" height="760" fill="#F3F0E7"/>
+  <style>text{font-family:system-ui,'Microsoft YaHei',sans-serif;fill:#192321}.s{font-size:13px;fill:#4B5753}.r{stroke:#969B92}.g{stroke:#C9C7BC}.teal{stroke:#1F6763;fill:none;stroke-width:3}.event{stroke:#864B32;fill:none;stroke-width:2}</style>
+  <text x="60" y="55" class="s">02 / SIGNATURE INTERACTION</text><text x="60" y="100" font-size="34" font-weight="650">Quarter Prism / 季度棱镜</text><text x="1040" y="95" class="s">Lineage M</text>
+  <line x1="60" y1="135" x2="1140" y2="135" class="r"/>
+  <g class="g"><line x1="105" y1="180" x2="105" y2="490"/><line x1="245" y1="180" x2="245" y2="490"/><line x1="385" y1="180" x2="385" y2="490"/><line x1="525" y1="180" x2="525" y2="490"/><line x1="665" y1="180" x2="665" y2="490"/><line x1="805" y1="180" x2="805" y2="490"/><line x1="945" y1="180" x2="945" y2="490"/><line x1="1085" y1="180" x2="1085" y2="490"/></g>
+  <path d="M105 350 L245 320 L385 345 L525 300 L665 285" class="teal"/><path d="M525 250 L665 235 L805 265 L945 290 L1085 315" stroke="#192321" fill="none" stroke-width="2" stroke-dasharray="8 5"/>
+  <rect x="485" y="165" width="220" height="340" fill="#FBF9F2" fill-opacity=".82" stroke="#1F6763" stroke-width="3"/><line x1="585" y1="165" x2="585" y2="505" stroke="#1F6763"/><text x="510" y="195" font-size="14">SELECTED</text><text x="605" y="195" font-size="18" font-weight="650">2025Q2</text>
+  <text x="510" y="245" class="s">legacy_v1</text><circle cx="545" cy="300" r="8" fill="#1F6763"/><text x="605" y="305" font-size="17">KRW 120,180m</text>
+  <text x="510" y="355" class="s">royalty-integrated v2</text><circle cx="545" cy="250" r="8" fill="#192321"/><text x="605" y="255" font-size="17">KRW 133,635m</text>
+  <text x="510" y="430" class="s">Same quarter · two definitions</text><text x="510" y="458" class="s">No cross-version change</text>
+  <line x1="60" y1="535" x2="1140" y2="535" class="r"/><text x="60" y="565" class="s">EVENT CONTEXT — curated / non-causal</text><line x1="60" y1="600" x2="1140" y2="600" class="event"/><line x1="805" y1="585" x2="805" y2="615" class="event"/><text x="825" y="606" class="s">Same-quarter context</text>
+  <text x="60" y="690" class="s">← Previous quarter</text><text x="515" y="690" font-size="14">Evidence · Metric definition · Source</text><text x="1010" y="690" class="s">Next quarter →</text>
+</svg>

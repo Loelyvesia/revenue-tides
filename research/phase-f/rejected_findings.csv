@@ -1,0 +1,14 @@
+candidate_id,candidate_title,finding_type,strength,rejection_reason,rationale
+CF07,Lineage M legacy 窗口的下降轨迹,F3_PERSISTENCE,MODERATE,DUPLICATIVE,Legacy window ends at a version boundary.
+CF08,Lineage M 新口径窗口的部分回升,F2_DRAWDOWN_RECOVERY,WEAK,TOO_SHORT,Only five observations and no recovery to the prior peak.
+CF09,Lineage 2M legacy 窗口的回撤与恢复,F2_DRAWDOWN_RECOVERY,MODERATE,DUPLICATIVE,Event-linked quarter already represented in the event/claim audit.
+CF10,Lineage 2M 新口径窗口的未恢复回撤,F2_DRAWDOWN_RECOVERY,WEAK,TOO_SHORT,Only five observations; not distinct enough for promotion.
+CF11,Lineage W legacy 窗口的持续回撤,F2_DRAWDOWN_RECOVERY,MODERATE,DUPLICATIVE,Separate v2 persistence candidate is clearer without stitching.
+CF12,Stellar Blade 的峰值后回撤,F2_DRAWDOWN_RECOVERY,MODERATE,DUPLICATIVE,Platform-launch candidate already captures the central evidence.
+CF13,共同八季度窗口的相对波动差异,F4_VOLATILITY,WEAK,NOT_ROBUST,Magnitude is heavily influenced by Stellar Blade's PC-launch quarter.
+CF14,共同八季度窗口的基准指数形状,F5_NORMALIZED_CROSS_SERIES,WEAK,DUPLICATIVE,Adds little beyond stronger series-specific findings.
+CF15,MCOC 派生序列的交替方向,F1_TRAJECTORY,MODERATE,DUPLICATIVE,Derived series; measurement finding has higher priority.
+CF16,Jackpot World 派生序列的方向,F1_TRAJECTORY,WEAK,UNCERTAINTY_SIGN_SENSITIVE,Rounded shares do not support definite direction.
+CF17,Lotsa Slots 派生序列的持续性,F3_PERSISTENCE,WEAK,UNCERTAINTY_SIGN_SENSITIVE,Rounded shares invalidate persistence label.
+CF18,跨公司绝对收入排行榜,F1_TRAJECTORY,WEAK,CROSS_COMPANY_LEVEL_COMPARISON,Publisher accounting scopes differ even in KRW.
+CF19,跨 NCSOFT 口径断点的增长率,F1_TRAJECTORY,WEAK,VERSION_BREAK,Frozen method forbids cross-version QoQ.

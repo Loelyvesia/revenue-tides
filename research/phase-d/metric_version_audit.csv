@@ -1,0 +1,13 @@
+series_id,metric_definition_id,version,valid_from,valid_to,break_type,break_description,overlap_exists,cross_version_change_allowed,source_id
+series_nikke,md_su_ip_revenue_v1,v1,2024-07-01,,NONE,No material metric-definition change identified in the selected window.,NO,NOT_APPLICABLE,src_su_2q26_fs
+series_stellar_blade,md_su_ip_revenue_v1,v1,2024-07-01,,NONE,No material metric-definition change identified in the selected window.,NO,NOT_APPLICABLE,src_su_2q26_fs
+series_lineage_m,md_nc_lineage_m_legacy_v1,legacy_v1,2024-07-01,2025-12-31,ROYALTY_SCOPE_INTEGRATION,NCSOFT integrated royalty revenue into IP lines; legacy and new windows remain separate.,NO,NO,src_nc_2q26_pres
+series_lineage_m,md_nc_lineage_m_royalty_v2,royalty_integrated_v2,2025-04-01,,ROYALTY_SCOPE_INTEGRATION,NCSOFT integrated royalty revenue into IP lines; legacy and new windows remain separate.,YES,NO,src_nc_2q26_pres
+series_black_desert,md_pa_black_desert_ip_v1,v1,2024-07-01,,NONE,No material metric-definition change identified in the selected window.,NO,NOT_APPLICABLE,src_pa_2q26_letter
+series_mcoc,md_nm_mcoc_derived_v1,derived_v1,2024-07-01,2025-12-31,NONE,No material metric-definition change identified in the selected window.,NO,NOT_APPLICABLE,src_nm_4q25_pres
+series_lineage_2m,md_nc_lineage_2m_legacy_v1,legacy_v1,2024-07-01,2025-12-31,ROYALTY_SCOPE_INTEGRATION,NCSOFT integrated royalty revenue into IP lines; legacy and new windows remain separate.,NO,NO,src_nc_2q26_pres
+series_lineage_2m,md_nc_lineage_2m_royalty_v2,royalty_integrated_v2,2025-04-01,,ROYALTY_SCOPE_INTEGRATION,NCSOFT integrated royalty revenue into IP lines; legacy and new windows remain separate.,YES,NO,src_nc_2q26_pres
+series_lineage_w,md_nc_lineage_w_legacy_v1,legacy_v1,2024-07-01,2025-12-31,ROYALTY_SCOPE_INTEGRATION,NCSOFT integrated royalty revenue into IP lines; legacy and new windows remain separate.,NO,NO,src_nc_2q26_pres
+series_lineage_w,md_nc_lineage_w_royalty_v2,royalty_integrated_v2,2025-04-01,,ROYALTY_SCOPE_INTEGRATION,NCSOFT integrated royalty revenue into IP lines; legacy and new windows remain separate.,YES,NO,src_nc_2q26_pres
+series_jackpot_world,md_nm_jackpot_world_derived_v1,derived_v1,2024-07-01,2025-12-31,NONE,No material metric-definition change identified in the selected window.,NO,NOT_APPLICABLE,src_nm_4q25_pres
+series_lotsa_slots,md_nm_lotsa_slots_derived_v1,derived_v1,2024-07-01,2025-12-31,NONE,No material metric-definition change identified in the selected window.,NO,NOT_APPLICABLE,src_nm_4q25_pres

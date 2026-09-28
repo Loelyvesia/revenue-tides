@@ -1,0 +1,45 @@
+{
+  "project": "Revenue Tides — The Commercial Life of Live-Service Games",
+  "phase": "PHASE A — DATA GATE",
+  "status": "CONDITIONAL PASS",
+  "recommended_scope": "Hybrid Evidence",
+  "primary_signal": "monthly revenue rank and revenue-growth rank",
+  "primary_source": "Sensor Tower public monthly ranking articles, subject to citation/redistribution condition",
+  "supplementary_sources": [
+    "Sensor Tower public app-page forward snapshots",
+    "AppMagic public reports and current charts",
+    "Tencent and NetEase official investor materials",
+    "official game event/update pages"
+  ],
+  "pilot_game_count": 8,
+  "monthly_inventory": {
+    "start": "2024-11",
+    "end": "2026-08",
+    "expected_months": 22,
+    "accessible_months": 22,
+    "latest_reliably_available_as_of": "2026-09-22"
+  },
+  "exact_monthly_title_revenue": "sparse and non-continuous",
+  "rank_availability": "continuous source series; top five usually textual and ranks 6-10 often image-only",
+  "public_app_page_capability": {
+    "forward_snapshots": "technically yes; automated collection unsuitable under current Terms",
+    "past_month_reconstruction": "no"
+  },
+  "steam_pc_revenue": "out of scope",
+  "raw_snapshots_saved": 0,
+  "automated_tests": {
+    "passed": 15,
+    "total": 15,
+    "status": "PASS"
+  },
+  "conditions_before_phase_b": [
+    "resolve Sensor Tower/AppMagic redistribution and citation boundaries",
+    "use manual citation-led acquisition only",
+    "freeze a maximum-ten-game controlled corpus",
+    "preserve explicit rank missingness and edition identity",
+    "treat app pages as forward country/store snapshots only",
+    "curate official events manually",
+    "obtain explicit approval"
+  ],
+  "stop_boundary": "STOPPED BEFORE PHASE B"
+}

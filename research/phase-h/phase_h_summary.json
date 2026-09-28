@@ -1,0 +1,36 @@
+{
+  "automated_tests": {
+    "passed": 78,
+    "status": "PASS",
+    "total": 78
+  },
+  "data_cutoff": "2026-09-22",
+  "design_concept": "TIDAL_LEDGER",
+  "design_version": "revenue-tides-design-1.0.0-candidate",
+  "findings_version": "revenue-tides-findings-1.0.0",
+  "headline_finding_ids": [
+    "F1",
+    "F2",
+    "F4"
+  ],
+  "manual_design_review": {
+    "passed": 40,
+    "status": "PASS",
+    "total": 40,
+    "widths": [
+      1440,
+      1024,
+      768,
+      390
+    ]
+  },
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "phase": "PHASE H — IA / VISUAL SYSTEM / SIGNATURE INTERACTION",
+  "series_count": 9,
+  "signature_interaction": "QUARTER_PRISM",
+  "signature_state_count": 6,
+  "status": "PASS",
+  "stop_boundary": "STOPPED BEFORE PHASE I",
+  "webdata_version": "revenue-tides-webdata-1.0.0",
+  "wireframe_count": 14
+}

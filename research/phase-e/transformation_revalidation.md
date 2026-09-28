@@ -1,0 +1,3 @@
+# Transformation revalidation
+
+All 75 transformation rows were independently reproduced inside 12 stable `series_id × comparable_group_id` windows. Phase E corrected cross-series grouping and drawdown/recovery semantics upstream in the Phase D builder; 38 generated records have at least one logged before/after field in `data_corrections.csv`. QoQ never crosses a series or version boundary. Each window restarts its baseline at 100. Rolling peaks, drawdowns, recovery statuses/durations, ranges, coefficients of variation, QoQ standard deviations, and median absolute QoQ changes now reproduce exactly.

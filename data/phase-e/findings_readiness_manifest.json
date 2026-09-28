@@ -1,0 +1,30 @@
+{
+  "build_version": "phase-e-quality-layer-v1",
+  "claims": 3,
+  "data_cutoff": "2026-09-22",
+  "derived_observation_count": 18,
+  "derived_sign_sensitive_changes": 9,
+  "eligible_for_phase_f": true,
+  "event_coverage_caveat": "Curated and non-exhaustive; absence does not establish that no event occurred.",
+  "events": 26,
+  "expected_series_period_rows": 66,
+  "findings_ready_sha256": "fd0106b2e0098e24034a81b02df32efe7497e56f77b22c27914596e58225f968",
+  "input_hashes": {
+    "attributed_claims.csv": "79930bf456de9ea5157701eac1f1be832f34f0e6d008dad27b8fa0e49834ee72",
+    "change_features.csv": "5987074fa8e804b9c199c5a25d214f0a93c0e4e20ca9dcb1519159e55f377f3e",
+    "comparability_matrix.csv": "bb158f539c004785a07226c13e06b866700973332b3086bfb1c6d76b3bf2d14c",
+    "corpus_manifest.json": "38ed29860e7a45cb68d7d3912765b9dde4c3f6faa0eba7838cc0da99f7f513e2",
+    "events.csv": "1a8b5786c82f94761049d16986d96fc23ce9eae2e2c042402482fabdf3f20b21",
+    "observations.csv": "3d983876cb949aa1df0eabacf29b4e2c67a6d52cb93465ace7a24367bddf670a",
+    "series.csv": "20d525eeb81089a0da031849957388fdb16a937c5f349973fff09c763b37c522"
+  },
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "metric_version_overlap_rows": 9,
+  "resolved_error_count": 3,
+  "stable_metric_windows": 12,
+  "unresolved_quality_issues": 0,
+  "validated_observation_count": 75,
+  "validated_series_count": 9,
+  "version_break_count": 3,
+  "warning_count": 4
+}

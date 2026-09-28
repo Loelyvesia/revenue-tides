@@ -1,0 +1,33 @@
+{
+  "automated_tests": {
+    "passed": 240,
+    "status": "PASS",
+    "total": 240
+  },
+  "claim_count": 3,
+  "companies": 4,
+  "corpus_series": 9,
+  "correction_rows": 183,
+  "derived_observations": 18,
+  "derived_series": 3,
+  "derived_sign_sensitive_changes": 9,
+  "direct_observations": 57,
+  "direct_series": 6,
+  "eligible_for_phase_f": true,
+  "event_count": 26,
+  "expected_series_period_rows": 66,
+  "manual_qa_checks": 34,
+  "manual_qa_status": "PASS",
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "metric_version_overlap_rows": 9,
+  "observation_count": 75,
+  "phase": "PHASE E — DATA QUALITY & STRUCTURAL VALIDATION",
+  "raw_storage_bytes": 10855955,
+  "resolved_errors": 3,
+  "stable_metric_windows": 12,
+  "status": "PASS",
+  "stop_boundary": "STOPPED BEFORE PHASE F",
+  "unresolved_blockers": 0,
+  "unresolved_errors": 0,
+  "warnings": 4
+}

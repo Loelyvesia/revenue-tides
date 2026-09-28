@@ -1,0 +1,32 @@
+[
+  {
+    "caveat_id": "CAVEAT_PUBLISHER_DEFINED_REVENUE",
+    "text_en": "Metrics follow each publisher's disclosed entity and reporting definition; they are not a common global market measure.",
+    "text_zh": "指标遵循各发行商披露的实体与报告口径，不是统一的全球市场指标。"
+  },
+  {
+    "caveat_id": "CAVEAT_CROSS_COMPANY_NOT_COMPARABLE",
+    "text_en": "Absolute revenue levels are not directly comparable across companies.",
+    "text_zh": "不同公司之间的绝对收入水平不可直接比较。"
+  },
+  {
+    "caveat_id": "CAVEAT_EVENT_NOT_CAUSAL",
+    "text_en": "An event in the same fiscal quarter is temporal context and does not establish causality.",
+    "text_zh": "同一财政季度发生的事件仅构成时间背景，不证明因果关系。"
+  },
+  {
+    "caveat_id": "CAVEAT_DERIVED_ROUNDING",
+    "text_en": "Derived title estimates inherit uncertainty from rounded official contribution shares.",
+    "text_zh": "派生标题估计继承官方取整贡献占比带来的不确定性。"
+  },
+  {
+    "caveat_id": "CAVEAT_VERSION_BREAK",
+    "text_en": "Legacy and royalty-integrated reporting definitions are separate metric versions and must not be stitched.",
+    "text_zh": "旧口径与 royalty-integrated 报告口径是独立指标版本，不得拼接。"
+  },
+  {
+    "caveat_id": "CAVEAT_CURATED_EVENTS",
+    "text_en": "Event coverage is curated and non-exhaustive; absence does not establish that no event occurred.",
+    "text_zh": "事件覆盖经过策划且并不穷尽；缺少记录不代表没有事件发生。"
+  }
+]

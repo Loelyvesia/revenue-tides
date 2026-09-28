@@ -1,0 +1,26 @@
+{
+  "attributed_claim_count": 3,
+  "automated_tests": {
+    "passed": 121,
+    "status": "PASS",
+    "total": 121
+  },
+  "candidate_count": 16,
+  "corpus_size": 9,
+  "data_cutoff": "2026-09-22",
+  "derived_series": 3,
+  "direct_series": 6,
+  "event_count": 26,
+  "launch_cohort_series": 0,
+  "manual_qa_checks": 27,
+  "manual_qa_status": "PASS",
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "metric_version_count": 12,
+  "observation_count": 75,
+  "phase": "PHASE D — CURATED CORPUS CONSTRUCTION",
+  "raw_storage_bytes": 10855955,
+  "rejected_candidate_count": 7,
+  "status": "PASS",
+  "stop_boundary": "STOPPED BEFORE PHASE E",
+  "target_size": 10
+}

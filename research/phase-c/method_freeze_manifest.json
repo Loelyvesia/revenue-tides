@@ -1,0 +1,118 @@
+{
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "freeze_date": "2026-09-22",
+  "project_title": {
+    "zh": "付费潮汐——游戏商业生命线",
+    "en": "Revenue Tides — The Commercial Life of Games"
+  },
+  "primary_temporal_unit": "FISCAL_QUARTER",
+  "target_corpus_size": 10,
+  "minimum_corpus_size": 8,
+  "maximum_corpus_size": 12,
+  "core_min_quarters": 6,
+  "core_preferred_quarters": 8,
+  "launch_cohort_min_quarters": 4,
+  "max_launch_cohort_series": 2,
+  "allowed_entity_types": [
+    "GAME_TITLE",
+    "GAME_EDITION",
+    "IP",
+    "FRANCHISE"
+  ],
+  "context_entity_types": [
+    "SEGMENT"
+  ],
+  "structural_entity_types": [
+    "COMPANY",
+    "PLATFORM"
+  ],
+  "allowed_quantitative_evidence_classes": [
+    "OFFICIAL_REPORTED",
+    "DERIVED_FROM_OFFICIAL"
+  ],
+  "allowed_context_evidence_classes": [
+    "EVENT_OFFICIAL",
+    "ATTRIBUTED_CLAIM",
+    "SECONDARY_CONTEXT",
+    "INDUSTRY_CONTEXT"
+  ],
+  "missingness_states": [
+    "AVAILABLE",
+    "NOT_REPORTED",
+    "NOT_APPLICABLE",
+    "METRIC_VERSION_BREAK",
+    "DERIVATION_UNAVAILABLE",
+    "SOURCE_UNAVAILABLE",
+    "UNRESOLVED",
+    "OUTSIDE_SERIES_WINDOW"
+  ],
+  "comparability_classes": [
+    "DIRECTLY_COMPARABLE",
+    "WITHIN_SERIES_ONLY",
+    "VERSION_BREAK",
+    "CONTEXT_ONLY",
+    "NOT_COMPARABLE"
+  ],
+  "derived_series_max_fraction": 0.3333333333333333,
+  "direct_series_min_fraction": 0.6666666666666666,
+  "industry_estimate_primary_allowed": false,
+  "cross_company_absolute_comparison_allowed": false,
+  "normalized_within_series_trajectory_allowed": true,
+  "interpolation_allowed": false,
+  "forward_fill_allowed": false,
+  "causal_claims_allowed": false,
+  "public_internal_separation_required": true,
+  "raw_value_and_unit_preservation_required": true,
+  "publication_date_separate_from_observation_period": true,
+  "fiscal_period_bounds_required": true,
+  "pdf_page_required_when_applicable": true,
+  "provenance_source_url_required": true,
+  "raw_storage_soft_limit_mb": 150,
+  "raw_storage_hard_review_mb": 250,
+  "allowed_transformations": [
+    "qoq_absolute_change",
+    "qoq_percent_change",
+    "baseline_index",
+    "rolling_peak",
+    "drawdown_from_prior_peak",
+    "recovery_to_prior_peak",
+    "within_series_range",
+    "coefficient_of_variation"
+  ],
+  "prohibited_transformations": [
+    "interpolation",
+    "forward_fill",
+    "cross_version_qoq",
+    "metric_version_stitching",
+    "cross_company_absolute_revenue_ranking",
+    "canonical_fx_conversion"
+  ],
+  "method_amendment_required_fields": [
+    "reason",
+    "affected_fields",
+    "affected_observations",
+    "rebuild_required",
+    "existing_findings_invalidated"
+  ],
+  "hash_scope_note": "All 18 normative Markdown freeze documents are hashed. The manifest is excluded to avoid self-reference; phase_c_summary.json is gate metadata rather than a normative method document.",
+  "method_hashes": {
+    "PHASE_C_METHOD_SCOPE_FREEZE.md": "8ce2e9d0431a686c567b350c8d690a5e3784390fbf82ab789f8b8121041ff4d9",
+    "comparability_contract.md": "dfae83fe8099141e022a07e1b8e472b86afe923f256f29c86b771948d1599477",
+    "corpus_inclusion_exclusion.md": "e5c92289662331ce948f477ca32abc3842b25df90a8826fa6503ed035dc86327",
+    "corpus_selection_protocol.md": "1d15f605ec4af6857798ec04eb2f04d81bd0e0593be0c0ca1a2a614dd45d97d5",
+    "derived_value_policy.md": "e4c2cbb5063282ed1025e1226d9e55ecd862b32c560682707e83620878d03cdb",
+    "entity_model_freeze.md": "eae4e3dfe50cd798ce484014d20060c4817e4394f63298cfc01cf49d22c021e7",
+    "event_and_causality_policy.md": "6b3b09828da54c73cc103cb5ac43838c687c3f1a124408c693d3f6466949bad8",
+    "evidence_policy.md": "607d7aaaa8c2f4c18343849893df244ca3abedb4cffb5d77fcbcc8428276b334",
+    "findings_admissibility.md": "c00d85dec75821320e1860a1cfe26098f654284417a97f44c75ef95a3e533a29",
+    "forbidden_claims.md": "d1728b48c1ae0d0e727608c009a3ec71407a65898eff54703e74955a10b8a0fc",
+    "metric_contract.md": "6f6e18024ed4cea4dee5fce6f7c2301d41a77e7719724deeef7d8995efbab419",
+    "metric_version_policy.md": "0ac1c950c0bce6c237867bc1f0c65380faff1ea221aefb228431fb3aeea08210",
+    "missingness_policy.md": "00434f4f83de82184f915704ba6d5cd0112dcbee778db1573522d30d4d6eb8f7",
+    "project_scope.md": "efdda3f7d2301ac85824ed2a6e27dfebe6d8366fbd83ccd99262499a4efc8179",
+    "provenance_contract.md": "fd31a8e43262c91ac8d5b23dbb2e5775e17d70bbea2ee8467815e9847de5e056",
+    "public_release_contract.md": "071ee4511b563de54068b9756c1cba65436ce06e9930264755ad3731a55bab23",
+    "research_questions.md": "d2e0a2c586c3d070a75165f73f745e492838fc18cb8089c7f95756da2358d595",
+    "transformation_policy.md": "1f952865a02d60fb333bdd5c2f553f49cab9122a85c87f946f4ff4caad3cc9d0"
+  }
+}

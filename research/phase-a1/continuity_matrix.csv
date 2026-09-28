@@ -1,0 +1,11 @@
+series_id,company_id,entity_id,metric_type,first_fiscal_period,last_fiscal_period,expected_consecutive_quarters,verified_consecutive_quarters,missing_periods,scope_break_after,continuity_grade,source_basis
+su_nikke_revenue,shift_up,nikke_ip,operating_revenue_by_ip,2024Q3,2026Q2,8,8,,NONE,STRONG,"SHIFT UP 4Q24 and 2Q26 factsheets page 3"
+su_stellar_revenue,shift_up,stellar_blade_ip,operating_revenue_by_ip,2024Q3,2026Q2,8,8,,NONE,STRONG,"SHIFT UP 4Q24 and 2Q26 factsheets page 3"
+nc_lineage_m_legacy,ncsoft,lineage_m_title,mobile_game_revenue_by_title_legacy_scope,2024Q3,2025Q4,6,6,,2026Q1,USEFUL,"NCSOFT 4Q24 page 6; 2Q25 page 5; 4Q25 page 6"
+nc_lineage_2m_legacy,ncsoft,lineage_2m_title,mobile_game_revenue_by_title_legacy_scope,2024Q3,2025Q4,6,6,,2026Q1,USEFUL,"NCSOFT 4Q24 page 6; 2Q25 page 5; 4Q25 page 6"
+nc_lineage_w_legacy,ncsoft,lineage_w_title,mobile_game_revenue_by_title_legacy_scope,2024Q3,2025Q4,6,6,,2026Q1,USEFUL,"NCSOFT 4Q24 page 6; 2Q25 page 5; 4Q25 page 6"
+pa_black_desert_ip,pearl_abyss,black_desert_ip,ip_revenue_all_platforms,2024Q3,2026Q2,8,8,,NONE,STRONG,"Pearl Abyss 2Q25 presentation page 6 and 2Q26 earnings letter page 3"
+nm_mcoc_derived,netmarble,marvel_contest_of_champions_title,derived_title_revenue_share_of_company_revenue,2024Q3,2025Q4,6,6,,NONE,USEFUL_WITH_UNCERTAINTY,"Six official quarterly decks; total-revenue and title-share pages"
+nc_aion2_new,ncsoft,aion2_ip,ip_revenue_including_royalties,2025Q4,2026Q2,3,3,,NONE,NEW_GAME_EXCEPTION,"NCSOFT 4Q25 and 2Q26 presentations"
+nc_lineage_classic_new,ncsoft,lineage_classic_title,title_revenue,2026Q1,2026Q2,2,2,,NONE,INSUFFICIENT_FOR_BACKBONE,"NCSOFT 1Q26 and 2Q26 official releases"
+nexon_core_franchises,nexon,nexon_core_franchises,franchise_performance_context,2024Q3,2026Q2,8,0,2024Q3-2026Q2,NONE,NOT_RESOLVED,"Official quarterly archive tested; exact comparable values not verified"

@@ -1,0 +1,70 @@
+{
+  "candidate_id": "CF02",
+  "claim_ids": [],
+  "event_ids": [
+    "evt_nikke_35_anniv"
+  ],
+  "finding_id": "F3",
+  "findings_version": "revenue-tides-findings-1.0.0",
+  "limitations": "The series is publisher-defined IP revenue and the event list is curated, not exhaustive.",
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "metric_definition_ids": [
+    "md_su_ip_revenue_v1"
+  ],
+  "numeric_claims": [
+    {
+      "claim_id": "F3_N1",
+      "observation_id": "obs_nikke_2026q2",
+      "operation": "observation_value",
+      "unit": "KRW_million",
+      "value": "43266.432851"
+    },
+    {
+      "claim_id": "F3_N2",
+      "from_observation_id": "obs_nikke_2026q1",
+      "operation": "qoq_percent",
+      "precision": 1,
+      "to_observation_id": "obs_nikke_2026q2",
+      "unit": "percent",
+      "value": "32.4"
+    },
+    {
+      "claim_id": "F3_N3",
+      "observation_id": "obs_nikke_2025q2",
+      "operation": "observation_value",
+      "unit": "KRW_million",
+      "value": "45111.671984"
+    },
+    {
+      "claim_id": "F3_N4",
+      "end_observation_id": "obs_nikke_2026q2",
+      "operation": "drawdown_percent",
+      "peak_observation_id": "obs_nikke_2025q2",
+      "precision": 1,
+      "unit": "percent",
+      "value": "-4.1"
+    }
+  ],
+  "observation_ids": [
+    "obs_nikke_2025q2",
+    "obs_nikke_2026q1",
+    "obs_nikke_2026q2"
+  ],
+  "periods": [
+    "2025Q2",
+    "2026Q2"
+  ],
+  "series_ids": [
+    "series_nikke"
+  ],
+  "source_ids": [
+    "src_su_2q26_fs",
+    "src_su_nikke_35_html"
+  ],
+  "transformations": [
+    "qoq_percent_change",
+    "drawdown_from_prior_peak",
+    "recovery_to_prior_peak"
+  ],
+  "uncertainty": "Direct official series; the same-quarter anniversary is context only."
+}

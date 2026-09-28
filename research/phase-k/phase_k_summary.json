@@ -1,0 +1,37 @@
+{
+  "attributed_claims": 3,
+  "automated_validation": {
+    "passed": 110,
+    "total": 110
+  },
+  "data_cutoff": "2026-09-22",
+  "deployment_status": "NOT_DEPLOYED",
+  "derived_observations": 18,
+  "events": 26,
+  "final_smoke": {
+    "browser": "Chrome 153",
+    "passed": 40,
+    "total": 40
+  },
+  "final_status": "COMPLETE / FROZEN",
+  "findings": 6,
+  "findings_version": "revenue-tides-findings-1.0.0",
+  "freeze_date": "2026-09-24",
+  "headline_findings": [
+    "F1",
+    "F2",
+    "F4"
+  ],
+  "manual_final_review": {
+    "passed": 12,
+    "total": 12
+  },
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "observations": 75,
+  "phase": "K",
+  "release_version": "revenue-tides-release-1.0.0",
+  "series": 9,
+  "status": "PASS",
+  "stop_boundary": "PROJECT 02 COMPLETE / FROZEN",
+  "webdata_version": "revenue-tides-webdata-1.0.0"
+}

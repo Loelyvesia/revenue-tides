@@ -1,0 +1,125 @@
+{
+  "automated_test_counts": {
+    "phase_g_isolated": {
+      "passed": 90,
+      "total": 90
+    },
+    "phase_i": {
+      "passed": 100,
+      "total": 100
+    },
+    "phase_j": {
+      "passed": 102,
+      "total": 102
+    },
+    "phase_k": {
+      "passed": 110,
+      "total": 110
+    },
+    "vitest": {
+      "passed": 62,
+      "total": 62
+    }
+  },
+  "browser_tested": [
+    "Chrome 153",
+    "Edge 149",
+    "Firefox 156"
+  ],
+  "bundle_summary": {
+    "css": {
+      "bytes": 26778,
+      "gzip_bytes": 5682,
+      "reported": "26.78 kB / 5.71 kB gzip"
+    },
+    "html": {
+      "bytes": 905,
+      "reported": "0.91 kB"
+    },
+    "initial_bootstrap_json_bytes": 29486,
+    "initial_requests": 8,
+    "javascript": {
+      "bytes": 107290,
+      "gzip_bytes": 39913,
+      "reported": "107.29 kB / 40.27 kB gzip"
+    }
+  },
+  "claim_count": 3,
+  "critical_file_hashes": {
+    "README.md": "5b3c286e130a0b0ea03e39287a4082dd6c9393d16e7b9898174563546da96ddc",
+    "competition/abstract_en.md": "d8e47af397c42dfc5a621b6bf706f68ea9f9e0ca1fb0a8063ad169f1c2295508",
+    "competition/abstract_zh.md": "70075fb6c87b722b067066664cd2402e72c1ed1875f3151747ea821de08a1807",
+    "competition/competition_long_zh.md": "1b00308cc203b48194fdc8499d18c29959d9cd69b4b250e21567986c3c6ea8f2",
+    "competition/design_description_zh.md": "be6c65fab8846833006861b6f4aca1117368bf48daa46868b20a716bbfbfc087",
+    "competition/project_summary_en.md": "0b228d1391a44c8ecf6f6edbf67339350da6c4f0ec04df55c0fae4740c3f444f",
+    "competition/project_summary_zh.md": "c1ceb1d9ffc24156d0a5b5e3f6fad004da1f2a2232c6865aa3b26c490989be72",
+    "data/phase-f/formal_findings.json": "a877ad5f174483f5b95a28fa3215d228adfa0b68183c776dacd954263fd0cd4b",
+    "data/web/manifest.json": "d393f55c8f07db55545205a602515a220dcfb166e14fb6f2d3cf711c928d19c8",
+    "dist/assets/index-GuS2IGgt.css": "8005f90a039d44d76df5e557b64bb90ba35331bf15be5576c0cde4bc76298fdb",
+    "dist/assets/index-b3nZTk5L.js": "6e519cf2fe34d49879c4f96d86224a220209be843c1980bcf35f58968744d95a",
+    "dist/index.html": "2ba2cd087b42c4775f6fb3f97170481f0eb6691468572751e234a0828c752aae",
+    "package-lock.json": "a399bd6f4ca14a80adcd144c091c4616b0db39b786f2e76e2c527fcafc97e9de",
+    "research/phase-c/PHASE_C_METHOD_SCOPE_FREEZE.md": "8ce2e9d0431a686c567b350c8d690a5e3784390fbf82ab789f8b8121041ff4d9",
+    "research/phase-c/method_freeze_manifest.json": "51284453f377efabe7935957a1bb760ceba1565cb204b310318f6dc71368894a",
+    "research/phase-f/FINDINGS_FREEZE.md": "75ae21f947d5eaccbe1c2f895879e478504d4a034f74e862d9b566c774171f4b",
+    "research/phase-f/findings_manifest.json": "3618cee6ed9b47099bf935a8fdc3aa84c3281ffece5d4e4a1d5306b5b5dc587f",
+    "research/phase-g/PHASE_G_WEB_DATA_PRODUCTIZATION.md": "498f4cca7aa85dea4a2cc7559cf8e785870c094db5fb5573a94f6a47be4cbf51",
+    "research/phase-h/PHASE_H_IA_VISUAL_SIGNATURE.md": "4382e47736a01ef72b43be7bd41b5f075c5d2052ddbe2a97ae3312b18be3e7bc",
+    "research/phase-j/PHASE_J_FINAL_BROWSER_QA.md": "796d00d7902ae053efbb54bcfedf367a98580e53466e96a031da1f1cc10fb829",
+    "src/App.vue": "d86407755baf6b6c029056a7fdef41f3965dfe050d5c09f3421999163b830a29",
+    "src/main.ts": "bc6f04df2e565f98f4b543a0d03ff85cc45b86536f4aa3a9abc6fe5acc62224a"
+  },
+  "data_cutoff": "2026-09-22",
+  "deployment_status": "NOT_DEPLOYED",
+  "derived_observation_count": 18,
+  "event_count": 26,
+  "finding_count": 6,
+  "findings_version": "revenue-tides-findings-1.0.0",
+  "freeze_date": "2026-09-24",
+  "frontend_stack": [
+    "Vue 3",
+    "TypeScript",
+    "Vite",
+    "custom SVG/CSS"
+  ],
+  "headline_finding_ids": [
+    "F1",
+    "F2",
+    "F4"
+  ],
+  "known_limitations": [
+    "Publisher-defined metrics are heterogeneous and absolute cross-company comparison is forbidden.",
+    "Values are not a uniform global consumer-spending measure.",
+    "NCSOFT legacy and royalty-integrated versions cannot be stitched.",
+    "Derived Netmarble observations inherit rounded-share uncertainty.",
+    "Events are curated, non-exhaustive, and non-causal context.",
+    "Observed-window non-recovery is not permanent decline.",
+    "A real interactive screen-reader session and WebKit/Safari-equivalent testing were unavailable.",
+    "Remote source URLs may change or reject automated access."
+  ],
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "observation_count": 75,
+  "project_id": "revenue-tides",
+  "project_title": {
+    "en": "Revenue Tides — The Commercial Life of Games",
+    "zh": "付费潮汐——游戏商业生命线"
+  },
+  "release_files": [
+    "release/final_manifest.json",
+    "release/final_hashes.csv",
+    "release/file_inventory.csv",
+    "release/FINAL_FROZEN.md"
+  ],
+  "release_version": "revenue-tides-release-1.0.0",
+  "series_count": 9,
+  "status": "COMPLETE / FROZEN",
+  "viewports_tested": [
+    "1440x900",
+    "1280x800",
+    "1024x768",
+    "768x1024",
+    "390x844",
+    "320x700"
+  ],
+  "webdata_version": "revenue-tides-webdata-1.0.0"
+}

@@ -1,0 +1,374 @@
+{
+  "attributed_claims": [],
+  "events": [
+    {
+      "curated": true,
+      "date_precision": "DAY",
+      "end_date": null,
+      "event_id": "evt_mcoc_raids",
+      "event_type": "MAJOR_CONTENT_UPDATE",
+      "fiscal_period": "2024Q3",
+      "name": "Alliance Quest Raids update",
+      "platform_scope": "Mobile",
+      "region_scope": "Global",
+      "series_id": "series_mcoc",
+      "source_id": "src_kabam_mcoc_raids_html",
+      "start_date": "2024-09-30"
+    },
+    {
+      "curated": true,
+      "date_precision": "DAY",
+      "end_date": null,
+      "event_id": "evt_mcoc_10y",
+      "event_type": "ANNIVERSARY_EVENT",
+      "fiscal_period": "2024Q4",
+      "name": "Chrono-versary tenth anniversary event",
+      "platform_scope": "Mobile",
+      "region_scope": "Global",
+      "series_id": "series_mcoc",
+      "source_id": "src_kabam_mcoc_10y_html",
+      "start_date": "2024-12-11"
+    }
+  ],
+  "findings": [
+    "F6"
+  ],
+  "identity": {
+    "caveat_ids": [
+      "CAVEAT_CROSS_COMPANY_NOT_COMPARABLE",
+      "CAVEAT_CURATED_EVENTS",
+      "CAVEAT_DERIVED_ROUNDING",
+      "CAVEAT_EVENT_NOT_CAUSAL",
+      "CAVEAT_PUBLISHER_DEFINED_REVENUE"
+    ],
+    "company": "Netmarble",
+    "company_id": "netmarble",
+    "entity": "MARVEL Contest of Champions",
+    "entity_type": "GAME_TITLE",
+    "platform_scope": "Mobile title; consolidated company denominator",
+    "publisher_defined_name": "MARVEL Contest of Champions",
+    "reporting_scope": [
+      "Netmarble_company_revenue_times_rounded_title_share"
+    ],
+    "series_id": "series_mcoc"
+  },
+  "metric_versions": [
+    {
+      "accounting_scope": "Derived allocation of consolidated Netmarble revenue",
+      "caveat_ids": [
+        "CAVEAT_PUBLISHER_DEFINED_REVENUE",
+        "CAVEAT_DERIVED_ROUNDING"
+      ],
+      "comparable_group_id": "cg_nm_mcoc_derived_v1",
+      "comparison_scope": "WITHIN_SERIES_ONLY",
+      "economic_meaning": "Official Netmarble consolidated quarterly revenue multiplied by official rounded MCOC contribution share.",
+      "evidence_class": "DERIVED_FROM_OFFICIAL",
+      "geographic_scope": "Global consolidated reporting scope",
+      "label": "Derived MCOC title revenue share of Netmarble revenue",
+      "metric_definition_id": "md_nm_mcoc_derived_v1",
+      "platform_scope": "Inherits consolidated denominator; title is mobile but denominator spans company activities",
+      "unit_basis": "KRW billion point estimate with share-rounding interval",
+      "valid_period": {
+        "first": "2024Q3",
+        "last": "2025Q4"
+      },
+      "version": "derived_v1",
+      "version_break": null
+    }
+  ],
+  "observations": [
+    {
+      "baseline_index": 100,
+      "currency": "KRW",
+      "derived": {
+        "derivation_ref": "drv_mcoc_2024q3",
+        "direction_sign_stable": null,
+        "lower_case_sign": "NOT_APPLICABLE",
+        "point_change_sign": "NOT_APPLICABLE",
+        "share_percent": 8,
+        "share_rounding_note": "Official contribution share rounded to 1 percentage point; compatible interval is ±0.5 percentage points.",
+        "upper_case_sign": "NOT_APPLICABLE"
+      },
+      "drawdown_percent": 0,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": false,
+        "volatility": true
+      },
+      "evidence_class": "DERIVED_FROM_OFFICIAL",
+      "lower_bound": 48540,
+      "metric_definition_id": "md_nm_mcoc_derived_v1",
+      "metric_version": "derived_v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_mcoc_2024q3",
+      "period_end": "2024-09-30",
+      "period_index": 8098,
+      "period_key": "2024Q3",
+      "period_start": "2024-07-01",
+      "qoq": {
+        "absolute_change": null,
+        "eligible": false,
+        "percent_change": null,
+        "previous_observation_id": null
+      },
+      "quarter": "2024Q3",
+      "recovery": {
+        "quarters": null,
+        "status": "AT_OR_ABOVE_ROLLING_PEAK"
+      },
+      "rolling_peak": 51784,
+      "source_id": "src_nm_3q24_pres",
+      "source_page": "3;5",
+      "unit": "KRW_million",
+      "upper_bound": 55030,
+      "value": 51784
+    },
+    {
+      "baseline_index": 162.92677274833926,
+      "currency": "KRW",
+      "derived": {
+        "derivation_ref": "drv_mcoc_2024q4",
+        "direction_sign_stable": true,
+        "lower_case_sign": "POSITIVE",
+        "point_change_sign": "POSITIVE",
+        "share_percent": 13,
+        "share_rounding_note": "Official contribution share rounded to 1 percentage point; compatible interval is ±0.5 percentage points.",
+        "upper_case_sign": "POSITIVE"
+      },
+      "drawdown_percent": 0,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "DERIVED_FROM_OFFICIAL",
+      "lower_bound": 81120,
+      "metric_definition_id": "md_nm_mcoc_derived_v1",
+      "metric_version": "derived_v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_mcoc_2024q4",
+      "period_end": "2024-12-31",
+      "period_index": 8099,
+      "period_key": "2024Q4",
+      "period_start": "2024-10-01",
+      "qoq": {
+        "absolute_change": 32586,
+        "eligible": true,
+        "percent_change": 62.92677274833925,
+        "previous_observation_id": "obs_mcoc_2024q3"
+      },
+      "quarter": "2024Q4",
+      "recovery": {
+        "quarters": null,
+        "status": "AT_OR_ABOVE_ROLLING_PEAK"
+      },
+      "rolling_peak": 84370,
+      "source_id": "src_nm_4q24_pres",
+      "source_page": "4;6",
+      "unit": "KRW_million",
+      "upper_bound": 87620,
+      "value": 84370
+    },
+    {
+      "baseline_index": 108.43310675112004,
+      "currency": "KRW",
+      "derived": {
+        "derivation_ref": "drv_mcoc_2025q1",
+        "direction_sign_stable": true,
+        "lower_case_sign": "NEGATIVE",
+        "point_change_sign": "NEGATIVE",
+        "share_percent": 9,
+        "share_rounding_note": "Official contribution share rounded to 1 percentage point; compatible interval is ±0.5 percentage points.",
+        "upper_case_sign": "NEGATIVE"
+      },
+      "drawdown_percent": -33.446722768756665,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "DERIVED_FROM_OFFICIAL",
+      "lower_bound": 53030,
+      "metric_definition_id": "md_nm_mcoc_derived_v1",
+      "metric_version": "derived_v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_mcoc_2025q1",
+      "period_end": "2025-03-31",
+      "period_index": 8100,
+      "period_key": "2025Q1",
+      "period_start": "2025-01-01",
+      "qoq": {
+        "absolute_change": -28219,
+        "eligible": true,
+        "percent_change": -33.446722768756665,
+        "previous_observation_id": "obs_mcoc_2024q4"
+      },
+      "quarter": "2025Q1",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 84370,
+      "source_id": "src_nm_1q25_pres",
+      "source_page": "3;5",
+      "unit": "KRW_million",
+      "upper_bound": 59280,
+      "value": 56151
+    },
+    {
+      "baseline_index": 124.71805963231887,
+      "currency": "KRW",
+      "derived": {
+        "derivation_ref": "drv_mcoc_2025q2",
+        "direction_sign_stable": true,
+        "lower_case_sign": "POSITIVE",
+        "point_change_sign": "POSITIVE",
+        "share_percent": 9,
+        "share_rounding_note": "Official contribution share rounded to 1 percentage point; compatible interval is ±0.5 percentage points.",
+        "upper_case_sign": "POSITIVE"
+      },
+      "drawdown_percent": -23.45146379044684,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "DERIVED_FROM_OFFICIAL",
+      "lower_bound": 60990,
+      "metric_definition_id": "md_nm_mcoc_derived_v1",
+      "metric_version": "derived_v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_mcoc_2025q2",
+      "period_end": "2025-06-30",
+      "period_index": 8101,
+      "period_key": "2025Q2",
+      "period_start": "2025-04-01",
+      "qoq": {
+        "absolute_change": 8433,
+        "eligible": true,
+        "percent_change": 15.01843244109633,
+        "previous_observation_id": "obs_mcoc_2025q1"
+      },
+      "quarter": "2025Q2",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 84370,
+      "source_id": "src_nm_2q25_pres",
+      "source_page": "3;5",
+      "unit": "KRW_million",
+      "upper_bound": 68180,
+      "value": 64584
+    },
+    {
+      "baseline_index": 94.08311447551367,
+      "currency": "KRW",
+      "derived": {
+        "derivation_ref": "drv_mcoc_2025q3",
+        "direction_sign_stable": true,
+        "lower_case_sign": "NEGATIVE",
+        "point_change_sign": "NEGATIVE",
+        "share_percent": 7,
+        "share_rounding_note": "Official contribution share rounded to 1 percentage point; compatible interval is ±0.5 percentage points.",
+        "upper_case_sign": "NEGATIVE"
+      },
+      "drawdown_percent": -42.25435581367785,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "DERIVED_FROM_OFFICIAL",
+      "lower_bound": 45240,
+      "metric_definition_id": "md_nm_mcoc_derived_v1",
+      "metric_version": "derived_v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_mcoc_2025q3",
+      "period_end": "2025-09-30",
+      "period_index": 8102,
+      "period_key": "2025Q3",
+      "period_start": "2025-07-01",
+      "qoq": {
+        "absolute_change": -15864,
+        "eligible": true,
+        "percent_change": -24.563359345968042,
+        "previous_observation_id": "obs_mcoc_2025q2"
+      },
+      "quarter": "2025Q3",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 84370,
+      "source_id": "src_nm_3q25_pres",
+      "source_page": "3;5",
+      "unit": "KRW_million",
+      "upper_bound": 52200,
+      "value": 48720
+    },
+    {
+      "baseline_index": 169.4268499922756,
+      "currency": "KRW",
+      "derived": {
+        "derivation_ref": "drv_mcoc_2025q4",
+        "direction_sign_stable": true,
+        "lower_case_sign": "POSITIVE",
+        "point_change_sign": "POSITIVE",
+        "share_percent": 11,
+        "share_rounding_note": "Official contribution share rounded to 1 percentage point; compatible interval is ±0.5 percentage points.",
+        "upper_case_sign": "POSITIVE"
+      },
+      "drawdown_percent": 0,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "DERIVED_FROM_OFFICIAL",
+      "lower_bound": 83740,
+      "metric_definition_id": "md_nm_mcoc_derived_v1",
+      "metric_version": "derived_v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_mcoc_2025q4",
+      "period_end": "2025-12-31",
+      "period_index": 8103,
+      "period_key": "2025Q4",
+      "period_start": "2025-10-01",
+      "qoq": {
+        "absolute_change": 39016,
+        "eligible": true,
+        "percent_change": 80.08210180623973,
+        "previous_observation_id": "obs_mcoc_2025q3"
+      },
+      "quarter": "2025Q4",
+      "recovery": {
+        "quarters": 4,
+        "status": "AT_OR_ABOVE_ROLLING_PEAK"
+      },
+      "rolling_peak": 87736,
+      "source_id": "src_nm_4q25_pres",
+      "source_page": "4;6",
+      "unit": "KRW_million",
+      "upper_bound": 91730,
+      "value": 87736
+    }
+  ],
+  "series_id": "series_mcoc",
+  "sources": [
+    "src_kabam_mcoc_10y_html",
+    "src_kabam_mcoc_raids_html",
+    "src_nm_1q25_pres",
+    "src_nm_2q25_pres",
+    "src_nm_3q24_pres",
+    "src_nm_3q25_pres",
+    "src_nm_4q24_pres",
+    "src_nm_4q25_pres"
+  ]
+}

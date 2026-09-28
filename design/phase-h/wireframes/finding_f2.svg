@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="t d">
+  <title id="t">F2 chapter wireframe</title><desc id="d">Stellar Blade observed trajectory is separated from PC launch event context.</desc><rect width="1200" height="760" fill="#F3F0E7"/>
+  <style>text{font-family:system-ui,'Microsoft YaHei',sans-serif;fill:#192321}.s{font-size:13px;fill:#4B5753}.r{stroke:#969B92}.g{stroke:#C9C7BC}.teal{stroke:#1F6763;fill:none;stroke-width:3}.event{stroke:#864B32;fill:#864B32}</style>
+  <text x="70" y="55" class="s">HEADLINE FINDING / F2</text><text x="70" y="105" font-size="34" font-weight="650">Stellar Blade 的 PC 上线季度形成窗口峰值</text><text x="70" y="140" class="s">Observed publisher-defined IP revenue · event shown as same-quarter context</text>
+  <line x1="70" y1="175" x2="1130" y2="175" class="r"/>
+  <text x="70" y="220" class="s">OBSERVED TRAJECTORY / KRW billion</text><line x1="120" y1="470" x2="1100" y2="470" class="g"/><line x1="120" y1="270" x2="1100" y2="270" class="g"/>
+  <path d="M180 435 L320 425 L460 410 L600 430 L740 390 L880 235 L1020 325" class="teal"/>
+  <circle cx="740" cy="390" r="7" fill="#1F6763"/><circle cx="880" cy="235" r="10" fill="#1F6763"/><text x="700" y="375" font-size="17">2025Q1 · 7.012</text><text x="895" y="225" font-size="18">2025Q2 · 65.719</text><text x="895" y="250" class="s">+837.3% · window peak</text>
+  <line x1="70" y1="535" x2="1130" y2="535" class="r"/><text x="70" y="565" class="s">EVENT CONTEXT — curated / timing does not establish causality</text><line x1="120" y1="610" x2="1100" y2="610" stroke="#864B32"/><line x1="880" y1="588" x2="880" y2="632" class="event"/><text x="900" y="607" font-size="16">PC launch · same quarter</text><text x="900" y="630" class="s">PC-only revenue unavailable</text>
+  <text x="70" y="700" class="s">Limitation: publisher-defined IP total combines platform receipts.</text><text x="1010" y="700" class="s">Sources →</text>
+</svg>

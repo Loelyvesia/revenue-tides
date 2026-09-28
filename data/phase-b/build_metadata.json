@@ -1,0 +1,13 @@
+{
+  "attributed_claims": 2,
+  "build_schema_version": "phase-b-pilot-v1",
+  "derived_official_observations": 6,
+  "determinism_note": "Canonical outputs contain no runtime timestamps; source retrieval date is fixed provenance input.",
+  "event_records": 6,
+  "official_reported_observations": 35,
+  "phase": "PHASE B — CONTROLLED PILOT",
+  "primary_observations": 41,
+  "retained_source_bytes": 10855955,
+  "retained_source_files": 15,
+  "retrieval_date": "2026-09-22"
+}

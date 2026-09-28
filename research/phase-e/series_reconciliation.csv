@@ -1,0 +1,10 @@
+series_id,entity_name,entity_type,company,evidence_mode,expected_quarters,available_series_periods,observation_rows,metric_version_count,first_period,last_period,event_count,claim_count,missing_count,validation_status
+series_nikke,Goddess of Victory: NIKKE,IP,SHIFT UP,OFFICIAL_REPORTED,8,8,8,1,2024Q3,2026Q2,4,1,0,PASS
+series_stellar_blade,Stellar Blade,IP,SHIFT UP,OFFICIAL_REPORTED,8,8,8,1,2024Q3,2026Q2,4,1,0,PASS
+series_lineage_m,Lineage M,GAME_TITLE,NCSOFT,OFFICIAL_REPORTED,8,8,11,2,2024Q3,2026Q2,4,0,0,PASS
+series_black_desert,Black Desert,IP,Pearl Abyss,OFFICIAL_REPORTED,8,8,8,1,2024Q3,2026Q2,4,0,0,PASS
+series_mcoc,MARVEL Contest of Champions,GAME_TITLE,Netmarble,DERIVED_FROM_OFFICIAL,6,6,6,1,2024Q3,2025Q4,2,0,0,PASS
+series_lineage_2m,Lineage 2M,GAME_TITLE,NCSOFT,OFFICIAL_REPORTED,8,8,11,2,2024Q3,2026Q2,4,1,0,PASS
+series_lineage_w,Lineage W,GAME_TITLE,NCSOFT,OFFICIAL_REPORTED,8,8,11,2,2024Q3,2026Q2,4,0,0,PASS
+series_jackpot_world,Jackpot World,GAME_TITLE,Netmarble,DERIVED_FROM_OFFICIAL,6,6,6,1,2024Q3,2025Q4,0,0,0,PASS
+series_lotsa_slots,Lotsa Slots,GAME_TITLE,Netmarble,DERIVED_FROM_OFFICIAL,6,6,6,1,2024Q3,2025Q4,0,0,0,PASS

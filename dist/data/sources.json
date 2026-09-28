@@ -1,0 +1,537 @@
+[
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://forums.playcontestofchampions.com/en/discussion/382945/december-side-quest-chrono-versary-part-2",
+    "company": "Kabam",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2024-12-01",
+    "reporting_period": "2024Q4",
+    "source_id": "src_kabam_mcoc_10y_html",
+    "source_pages": [],
+    "specific_document_url": "https://forums.playcontestofchampions.com/en/discussion/382945/december-side-quest-chrono-versary-part-2"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://forums.playcontestofchampions.com/en/discussion/376875/alliance-quest-raids-updates",
+    "company": "Kabam",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2024-09-27",
+    "reporting_period": "2024Q3",
+    "source_id": "src_kabam_mcoc_raids_html",
+    "source_pages": [],
+    "specific_document_url": "https://forums.playcontestofchampions.com/en/discussion/376875/alliance-quest-raids-updates"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://ncsoft-brand-web.s3.ap-northeast-2.amazonaws.com/ncsoft/invest/result/20250812/report/2Q25_PT_KOR.pdf",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_EARNINGS_PDF",
+    "published_at": "2025-08-12",
+    "reporting_period": "2025Q2",
+    "source_id": "src_nc_2q25_pres",
+    "source_pages": [
+      "5"
+    ],
+    "specific_document_url": "https://ncsoft-brand-web.s3.ap-northeast-2.amazonaws.com/ncsoft/invest/result/20250812/report/2Q25_PT_KOR.pdf"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://about.ncsoft.com/en/news/article/news_update_250812",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2025-08-12",
+    "reporting_period": "2025Q2",
+    "source_id": "src_nc_2q25_results_html",
+    "source_pages": [],
+    "specific_document_url": "https://about.ncsoft.com/en/news/article/news_update_250812"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://ncsoft-brand-web.s3.ap-northeast-2.amazonaws.com/ncsoft/invest/result/20260811/report/2Q26_PT_KOR.pdf",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_EARNINGS_PDF",
+    "published_at": "2026-08-11",
+    "reporting_period": "2026Q2",
+    "source_id": "src_nc_2q26_pres",
+    "source_pages": [
+      "6"
+    ],
+    "specific_document_url": "https://ncsoft-brand-web.s3.ap-northeast-2.amazonaws.com/ncsoft/invest/result/20260811/report/2Q26_PT_KOR.pdf"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://ncsoft-brand-web.s3.ap-northeast-2.amazonaws.com/ncsoft/invest/result/20250212/report/4Q24_PT_KOR.pdf",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_EARNINGS_PDF",
+    "published_at": "2025-02-12",
+    "reporting_period": "2024Q4",
+    "source_id": "src_nc_4q24_pres",
+    "source_pages": [
+      "6"
+    ],
+    "specific_document_url": "https://ncsoft-brand-web.s3.ap-northeast-2.amazonaws.com/ncsoft/invest/result/20250212/report/4Q24_PT_KOR.pdf"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://ncsoft-brand-web.s3.ap-northeast-2.amazonaws.com/ncsoft/invest/result/20260512/report/4Q25_PT_KOR.pdf",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_EARNINGS_PDF",
+    "published_at": "2026-02-10",
+    "reporting_period": "2025Q4",
+    "source_id": "src_nc_4q25_pres",
+    "source_pages": [
+      "6"
+    ],
+    "specific_document_url": "https://ncsoft-brand-web.s3.ap-northeast-2.amazonaws.com/ncsoft/invest/result/20260512/report/4Q25_PT_KOR.pdf"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://about.ncsoft.com/news/article/lineage2_update_241127",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2024-11-27",
+    "reporting_period": "2024Q4",
+    "source_id": "src_nc_l2m_5y_html",
+    "source_pages": [],
+    "specific_document_url": "https://about.ncsoft.com/news/article/lineage2_update_241127"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://about.ncsoft.com/jp/news/article/lineage2m-update-250528",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2025-05-28",
+    "reporting_period": "2025Q2",
+    "source_id": "src_nc_l2m_pledge_html",
+    "source_pages": [],
+    "specific_document_url": "https://about.ncsoft.com/jp/news/article/lineage2m-update-250528"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://about.ncsoft.com/news/article/lineage2m_update_260527",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2026-05-27",
+    "reporting_period": "2026Q2",
+    "source_id": "src_nc_l2m_requiem_html",
+    "source_pages": [],
+    "specific_document_url": "https://about.ncsoft.com/news/article/lineage2m_update_260527"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://about.ncsoft.com/en/news/article/lineage2m-update-250331",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2025-03-31",
+    "reporting_period": "2025Q2",
+    "source_id": "src_nc_l2m_sea_html",
+    "source_pages": [],
+    "specific_document_url": "https://about.ncsoft.com/en/news/article/lineage2m-update-250331"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://about.ncsoft.com/news/article/lineagem-update-250226",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_HTML",
+    "published_at": "2025-02-26",
+    "reporting_period": "2025Q1",
+    "source_id": "src_nc_lm_homecoming_html",
+    "source_pages": [],
+    "specific_document_url": "https://about.ncsoft.com/news/article/lineagem-update-250226"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://about.ncsoft.com/news/article/lineagem_update_241204",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2024-12-04",
+    "reporting_period": "2024Q4",
+    "source_id": "src_nc_lm_oasis4_html",
+    "source_pages": [],
+    "specific_document_url": "https://about.ncsoft.com/news/article/lineagem_update_241204"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://about.ncsoft.com/news/article/lineagem_update_250618",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_HTML",
+    "published_at": "2025-06-18",
+    "reporting_period": "2025Q2",
+    "source_id": "src_nc_lm_rising_html",
+    "source_pages": [],
+    "specific_document_url": "https://about.ncsoft.com/news/article/lineagem_update_250618"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://about.ncsoft.com/news/article/lineagem_update_240925",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2024-09-25",
+    "reporting_period": "2024Q3",
+    "source_id": "src_nc_lm_vanguard_html",
+    "source_pages": [],
+    "specific_document_url": "https://about.ncsoft.com/news/article/lineagem_update_240925"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://about.ncsoft.com/news/article/lineagew_update_241113",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2024-11-13",
+    "reporting_period": "2024Q4",
+    "source_id": "src_nc_lw_3y_html",
+    "source_pages": [],
+    "specific_document_url": "https://about.ncsoft.com/news/article/lineagew_update_241113"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://about.ncsoft.com/news/article/lineagew_update_251105",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2025-11-05",
+    "reporting_period": "2025Q4",
+    "source_id": "src_nc_lw_4y_html",
+    "source_pages": [],
+    "specific_document_url": "https://about.ncsoft.com/news/article/lineagew_update_251105"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://about.ncsoft.com/news/article/lineagew_update_240703",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2024-07-03",
+    "reporting_period": "2024Q3",
+    "source_id": "src_nc_lw_alphonse_html",
+    "source_pages": [],
+    "specific_document_url": "https://about.ncsoft.com/news/article/lineagew_update_240703"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://about.ncsoft.com/news/article/lineagew_update_260401",
+    "company": "NCSOFT",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2026-04-01",
+    "reporting_period": "2026Q2",
+    "source_id": "src_nc_lw_knight_html",
+    "source_pages": [],
+    "specific_document_url": "https://about.ncsoft.com/news/article/lineagew_update_260401"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://sgimage.netmarble.com/images/netmarble/nmOfficial/20250508/re6f1746681710316.pdf",
+    "company": "Netmarble",
+    "document_title": null,
+    "document_type": "OFFICIAL_EARNINGS_PDF",
+    "published_at": "2025-05-08",
+    "reporting_period": "2025Q1",
+    "source_id": "src_nm_1q25_pres",
+    "source_pages": [
+      "3;5"
+    ],
+    "specific_document_url": "https://sgimage.netmarble.com/images/netmarble/nmOfficial/20250508/re6f1746681710316.pdf"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://sgimage.netmarble.com/images/netmarble/nmOfficial/20250807/ownh1754531480180.pdf",
+    "company": "Netmarble",
+    "document_title": null,
+    "document_type": "OFFICIAL_EARNINGS_PDF",
+    "published_at": "2025-08-07",
+    "reporting_period": "2025Q2",
+    "source_id": "src_nm_2q25_pres",
+    "source_pages": [
+      "3;5"
+    ],
+    "specific_document_url": "https://sgimage.netmarble.com/images/netmarble/nmOfficial/20250807/ownh1754531480180.pdf"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://sgimage.netmarble.com/images/netmarble/nmOfficial/20241107/sbdp1730956098444.pdf",
+    "company": "Netmarble",
+    "document_title": null,
+    "document_type": "OFFICIAL_EARNINGS_PDF",
+    "published_at": "2024-11-07",
+    "reporting_period": "2024Q3",
+    "source_id": "src_nm_3q24_pres",
+    "source_pages": [
+      "3;5"
+    ],
+    "specific_document_url": "https://sgimage.netmarble.com/images/netmarble/nmOfficial/20241107/sbdp1730956098444.pdf"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://sgimage.netmarble.com/images/netmarble/nmOfficial/20251106/iyzr1762407112977.pdf",
+    "company": "Netmarble",
+    "document_title": null,
+    "document_type": "OFFICIAL_EARNINGS_PDF",
+    "published_at": "2025-11-06",
+    "reporting_period": "2025Q3",
+    "source_id": "src_nm_3q25_pres",
+    "source_pages": [
+      "3;5"
+    ],
+    "specific_document_url": "https://sgimage.netmarble.com/images/netmarble/nmOfficial/20251106/iyzr1762407112977.pdf"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://sgimage.netmarble.com/images/netmarble/nmOfficial/20250213/a4641739427875500.pdf",
+    "company": "Netmarble",
+    "document_title": null,
+    "document_type": "OFFICIAL_EARNINGS_PDF",
+    "published_at": "2025-02-13",
+    "reporting_period": "2024Q4",
+    "source_id": "src_nm_4q24_pres",
+    "source_pages": [
+      "4;6"
+    ],
+    "specific_document_url": "https://sgimage.netmarble.com/images/netmarble/nmOfficial/20250213/a4641739427875500.pdf"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://sgimage.netmarble.com/images/netmarble/nmOfficial/20260205/8sto1770273390151.pdf",
+    "company": "Netmarble",
+    "document_title": null,
+    "document_type": "OFFICIAL_EARNINGS_PDF",
+    "published_at": "2026-02-05",
+    "reporting_period": "2025Q4",
+    "source_id": "src_nm_4q25_pres",
+    "source_pages": [
+      "4;6"
+    ],
+    "specific_document_url": "https://sgimage.netmarble.com/images/netmarble/nmOfficial/20260205/8sto1770273390151.pdf"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://www.pearlabyss.com/en-US/Board/Detail?_boardNo=14399",
+    "company": "Pearl Abyss",
+    "document_title": null,
+    "document_type": "OFFICIAL_EARNINGS_PDF",
+    "published_at": "2025-08-13",
+    "reporting_period": "2025Q2",
+    "source_id": "src_pa_2q25_pres",
+    "source_pages": [
+      "6"
+    ],
+    "specific_document_url": "https://www.pearlabyss.com/en-US/Board/Detail?_boardNo=14399"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://www.pearlabyss.com/en-US/Board/Detail?_boardNo=15177",
+    "company": "Pearl Abyss",
+    "document_title": null,
+    "document_type": "OFFICIAL_EARNINGS_PDF",
+    "published_at": "2026-08-11",
+    "reporting_period": "2026Q2",
+    "source_id": "src_pa_2q26_letter",
+    "source_pages": [
+      "3"
+    ],
+    "specific_document_url": "https://www.pearlabyss.com/en-US/Board/Detail?_boardNo=15177"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://blackdesert.pearlabyss.com/Console/en-us/News/Notice/Detail?_boardNo=11971",
+    "company": "Pearl Abyss",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2024-10-11",
+    "reporting_period": "2024Q4",
+    "source_id": "src_pa_bd_10y_html",
+    "source_pages": [],
+    "specific_document_url": "https://blackdesert.pearlabyss.com/Console/en-us/News/Notice/Detail?_boardNo=11971"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://blackdesert.pearlabyss.com/Asia/en-US/News/Notice/Detail?_boardNo=8020",
+    "company": "Pearl Abyss",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2025-08-21",
+    "reporting_period": "2025Q3",
+    "source_id": "src_pa_bd_edania_html",
+    "source_pages": [],
+    "specific_document_url": "https://blackdesert.pearlabyss.com/Asia/en-US/News/Notice/Detail?_boardNo=8020"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://blackdesert.pearlabyss.com/Asia/en-US/News/Notice/Detail?_boardNo=6377",
+    "company": "Pearl Abyss",
+    "document_title": null,
+    "document_type": "OFFICIAL_HTML",
+    "published_at": "2024-08-28",
+    "reporting_period": "2024Q3",
+    "source_id": "src_pa_bd_seoul_html",
+    "source_pages": [],
+    "specific_document_url": "https://blackdesert.pearlabyss.com/Asia/en-US/News/Notice/Detail?_boardNo=6377"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://blackdesert.pearlabyss.com/Asia/en-US/News/Notice/Detail?_boardNo=7903",
+    "company": "Pearl Abyss",
+    "document_title": null,
+    "document_type": "OFFICIAL_HTML",
+    "published_at": "2025-06-30",
+    "reporting_period": "2025Q3",
+    "source_id": "src_pa_bd_wukong_html",
+    "source_pages": [],
+    "specific_document_url": "https://blackdesert.pearlabyss.com/Asia/en-US/News/Notice/Detail?_boardNo=7903"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://blog.playstation.com/2024/12/16/stellar-blades-holiday-themed-event-brings-new-costumes-mini-game-and-more-dec-17/",
+    "company": "PlayStation / SHIFT UP",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2024-12-16",
+    "reporting_period": "2024Q4",
+    "source_id": "src_ps_stellar_holiday_html",
+    "source_pages": [],
+    "specific_document_url": "https://blog.playstation.com/2024/12/16/stellar-blades-holiday-themed-event-brings-new-costumes-mini-game-and-more-dec-17/"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://blog.playstation.com/2024/11/11/stellar-blades-nier-automata-dlc-photo-mode-launch-nov-20/",
+    "company": "PlayStation / SHIFT UP",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2024-11-11",
+    "reporting_period": "2024Q4",
+    "source_id": "src_ps_stellar_nier_html",
+    "source_pages": [],
+    "specific_document_url": "https://blog.playstation.com/2024/11/11/stellar-blades-nier-automata-dlc-photo-mode-launch-nov-20/"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://blog.playstation.com/2025/05/15/stellar-blade-launches-june-11-on-pc-specs-and-features-revealed/",
+    "company": "PlayStation / SHIFT UP",
+    "document_title": null,
+    "document_type": "OFFICIAL_HTML",
+    "published_at": "2025-05-15",
+    "reporting_period": "2025Q2",
+    "source_id": "src_ps_stellar_pc_html",
+    "source_pages": [],
+    "specific_document_url": "https://blog.playstation.com/2025/05/15/stellar-blade-launches-june-11-on-pc-specs-and-features-revealed/"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://shiftup.co.kr/admin/bbs/down.php?code=ir_eng&idx=475&no=2",
+    "company": "SHIFT UP",
+    "document_title": null,
+    "document_type": "OFFICIAL_FACTSHEET_PDF",
+    "published_at": "2026-08-11",
+    "reporting_period": "2026Q2",
+    "source_id": "src_su_2q26_fs",
+    "source_pages": [
+      "3"
+    ],
+    "specific_document_url": "https://shiftup.co.kr/admin/bbs/down.php?code=ir_eng&idx=475&no=2"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://shiftup.co.kr/admin/bbs/down.php?code=ir_eng&idx=475&no=1",
+    "company": "SHIFT UP",
+    "document_title": null,
+    "document_type": "OFFICIAL_EARNINGS_PDF",
+    "published_at": "2026-08-11",
+    "reporting_period": "2026Q2",
+    "source_id": "src_su_2q26_pres",
+    "source_pages": [
+      "6",
+      "9"
+    ],
+    "specific_document_url": "https://shiftup.co.kr/admin/bbs/down.php?code=ir_eng&idx=475&no=1"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://shiftup.co.kr/admin/bbs/down.php?code=ir_eng&idx=226&no=2",
+    "company": "SHIFT UP",
+    "document_title": null,
+    "document_type": "OFFICIAL_FACTSHEET_PDF",
+    "published_at": "2025-02-10",
+    "reporting_period": "2024Q4",
+    "source_id": "src_su_4q24_fs",
+    "source_pages": [
+      "3"
+    ],
+    "specific_document_url": "https://shiftup.co.kr/admin/bbs/down.php?code=ir_eng&idx=226&no=2"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://shiftup.co.kr/news/news.php?code=news&idx=217&page=1&ptype=view",
+    "company": "SHIFT UP",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2024-11-08",
+    "reporting_period": "2024Q4",
+    "source_id": "src_su_nikke_2y_html",
+    "source_pages": [],
+    "specific_document_url": "https://shiftup.co.kr/news/news.php?code=news&idx=217&page=1&ptype=view"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://shiftup.co.kr/news/news.php?category=&idx=435&ptype=view",
+    "company": "SHIFT UP",
+    "document_title": null,
+    "document_type": "OFFICIAL_HTML",
+    "published_at": "2026-04-27",
+    "reporting_period": "2026Q2",
+    "source_id": "src_su_nikke_35_html",
+    "source_pages": [],
+    "specific_document_url": "https://shiftup.co.kr/news/news.php?category=&idx=435&ptype=view"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://shiftup.co.kr/news/news.php?code=news&idx=302&page=1&ptype=view",
+    "company": "SHIFT UP",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2025-11-06",
+    "reporting_period": "2025Q4",
+    "source_id": "src_su_nikke_3y_html",
+    "source_pages": [],
+    "specific_document_url": "https://shiftup.co.kr/news/news.php?code=news&idx=302&page=1&ptype=view"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://shiftup.co.kr/news/news.php?category=&code=news&idx=292&ptype=view",
+    "company": "SHIFT UP",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2025-09-05",
+    "reporting_period": "2025Q3",
+    "source_id": "src_su_nikke_coins_html",
+    "source_pages": [],
+    "specific_document_url": "https://shiftup.co.kr/news/news.php?category=&code=news&idx=292&ptype=view"
+  },
+  {
+    "access_note": "PUBLIC_NO_LOGIN",
+    "canonical_url": "https://shiftup.co.kr/news/news.php?category=&idx=268&ptype=view",
+    "company": "SHIFT UP",
+    "document_title": null,
+    "document_type": "OFFICIAL_GAME_OR_PUBLISHER_HTML",
+    "published_at": "2025-05-22",
+    "reporting_period": "2025Q2",
+    "source_id": "src_su_stellar_nikke_dlc_html",
+    "source_pages": [],
+    "specific_document_url": "https://shiftup.co.kr/news/news.php?category=&idx=268&ptype=view"
+  }
+]

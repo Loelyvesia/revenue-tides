@@ -1,0 +1,23 @@
+{
+  "project": "Revenue Tides — The Commercial Life of Games",
+  "project_title_zh": "付费潮汐——游戏商业生命线",
+  "phase": "PHASE C — METHOD / SCOPE FREEZE",
+  "status": "PASS",
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "freeze_date": "2026-09-22",
+  "primary_temporal_unit": "FISCAL_QUARTER",
+  "corpus_target": 10,
+  "corpus_range": [8, 12],
+  "core_min_quarters": 6,
+  "launch_cohort_min_quarters": 4,
+  "max_launch_cohort_series": 2,
+  "normative_documents_hashed": 18,
+  "phase_b_compatibility": "PASS",
+  "automated_tests": {
+    "passed": 56,
+    "total": 56,
+    "status": "PASS"
+  },
+  "phase_d_authorized": false,
+  "stop_boundary": "STOPPED BEFORE PHASE D"
+}

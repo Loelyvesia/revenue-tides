@@ -1,0 +1,240 @@
+{
+  "build_date": "2026-09-22",
+  "build_version": "phase-g-webdata-build-1",
+  "company_count": 4,
+  "data_cutoff": "2026-09-22",
+  "event_count": 26,
+  "feature_flags": {
+    "derived_uncertainty": true,
+    "issuer_attributed_claims": true,
+    "lazy_series_details": true,
+    "metric_version_breaks": true,
+    "official_events": true
+  },
+  "files": [
+    {
+      "bytes": 670,
+      "path": "NOTICE.md",
+      "record_count": null,
+      "sha256": "7627978090c2550bf45797decf97156972dca11690b9463fb27a4e788fc51206"
+    },
+    {
+      "bytes": 1629,
+      "path": "caveats.json",
+      "record_count": 6,
+      "sha256": "df689c2f9a131081600a0348347dd386fa936892833923fcfdef2e892866e439"
+    },
+    {
+      "bytes": 12020,
+      "path": "findings.json",
+      "record_count": 6,
+      "sha256": "f2402fcc42b35dbfbeba7330333209104724ee31ed46643b0a84cc27a0df2503"
+    },
+    {
+      "bytes": 2682,
+      "path": "project.json",
+      "record_count": 1,
+      "sha256": "2e96289dbccb582e786e21ae717c20922ff56638badaba3c2f5ab0669e2d49e8"
+    },
+    {
+      "bytes": 12973,
+      "path": "series/series_black_desert.json",
+      "record_count": 8,
+      "sha256": "509abbe16db0d1a03512e59df8fdbc432846f5aa6203911975546829261780c1"
+    },
+    {
+      "bytes": 11434,
+      "path": "series/series_jackpot_world.json",
+      "record_count": 6,
+      "sha256": "aa09bff8cd3e2ef0b7e9b5e628b29b7a2484f3aace77dd985c6830ce13d4885c"
+    },
+    {
+      "bytes": 18660,
+      "path": "series/series_lineage_2m.json",
+      "record_count": 11,
+      "sha256": "fbe5760f20df254ff9582f83ef6dc6ec57222aa76a30e9534546882526e2c823"
+    },
+    {
+      "bytes": 18225,
+      "path": "series/series_lineage_m.json",
+      "record_count": 11,
+      "sha256": "e010eadc2f0a7a84e9ebc73660a40f9346a24cd1c270c7b1d3713b90bf2722e9"
+    },
+    {
+      "bytes": 18196,
+      "path": "series/series_lineage_w.json",
+      "record_count": 11,
+      "sha256": "9920de2c0a44a11a6cb0a09aa0e601b3fb1c097332e2680da4dbab225ccbfc8e"
+    },
+    {
+      "bytes": 11406,
+      "path": "series/series_lotsa_slots.json",
+      "record_count": 6,
+      "sha256": "cfdfd480ac7473bfd31fd3ef2024c47e5ba3aa0ee9228e60731ca25cd246c187"
+    },
+    {
+      "bytes": 12313,
+      "path": "series/series_mcoc.json",
+      "record_count": 6,
+      "sha256": "df0ab564f7fe37eb2141759b17d9e59e5e838c5e906e9c8be93e331edfe0f880"
+    },
+    {
+      "bytes": 13521,
+      "path": "series/series_nikke.json",
+      "record_count": 8,
+      "sha256": "9db2bbac317a894491979d9047a998da0c2dcd307c9843e13f021ee326c128bb"
+    },
+    {
+      "bytes": 13493,
+      "path": "series/series_stellar_blade.json",
+      "record_count": 8,
+      "sha256": "73a0d8c78cb73edb490b45148fb492a190f906a19344be8fdde513a886037733"
+    },
+    {
+      "bytes": 6012,
+      "path": "series_index.json",
+      "record_count": 9,
+      "sha256": "79f55863ef8fc0b4cca554c8bb48f690558c18e437701b7689db324192d0655a"
+    },
+    {
+      "bytes": 21653,
+      "path": "sources.json",
+      "record_count": 42,
+      "sha256": "1f431115a1919d29dae0d84bed23f1553effbb37f25b0a38f1a79dbcbc740657"
+    }
+  ],
+  "finding_count": 6,
+  "finding_index": [
+    {
+      "finding_id": "F1",
+      "headline": true,
+      "series_ids": [
+        "series_lineage_m",
+        "series_lineage_2m",
+        "series_lineage_w"
+      ],
+      "title_en": "Reporting definitions change same-quarter values",
+      "title_zh": "同一季度，报告口径也会改变数值"
+    },
+    {
+      "finding_id": "F2",
+      "headline": true,
+      "series_ids": [
+        "series_stellar_blade"
+      ],
+      "title_en": "Stellar Blade peaked in its PC-launch quarter",
+      "title_zh": "Stellar Blade 的 PC 上线季度形成窗口峰值"
+    },
+    {
+      "finding_id": "F3",
+      "headline": false,
+      "series_ids": [
+        "series_nikke"
+      ],
+      "title_en": "NIKKE rebounded without regaining its prior peak",
+      "title_zh": "NIKKE 反弹，但尚未回到前高"
+    },
+    {
+      "finding_id": "F4",
+      "headline": true,
+      "series_ids": [
+        "series_black_desert"
+      ],
+      "title_en": "Black Desert recovered once, then entered a new drawdown",
+      "title_zh": "Black Desert 在一次恢复后再次进入回撤"
+    },
+    {
+      "finding_id": "F5",
+      "headline": false,
+      "series_ids": [
+        "series_lineage_w"
+      ],
+      "title_en": "Lineage W declined for four consecutive quarters under the new definition",
+      "title_zh": "Lineage W 新口径窗口连续四季下降"
+    },
+    {
+      "finding_id": "F6",
+      "headline": false,
+      "series_ids": [
+        "series_mcoc",
+        "series_jackpot_world",
+        "series_lotsa_slots"
+      ],
+      "title_en": "Rounded shares make most derived quarter-to-quarter directions indeterminate",
+      "title_zh": "取整占比使多数派生环比方向无法确定"
+    }
+  ],
+  "findings_version": "revenue-tides-findings-1.0.0",
+  "global_caveat_ids": [
+    "CAVEAT_PUBLISHER_DEFINED_REVENUE",
+    "CAVEAT_CROSS_COMPANY_NOT_COMPARABLE",
+    "CAVEAT_EVENT_NOT_CAUSAL",
+    "CAVEAT_DERIVED_ROUNDING",
+    "CAVEAT_VERSION_BREAK",
+    "CAVEAT_CURATED_EVENTS"
+  ],
+  "headline_finding_ids": [
+    "F1",
+    "F2",
+    "F4"
+  ],
+  "manifest_self_hash_policy": "SELF_EXCLUDED_TO_AVOID_RECURSION",
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "observation_count": 75,
+  "series_count": 9,
+  "series_index": [
+    {
+      "detail_path": "series/series_black_desert.json",
+      "name": "Black Desert",
+      "series_id": "series_black_desert"
+    },
+    {
+      "detail_path": "series/series_jackpot_world.json",
+      "name": "Jackpot World",
+      "series_id": "series_jackpot_world"
+    },
+    {
+      "detail_path": "series/series_lineage_2m.json",
+      "name": "Lineage 2M",
+      "series_id": "series_lineage_2m"
+    },
+    {
+      "detail_path": "series/series_lineage_m.json",
+      "name": "Lineage M",
+      "series_id": "series_lineage_m"
+    },
+    {
+      "detail_path": "series/series_lineage_w.json",
+      "name": "Lineage W",
+      "series_id": "series_lineage_w"
+    },
+    {
+      "detail_path": "series/series_lotsa_slots.json",
+      "name": "Lotsa Slots",
+      "series_id": "series_lotsa_slots"
+    },
+    {
+      "detail_path": "series/series_mcoc.json",
+      "name": "MARVEL Contest of Champions",
+      "series_id": "series_mcoc"
+    },
+    {
+      "detail_path": "series/series_nikke.json",
+      "name": "Goddess of Victory: NIKKE",
+      "series_id": "series_nikke"
+    },
+    {
+      "detail_path": "series/series_stellar_blade.json",
+      "name": "Stellar Blade",
+      "series_id": "series_stellar_blade"
+    }
+  ],
+  "source_count": 42,
+  "source_count_summary": {
+    "OFFICIAL_EARNINGS_PDF": 13,
+    "OFFICIAL_FACTSHEET_PDF": 2,
+    "OFFICIAL_GAME_OR_PUBLISHER_HTML": 21,
+    "OFFICIAL_HTML": 6
+  },
+  "webdata_version": "revenue-tides-webdata-1.0.0"
+}

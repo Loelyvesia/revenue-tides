@@ -1,0 +1,33 @@
+{
+  "attributed_findings": 0,
+  "automated_tests": {
+    "passed": 70,
+    "status": "PASS",
+    "total": 70
+  },
+  "candidate_findings": 19,
+  "corpus_series": 9,
+  "data_cutoff": "2026-09-22",
+  "derived_eligible_changes": 15,
+  "derived_findings": 1,
+  "derived_sign_sensitive_changes": 9,
+  "descriptive_findings": 4,
+  "direct_findings": 1,
+  "direct_official_basis_findings": 5,
+  "findings_version": "revenue-tides-findings-1.0.0",
+  "formal_findings": 6,
+  "headline_findings": 3,
+  "manual_qa": {
+    "passed": 6,
+    "status": "PASS",
+    "total": 6
+  },
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "observation_count": 75,
+  "phase": "PHASE F — EVIDENCE-BOUNDED FINDINGS",
+  "rejected_candidates": 13,
+  "series_covered": 9,
+  "stable_metric_windows": 12,
+  "status": "PASS",
+  "stop_boundary": "STOPPED BEFORE PHASE G"
+}

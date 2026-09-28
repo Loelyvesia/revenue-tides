@@ -1,0 +1,68 @@
+{
+  "candidate_id": "CF04",
+  "claim_ids": [],
+  "event_ids": [],
+  "finding_id": "F5",
+  "findings_version": "revenue-tides-findings-1.0.0",
+  "limitations": "The window contains five quarters and must not be extended backward across the version break.",
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "metric_definition_ids": [
+    "md_nc_lineage_w_royalty_v2"
+  ],
+  "numeric_claims": [
+    {
+      "claim_id": "F5_N1",
+      "metric_definition_id": "md_nc_lineage_w_royalty_v2",
+      "operation": "negative_change_count",
+      "series_id": "series_lineage_w",
+      "unit": "quarters",
+      "value": "4"
+    },
+    {
+      "claim_id": "F5_N2",
+      "observation_id": "obs_lw_v2_2025q2",
+      "operation": "observation_value",
+      "unit": "KRW_million",
+      "value": "47640"
+    },
+    {
+      "claim_id": "F5_N3",
+      "observation_id": "obs_lw_v2_2026q2",
+      "operation": "observation_value",
+      "unit": "KRW_million",
+      "value": "30833"
+    },
+    {
+      "claim_id": "F5_N4",
+      "from_observation_id": "obs_lw_v2_2025q2",
+      "operation": "endpoint_change_percent",
+      "precision": 1,
+      "to_observation_id": "obs_lw_v2_2026q2",
+      "unit": "percent",
+      "value": "-35.3"
+    }
+  ],
+  "observation_ids": [
+    "obs_lw_v2_2025q2",
+    "obs_lw_v2_2025q3",
+    "obs_lw_v2_2025q4",
+    "obs_lw_v2_2026q1",
+    "obs_lw_v2_2026q2"
+  ],
+  "periods": [
+    "2025Q2",
+    "2026Q2"
+  ],
+  "series_ids": [
+    "series_lineage_w"
+  ],
+  "source_ids": [
+    "src_nc_2q26_pres"
+  ],
+  "transformations": [
+    "qoq_percent_change",
+    "baseline_index",
+    "negative_change_count"
+  ],
+  "uncertainty": "Direct official series; no estimate interval."
+}

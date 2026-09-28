@@ -1,0 +1,68 @@
+{
+  "candidate_id": "CF03",
+  "claim_ids": [],
+  "event_ids": [
+    "evt_stellar_pc_launch",
+    "evt_stellar_nikke_dlc"
+  ],
+  "finding_id": "F2",
+  "findings_version": "revenue-tides-findings-1.0.0",
+  "limitations": "The publisher-defined IP total combines platform receipts and does not disclose a PC-only amount.",
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "metric_definition_ids": [
+    "md_su_ip_revenue_v1"
+  ],
+  "numeric_claims": [
+    {
+      "claim_id": "F2_N1",
+      "observation_id": "obs_stellar_2025q1",
+      "operation": "observation_value",
+      "unit": "KRW_million",
+      "value": "7011.668848"
+    },
+    {
+      "claim_id": "F2_N2",
+      "observation_id": "obs_stellar_2025q2",
+      "operation": "observation_value",
+      "unit": "KRW_million",
+      "value": "65718.814485"
+    },
+    {
+      "claim_id": "F2_N3",
+      "from_observation_id": "obs_stellar_2025q1",
+      "operation": "qoq_percent",
+      "precision": 1,
+      "to_observation_id": "obs_stellar_2025q2",
+      "unit": "percent",
+      "value": "837.3"
+    },
+    {
+      "claim_id": "F2_N4",
+      "observation_id": "obs_stellar_2025q2",
+      "operation": "window_max",
+      "unit": "KRW_million",
+      "value": "65718.814485"
+    }
+  ],
+  "observation_ids": [
+    "obs_stellar_2025q1",
+    "obs_stellar_2025q2"
+  ],
+  "periods": [
+    "2025Q1",
+    "2025Q2"
+  ],
+  "series_ids": [
+    "series_stellar_blade"
+  ],
+  "source_ids": [
+    "src_ps_stellar_pc_html",
+    "src_su_2q26_fs",
+    "src_su_stellar_nikke_dlc_html"
+  ],
+  "transformations": [
+    "qoq_percent_change",
+    "window_max"
+  ],
+  "uncertainty": "Direct official series; event timing is contextual."
+}

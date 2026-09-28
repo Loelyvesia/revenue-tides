@@ -1,0 +1,31 @@
+{
+  "project": "Revenue Tides — The Commercial Life of Games",
+  "project_title_zh": "付费潮汐——游戏商业生命线",
+  "phase": "PHASE B — CONTROLLED PILOT",
+  "status": "PASS",
+  "pilot_series": 5,
+  "reporting_companies": 4,
+  "primary_observations": 41,
+  "official_reported_observations": 35,
+  "derived_official_observations": 6,
+  "lineage_m_metric_versions": 2,
+  "lineage_m_overlapping_quarters": [
+    "2025Q2",
+    "2025Q3",
+    "2025Q4"
+  ],
+  "event_records": 6,
+  "attributed_claims": 2,
+  "retained_source_files": 15,
+  "retained_source_bytes": 10855955,
+  "automated_tests": {
+    "passed": 52,
+    "total": 52,
+    "status": "PASS"
+  },
+  "manual_qa_rows": 11,
+  "deterministic_rebuild": "PASS",
+  "public_release_layer": "Structured factual observations and links only; no copied slides/charts/raw files",
+  "phase_c_authorized": false,
+  "stop_boundary": "STOPPED BEFORE PHASE C"
+}

@@ -1,0 +1,33 @@
+{
+  "phase": "J",
+  "status": "PASS",
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "findings_version": "revenue-tides-findings-1.0.0",
+  "webdata_version": "revenue-tides-webdata-1.0.0",
+  "browsers": {
+    "chrome": { "version": "153.0.8010.53", "passed": 40, "total": 40 },
+    "edge": { "version": "149.0.4022.62", "passed": 40, "total": 40 },
+    "firefox": { "version": "156.0.1", "passed": 14, "total": 14 },
+    "webkit": { "status": "NOT_AVAILABLE" }
+  },
+  "viewports": ["1440x900", "1280x800", "1024x768", "768x1024", "390x844", "320x700"],
+  "horizontal_overflow_px": 0,
+  "console_errors": 0,
+  "console_warnings": 0,
+  "uncaught_exceptions": 0,
+  "unexpected_http_errors": 0,
+  "vitest": { "passed": 62, "total": 62 },
+  "browser_smoke": { "passed": 94, "total": 94 },
+  "subdirectory_smoke": { "passed": 40, "total": 40 },
+  "automated_validation": { "passed": 102, "total": 102 },
+  "manual_workflows": { "passed": 10, "total": 10 },
+  "product_defects_found": 0,
+  "product_defects_fixed": 0,
+  "open_blockers": 0,
+  "open_majors": 0,
+  "open_minors": 0,
+  "screenshots": 13,
+  "deployment_performed": false,
+  "phase_k_started": false,
+  "stop_boundary": "STOPPED BEFORE PHASE K"
+}

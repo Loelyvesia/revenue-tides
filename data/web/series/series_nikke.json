@@ -1,0 +1,440 @@
+{
+  "attributed_claims": [
+    {
+      "attributed": true,
+      "claim_id": "claim_nikke_35_q2_2026",
+      "claim_type": "PERFORMANCE_ATTRIBUTION",
+      "issuer": "SHIFT UP management",
+      "period": "2026Q2",
+      "series_id": "series_nikke",
+      "source_id": "src_su_2q26_pres",
+      "summary": "SHIFT UP linked NIKKE's Q2 2026 global revenue growth and app-store performance to the April 3.5th-anniversary update and its content response."
+    }
+  ],
+  "events": [
+    {
+      "curated": true,
+      "date_precision": "DAY",
+      "end_date": null,
+      "event_id": "evt_nikke_2y",
+      "event_type": "ANNIVERSARY_UPDATE",
+      "fiscal_period": "2024Q4",
+      "name": "Second anniversary OLD TALES update",
+      "platform_scope": "Mobile / live service",
+      "region_scope": "Global",
+      "series_id": "series_nikke",
+      "source_id": "src_su_nikke_2y_html",
+      "start_date": "2024-10-31"
+    },
+    {
+      "curated": true,
+      "date_precision": "DAY",
+      "end_date": null,
+      "event_id": "evt_nikke_coins",
+      "event_type": "MAJOR_CONTENT_UPDATE",
+      "fiscal_period": "2025Q3",
+      "name": "COINS IN RUSH update",
+      "platform_scope": "Mobile / live service",
+      "region_scope": "Global",
+      "series_id": "series_nikke",
+      "source_id": "src_su_nikke_coins_html",
+      "start_date": "2025-09-04"
+    },
+    {
+      "curated": true,
+      "date_precision": "DAY",
+      "end_date": null,
+      "event_id": "evt_nikke_3y",
+      "event_type": "ANNIVERSARY_UPDATE",
+      "fiscal_period": "2025Q4",
+      "name": "Third anniversary GODDESS FALL update",
+      "platform_scope": "Mobile / live service",
+      "region_scope": "Global",
+      "series_id": "series_nikke",
+      "source_id": "src_su_nikke_3y_html",
+      "start_date": "2025-11-06"
+    },
+    {
+      "curated": true,
+      "date_precision": "DAY",
+      "end_date": null,
+      "event_id": "evt_nikke_35_anniv",
+      "event_type": "ANNIVERSARY_UPDATE",
+      "fiscal_period": "2026Q2",
+      "name": "3.5th anniversary STAR ANIS update",
+      "platform_scope": "Mobile / live service",
+      "region_scope": "Global",
+      "series_id": "series_nikke",
+      "source_id": "src_su_nikke_35_html",
+      "start_date": "2026-04-23"
+    }
+  ],
+  "findings": [
+    "F3"
+  ],
+  "identity": {
+    "caveat_ids": [
+      "CAVEAT_CROSS_COMPANY_NOT_COMPARABLE",
+      "CAVEAT_CURATED_EVENTS",
+      "CAVEAT_EVENT_NOT_CAUSAL",
+      "CAVEAT_PUBLISHER_DEFINED_REVENUE"
+    ],
+    "company": "SHIFT UP",
+    "company_id": "shift_up",
+    "entity": "Goddess of Victory: NIKKE",
+    "entity_type": "IP",
+    "platform_scope": "Publisher-defined IP scope; predominantly mobile",
+    "publisher_defined_name": "Goddess of Victory: Nikke",
+    "reporting_scope": [
+      "SHIFT_UP_consolidated_IP_revenue"
+    ],
+    "series_id": "series_nikke"
+  },
+  "metric_versions": [
+    {
+      "accounting_scope": "Consolidated publisher revenue allocation by IP",
+      "caveat_ids": [
+        "CAVEAT_PUBLISHER_DEFINED_REVENUE"
+      ],
+      "comparable_group_id": "cg_su_ip_revenue_v1",
+      "comparison_scope": "WITHIN_SERIES_ONLY",
+      "economic_meaning": "Revenue recognized by SHIFT UP and allocated to a named IP.",
+      "evidence_class": "OFFICIAL_REPORTED",
+      "geographic_scope": "Global consolidated reporting scope",
+      "label": "SHIFT UP operating revenue by IP",
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "platform_scope": "Publisher-defined; NIKKE channel decomposition unavailable; Stellar Blade includes console and later PC",
+      "unit_basis": "Exact KRW",
+      "valid_period": {
+        "first": "2024Q3",
+        "last": "2026Q2"
+      },
+      "version": "v1",
+      "version_break": null
+    }
+  ],
+  "observations": [
+    {
+      "baseline_index": 100,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": 0,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": false,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_nikke_2024q3",
+      "period_end": "2024-09-30",
+      "period_index": 8098,
+      "period_key": "2024Q3",
+      "period_start": "2024-07-01",
+      "qoq": {
+        "absolute_change": null,
+        "eligible": false,
+        "percent_change": null,
+        "previous_observation_id": null
+      },
+      "quarter": "2024Q3",
+      "recovery": {
+        "quarters": null,
+        "status": "AT_OR_ABOVE_ROLLING_PEAK"
+      },
+      "rolling_peak": 34231.387845,
+      "source_id": "src_su_4q24_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 34231.387845
+    },
+    {
+      "baseline_index": 128.24282748855052,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": 0,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_nikke_2024q4",
+      "period_end": "2024-12-31",
+      "period_index": 8099,
+      "period_key": "2024Q4",
+      "period_start": "2024-10-01",
+      "qoq": {
+        "absolute_change": 9667.911816,
+        "eligible": true,
+        "percent_change": 28.242827488550514,
+        "previous_observation_id": "obs_nikke_2024q3"
+      },
+      "quarter": "2024Q4",
+      "recovery": {
+        "quarters": null,
+        "status": "AT_OR_ABOVE_ROLLING_PEAK"
+      },
+      "rolling_peak": 43899.299661,
+      "source_id": "src_su_4q24_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 43899.299661
+    },
+    {
+      "baseline_index": 94.38847072839152,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -26.39863563767845,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_nikke_2025q1",
+      "period_end": "2025-03-31",
+      "period_index": 8100,
+      "period_key": "2025Q1",
+      "period_start": "2025-01-01",
+      "qoq": {
+        "absolute_change": -11588.816165,
+        "eligible": true,
+        "percent_change": -26.39863563767845,
+        "previous_observation_id": "obs_nikke_2024q4"
+      },
+      "quarter": "2025Q1",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 43899.299661,
+      "source_id": "src_su_2q26_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 32310.483496
+    },
+    {
+      "baseline_index": 131.78452532589685,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": 0,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_nikke_2025q2",
+      "period_end": "2025-06-30",
+      "period_index": 8101,
+      "period_key": "2025Q2",
+      "period_start": "2025-04-01",
+      "qoq": {
+        "absolute_change": 12801.188488,
+        "eligible": true,
+        "percent_change": 39.61930340530117,
+        "previous_observation_id": "obs_nikke_2025q1"
+      },
+      "quarter": "2025Q2",
+      "recovery": {
+        "quarters": 2,
+        "status": "AT_OR_ABOVE_ROLLING_PEAK"
+      },
+      "rolling_peak": 45111.671984,
+      "source_id": "src_su_2q26_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 45111.671984
+    },
+    {
+      "baseline_index": 129.88837731127637,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -1.4388244825645389,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_nikke_2025q3",
+      "period_end": "2025-09-30",
+      "period_index": 8102,
+      "period_key": "2025Q3",
+      "period_start": "2025-07-01",
+      "qoq": {
+        "absolute_change": -649.077781,
+        "eligible": true,
+        "percent_change": -1.4388244825645389,
+        "previous_observation_id": "obs_nikke_2025q2"
+      },
+      "quarter": "2025Q3",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 45111.671984,
+      "source_id": "src_su_2q26_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 44462.594203
+    },
+    {
+      "baseline_index": 126.88560858727871,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -3.717368732408719,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_nikke_2025q4",
+      "period_end": "2025-12-31",
+      "period_index": 8103,
+      "period_key": "2025Q4",
+      "period_start": "2025-10-01",
+      "qoq": {
+        "absolute_change": -1027.889408,
+        "eligible": true,
+        "percent_change": -2.311807096335926,
+        "previous_observation_id": "obs_nikke_2025q3"
+      },
+      "quarter": "2025Q4",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 45111.671984,
+      "source_id": "src_su_2q26_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 43434.704795
+    },
+    {
+      "baseline_index": 95.49551843769248,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -27.53662222363618,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_nikke_2026q1",
+      "period_end": "2026-03-31",
+      "period_index": 8104,
+      "period_key": "2026Q1",
+      "period_start": "2026-01-01",
+      "qoq": {
+        "absolute_change": -10745.263504,
+        "eligible": true,
+        "percent_change": -24.73888922398511,
+        "previous_observation_id": "obs_nikke_2025q4"
+      },
+      "quarter": "2026Q1",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 45111.671984,
+      "source_id": "src_su_2q26_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 32689.441291
+    },
+    {
+      "baseline_index": 126.39403651090852,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -4.09038071932794,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_nikke_2026q2",
+      "period_end": "2026-06-30",
+      "period_index": 8105,
+      "period_key": "2026Q2",
+      "period_start": "2026-04-01",
+      "qoq": {
+        "absolute_change": 10576.99156,
+        "eligible": true,
+        "percent_change": 32.35598756749641,
+        "previous_observation_id": "obs_nikke_2026q1"
+      },
+      "quarter": "2026Q2",
+      "recovery": {
+        "quarters": null,
+        "status": "NOT_RECOVERED_WITHIN_OBSERVED_WINDOW"
+      },
+      "rolling_peak": 45111.671984,
+      "source_id": "src_su_2q26_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 43266.432851
+    }
+  ],
+  "series_id": "series_nikke",
+  "sources": [
+    "src_su_2q26_fs",
+    "src_su_2q26_pres",
+    "src_su_4q24_fs",
+    "src_su_nikke_2y_html",
+    "src_su_nikke_35_html",
+    "src_su_nikke_3y_html",
+    "src_su_nikke_coins_html"
+  ]
+}

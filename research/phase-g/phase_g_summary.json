@@ -1,0 +1,38 @@
+{
+  "automated_tests": {
+    "passed": 90,
+    "status": "PASS",
+    "total": 90
+  },
+  "bootstrap_bytes": 7143,
+  "claims": 3,
+  "data_cutoff": "2026-09-22",
+  "deterministic_build": true,
+  "events": 26,
+  "findings": 6,
+  "findings_version": "revenue-tides-findings-1.0.0",
+  "headline_findings": [
+    "F1",
+    "F2",
+    "F4"
+  ],
+  "largest_file": {
+    "bytes": 21653,
+    "path": "sources.json"
+  },
+  "manual_qa": {
+    "passed": 31,
+    "status": "PASS",
+    "total": 31
+  },
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "observations": 75,
+  "phase": "PHASE G — WEB DATA PRODUCTIZATION",
+  "public_files": 16,
+  "series": 9,
+  "source_count": 42,
+  "status": "PASS",
+  "stop_boundary": "STOPPED BEFORE PHASE H",
+  "total_web_data_bytes": 182030,
+  "webdata_version": "revenue-tides-webdata-1.0.0"
+}

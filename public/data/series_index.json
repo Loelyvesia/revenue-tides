@@ -1,0 +1,211 @@
+[
+  {
+    "claim_count": 0,
+    "company_id": "pearl_abyss",
+    "company_name": "Pearl Abyss",
+    "detail_path": "series/series_black_desert.json",
+    "entity_type": "IP",
+    "event_count": 4,
+    "evidence_mode": "OFFICIAL_REPORTED",
+    "finding_ids": [
+      "F4"
+    ],
+    "first_period": "2024Q3",
+    "headline_finding_ids": [
+      "F4"
+    ],
+    "last_period": "2026Q2",
+    "metric_version_count": 1,
+    "name": "Black Desert",
+    "platform_scope": "PC; console; mobile",
+    "publisher_defined_name": "Black Desert",
+    "quarter_count": 8,
+    "series_id": "series_black_desert",
+    "status": "VALIDATED"
+  },
+  {
+    "claim_count": 0,
+    "company_id": "netmarble",
+    "company_name": "Netmarble",
+    "detail_path": "series/series_jackpot_world.json",
+    "entity_type": "GAME_TITLE",
+    "event_count": 0,
+    "evidence_mode": "DERIVED_FROM_OFFICIAL",
+    "finding_ids": [
+      "F6"
+    ],
+    "first_period": "2024Q3",
+    "headline_finding_ids": [],
+    "last_period": "2025Q4",
+    "metric_version_count": 1,
+    "name": "Jackpot World",
+    "platform_scope": "Mobile title; consolidated company denominator",
+    "publisher_defined_name": "Jackpot World",
+    "quarter_count": 6,
+    "series_id": "series_jackpot_world",
+    "status": "VALIDATED"
+  },
+  {
+    "claim_count": 1,
+    "company_id": "ncsoft",
+    "company_name": "NCSOFT",
+    "detail_path": "series/series_lineage_2m.json",
+    "entity_type": "GAME_TITLE",
+    "event_count": 4,
+    "evidence_mode": "OFFICIAL_REPORTED",
+    "finding_ids": [
+      "F1"
+    ],
+    "first_period": "2024Q3",
+    "headline_finding_ids": [
+      "F1"
+    ],
+    "last_period": "2026Q2",
+    "metric_version_count": 2,
+    "name": "Lineage 2M",
+    "platform_scope": "Mobile and PURPLE client under publisher title/IP scope",
+    "publisher_defined_name": "리니지2M",
+    "quarter_count": 8,
+    "series_id": "series_lineage_2m",
+    "status": "VALIDATED"
+  },
+  {
+    "claim_count": 0,
+    "company_id": "ncsoft",
+    "company_name": "NCSOFT",
+    "detail_path": "series/series_lineage_m.json",
+    "entity_type": "GAME_TITLE",
+    "event_count": 4,
+    "evidence_mode": "OFFICIAL_REPORTED",
+    "finding_ids": [
+      "F1"
+    ],
+    "first_period": "2024Q3",
+    "headline_finding_ids": [
+      "F1"
+    ],
+    "last_period": "2026Q2",
+    "metric_version_count": 2,
+    "name": "Lineage M",
+    "platform_scope": "Mobile title/IP presentation",
+    "publisher_defined_name": "리니지M",
+    "quarter_count": 8,
+    "series_id": "series_lineage_m",
+    "status": "VALIDATED"
+  },
+  {
+    "claim_count": 0,
+    "company_id": "ncsoft",
+    "company_name": "NCSOFT",
+    "detail_path": "series/series_lineage_w.json",
+    "entity_type": "GAME_TITLE",
+    "event_count": 4,
+    "evidence_mode": "OFFICIAL_REPORTED",
+    "finding_ids": [
+      "F1",
+      "F5"
+    ],
+    "first_period": "2024Q3",
+    "headline_finding_ids": [
+      "F1"
+    ],
+    "last_period": "2026Q2",
+    "metric_version_count": 2,
+    "name": "Lineage W",
+    "platform_scope": "Mobile and PURPLE client under publisher title/IP scope",
+    "publisher_defined_name": "리니지W",
+    "quarter_count": 8,
+    "series_id": "series_lineage_w",
+    "status": "VALIDATED"
+  },
+  {
+    "claim_count": 0,
+    "company_id": "netmarble",
+    "company_name": "Netmarble",
+    "detail_path": "series/series_lotsa_slots.json",
+    "entity_type": "GAME_TITLE",
+    "event_count": 0,
+    "evidence_mode": "DERIVED_FROM_OFFICIAL",
+    "finding_ids": [
+      "F6"
+    ],
+    "first_period": "2024Q3",
+    "headline_finding_ids": [],
+    "last_period": "2025Q4",
+    "metric_version_count": 1,
+    "name": "Lotsa Slots",
+    "platform_scope": "Mobile title; consolidated company denominator",
+    "publisher_defined_name": "Lotsa Slots",
+    "quarter_count": 6,
+    "series_id": "series_lotsa_slots",
+    "status": "VALIDATED"
+  },
+  {
+    "claim_count": 0,
+    "company_id": "netmarble",
+    "company_name": "Netmarble",
+    "detail_path": "series/series_mcoc.json",
+    "entity_type": "GAME_TITLE",
+    "event_count": 2,
+    "evidence_mode": "DERIVED_FROM_OFFICIAL",
+    "finding_ids": [
+      "F6"
+    ],
+    "first_period": "2024Q3",
+    "headline_finding_ids": [],
+    "last_period": "2025Q4",
+    "metric_version_count": 1,
+    "name": "MARVEL Contest of Champions",
+    "platform_scope": "Mobile title; consolidated company denominator",
+    "publisher_defined_name": "MARVEL Contest of Champions",
+    "quarter_count": 6,
+    "series_id": "series_mcoc",
+    "status": "VALIDATED"
+  },
+  {
+    "claim_count": 1,
+    "company_id": "shift_up",
+    "company_name": "SHIFT UP",
+    "detail_path": "series/series_nikke.json",
+    "entity_type": "IP",
+    "event_count": 4,
+    "evidence_mode": "OFFICIAL_REPORTED",
+    "finding_ids": [
+      "F3"
+    ],
+    "first_period": "2024Q3",
+    "headline_finding_ids": [],
+    "last_period": "2026Q2",
+    "metric_version_count": 1,
+    "name": "Goddess of Victory: NIKKE",
+    "platform_scope": "Publisher-defined IP scope; predominantly mobile",
+    "publisher_defined_name": "Goddess of Victory: Nikke",
+    "quarter_count": 8,
+    "series_id": "series_nikke",
+    "status": "VALIDATED"
+  },
+  {
+    "claim_count": 1,
+    "company_id": "shift_up",
+    "company_name": "SHIFT UP",
+    "detail_path": "series/series_stellar_blade.json",
+    "entity_type": "IP",
+    "event_count": 4,
+    "evidence_mode": "OFFICIAL_REPORTED",
+    "finding_ids": [
+      "F2"
+    ],
+    "first_period": "2024Q3",
+    "headline_finding_ids": [
+      "F2"
+    ],
+    "last_period": "2026Q2",
+    "metric_version_count": 1,
+    "name": "Stellar Blade",
+    "platform_scope": "PS5; PC from 2025Q2",
+    "publisher_defined_name": "Stellar Blade",
+    "quarter_count": 8,
+    "series_id": "series_stellar_blade",
+    "status": "VALIDATED"
+  }
+]

@@ -1,0 +1,5 @@
+company_id,canonical_name,reporting_name,country,IR_home_url,fiscal_calendar_note,currency,source_status
+shift_up,SHIFT UP,SHIFT UP Corporation,South Korea,https://shiftup.co.kr/eng/ir/ir.php?code=ir_eng&idx=475&page=1&ptype=list,Calendar-year fiscal reporting; quarter labels verified against exact period ends in official quarterly materials.,KRW,PUBLIC_OFFICIAL_VERIFIED
+ncsoft,NCSOFT,NC / NCSOFT,South Korea,https://m-corporate.nc.com/kr/ir/irArchive/earningsRelease.do,Calendar-year fiscal reporting; quarter labels verified against exact period ends in official quarterly materials.,KRW,PUBLIC_OFFICIAL_VERIFIED
+pearl_abyss,Pearl Abyss,Pearl Abyss Corp.,South Korea,https://www.pearlabyss.com/en-US/IR/Data/Performance,Calendar-year fiscal reporting; quarter labels verified against exact period ends in official quarterly materials.,KRW,PUBLIC_OFFICIAL_VERIFIED
+netmarble,Netmarble,Netmarble Corporation,South Korea,https://company.netmarble.com/en/invest/library,Calendar-year fiscal reporting; quarter labels verified against exact period ends in official quarterly materials.,KRW,PUBLIC_OFFICIAL_VERIFIED

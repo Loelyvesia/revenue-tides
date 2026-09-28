@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="t d">
+  <title id="t">Opening wireframe</title><desc id="d">Typographic opening for Revenue Tides with corpus scope and cross-company caveat, without KPI cards.</desc>
+  <rect width="1200" height="760" fill="#F3F0E7"/><style>text{font-family:system-ui,'Microsoft YaHei',sans-serif;fill:#192321}.s{font-size:14px;fill:#4B5753}.rule{stroke:#969B92;stroke-width:1}.teal{fill:#1F6763}.num{font-family:Consolas,monospace;font-variant-numeric:tabular-nums}</style>
+  <text x="72" y="60" class="s">REVENUE TIDES / 付费潮汐</text><line x1="72" y1="80" x2="1128" y2="80" class="rule"/>
+  <text x="72" y="190" font-size="58" font-weight="650">流水不是一个统一数字。</text>
+  <text x="72" y="250" font-size="21">同一个季度，报告口径、实体范围和证据方式都可能改变我们看到的数值。</text>
+  <text x="72" y="285" class="s">Publisher-defined fiscal-quarter observations, kept inside their own definitions.</text>
+  <line x1="72" y1="365" x2="1128" y2="365" class="rule"/>
+  <text x="72" y="420" font-size="30" class="num">9</text><text x="115" y="419" class="s">series</text>
+  <text x="280" y="420" font-size="30" class="num">75</text><text x="340" y="419" class="s">observations</text>
+  <text x="535" y="420" font-size="30" class="num">4</text><text x="578" y="419" class="s">publishers</text>
+  <text x="760" y="420" font-size="30" class="num">2024Q3–2026Q2</text><text x="760" y="450" class="s">fiscal-quarter window</text>
+  <rect x="72" y="520" width="6" height="90" class="teal"/><text x="100" y="550" font-size="18" font-weight="650">比较边界</text>
+  <text x="100" y="585" font-size="17">不同公司的发行商定义收入指标不可直接比较绝对高低。</text>
+  <text x="100" y="614" class="s">No global revenue leaderboard. Compare trajectories only under explicit compatible rules.</text>
+  <text x="72" y="700" class="s">Continue ↓  What is a revenue number?</text>
+</svg>

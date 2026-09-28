@@ -1,0 +1,8 @@
+candidate_id,check_type,full_result,loo_min,loo_max,direction_stable,interpretation_stable,uncertainty_survives,version_break_ok,notes
+CF05,SAME_QUARTER_OVERLAP_AND_TITLE_CONTRAST,Lineage M non-zero 3/3; other titles zero 6/6,NOT_APPLICABLE,NOT_APPLICABLE,NOT_APPLICABLE,YES,YES,YES,No cross-version growth is used.
+CF03,EVENT_QUARTER_AND_WINDOW_MAX,2025Q2 is window max; QoQ +837.3%,43.2% CV,88.5% CV,YES,YES,YES,YES,Event-quarter fact remains descriptive; LOO explains volatility rejection.
+CF02,PRIOR_PEAK_AND_ENDPOINT,Endpoint +32.4% QoQ but -4.1% below peak,-4.1%,-4.1%,YES,YES,YES,YES,Interior-quarter omission does not change peak-to-end comparison.
+CF01,DRAWDOWN_RECOVERY_ENDPOINT,"Recovered after 3 quarters, then ended -30.8%",101.9 endpoint index,101.9 endpoint index,YES,YES,YES,YES,Chronology contains recovery and later unrecovered ending.
+CF04,LEAVE_ONE_INTERIOR_QUARTER_OUT,4 consecutive decreases; endpoint -35.3%,3 decreases,4 decreases,YES,YES,YES,YES,At least three decreases remain after one interior omission.
+CF06,LEAVE_ONE_CHANGE_OUT,9/15 sign-sensitive (60.0%),57.1%,64.3%,NOT_APPLICABLE,YES,YES,YES,A majority remains sign-sensitive.
+CF13,VOLATILITY_LOO_AND_ALTERNATIVE_METRICS,Stellar CV 80.3%; QoQ SD 307.2%; median absolute QoQ 37.9%,43.2% CV,88.5% CV,YES,NO,YES,YES,Magnitude changes sharply if the launch quarter is omitted.

@@ -1,0 +1,89 @@
+{
+  "candidate_id": "CF01",
+  "claim_ids": [],
+  "event_ids": [],
+  "finding_id": "F4",
+  "findings_version": "revenue-tides-findings-1.0.0",
+  "limitations": "This is publisher-defined cross-platform IP revenue over eight quarters; later recovery cannot yet be observed.",
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "metric_definition_ids": [
+    "md_pa_black_desert_ip_v1"
+  ],
+  "numeric_claims": [
+    {
+      "claim_id": "F4_N1",
+      "observation_id": "obs_bd_2024q4",
+      "operation": "observation_value",
+      "unit": "KRW_million",
+      "value": "69200"
+    },
+    {
+      "claim_id": "F4_N2",
+      "observation_id": "obs_bd_2025q2",
+      "operation": "observation_value",
+      "unit": "KRW_million",
+      "value": "54900"
+    },
+    {
+      "claim_id": "F4_N3",
+      "end_observation_id": "obs_bd_2025q2",
+      "operation": "drawdown_percent",
+      "peak_observation_id": "obs_bd_2024q4",
+      "precision": 1,
+      "unit": "percent",
+      "value": "-20.7"
+    },
+    {
+      "claim_id": "F4_N4",
+      "observation_id": "obs_bd_2025q3",
+      "operation": "recovery_duration",
+      "unit": "quarters",
+      "value": "3"
+    },
+    {
+      "claim_id": "F4_N5",
+      "observation_id": "obs_bd_2025q3",
+      "operation": "observation_value",
+      "unit": "KRW_million",
+      "value": "79500"
+    },
+    {
+      "claim_id": "F4_N6",
+      "observation_id": "obs_bd_2026q2",
+      "operation": "observation_value",
+      "unit": "KRW_million",
+      "value": "55000"
+    },
+    {
+      "claim_id": "F4_N7",
+      "end_observation_id": "obs_bd_2026q2",
+      "operation": "drawdown_percent",
+      "peak_observation_id": "obs_bd_2025q3",
+      "precision": 1,
+      "unit": "percent",
+      "value": "-30.8"
+    }
+  ],
+  "observation_ids": [
+    "obs_bd_2024q4",
+    "obs_bd_2025q2",
+    "obs_bd_2025q3",
+    "obs_bd_2026q2"
+  ],
+  "periods": [
+    "2024Q4",
+    "2026Q2"
+  ],
+  "series_ids": [
+    "series_black_desert"
+  ],
+  "source_ids": [
+    "src_pa_2q25_pres",
+    "src_pa_2q26_letter"
+  ],
+  "transformations": [
+    "drawdown_from_prior_peak",
+    "recovery_to_prior_peak"
+  ],
+  "uncertainty": "Direct official series; no estimate interval."
+}

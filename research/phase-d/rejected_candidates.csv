@@ -1,0 +1,8 @@
+candidate_id,canonical_name,company_id,eligibility_status,rejection_reason
+cand_cash_frenzy,Cash Frenzy,netmarble,REJECTED_DERIVED_RATIO,Eligible derivation not selected because a fourth derived series would exceed 1/3 of a nine-series corpus.
+cand_seven_deadly,The Seven Deadly Sins: GRAND CROSS,netmarble,REJECTED_DERIVED_RATIO,Eligible derivation not selected because a fourth derived series would exceed 1/3 of a nine-series corpus.
+cand_solo_leveling,Solo Leveling: ARISE,netmarble,REJECTED_DERIVED_RATIO,Eligible derivation not selected because a fourth derived series would exceed 1/3 of a nine-series corpus.
+cand_aion2,AION 2,ncsoft,REJECTED_INSUFFICIENT_CONTINUITY,Only three consecutive quarters exist; below the four-quarter Launch Cohort minimum.
+cand_lineage_classic,Lineage Classic,ncsoft,REJECTED_INSUFFICIENT_CONTINUITY,Only two consecutive quarters exist; below the four-quarter Launch Cohort minimum.
+cand_crimson_desert,Crimson Desert,pearl_abyss,REJECTED_INSUFFICIENT_CONTINUITY,Fewer than four verified consecutive quarterly observations at the cutoff.
+cand_nexon_core,Nexon core franchises,nexon,REJECTED_SOURCE_INSUFFICIENT,No page-labeled exact six-quarter title/franchise revenue series was verified without chart inference.

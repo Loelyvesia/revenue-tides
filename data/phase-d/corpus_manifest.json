@@ -1,0 +1,69 @@
+{
+  "attributed_claim_count": 3,
+  "build_version": "phase-d-curated-corpus-v1",
+  "corpus_size": 9,
+  "data_cutoff": "2026-09-22",
+  "derived_series_count": 3,
+  "direct_series_count": 6,
+  "entity_type_counts": {
+    "GAME_TITLE": 6,
+    "IP": 3
+  },
+  "event_count": 26,
+  "first_period": "2024Q3",
+  "input_hashes": {
+    "build_corpus_py": "09a9093dbd9ae392efb39e3166c1acd2f3e706a5485cdb415a80df6689fc4c86",
+    "phase_b_manual_extractions": "ce55be2185cd31128c3f2dda57a99d20f126ee909067baa9b57d9a8d422292d6",
+    "phase_c_method_freeze_manifest": "51284453f377efabe7935957a1bb760ceba1565cb204b310318f6dc71368894a",
+    "phase_d_expansion_extractions": "92257819054c5fa915012fe6f02bac26ff6e39a55b509c1f2d84b55b9af443e0"
+  },
+  "last_period": "2026Q2",
+  "launch_cohort_count": 0,
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "observation_count": 75,
+  "output_hashes": {
+    "attributed_claims.csv": "79930bf456de9ea5157701eac1f1be832f34f0e6d008dad27b8fa0e49834ee72",
+    "change_features.csv": "5987074fa8e804b9c199c5a25d214f0a93c0e4e20ca9dcb1519159e55f377f3e",
+    "companies.csv": "7e52af561747b83d0bfe0e9480e052044c71a9a14536c80bde8e1c6e3b662e99",
+    "comparability_matrix.csv": "bb158f539c004785a07226c13e06b866700973332b3086bfb1c6d76b3bf2d14c",
+    "derivations.csv": "cdbf12d86ab3dc231ba6757a62e7a6391af56f257ac45c661070eaa7c68b4682",
+    "entities.csv": "5b0eb07ece7ac5679a9dad1e4bb305b714a2d2be51d21bdec841fe00426b9076",
+    "events.csv": "1a8b5786c82f94761049d16986d96fc23ce9eae2e2c042402482fabdf3f20b21",
+    "expected_period_grid.csv": "5758668f555aaf4ec84e18459f87ddf248674ac8d9ca574fce274b1597fd3b47",
+    "fiscal_periods.csv": "4c4b1dee67bc7a2f62fc2af65a802567d19c2b48fe27dadd84df9f75619ba46f",
+    "metric_definitions.csv": "f1ab8b85268918a582784f8dace34fcb6011762b0cc7f573ddd0ad3ba92144b7",
+    "observations.csv": "3d983876cb949aa1df0eabacf29b4e2c67a6d52cb93465ace7a24367bddf670a",
+    "public_release_events.csv": "d4404142236ef1a2e71e53db504ae05f61ac2f2fc48cd0dbd82997b42d65fd22",
+    "public_release_observations.csv": "d22253e6adc954fbb5dd6e288519f5743575dc8d39a05e8b2a5754999887786f",
+    "raw_manifest.csv": "91bb04492ec0ccead1a6dec26456a8eb69cb3bb802cc09c1ead595f4b6af970e",
+    "series.csv": "20d525eeb81089a0da031849957388fdb16a937c5f349973fff09c763b37c522",
+    "sources.csv": "0f8f87aa19b180211c42784a5a0342d5460ce699d5559865ba70e57f11f9084a"
+  },
+  "platform_scope_counts": {
+    "Mobile and PURPLE client under publisher title/IP scope": 2,
+    "Mobile title/IP presentation": 1,
+    "Mobile title; consolidated company denominator": 3,
+    "PC; console; mobile": 1,
+    "PS5; PC from 2025Q2": 1,
+    "Publisher-defined IP scope; predominantly mobile": 1
+  },
+  "public_dataset_bytes": 32014,
+  "raw_storage_bytes": 10855955,
+  "series_ids": [
+    "series_nikke",
+    "series_stellar_blade",
+    "series_lineage_m",
+    "series_black_desert",
+    "series_mcoc",
+    "series_lineage_2m",
+    "series_lineage_w",
+    "series_jackpot_world",
+    "series_lotsa_slots"
+  ],
+  "unique_companies": [
+    "ncsoft",
+    "netmarble",
+    "pearl_abyss",
+    "shift_up"
+  ]
+}

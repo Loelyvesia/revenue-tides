@@ -1,0 +1,440 @@
+{
+  "attributed_claims": [
+    {
+      "attributed": true,
+      "claim_id": "claim_stellar_base_effect_q2_2026",
+      "claim_type": "BASE_EFFECT_EXPLANATION",
+      "issuer": "SHIFT UP management",
+      "period": "2026Q2",
+      "series_id": "series_stellar_blade",
+      "source_id": "src_su_2q26_pres",
+      "summary": "SHIFT UP stated that the year-over-year decline reflected the 2025Q2 PC-launch base effect."
+    }
+  ],
+  "events": [
+    {
+      "curated": true,
+      "date_precision": "DAY",
+      "end_date": null,
+      "event_id": "evt_stellar_nier",
+      "event_type": "COLLABORATION_DLC",
+      "fiscal_period": "2024Q4",
+      "name": "NieR:Automata DLC and Photo Mode",
+      "platform_scope": "PS5",
+      "region_scope": "Global",
+      "series_id": "series_stellar_blade",
+      "source_id": "src_ps_stellar_nier_html",
+      "start_date": "2024-11-20"
+    },
+    {
+      "curated": true,
+      "date_precision": "DAY",
+      "end_date": null,
+      "event_id": "evt_stellar_holiday",
+      "event_type": "MAJOR_CONTENT_UPDATE",
+      "fiscal_period": "2024Q4",
+      "name": "Holiday-themed event",
+      "platform_scope": "PS5",
+      "region_scope": "Global",
+      "series_id": "series_stellar_blade",
+      "source_id": "src_ps_stellar_holiday_html",
+      "start_date": "2024-12-17"
+    },
+    {
+      "curated": true,
+      "date_precision": "DAY",
+      "end_date": null,
+      "event_id": "evt_stellar_pc_launch",
+      "event_type": "PLATFORM_LAUNCH",
+      "fiscal_period": "2025Q2",
+      "name": "Stellar Blade PC launch",
+      "platform_scope": "PC",
+      "region_scope": "Global",
+      "series_id": "series_stellar_blade",
+      "source_id": "src_ps_stellar_pc_html",
+      "start_date": "2025-06-11"
+    },
+    {
+      "curated": true,
+      "date_precision": "DAY",
+      "end_date": null,
+      "event_id": "evt_stellar_nikke_dlc",
+      "event_type": "COLLABORATION_DLC",
+      "fiscal_period": "2025Q2",
+      "name": "Goddess of Victory: NIKKE collaboration DLC",
+      "platform_scope": "PS5; PC",
+      "region_scope": "Global",
+      "series_id": "series_stellar_blade",
+      "source_id": "src_su_stellar_nikke_dlc_html",
+      "start_date": "2025-06-12"
+    }
+  ],
+  "findings": [
+    "F2"
+  ],
+  "identity": {
+    "caveat_ids": [
+      "CAVEAT_CROSS_COMPANY_NOT_COMPARABLE",
+      "CAVEAT_CURATED_EVENTS",
+      "CAVEAT_EVENT_NOT_CAUSAL",
+      "CAVEAT_PUBLISHER_DEFINED_REVENUE"
+    ],
+    "company": "SHIFT UP",
+    "company_id": "shift_up",
+    "entity": "Stellar Blade",
+    "entity_type": "IP",
+    "platform_scope": "PS5; PC from 2025Q2",
+    "publisher_defined_name": "Stellar Blade",
+    "reporting_scope": [
+      "SHIFT_UP_consolidated_IP_revenue"
+    ],
+    "series_id": "series_stellar_blade"
+  },
+  "metric_versions": [
+    {
+      "accounting_scope": "Consolidated publisher revenue allocation by IP",
+      "caveat_ids": [
+        "CAVEAT_PUBLISHER_DEFINED_REVENUE"
+      ],
+      "comparable_group_id": "cg_su_ip_revenue_v1",
+      "comparison_scope": "WITHIN_SERIES_ONLY",
+      "economic_meaning": "Revenue recognized by SHIFT UP and allocated to a named IP.",
+      "evidence_class": "OFFICIAL_REPORTED",
+      "geographic_scope": "Global consolidated reporting scope",
+      "label": "SHIFT UP operating revenue by IP",
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "platform_scope": "Publisher-defined; NIKKE channel decomposition unavailable; Stellar Blade includes console and later PC",
+      "unit_basis": "Exact KRW",
+      "valid_period": {
+        "first": "2024Q3",
+        "last": "2026Q2"
+      },
+      "version": "v1",
+      "version_break": null
+    }
+  ],
+  "observations": [
+    {
+      "baseline_index": 100,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": 0,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": false,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_stellar_2024q3",
+      "period_end": "2024-09-30",
+      "period_index": 8098,
+      "period_key": "2024Q3",
+      "period_start": "2024-07-01",
+      "qoq": {
+        "absolute_change": null,
+        "eligible": false,
+        "percent_change": null,
+        "previous_observation_id": null
+      },
+      "quarter": "2024Q3",
+      "recovery": {
+        "quarters": null,
+        "status": "AT_OR_ABOVE_ROLLING_PEAK"
+      },
+      "rolling_peak": 22584.130972,
+      "source_id": "src_su_4q24_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 22584.130972
+    },
+    {
+      "baseline_index": 63.53282810744054,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -36.46717189255946,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_stellar_2024q4",
+      "period_end": "2024-12-31",
+      "period_index": 8099,
+      "period_key": "2024Q4",
+      "period_start": "2024-10-01",
+      "qoq": {
+        "absolute_change": -8235.793862,
+        "eligible": true,
+        "percent_change": -36.46717189255946,
+        "previous_observation_id": "obs_stellar_2024q3"
+      },
+      "quarter": "2024Q4",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 22584.130972,
+      "source_id": "src_su_4q24_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 14348.33711
+    },
+    {
+      "baseline_index": 31.046883569233316,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -68.95311643076668,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_stellar_2025q1",
+      "period_end": "2025-03-31",
+      "period_index": 8100,
+      "period_key": "2025Q1",
+      "period_start": "2025-01-01",
+      "qoq": {
+        "absolute_change": -7336.668262,
+        "eligible": true,
+        "percent_change": -51.13253337828777,
+        "previous_observation_id": "obs_stellar_2024q4"
+      },
+      "quarter": "2025Q1",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 22584.130972,
+      "source_id": "src_su_2q26_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 7011.668848
+    },
+    {
+      "baseline_index": 290.9955426953499,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": 0,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_stellar_2025q2",
+      "period_end": "2025-06-30",
+      "period_index": 8101,
+      "period_key": "2025Q2",
+      "period_start": "2025-04-01",
+      "qoq": {
+        "absolute_change": 58707.145637,
+        "eligible": true,
+        "percent_change": 837.2777852129391,
+        "previous_observation_id": "obs_stellar_2025q1"
+      },
+      "quarter": "2025Q2",
+      "recovery": {
+        "quarters": 3,
+        "status": "AT_OR_ABOVE_ROLLING_PEAK"
+      },
+      "rolling_peak": 65718.814485,
+      "source_id": "src_su_2q26_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 65718.814485
+    },
+    {
+      "baseline_index": 122.622996179638,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -57.86086788689582,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_stellar_2025q3",
+      "period_end": "2025-09-30",
+      "period_index": 8102,
+      "period_key": "2025Q3",
+      "period_start": "2025-07-01",
+      "qoq": {
+        "absolute_change": -38025.476426,
+        "eligible": true,
+        "percent_change": -57.86086788689582,
+        "previous_observation_id": "obs_stellar_2025q2"
+      },
+      "quarter": "2025Q3",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 65718.814485,
+      "source_id": "src_su_2q26_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 27693.338059
+    },
+    {
+      "baseline_index": 76.09273305360284,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -73.85089395226025,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_stellar_2025q4",
+      "period_end": "2025-12-31",
+      "period_index": 8103,
+      "period_key": "2025Q4",
+      "period_start": "2025-10-01",
+      "qoq": {
+        "absolute_change": -10508.455566,
+        "eligible": true,
+        "percent_change": -37.945788780001834,
+        "previous_observation_id": "obs_stellar_2025q3"
+      },
+      "quarter": "2025Q4",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 65718.814485,
+      "source_id": "src_su_2q26_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 17184.882493
+    },
+    {
+      "baseline_index": 57.13919619930904,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -80.36423662367591,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_stellar_2026q1",
+      "period_end": "2026-03-31",
+      "period_index": 8104,
+      "period_key": "2026Q1",
+      "period_start": "2026-01-01",
+      "qoq": {
+        "absolute_change": -4280.491587,
+        "eligible": true,
+        "percent_change": -24.90847166830261,
+        "previous_observation_id": "obs_stellar_2025q4"
+      },
+      "quarter": "2026Q1",
+      "recovery": {
+        "quarters": null,
+        "status": "DRAWDOWN_ACTIVE"
+      },
+      "rolling_peak": 65718.814485,
+      "source_id": "src_su_2q26_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 12904.390906
+    },
+    {
+      "baseline_index": 39.10243405402086,
+      "currency": "KRW",
+      "derived": null,
+      "drawdown_percent": -86.56253161411544,
+      "eligibility": {
+        "baseline": true,
+        "drawdown": true,
+        "qoq": true,
+        "volatility": true
+      },
+      "evidence_class": "OFFICIAL_REPORTED",
+      "lower_bound": null,
+      "metric_definition_id": "md_su_ip_revenue_v1",
+      "metric_version": "v1",
+      "missingness_state": "AVAILABLE",
+      "observation_id": "obs_stellar_2026q2",
+      "period_end": "2026-06-30",
+      "period_index": 8105,
+      "period_key": "2026Q2",
+      "period_start": "2026-04-01",
+      "qoq": {
+        "absolute_change": -4073.445986,
+        "eligible": true,
+        "percent_change": -31.566356100589132,
+        "previous_observation_id": "obs_stellar_2026q1"
+      },
+      "quarter": "2026Q2",
+      "recovery": {
+        "quarters": null,
+        "status": "NOT_RECOVERED_WITHIN_OBSERVED_WINDOW"
+      },
+      "rolling_peak": 65718.814485,
+      "source_id": "src_su_2q26_fs",
+      "source_page": "3",
+      "unit": "KRW_million",
+      "upper_bound": null,
+      "value": 8830.94492
+    }
+  ],
+  "series_id": "series_stellar_blade",
+  "sources": [
+    "src_ps_stellar_holiday_html",
+    "src_ps_stellar_nier_html",
+    "src_ps_stellar_pc_html",
+    "src_su_2q26_fs",
+    "src_su_2q26_pres",
+    "src_su_4q24_fs",
+    "src_su_stellar_nikke_dlc_html"
+  ]
+}

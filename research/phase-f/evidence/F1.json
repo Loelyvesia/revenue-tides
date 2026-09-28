@@ -1,0 +1,90 @@
+{
+  "candidate_id": "CF05",
+  "claim_ids": [],
+  "event_ids": [],
+  "finding_id": "F1",
+  "findings_version": "revenue-tides-findings-1.0.0",
+  "limitations": "The difference is a reporting-definition effect, not growth, a correction, or a restatement.",
+  "method_version": "revenue-tides-method-freeze-1.0.0",
+  "metric_definition_ids": [
+    "md_nc_lineage_2m_legacy_v1",
+    "md_nc_lineage_2m_royalty_v2",
+    "md_nc_lineage_m_legacy_v1",
+    "md_nc_lineage_m_royalty_v2",
+    "md_nc_lineage_w_legacy_v1",
+    "md_nc_lineage_w_royalty_v2"
+  ],
+  "numeric_claims": [
+    {
+      "claim_id": "F1_N1",
+      "operation": "min_same_quarter_difference",
+      "unit": "KRW_million",
+      "value": "6797"
+    },
+    {
+      "claim_id": "F1_N2",
+      "operation": "max_same_quarter_difference",
+      "unit": "KRW_million",
+      "value": "13455"
+    },
+    {
+      "claim_id": "F1_N3",
+      "operation": "min_lineage_m_relative_difference",
+      "precision": 1,
+      "unit": "percent",
+      "value": "5.6"
+    },
+    {
+      "claim_id": "F1_N4",
+      "operation": "max_lineage_m_relative_difference",
+      "precision": 1,
+      "unit": "percent",
+      "value": "12.8"
+    },
+    {
+      "claim_id": "F1_N5",
+      "operation": "zero_difference_pair_count",
+      "unit": "pairs",
+      "value": "6"
+    }
+  ],
+  "observation_ids": [
+    "obs_l2m_v1_2025q2",
+    "obs_l2m_v1_2025q3",
+    "obs_l2m_v1_2025q4",
+    "obs_l2m_v2_2025q2",
+    "obs_l2m_v2_2025q3",
+    "obs_l2m_v2_2025q4",
+    "obs_lm_v1_2025q2",
+    "obs_lm_v1_2025q3",
+    "obs_lm_v1_2025q4",
+    "obs_lm_v2_2025q2",
+    "obs_lm_v2_2025q3",
+    "obs_lm_v2_2025q4",
+    "obs_lw_v1_2025q2",
+    "obs_lw_v1_2025q3",
+    "obs_lw_v1_2025q4",
+    "obs_lw_v2_2025q2",
+    "obs_lw_v2_2025q3",
+    "obs_lw_v2_2025q4"
+  ],
+  "periods": [
+    "2025Q2",
+    "2025Q4"
+  ],
+  "series_ids": [
+    "series_lineage_m",
+    "series_lineage_2m",
+    "series_lineage_w"
+  ],
+  "source_ids": [
+    "src_nc_2q25_pres",
+    "src_nc_2q26_pres",
+    "src_nc_4q25_pres"
+  ],
+  "transformations": [
+    "same_quarter_definition_difference",
+    "relative_difference_vs_legacy"
+  ],
+  "uncertainty": "No estimate interval; uncertainty is definitional and versions remain separate."
+}

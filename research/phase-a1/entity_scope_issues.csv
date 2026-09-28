@@ -1,0 +1,9 @@
+issue_id,company_id,entity_id,entity_name,current_entity_type,issue_type,affected_periods,resolution_status,required_handling
+esi_001,ncsoft,lineage_m_title,Lineage M,GAME_TITLE,METRIC_SCOPE_CHANGE,2026Q1 onward,RESOLVED_AS_VERSION_BREAK,"End the legacy series at 2025Q4 and create a royalty-integrated metric version for later observations"
+esi_002,ncsoft,aion2_ip,AION 2,IP,CROSS_PLATFORM_AND_REGION_SCOPE,2025Q4 onward,OPEN,"Do not treat the Korea/Taiwan PC-mobile IP line as mobile-only or worldwide total revenue"
+esi_003,shift_up,nikke_ip,Goddess of Victory: NIKKE,IP,PUBLISHER_AND_PLATFORM_SCOPE,all tested periods,OPEN,"Use SHIFT UP recognized IP revenue; do not equate it with store consumer spending; record PC/client and China service changes as events"
+esi_004,shift_up,stellar_blade_ip,Stellar Blade,IP,PLATFORM_EXPANSION,2025Q2 onward,RESOLVED_WITH_EVENT,"Keep one publisher-defined IP series but attach the PC launch event and platform-scope note"
+esi_005,pearl_abyss,black_desert_ip,Black Desert,IP,MULTI_EDITION_AGGREGATION,all tested periods,OPEN,"The IP combines PC console and mobile; never present it as Black Desert Mobile or a single SKU"
+esi_006,netmarble,marvel_contest_of_champions_title,MARVEL Contest of Champions,GAME_TITLE,ROUNDED_SHARE_DERIVATION,all tested periods,RESOLVED_WITH_INTERVAL,"Retain formula inputs and lower/upper bounds implied by integer share rounding"
+esi_007,nexon,nexon_core_franchises,MapleStory / Dungeon&Fighter / FC,FRANCHISE,FRANCHISE_VS_TITLE,all tested periods,UNRESOLVED,"Do not split franchise performance into individual games without an official allocation"
+esi_008,pearl_abyss,eve_ip,EVE,IP,DISCONTINUED_OPERATION_AND_DIVESTMENT,2026Q1 onward,EXCLUDED_FROM_SELECTED_BACKBONE,"Do not splice pre-divestment EVE IP revenue into post-sale company reporting"

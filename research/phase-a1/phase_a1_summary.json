@@ -1,0 +1,54 @@
+{
+  "project": "Revenue Tides — The Commercial Life of Games",
+  "phase": "PHASE A.1 — PUBLIC RELEASE SOURCE RESOLUTION",
+  "status": "CONDITIONAL PASS",
+  "recommended_project_title_zh": "付费潮汐——游戏商业生命线",
+  "recommended_scope": "Official-disclosure-led game/IP/franchise revenue across mobile, PC, and console",
+  "recommended_temporal_unit": "FISCAL_QUARTER",
+  "recommended_primary_evidence": [
+    "OFFICIAL_REPORTED",
+    "DERIVED_FROM_OFFICIAL"
+  ],
+  "companies_tested": 5,
+  "usable_companies": 4,
+  "usable_longitudinal_series": 7,
+  "official_exact_series": 6,
+  "derived_official_series": 1,
+  "strong_eight_quarter_series": [
+    "Goddess of Victory: NIKKE",
+    "Stellar Blade",
+    "Black Desert IP"
+  ],
+  "six_quarter_series": [
+    "Lineage M",
+    "Lineage 2M",
+    "Lineage W",
+    "MARVEL Contest of Champions"
+  ],
+  "mobile_only_feasibility": "Narrowly feasible but materially weaker and publisher-concentrated",
+  "all_games_feasibility": "Strongest feasible public-source design",
+  "event_layer": {
+    "tested_series": 3,
+    "result": "PASS_AT_FISCAL_QUARTER_GRANULARITY",
+    "causality_rule": "Events are contemporaneous context or attributed claims only"
+  },
+  "public_release_assessment": "Publish source-linked factual observations and transparent formulas; do not mirror decks, charts, or IR data feeds by default",
+  "raw_snapshots_saved": 0,
+  "disk_impact": "Phase A.1 is text-only and well below 1 MB; a deduplicated controlled corpus should remain below roughly 250 MB even with selected official PDFs",
+  "automated_tests": {
+    "passed": 18,
+    "total": 18,
+    "status": "PASS"
+  },
+  "conditions_before_phase_b": [
+    "Explicitly approve the all-games title and scope",
+    "Freeze fiscal quarter as the primary temporal unit",
+    "Keep metric versions, entity types, platform scope, original currency, and reporting scope explicit",
+    "Label share-derived values DERIVED_FROM_OFFICIAL with formulas and uncertainty intervals",
+    "Publish structured facts and citations instead of copied IR slides or mirrored archives",
+    "Exclude unresolved Nexon franchise amounts from the quantitative backbone",
+    "Treat official events as period context rather than automatic causal proof"
+  ],
+  "phase_b_authorized": false,
+  "stop_boundary": "STOPPED BEFORE PHASE B"
+}

@@ -1,0 +1,20 @@
+entity_id,canonical_name,publisher_defined_name,entity_type,reporting_company_id,developer_if_known,scope_note,identity_status,valid_from,valid_to,parent_entity_id
+company_shift_up,SHIFT UP,SHIFT UP Corporation,COMPANY,shift_up,,Reporting company entity.,VERIFIED,2013-12-02,,
+company_ncsoft,NCSOFT,NC / NCSOFT,COMPANY,ncsoft,,Reporting company entity.,VERIFIED,1997-03-11,,
+company_pearl_abyss,Pearl Abyss,Pearl Abyss Corp.,COMPANY,pearl_abyss,,Reporting company entity.,VERIFIED,2010-09-10,,
+company_netmarble,Netmarble,Netmarble Corporation,COMPANY,netmarble,,Reporting company entity.,VERIFIED,2000-03-01,,
+nikke_ip,Goddess of Victory: NIKKE,Goddess of Victory: Nikke,IP,shift_up,SHIFT UP,Publisher-recognized IP revenue; not store consumer spending. Mobile and publisher-recognized client/channel scope are not decomposed in the factsheet.,VERIFIED_PUBLISHER_SCOPE,2022-11-04,,
+stellar_blade_ip,Stellar Blade,Stellar Blade,IP,shift_up,SHIFT UP,Publisher-defined IP series. PS5 was available before the pilot; PC launched in 2025Q2 without a disclosed metric-definition change.,VERIFIED_PUBLISHER_SCOPE,2024-04-26,,
+stellar_blade_ps5_edition,Stellar Blade (PS5 edition),Stellar Blade,GAME_EDITION,shift_up,SHIFT UP,Platform edition represented only for identity/event context; no edition-level revenue observation is inferred.,VERIFIED_RELATIONSHIP_NO_SEPARATE_REVENUE,2024-04-26,,stellar_blade_ip
+stellar_blade_pc_edition,Stellar Blade (PC edition),Stellar Blade PC version,GAME_EDITION,shift_up,SHIFT UP,PC edition launched 2025-06-11; no edition-level revenue observation is inferred.,VERIFIED_RELATIONSHIP_NO_SEPARATE_REVENUE,2025-06-11,,stellar_blade_ip
+lineage_franchise,Lineage,Lineage IP,FRANCHISE,ncsoft,NCSOFT,Context entity only. The pilot does not aggregate franchise revenue or allocate other Lineage titles to Lineage M.,VERIFIED_CONTEXT_ONLY,1998-09-01,,
+lineage_m_title,Lineage M,리니지M,GAME_TITLE,ncsoft,NCSOFT,Mobile game title. Legacy title revenue and royalty-integrated IP revenue are separate metric versions.,VERIFIED_WITH_METRIC_VERSION_BREAK,2017-06-21,,lineage_franchise
+black_desert_ip,Black Desert,Black Desert,IP,pearl_abyss,Pearl Abyss,"Publisher-defined IP revenue aggregating PC, console, and mobile; not Black Desert Mobile revenue.",VERIFIED_PUBLISHER_SCOPE,2014-12-17,,
+marvel_contest_of_champions_title,MARVEL Contest of Champions,MARVEL Contest of Champions,GAME_TITLE,netmarble,Kabam,Title-level point estimate derived from Netmarble consolidated revenue and rounded title share.,VERIFIED_DERIVED_SCOPE,2014-12-10,,
+platform_mobile,Mobile,Mobile,PLATFORM,,,Platform category; store/channel coverage varies by reporting company.,CONTROLLED_VOCABULARY,,,
+platform_pc,PC,PC,PLATFORM,,,Platform category.,CONTROLLED_VOCABULARY,,,
+platform_console,Console,Console,PLATFORM,,,Platform category.,CONTROLLED_VOCABULARY,,,
+lineage_2m_title,Lineage 2M,리니지2M,GAME_TITLE,ncsoft,NCSOFT,Publisher-defined Lineage 2M title. Legacy and royalty-integrated presentation scopes remain separate metric versions.,VERIFIED_WITH_METRIC_VERSION_BREAK,2019-11-27,,lineage_franchise
+lineage_w_title,Lineage W,리니지W,GAME_TITLE,ncsoft,NCSOFT,Publisher-defined Lineage W title. Legacy and royalty-integrated presentation scopes remain separate metric versions.,VERIFIED_WITH_METRIC_VERSION_BREAK,2021-11-04,,lineage_franchise
+jackpot_world_title,Jackpot World,Jackpot World,GAME_TITLE,netmarble,SpinX Games,Title-level point estimate derived from Netmarble consolidated revenue and rounded title share.,VERIFIED_DERIVED_SCOPE,2016-01-01,,
+lotsa_slots_title,Lotsa Slots,Lotsa Slots,GAME_TITLE,netmarble,SpinX Games,Title-level point estimate derived from Netmarble consolidated revenue and rounded title share.,VERIFIED_DERIVED_SCOPE,2013-01-01,,
