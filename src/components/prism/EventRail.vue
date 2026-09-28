@@ -36,14 +36,14 @@ defineProps<{
 </template>
 
 <style scoped>
-.event-rail { margin-top: 1.25rem; padding-top: 1rem; border-top: 2px solid var(--event); }
+.event-rail { margin-top: 1.5rem; padding-top: 1rem; border-top: 2px solid var(--event); }
 .rail-heading { display: flex; justify-content: space-between; gap: 1rem; align-items: baseline; }
-.event-items { display: grid; gap: 0.75rem; margin-top: 0.75rem; }
+.event-items { display: flex; flex-wrap: wrap; gap: 1.25rem 2.5rem; margin-top: 1rem; }
 .event-item { display: grid; grid-template-columns: 1rem 1fr; gap: 0.6rem; }
 .event-tick { width: 0.75rem; height: 1.25rem; border-left: 3px solid var(--event); border-bottom: 1px solid var(--event); }
 .event-item p { margin: 0.15rem 0 0; }
 .empty-context { margin: 0.75rem 0 0; color: var(--text-secondary); }
-.issuer-claims { margin-top: 1rem; padding: 1rem; border: 1px solid var(--event); background: var(--surface-primary); }
+.issuer-claims { margin-top: 1.25rem; padding: 1rem 0 0 1rem; border-left: 2px solid var(--event); }
 .issuer-claims h4 { margin: 0 0 0.5rem; }
 .issuer-claims p { margin: 0.25rem 0; }
 @media (max-width: 767px) { .rail-heading { display: block; } }

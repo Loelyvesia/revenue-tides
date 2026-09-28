@@ -1,0 +1,1024 @@
+{
+  "browser": "Edge",
+  "url": "http://127.0.0.1:4173/",
+  "started_at": "2026-09-28T06:39:51.254Z",
+  "checks": [
+    {
+      "id": "production_page_loads",
+      "status": "PASS",
+      "detail": "RT / 01\n\nFISCAL-QUARTER RESEARCH · 2024—2026\n\n付费潮汐——游戏商业生命线\n\nRevenue Tides — The Commercial Life of Games\n\n流水不是一个统一数字。\n\n"
+    },
+    {
+      "id": "opening_scope",
+      "status": "PASS",
+      "detail": "RT / 01 FISCAL-QUARTER RESEARCH · 2024—2026 付费潮汐——游戏商业生命线 Revenue Tides — The Commercial Life of Games 流水不是一个统一数字。 同一个季度，报告口径、实体范围和证据方式都可能改变我们看到的数值。 Publisher-defined fiscal-quarter observations, kept inside their own definitions. 9 条序列 · 75 个观察 · 4 家发行商 · 2024Q3—2026Q2 09 SERIES / 序列 75 OBSERVATIONS / 观察 04 PUBLISHERS / 发行商 2024 Q3 — 2026 Q2 FISCAL WINDOW / 财季窗口 比较边界 不同公司的发行商定义收入指标不可直接比较绝对高低。 No global revenue leaderboard. Compare trajectories only under explicit compatible rules. READ THE QUARTER 进入季度观测 ↓"
+    },
+    {
+      "id": "opening_comparison_boundary",
+      "status": "PASS",
+      "detail": "Comparison caveat visible"
+    },
+    {
+      "id": "findings_present",
+      "status": "PASS",
+      "detail": "F1–F6 rendered"
+    },
+    {
+      "id": "headline_findings_present",
+      "status": "PASS",
+      "detail": "F1/F2/F4 headline chapters"
+    },
+    {
+      "id": "nine_series_accessible",
+      "status": "PASS",
+      "detail": "Nine series in Prism selector"
+    },
+    {
+      "id": "initial_series_lazy",
+      "status": "PASS",
+      "detail": "0 series payload(s) initially requested"
+    },
+    {
+      "id": "controlled_lazy_failure",
+      "status": "PASS",
+      "detail": "Controlled error state with retry"
+    },
+    {
+      "id": "lazy_retry_recovers",
+      "status": "PASS",
+      "detail": "Retry loaded the requested series after restoration"
+    },
+    {
+      "id": "direct_state",
+      "status": "PASS",
+      "detail": "NIKKE direct observation"
+    },
+    {
+      "id": "keyboard_arrow_navigation",
+      "status": "PASS",
+      "detail": "ArrowRight changed 2025Q2 to 2025Q3"
+    },
+    {
+      "id": "lineage_overlap_three_series",
+      "status": "PASS",
+      "detail": "Two simultaneous definition lanes for all three Lineage series"
+    },
+    {
+      "id": "version_boundary_visible",
+      "status": "PASS",
+      "detail": "Calibration seam and boundary explanation visible"
+    },
+    {
+      "id": "derived_uncertainty_three_series",
+      "status": "PASS",
+      "detail": "All derived series retain interval, share, and evidence"
+    },
+    {
+      "id": "sign_sensitive_not_definite",
+      "status": "PASS",
+      "detail": "Sign-sensitive period avoids definite direction"
+    },
+    {
+      "id": "event_context_separate",
+      "status": "PASS",
+      "detail": "Stellar Blade PC launch is separate non-causal context"
+    },
+    {
+      "id": "no_event_state",
+      "status": "PASS",
+      "detail": "No-event quarter remains explicit"
+    },
+    {
+      "id": "source_disclosure_and_safe_links",
+      "status": "PASS",
+      "detail": "3 source links, all safe"
+    },
+    {
+      "id": "observatory_nine_rows",
+      "status": "PASS",
+      "detail": "9 rows"
+    },
+    {
+      "id": "all_series_lazy_load",
+      "status": "PASS",
+      "detail": "series_black_desert, series_jackpot_world, series_lineage_2m, series_lineage_m, series_lineage_w, series_lotsa_slots, series_mcoc, series_nikke, series_stellar_blade"
+    },
+    {
+      "id": "series_cache",
+      "status": "PASS",
+      "detail": "NIKKE requests remained 1"
+    },
+    {
+      "id": "required_viewports_no_overflow",
+      "status": "PASS",
+      "detail": "[{\"requested\":\"1440x900\",\"width\":1425,\"scroll_width\":1425,\"overflow_px\":0,\"overflowing\":[],\"mobile_prism\":false,\"min_control_height\":44},{\"requested\":\"1280x800\",\"width\":1265,\"scroll_width\":1265,\"overflow_px\":0,\"overflowing\":[],\"mobile_prism\":false,\"min_control_height\":44},{\"requested\":\"1024x768\",\"width\":1009,\"scroll_width\":1009,\"overflow_px\":0,\"overflowing\":[],\"mobile_prism\":false,\"min_control_height\":44},{\"requested\":\"768x1024\",\"width\":753,\"scroll_width\":753,\"overflow_px\":0,\"overflowing\":[{\"tag\":\"BUTTON\",\"className\":\"quarter-button\",\"right\":856},{\"tag\":\"SPAN\",\"className\":\"numeric\",\"right\":850},{\"tag\":\"SMALL\",\"className\":\"\",\"right\":850}],\"mobile_prism\":false,\"min_control_height\":44},{\"requested\":\"390x844\",\"width\":390,\"scroll_width\":390,\"overflow_px\":0,\"overflowing\":[{\"tag\":\"BUTTON\",\"className\":\"quarter-button\",\"right\":416},{\"tag\":\"SPAN\",\"className\":\"numeric\",\"right\":410},{\"tag\":\"SMALL\",\"className\":\"\",\"right\":410},{\"tag\":\"BUTTON\",\"className\":\"quarter-button\",\"right\":516},{\"tag\":\"SPAN\",\"className\":\"numeric\",\"right\":510},{\"tag\":\"SMALL\",\"className\":\"\",\"right\":510},{\"tag\":\"BUTTON\",\"className\":\"quarter-button\",\"right\":616},{\"tag\":\"SPAN\",\"className\":\"numeric\",\"right\":610},{\"tag\":\"SMALL\",\"className\":\"\",\"right\":610},{\"tag\":\"BUTTON\",\"className\":\"quarter-button\",\"right\":716}],\"mobile_prism\":true,\"min_control_height\":44},{\"requested\":\"320x700\",\"width\":320,\"scroll_width\":320,\"overflow_px\":0,\"overflowing\":[{\"tag\":\"BUTTON\",\"className\":\"quarter-button\",\"right\":416},{\"tag\":\"SPAN\",\"className\":\"numeric\",\"right\":410},{\"tag\":\"SMALL\",\"className\":\"\",\"right\":410},{\"tag\":\"BUTTON\",\"className\":\"quarter-button\",\"right\":516},{\"tag\":\"SPAN\",\"className\":\"numeric\",\"right\":510},{\"tag\":\"SMALL\",\"className\":\"\",\"right\":510},{\"tag\":\"BUTTON\",\"className\":\"quarter-button\",\"right\":616},{\"tag\":\"SPAN\",\"className\":\"numeric\",\"right\":610},{\"tag\":\"SMALL\",\"className\":\"\",\"right\":610},{\"tag\":\"BUTTON\",\"className\":\"quarter-button\",\"right\":716}],\"mobile_prism\":true,\"min_control_height\":44}]"
+    },
+    {
+      "id": "mobile_prism_mode",
+      "status": "PASS",
+      "detail": "Desktop SVG hidden at mobile widths"
+    },
+    {
+      "id": "touch_targets",
+      "status": "PASS",
+      "detail": "Visible mobile controls meet 44 px height"
+    },
+    {
+      "id": "reduced_motion_complete",
+      "status": "PASS",
+      "detail": "{\"reduced\":true,\"transition\":\"1e-05s\",\"pane\":true,\"event\":true}"
+    },
+    {
+      "id": "zoom_200_equivalent",
+      "status": "PASS",
+      "detail": "{\"effective_css_width\":705,\"overflow_px\":0,\"controls\":true,\"critical_visible\":true}"
+    },
+    {
+      "id": "skip_link_keyboard_focus",
+      "status": "PASS",
+      "detail": "{\"className\":\"skip-link\",\"text\":\"跳到主要内容\",\"outline\":\"solid\",\"outlineWidth\":\"3px\"}"
+    },
+    {
+      "id": "logical_prism_tab_order",
+      "status": "PASS",
+      "detail": "{\"tag\":\"DIV\",\"className\":\"quarter-prism\",\"label\":\"季度棱镜交互区；使用左右方向键切换季度\"}"
+    },
+    {
+      "id": "prism_controls_keyboard_reachable",
+      "status": "PASS",
+      "detail": "{\"tag\":\"BUTTON\",\"text\":\"上一季度←2025Q1\"}"
+    },
+    {
+      "id": "keyboard_source_disclosure",
+      "status": "PASS",
+      "detail": "Source disclosure opens with Enter"
+    },
+    {
+      "id": "keyboard_no_trap_surface",
+      "status": "PASS",
+      "detail": "80 visible keyboard-reachable controls"
+    },
+    {
+      "id": "direct_hash_navigation",
+      "status": "PASS",
+      "detail": "{\"hash\":\"#finding-F1\",\"scrollY\":5261,\"top\":-2.6875}"
+    },
+    {
+      "id": "hash_back_forward",
+      "status": "PASS",
+      "detail": "F1 → F2 → Back → Forward"
+    },
+    {
+      "id": "accessibility_tree",
+      "status": "PASS",
+      "detail": "{\"node_count\":1310,\"main_count\":1,\"heading_names\":[\"一个收入数字由什么构成？\",\"Quarter Prism / 季度棱镜\",\"三个核心证据章节\",\"九条被报告的商业轨迹\",\"恢复、口径窗口与不确定性\",\"如何验证这些观察？\",\"付费潮汐——游戏商业生命线\",\"同一季度，报告口径也会改变数值\",\"Stellar Blade 的 PC 上线季度形成窗口峰值\",\"Black Desert 在一次恢复后再次进入回撤\",\"NIKKE 反弹，但尚未回到前高\",\"Lineage W 新口径窗口连续四季下降\",\"取整占比使多数派生环比方向无法确定\",\"VERSION LEDGER\",\"COMPARISON & CAUSALITY\",\"EVIDENCE\",\"SOURCES\",\"ENTITY / 实体\",\"EVIDENCE / 证据\",\"VERSION / 口径\",\"CONTEXT / 语境\",\"证据与来源\",\"Lineage M · 2025Q2\"],\"button_names\":[\"Black Desert IP Pearl Abyss Official 2024Q3—2026Q2 1 · F4\",\"Jackpot World GAME_TITLE Netmarble Derived + interval 2024Q3—2025Q4 1 · F6\",\"Lineage 2M GAME_TITLE NCSOFT Official 2024Q3—2026Q2 2 · F1\",\"Lineage M GAME_TITLE NCSOFT Official 2024Q3—2026Q2 2 · F1\",\"Lineage W GAME_TITLE NCSOFT Official 2024Q3—2026Q2 2 · F1 F5\",\"Lotsa Slots GAME_TITLE Netmarble Derived + interval 2024Q3—2025Q4 1 · F6\",\"MARVEL Contest of Champions GAME_TITLE Netmarble Derived + interval 2024Q3—2025Q4 1 · F6\",\"Goddess of Victory: NIKKE IP SHIFT UP Official 2024Q3—2026Q2 1 · F3\",\"Stellar Blade IP SHIFT UP Official 2024Q3—2026Q2 1 · F2\",\"查看 Finding 证据\",\"查看 Finding 证据\",\"查看 Finding 证据\",\"查看 Finding 证据\",\"查看 Finding 证据\",\"查看 Finding 证据\",\"CLOSE SOURCE ×\",\"上一季度 2025Q1\",\"下一季度 2025Q3\",\"2024Q3 官方披露\",\"2024Q4 官方披露\",\"2025Q1 官方披露\",\"2025Q2 2 个口径\",\"2025Q3 2 个口径\",\"2025Q4 2 个口径\",\"2026Q1 官方披露\"],\"link_names\":[\"跳到主要内容\",\"付费潮汐 REVENUE TIDES\",\"PRISM\",\"FINDINGS\",\"SERIES\",\"METHOD\",\"READ THE QUARTER 进入季度观测\",\"打开原始披露 ↗\",\"打开原始披露 ↗\",\"打开原始披露 ↗\"]}"
+    },
+    {
+      "id": "heading_and_names",
+      "status": "PASS",
+      "detail": "{\"h1\":1,\"unnamed_buttons\":0,\"live_regions\":1,\"skip_href\":\"#main-content\",\"focus_outline\":\"none\"}"
+    },
+    {
+      "id": "contrast_tokens",
+      "status": "PASS",
+      "detail": "{\"primary\":14.135735203075466,\"secondary\":6.611598325051245,\"event\":6.50139296302304,\"focus\":5.681207619352781}"
+    },
+    {
+      "id": "normal_network_clean",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "console_clean",
+      "status": "PASS",
+      "detail": "{\"errors\":[],\"warnings\":[],\"exceptions\":[]}"
+    },
+    {
+      "id": "production_warnings_clean",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "id": "forbidden_rendered_text_scan",
+      "status": "PASS",
+      "detail": "[]"
+    }
+  ],
+  "viewport_audits": [
+    {
+      "requested": "1440x900",
+      "width": 1425,
+      "scroll_width": 1425,
+      "overflow_px": 0,
+      "overflowing": [],
+      "mobile_prism": false,
+      "min_control_height": 44
+    },
+    {
+      "requested": "1280x800",
+      "width": 1265,
+      "scroll_width": 1265,
+      "overflow_px": 0,
+      "overflowing": [],
+      "mobile_prism": false,
+      "min_control_height": 44
+    },
+    {
+      "requested": "1024x768",
+      "width": 1009,
+      "scroll_width": 1009,
+      "overflow_px": 0,
+      "overflowing": [],
+      "mobile_prism": false,
+      "min_control_height": 44
+    },
+    {
+      "requested": "768x1024",
+      "width": 753,
+      "scroll_width": 753,
+      "overflow_px": 0,
+      "overflowing": [
+        {
+          "tag": "BUTTON",
+          "className": "quarter-button",
+          "right": 856
+        },
+        {
+          "tag": "SPAN",
+          "className": "numeric",
+          "right": 850
+        },
+        {
+          "tag": "SMALL",
+          "className": "",
+          "right": 850
+        }
+      ],
+      "mobile_prism": false,
+      "min_control_height": 44
+    },
+    {
+      "requested": "390x844",
+      "width": 390,
+      "scroll_width": 390,
+      "overflow_px": 0,
+      "overflowing": [
+        {
+          "tag": "BUTTON",
+          "className": "quarter-button",
+          "right": 416
+        },
+        {
+          "tag": "SPAN",
+          "className": "numeric",
+          "right": 410
+        },
+        {
+          "tag": "SMALL",
+          "className": "",
+          "right": 410
+        },
+        {
+          "tag": "BUTTON",
+          "className": "quarter-button",
+          "right": 516
+        },
+        {
+          "tag": "SPAN",
+          "className": "numeric",
+          "right": 510
+        },
+        {
+          "tag": "SMALL",
+          "className": "",
+          "right": 510
+        },
+        {
+          "tag": "BUTTON",
+          "className": "quarter-button",
+          "right": 616
+        },
+        {
+          "tag": "SPAN",
+          "className": "numeric",
+          "right": 610
+        },
+        {
+          "tag": "SMALL",
+          "className": "",
+          "right": 610
+        },
+        {
+          "tag": "BUTTON",
+          "className": "quarter-button",
+          "right": 716
+        }
+      ],
+      "mobile_prism": true,
+      "min_control_height": 44
+    },
+    {
+      "requested": "320x700",
+      "width": 320,
+      "scroll_width": 320,
+      "overflow_px": 0,
+      "overflowing": [
+        {
+          "tag": "BUTTON",
+          "className": "quarter-button",
+          "right": 416
+        },
+        {
+          "tag": "SPAN",
+          "className": "numeric",
+          "right": 410
+        },
+        {
+          "tag": "SMALL",
+          "className": "",
+          "right": 410
+        },
+        {
+          "tag": "BUTTON",
+          "className": "quarter-button",
+          "right": 516
+        },
+        {
+          "tag": "SPAN",
+          "className": "numeric",
+          "right": 510
+        },
+        {
+          "tag": "SMALL",
+          "className": "",
+          "right": 510
+        },
+        {
+          "tag": "BUTTON",
+          "className": "quarter-button",
+          "right": 616
+        },
+        {
+          "tag": "SPAN",
+          "className": "numeric",
+          "right": 610
+        },
+        {
+          "tag": "SMALL",
+          "className": "",
+          "right": 610
+        },
+        {
+          "tag": "BUTTON",
+          "className": "quarter-button",
+          "right": 716
+        }
+      ],
+      "mobile_prism": true,
+      "min_control_height": 44
+    }
+  ],
+  "screenshots": [],
+  "network": {
+    "requests": [
+      {
+        "url": "http://127.0.0.1:4173/",
+        "method": "GET",
+        "type": "Document"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/index-BYp-67Ya.js",
+        "method": "GET",
+        "type": "Script"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/index-B4qgXLgA.css",
+        "method": "GET",
+        "type": "Stylesheet"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/manifest.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/project.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series_index.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/findings.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/caveats.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_black_desert.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_black_desert.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/sources.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_m.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_nikke.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_2m.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_w.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_mcoc.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_jackpot_world.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lotsa_slots.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_stellar_blade.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/",
+        "method": "GET",
+        "type": "Document"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/index-BYp-67Ya.js",
+        "method": "GET",
+        "type": "Script"
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/index-B4qgXLgA.css",
+        "method": "GET",
+        "type": "Stylesheet"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/manifest.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/project.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series_index.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/findings.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/caveats.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/sources.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_m.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_2m.json",
+        "method": "GET",
+        "type": "Fetch"
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_w.json",
+        "method": "GET",
+        "type": "Fetch"
+      }
+    ],
+    "responses": [
+      {
+        "url": "http://127.0.0.1:4173/",
+        "status": 200,
+        "mime_type": "text/html",
+        "type": "Document",
+        "encoded_bytes": 238
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/index-B4qgXLgA.css",
+        "status": 200,
+        "mime_type": "text/css",
+        "type": "Stylesheet",
+        "encoded_bytes": 347
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/index-BYp-67Ya.js",
+        "status": 200,
+        "mime_type": "text/javascript",
+        "type": "Script",
+        "encoded_bytes": 355
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/manifest.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 302
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/project.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 302
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series_index.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 302
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/caveats.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 302
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/findings.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 303
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_black_desert.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 303
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/sources.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 303
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_m.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 303
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_nikke.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 303
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_w.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 303
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_2m.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 303
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_mcoc.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 303
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_jackpot_world.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 303
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lotsa_slots.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 303
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_stellar_blade.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 303
+      },
+      {
+        "url": "http://127.0.0.1:4173/",
+        "status": 200,
+        "mime_type": "text/html",
+        "type": "Document",
+        "encoded_bytes": 127
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/index-B4qgXLgA.css",
+        "status": 304,
+        "mime_type": "text/css",
+        "type": "Stylesheet",
+        "encoded_bytes": 179
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/index-BYp-67Ya.js",
+        "status": 304,
+        "mime_type": "text/javascript",
+        "type": "Script",
+        "encoded_bytes": 179
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/manifest.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 127
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/project.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 127
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series_index.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 127
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/findings.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 127
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/caveats.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 127
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/sources.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 127
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_m.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 127
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_2m.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 127
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_w.json",
+        "status": 200,
+        "mime_type": "application/json",
+        "type": "Fetch",
+        "encoded_bytes": 127
+      }
+    ],
+    "failed": [
+      {
+        "request_id": "35212.11",
+        "error": "",
+        "canceled": false,
+        "blocked_reason": "inspector"
+      }
+    ],
+    "expected_blocked_failures": [
+      {
+        "request_id": "35212.11",
+        "error": "",
+        "canceled": false,
+        "blocked_reason": "inspector"
+      }
+    ],
+    "unexpected_http_errors": []
+  },
+  "console": {
+    "errors": [],
+    "warnings": [],
+    "exceptions": []
+  },
+  "accessibility": {
+    "node_count": 1310,
+    "main_count": 1,
+    "heading_names": [
+      "一个收入数字由什么构成？",
+      "Quarter Prism / 季度棱镜",
+      "三个核心证据章节",
+      "九条被报告的商业轨迹",
+      "恢复、口径窗口与不确定性",
+      "如何验证这些观察？",
+      "付费潮汐——游戏商业生命线",
+      "同一季度，报告口径也会改变数值",
+      "Stellar Blade 的 PC 上线季度形成窗口峰值",
+      "Black Desert 在一次恢复后再次进入回撤",
+      "NIKKE 反弹，但尚未回到前高",
+      "Lineage W 新口径窗口连续四季下降",
+      "取整占比使多数派生环比方向无法确定",
+      "VERSION LEDGER",
+      "COMPARISON & CAUSALITY",
+      "EVIDENCE",
+      "SOURCES",
+      "ENTITY / 实体",
+      "EVIDENCE / 证据",
+      "VERSION / 口径",
+      "CONTEXT / 语境",
+      "证据与来源",
+      "Lineage M · 2025Q2"
+    ],
+    "button_names": [
+      "Black Desert IP Pearl Abyss Official 2024Q3—2026Q2 1 · F4",
+      "Jackpot World GAME_TITLE Netmarble Derived + interval 2024Q3—2025Q4 1 · F6",
+      "Lineage 2M GAME_TITLE NCSOFT Official 2024Q3—2026Q2 2 · F1",
+      "Lineage M GAME_TITLE NCSOFT Official 2024Q3—2026Q2 2 · F1",
+      "Lineage W GAME_TITLE NCSOFT Official 2024Q3—2026Q2 2 · F1 F5",
+      "Lotsa Slots GAME_TITLE Netmarble Derived + interval 2024Q3—2025Q4 1 · F6",
+      "MARVEL Contest of Champions GAME_TITLE Netmarble Derived + interval 2024Q3—2025Q4 1 · F6",
+      "Goddess of Victory: NIKKE IP SHIFT UP Official 2024Q3—2026Q2 1 · F3",
+      "Stellar Blade IP SHIFT UP Official 2024Q3—2026Q2 1 · F2",
+      "查看 Finding 证据",
+      "查看 Finding 证据",
+      "查看 Finding 证据",
+      "查看 Finding 证据",
+      "查看 Finding 证据",
+      "查看 Finding 证据",
+      "CLOSE SOURCE ×",
+      "上一季度 2025Q1",
+      "下一季度 2025Q3",
+      "2024Q3 官方披露",
+      "2024Q4 官方披露",
+      "2025Q1 官方披露",
+      "2025Q2 2 个口径",
+      "2025Q3 2 个口径",
+      "2025Q4 2 个口径",
+      "2026Q1 官方披露"
+    ],
+    "link_names": [
+      "跳到主要内容",
+      "付费潮汐 REVENUE TIDES",
+      "PRISM",
+      "FINDINGS",
+      "SERIES",
+      "METHOD",
+      "READ THE QUARTER 进入季度观测",
+      "打开原始披露 ↗",
+      "打开原始披露 ↗",
+      "打开原始披露 ↗"
+    ]
+  },
+  "performance": {
+    "initial_json_requests": [
+      "http://127.0.0.1:4173/data/manifest.json",
+      "http://127.0.0.1:4173/data/project.json",
+      "http://127.0.0.1:4173/data/series_index.json",
+      "http://127.0.0.1:4173/data/findings.json",
+      "http://127.0.0.1:4173/data/caveats.json"
+    ],
+    "initial_request_count": 8,
+    "navigation": {
+      "dom_content_loaded_ms": 32.6000000089407,
+      "load_ms": 33.70000000298023,
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4173/assets/index-BYp-67Ya.js",
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "duration": 8.900000005960464
+        },
+        {
+          "name": "http://127.0.0.1:4173/assets/index-B4qgXLgA.css",
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "duration": 5.200000002980232
+        },
+        {
+          "name": "http://127.0.0.1:4173/data/manifest.json",
+          "transferSize": 300,
+          "encodedBodySize": 2352,
+          "duration": 8.300000011920929
+        },
+        {
+          "name": "http://127.0.0.1:4173/data/project.json",
+          "transferSize": 300,
+          "encodedBodySize": 1125,
+          "duration": 10.599999994039536
+        },
+        {
+          "name": "http://127.0.0.1:4173/data/series_index.json",
+          "transferSize": 300,
+          "encodedBodySize": 850,
+          "duration": 13.299999997019768
+        },
+        {
+          "name": "http://127.0.0.1:4173/data/findings.json",
+          "transferSize": 300,
+          "encodedBodySize": 3513,
+          "duration": 16.200000002980232
+        },
+        {
+          "name": "http://127.0.0.1:4173/data/caveats.json",
+          "transferSize": 300,
+          "encodedBodySize": 959,
+          "duration": 20.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/data/sources.json",
+          "transferSize": 300,
+          "encodedBodySize": 2056,
+          "duration": 7.100000008940697
+        },
+        {
+          "name": "http://127.0.0.1:4173/data/series/series_lineage_m.json",
+          "transferSize": 300,
+          "encodedBodySize": 2516,
+          "duration": 25.400000005960464
+        },
+        {
+          "name": "http://127.0.0.1:4173/data/series/series_lineage_2m.json",
+          "transferSize": 300,
+          "encodedBodySize": 2586,
+          "duration": 6.5
+        },
+        {
+          "name": "http://127.0.0.1:4173/data/series/series_lineage_w.json",
+          "transferSize": 300,
+          "encodedBodySize": 2463,
+          "duration": 10.799999997019768
+        }
+      ]
+    },
+    "largest_resource": {
+      "name": "http://127.0.0.1:4173/data/findings.json",
+      "transferSize": 300,
+      "encodedBodySize": 3513,
+      "duration": 16.200000002980232
+    }
+  },
+  "browser_version": "Edg/149.0.4022.62",
+  "lineage": [
+    {
+      "series_id": "series_lineage_m",
+      "lanes": 2,
+      "text": "SELECTED QUARTER / INSTRUMENT READING\n\nLineage M · 2025Q2\nGAME_TITLE\n\nNCSOFT · Mobile title/IP presentation\n\n同一季度 · 不同报告口径。两个数值同时保留，不表示增长或先后变化。\n\nLEGACY_V1\nKRW 121.111 bn\n\nLineage M mobile game revenue - legacy scope\n\n证据\nOfficial reported\n范围\nMobile\n环比\n+7.5%\n恢复状态\nDRAWDOWN_ACTIVE\nROYALTY_INTEGRATED_V2\nKRW 127.908 bn\n\nLineage M IP revenue including royalties - restated/new scope\n\n证据\nOfficial reported\n范围\nMobile title/IP presentation\n环比\n不可用 / 不跨口径计算\n恢复状态\nAT_OR_ABOVE_ROLLING_PEAK\n报告定义校准缝\n\n旧口径与 royalty-integrated 口径不拼接；跨版本 QoQ 不可用，基线在新版本重启。",
+      "seam": true
+    },
+    {
+      "series_id": "series_lineage_2m",
+      "lanes": 2,
+      "text": "SELECTED QUARTER / INSTRUMENT READING\n\nLineage 2M · 2025Q2\nGAME_TITLE\n\nNCSOFT · Mobile and PURPLE client under publisher title/IP scope\n\n同一季度 · 不同报告口径。两个数值同时保留，不表示增长或先后变化。\n\nLEGACY_V1\nKRW 47.987 bn\n\nLineage 2M mobile game revenue - legacy scope\n\n证据\nOfficial reported\n范围\nMobile\n环比\n+26.7%\n恢复状态\nAT_OR_ABOVE_ROLLING_PEAK\nROYALTY_INTEGRATED_V2\nKRW 47.987 bn\n\nLineage 2M IP revenue including royalties - restated/new scope\n\n证据\nOfficial reported\n范围\nMobile title/IP presentation\n环比\n不可用 / 不跨口径计算\n恢复状态\nAT_OR_ABOVE_ROLLING_PEAK\n报告定义校准缝\n\n旧口径与 royalty-integrated 口径不拼接；跨版本 QoQ 不可用，基线在新版本重启。",
+      "seam": true
+    },
+    {
+      "series_id": "series_lineage_w",
+      "lanes": 2,
+      "text": "SELECTED QUARTER / INSTRUMENT READING\n\nLineage W · 2025Q2\nGAME_TITLE\n\nNCSOFT · Mobile and PURPLE client under publisher title/IP scope\n\n同一季度 · 不同报告口径。两个数值同时保留，不表示增长或先后变化。\n\nLEGACY_V1\nKRW 47.64 bn\n\nLineage W mobile game revenue - legacy scope\n\n证据\nOfficial reported\n范围\nMobile\n环比\n-10.3%\n恢复状态\nDRAWDOWN_ACTIVE\nROYALTY_INTEGRATED_V2\nKRW 47.64 bn\n\nLineage W IP revenue including royalties - restated/new scope\n\n证据\nOfficial reported\n范围\nMobile title/IP presentation\n环比\n不可用 / 不跨口径计算\n恢复状态\nAT_OR_ABOVE_ROLLING_PEAK\n报告定义校准缝\n\n旧口径与 royalty-integrated 口径不拼接；跨版本 QoQ 不可用，基线在新版本重启。",
+      "seam": true
+    }
+  ],
+  "derived": [
+    {
+      "series_id": "series_mcoc",
+      "blocks": 1,
+      "text": "SELECTED QUARTER / INSTRUMENT READING\n\nMARVEL Contest of Champions · 2024Q3\nGAME_TITLE\n\nNetmarble · Mobile title; consolidated company denominator\n\nDERIVED_V1\nKRW 51.784 bn\n\nDerived MCOC title revenue share of Netmarble revenue\n\n证据\nDerived from official\n范围\nInherits consolidated denominator; title is mobile but denominator spans company activities\n环比\n不可用 / 不跨口径计算\n恢复状态\nAT_OR_ABOVE_ROLLING_PEAK\n\n兼容区间 KRW 48.54 bn — KRW 55.03 bn\n\n官方取整占比 8% · Official contribution share rounded to 1 percentage point; compatible interval is ±0.5 percentage points.\n\n首期：无可比较方向"
+    },
+    {
+      "series_id": "series_jackpot_world",
+      "blocks": 1,
+      "text": "SELECTED QUARTER / INSTRUMENT READING\n\nJackpot World · 2024Q3\nGAME_TITLE\n\nNetmarble · Mobile title; consolidated company denominator\n\nDERIVED_V1\nKRW 51.784 bn\n\nDerived Jackpot World title revenue share of Netmarble revenue\n\n证据\nDerived from official\n范围\nInherits consolidated denominator; title is mobile but denominator spans company activities\n环比\n不可用 / 不跨口径计算\n恢复状态\nAT_OR_ABOVE_ROLLING_PEAK\n\n兼容区间 KRW 48.54 bn — KRW 55.03 bn\n\n官方取整占比 8% · Official contribution share rounded to 1 percentage point; compatible interval is ±0.5 percentage points.\n\n首期：无可比较方向"
+    },
+    {
+      "series_id": "series_lotsa_slots",
+      "blocks": 1,
+      "text": "SELECTED QUARTER / INSTRUMENT READING\n\nLotsa Slots · 2024Q3\nGAME_TITLE\n\nNetmarble · Mobile title; consolidated company denominator\n\nDERIVED_V1\nKRW 45.311 bn\n\nDerived Lotsa Slots title revenue share of Netmarble revenue\n\n证据\nDerived from official\n范围\nInherits consolidated denominator; title is mobile but denominator spans company activities\n环比\n不可用 / 不跨口径计算\n恢复状态\nAT_OR_ABOVE_ROLLING_PEAK\n\n兼容区间 KRW 42.07 bn — KRW 48.55 bn\n\n官方取整占比 7% · Official contribution share rounded to 1 percentage point; compatible interval is ±0.5 percentage points.\n\n首期：无可比较方向"
+    }
+  ],
+  "source_links": {
+    "count": 3,
+    "safe": true,
+    "urls": [
+      "https://ncsoft-brand-web.s3.ap-northeast-2.amazonaws.com/ncsoft/invest/result/20250812/report/2Q25_PT_KOR.pdf",
+      "https://ncsoft-brand-web.s3.ap-northeast-2.amazonaws.com/ncsoft/invest/result/20260811/report/2Q26_PT_KOR.pdf",
+      "https://about.ncsoft.com/news/article/lineagem_update_250618"
+    ]
+  },
+  "loaded_series": [
+    "series_black_desert",
+    "series_jackpot_world",
+    "series_lineage_2m",
+    "series_lineage_m",
+    "series_lineage_w",
+    "series_lotsa_slots",
+    "series_mcoc",
+    "series_nikke",
+    "series_stellar_blade"
+  ],
+  "reduced_motion": {
+    "reduced": true,
+    "transition": "1e-05s",
+    "pane": true,
+    "event": true
+  },
+  "zoom_200_equivalent": {
+    "effective_css_width": 705,
+    "overflow_px": 0,
+    "controls": true,
+    "critical_visible": true
+  },
+  "semantic_state": {
+    "h1": 1,
+    "unnamed_buttons": 0,
+    "live_regions": 1,
+    "skip_href": "#main-content",
+    "focus_outline": "none"
+  },
+  "contrast": {
+    "primary": 14.135735203075466,
+    "secondary": 6.611598325051245,
+    "event": 6.50139296302304,
+    "focus": 5.681207619352781
+  },
+  "forbidden_text_hits": [],
+  "completed_at": "2026-09-28T06:40:03.828Z",
+  "summary": {
+    "passed": 40,
+    "failed": 0
+  },
+  "browser_stderr_tail": [
+    "DevTools listening on ws://127.0.0.1:9333/devtools/browser/e1a19579-d71a-4bd2-a124-eae3aa75b945",
+    "[26580:27488:0928/143952.239:ERROR:chrome\\browser\\importer\\edge_china_browsers\\edge_qqbrowser_importer_utils_win.cc:200] QQBrowser profile preference file doesn't exist"
+  ]
+}

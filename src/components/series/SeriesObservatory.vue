@@ -23,7 +23,7 @@ async function selectSeries(record: SeriesIndexRecord, force = false): Promise<v
 <template>
   <div class="observatory">
     <div class="ledger-head" aria-hidden="true">
-      <span>序列</span><span>实体</span><span>发行商</span><span>证据</span><span>窗口</span><span>版本 / Findings</span>
+      <span>序列</span><span>实体</span><span>发行商</span><span>证据</span><span>窗口</span><span>版本 / Findings</span><span></span>
     </div>
     <button v-for="record in series" :key="record.series_id" class="ledger-row" :aria-expanded="selectedId === record.series_id" @click="selectSeries(record)">
       <strong>{{ record.name }}</strong>
@@ -32,6 +32,7 @@ async function selectSeries(record: SeriesIndexRecord, force = false): Promise<v
       <span><b class="evidence-shape" :class="record.evidence_mode === 'DERIVED_FROM_OFFICIAL' ? 'diamond' : 'circle'" aria-hidden="true"></b>{{ record.evidence_mode === 'OFFICIAL_REPORTED' ? 'Official' : 'Derived + interval' }}</span>
       <span class="numeric"><b class="mobile-label">窗口 </b>{{ record.first_period }}—{{ record.last_period }}</span>
       <span class="numeric"><b class="mobile-label">版本 / Findings </b>{{ record.metric_version_count }} · {{ record.finding_ids.join(' ') || '—' }}</span>
+      <span class="row-arrow" aria-hidden="true">→</span>
     </button>
     <div v-if="state === 'loading'" class="observatory-status" aria-live="polite">正在加载已验证序列…</div>
     <div v-else-if="state === 'error'" class="observatory-status error" role="alert">
@@ -44,10 +45,12 @@ async function selectSeries(record: SeriesIndexRecord, force = false): Promise<v
 </template>
 
 <style scoped>
-.ledger-head, .ledger-row { display: grid; grid-template-columns: 1.5fr 0.7fr 0.9fr 1.1fr 1.2fr 1fr; gap: 1rem; align-items: center; }
-.ledger-head { padding: 0.75rem 1rem; border-block: 2px solid var(--text-primary); font-size: 0.75rem; font-weight: 650; text-transform: uppercase; }
-.ledger-row { width: 100%; min-height: 58px; padding: 0.75rem 1rem; border: 0; border-bottom: 1px solid var(--rule-border); color: inherit; background: transparent; text-align: left; cursor: pointer; }
-.ledger-row:hover, .ledger-row[aria-expanded="true"] { background: var(--surface-secondary); }
+.observatory { border-top: 2px solid var(--text-primary); }
+.ledger-head, .ledger-row { display: grid; grid-template-columns: 1.55fr 0.7fr 0.9fr 1.1fr 1.2fr 1fr 2rem; gap: 1rem; align-items: center; }
+.ledger-head { padding: 0.8rem 1rem; border-bottom: 1px solid var(--text-primary); color: var(--text-secondary); font: 650 0.7rem var(--font-numeric); letter-spacing: .06em; text-transform: uppercase; }
+.ledger-row { position: relative; width: 100%; min-height: 72px; padding: 0.9rem 1rem; border: 0; border-bottom: 1px solid var(--rule-border); color: inherit; background: transparent; text-align: left; cursor: pointer; transition: background var(--motion-micro) ease-out; }
+.ledger-row::before { content: ''; position: absolute; inset: 0 auto 0 0; border-left: 3px solid var(--accent-primary); transform: scaleY(0); transition: transform var(--motion-micro) ease-out; }.ledger-row:hover, .ledger-row[aria-expanded="true"] { background: rgba(228,223,210,.62); }.ledger-row:hover::before, .ledger-row[aria-expanded="true"]::before { transform: scaleY(1); }
+.ledger-row strong { font-size: 1.05rem; }.row-arrow { color: var(--accent-primary); font-size: 1.1rem !important; transition: transform var(--motion-micro) ease-out; }.ledger-row:hover .row-arrow, .ledger-row[aria-expanded="true"] .row-arrow { transform: translateX(2px); }
 .ledger-row span { font-size: 0.875rem; }
 .evidence-shape { display: inline-block; width: 0.7rem; height: 0.7rem; margin-right: 0.4rem; background: var(--evidence-direct); }
 .evidence-shape.circle { border-radius: 50%; }
@@ -58,9 +61,11 @@ async function selectSeries(record: SeriesIndexRecord, force = false): Promise<v
 .observatory-status a { margin-left: 1rem; }
 @media (max-width: 900px) {
   .ledger-head { display: none; }
-  .ledger-row { grid-template-columns: 1fr 1fr; gap: 0.35rem 1rem; padding-block: 1rem; }
-  .ledger-row strong { grid-column: 1 / -1; }
+  .ledger-row { grid-template-columns: minmax(0,1fr) auto; gap: 0.25rem 1rem; padding-block: 1rem; }
+  .ledger-row strong { grid-column: 1; }.ledger-row .row-arrow { grid-column: 2; grid-row: 1; }
+  .ledger-row > span:not(.row-arrow) { grid-column: 1; }
+  .ledger-row > span:nth-of-type(2), .ledger-row > span:nth-of-type(4), .ledger-row > span:nth-of-type(5) { display: none; }
   .mobile-label { display: inline; }
 }
-@media (max-width: 390px) { .ledger-row { grid-template-columns: 1fr; } .ledger-row strong { grid-column: auto; } }
+@media (max-width: 390px) { .ledger-row { min-height: 82px; padding-inline: .75rem; }.ledger-row strong { overflow-wrap: anywhere; }.ledger-row > span { font-size: .75rem; }.mobile-label { display: none; } }
 </style>

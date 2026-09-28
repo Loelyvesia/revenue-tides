@@ -14,9 +14,10 @@ defineProps<{
 <template>
   <section id="method" class="section method-section">
     <div class="shell">
-      <p class="eyebrow">S6 / METHOD · EVIDENCE · SOURCES</p>
-      <h2>如何验证这些观察？</h2>
-      <p class="lede">方法、Finding 与网页数据各自有冻结版本；来源保持可追溯，事件与发行方解释不替代定量证据。</p>
+      <div class="section-heading">
+        <span class="section-index">06 / APPENDIX</span>
+        <div class="section-copy"><p class="eyebrow">RESEARCH APPENDIX</p><h2>如何验证这些观察？</h2><p class="lede">方法、Finding 与网页数据各自有冻结版本；来源保持可追溯，事件与发行方解释不替代定量证据。</p></div>
+      </div>
       <div class="method-grid">
         <section>
           <h3>Version ledger</h3>
@@ -37,6 +38,16 @@ defineProps<{
             <li>派生值必须保留点估计、区间与方向稳定性。</li>
           </ul>
         </section>
+        <section>
+          <h3>Evidence</h3>
+          <p>官方披露与官方披露派生观察保持分层；所有派生值保留兼容区间。</p>
+          <p class="numeric appendix-count">75 OBS · 26 EVENTS</p>
+        </section>
+        <section>
+          <h3>Sources</h3>
+          <p>每条 Finding 可追溯到观察、指标版本与公开文件。</p>
+          <p class="numeric appendix-count">{{ manifest.source_count }} PUBLIC RECORDS</p>
+        </section>
       </div>
       <CaveatKey :caveats="caveats" />
       <details class="all-sources">
@@ -49,6 +60,6 @@ defineProps<{
 </template>
 
 <style scoped>
-.method-section { padding-bottom: 8rem; }.method-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-block: 2rem; }.version-ledger { border-top: 2px solid var(--text-primary); }.version-ledger div { display: grid; grid-template-columns: 7rem 1fr; gap: 1rem; padding-block: .65rem; border-bottom: 1px solid var(--rule-border); }.version-ledger dd { margin: 0; overflow-wrap: anywhere; }.method-grid ul { padding-left: 1.25rem; }.all-sources { margin-top: 2rem; }.all-sources summary { min-height: 52px; display: flex; align-items: center; border-block: 1px solid var(--rule-border); cursor: pointer; font-weight: 650; }.notice { margin-top: 2rem; max-width: var(--reading-width); color: var(--text-secondary); font-size: .875rem; }
+.method-section { padding-bottom: 8rem; background: rgba(23,33,31,.035); }.method-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 3rem; margin-block: 2rem; border-top: 2px solid var(--text-primary); }.method-grid > section { min-height: 14rem; padding-block: 1.5rem; border-bottom: 1px solid var(--rule-border); }.method-grid h3 { margin-bottom: 1rem; font-size: 1rem; text-transform: uppercase; letter-spacing: .04em; }.version-ledger { border-top: 1px solid var(--rule-grid); }.version-ledger div { display: grid; grid-template-columns: 7rem 1fr; gap: 1rem; padding-block: .55rem; border-bottom: 1px solid var(--rule-grid); }.version-ledger dd { margin: 0; overflow-wrap: anywhere; }.method-grid ul { padding-left: 1.25rem; }.appendix-count { margin-top: 2rem; color: var(--accent-primary); font-size: 1.15rem; }.all-sources { margin-top: 2rem; }.all-sources summary { min-height: 52px; display: flex; align-items: center; border-block: 1px solid var(--rule-border); cursor: pointer; font-weight: 650; }.notice { margin-top: 3rem; padding-top: 1rem; max-width: var(--reading-width); border-top: 1px solid var(--rule-border); color: var(--text-secondary); font-size: .875rem; }
 @media (max-width: 767px) { .method-grid { grid-template-columns: 1fr; gap: 1rem; } }
 </style>

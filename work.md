@@ -137,3 +137,15 @@
 - TypeScript: PASS. Vitest: 62/62 PASS. Production build: PASS. Phase G isolated validation: 90/90 PASS. Phase I: 100/100 PASS. Phase J: 102/102 PASS. Final Chrome smoke: 40/40 PASS. Phase K: 110/110 PASS.
 - Created final manifest, SHA-256 critical hashes, relevant-file inventory, reproducibility and structure documents, storage/language/semantic/material audits, and final freeze declaration. Deployment status remains `NOT_DEPLOYED`.
 - Future changes require a new branch/version or documented amendment. Stop boundary: `PROJECT 02 COMPLETE / FROZEN`.
+
+## 2026-09-28 — Post-freeze visual refresh 1.1 completed
+
+- Created a local frozen baseline branch `release-1.0.0-frozen` and independent working branch `visual-refresh-1.1`; the candidate release is `revenue-tides-release-1.1.0`.
+- Preserved the method, Findings, Web Data, source provenance, 9 series, 75 observations, 26 events, metric-version seams, derived uncertainty, event non-causality, and all frozen Finding wording/numbers without change.
+- Rebuilt the opening as an editorial cover, converted the primer to one Measurement Grammar, made Quarter Prism the calibrated visual center, differentiated F1/F2/F4, recast the Observatory as a Research Ledger, and rebuilt mobile layouts for 390 px and 320 px.
+- Added lightweight active navigation, reduced-motion-safe section reveals, more precise Prism motion, minimal source disclosure, and a Research Appendix footer while adding no framework, chart library, game art, font, or large runtime asset.
+- Production screenshots: 14 after captures plus 13 frozen before captures; required desktop and 390 px visual gates were manually reviewed 12/12 PASS.
+- Browser QA: Chrome 40/40 PASS, Edge 40/40 PASS, Firefox 14/14 PASS; all six required viewports have 0 px page-level overflow and console errors/warnings/exceptions remain zero.
+- TypeScript: PASS. Vitest: 62/62 PASS. Production build: PASS. Phase G isolated: 90/90 PASS. Phase I: 100/100 PASS. Phase J: 102/102 PASS. Frozen Phase K isolated: 110/110 PASS.
+- Candidate bundle: JS 112.07 kB / 41.66 kB gzip, CSS 40.46 kB / 8.22 kB gzip, HTML 0.91 kB. Total JS+CSS gzip increased 8.5%; CSS-only growth is documented as a non-blocking size note.
+- GitHub Pages was not redeployed and no 1.1.0 tag was created. Stop boundary: `STOPPED BEFORE RELEASE 1.1 FREEZE`.

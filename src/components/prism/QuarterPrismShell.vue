@@ -54,7 +54,7 @@ onBeforeUnmount(() => observer?.disconnect())
 <template>
   <div ref="root" class="prism-shell">
     <div class="series-picker">
-      <label for="prism-series">选择一条发行商定义序列</label>
+      <label for="prism-series"><span class="numeric">SERIES INPUT</span>选择一条发行商定义序列</label>
       <select id="prism-series" v-model="selectedId" class="native-control">
         <option v-for="record in series" :key="record.series_id" :value="record.series_id">
           {{ record.name }} · {{ record.entity_type }} · {{ record.company_name }}
@@ -77,12 +77,13 @@ onBeforeUnmount(() => observer?.disconnect())
 </template>
 
 <style scoped>
-.series-picker { display: grid; grid-template-columns: minmax(12rem, 24rem) 1fr; gap: 0.35rem 1rem; align-items: end; margin-bottom: 1rem; }
+.prism-shell { position: relative; }
+.series-picker { display: grid; grid-template-columns: minmax(16rem, 28rem) 1fr; gap: 0.4rem 2rem; align-items: end; margin-bottom: 1.75rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--rule-border); }
 .series-picker > * { min-width: 0; }
-.series-picker label { grid-column: 1; font-weight: 650; }
+.series-picker label { grid-column: 1; display: grid; gap: .3rem; font-weight: 650; }.series-picker label span { color: var(--text-secondary); font-size: .68rem; letter-spacing: .12em; }
 .series-picker select { grid-column: 1; width: 100%; max-width: 100%; }
 .series-picker p { grid-column: 2; grid-row: 2; margin: 0; }
-.loading-ledger { padding: 4rem 1rem; border: 1px solid var(--rule-border); }
+.loading-ledger { padding: 5rem 1rem; border-block: 1px solid var(--rule-border); }
 .loading-ledger span { display: block; height: 1px; margin-block: 1rem; background: var(--rule-grid); }
 .load-error { padding: 2rem; border: 2px solid var(--warning); background: var(--surface-primary); }
 .load-error a { margin-left: 1rem; }

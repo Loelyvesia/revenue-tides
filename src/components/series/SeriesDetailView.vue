@@ -62,12 +62,12 @@ function caveatText(id: string): string { return props.caveats.find((item) => it
 </template>
 
 <style scoped>
-.series-detail { margin-top: 1rem; padding: clamp(1rem, 3vw, 2rem); border: 1px solid var(--rule-border); background: var(--surface-primary); }
+.series-detail { margin-top: 2rem; padding: clamp(1.5rem, 4vw, 3rem) 0; border-block: 2px solid var(--text-primary); }
 header { display: flex; justify-content: space-between; gap: 1rem; }
 header p { margin: 0.35rem 0 0; }
 .finding-links { display: flex; gap: 0.5rem; }
-.finding-links a { min-width: 44px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--rule-border); }
-.detail-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 2rem; border-top: 1px solid var(--rule-border); }
+.finding-links a { min-width: 44px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; border-bottom: 1px solid var(--rule-border); text-decoration: none; }
+.detail-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 3rem; border-top: 1px solid var(--rule-border); }
 details { border-bottom: 1px solid var(--rule-border); }
 summary { display: flex; align-items: center; min-height: 52px; cursor: pointer; font-weight: 650; }
 .metric-definition { padding-bottom: 1rem; }
