@@ -1,0 +1,9 @@
+{
+  "browser": "Firefox",
+  "version": "156.0.1",
+  "url": "http://127.0.0.1:4173/",
+  "viewport": "1440x900",
+  "production_build_rendered": true,
+  "screenshot": "screenshots/firefox-desktop-hero.png",
+  "status": "PASS"
+}

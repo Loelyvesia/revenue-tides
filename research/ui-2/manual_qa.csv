@@ -1,0 +1,32 @@
+qa_id,surface,viewport,status,note
+UI2-M01,Hero,1440x900,PASS,Real normalized trajectory field visible
+UI2-M02,Hero,390x844,PASS,Title and scope remain legible
+UI2-M03,Hero,320x700,PASS,No horizontal overflow
+UI2-M04,Measurement,1440x900,PASS,Sticky visual and active step align
+UI2-M05,Measurement,390x844,PASS,Mobile visual-first sequence remains readable
+UI2-M06,Prism direct,1440x900,PASS,Direct evidence state readable
+UI2-M07,Prism overlap,1440x900,PASS,Two same-quarter definitions remain separate
+UI2-M08,Prism version seam,1440x900,PASS,No stitching and no cross-version QoQ stated
+UI2-M09,Prism events,1440x900,PASS,Context remains separate and non-causal
+UI2-M10,Prism keyboard,1440x900,PASS,Select buttons and arrow keys are available
+UI2-M11,Prism,390x844,PASS,Stacked layout is readable
+UI2-M12,Prism,320x700,PASS,Touch controls remain reachable
+UI2-M13,F1,1440x900,PASS,Q2-Q4 definition sequence represented
+UI2-M14,F1,390x844,PASS,Definition pairs remain distinct
+UI2-M15,F2,1440x900,PASS,Values and 837.3 percent reproduce
+UI2-M16,F2,390x844,PASS,Full headline and event caveat fit
+UI2-M17,F4,1440x900,PASS,Drawdown recovery drawdown sequence visible
+UI2-M18,F4,390x844,PASS,Chart scroll containment does not overflow page
+UI2-M19,Observatory,1440x900,PASS,Two-column archive hierarchy is clear
+UI2-M20,Observatory,390x844,PASS,All nine rows remain legible
+UI2-M21,Research Notes,1440x900,PASS,F3 F5 F6 remain separate
+UI2-M22,F6 uncertainty,1440x900,PASS,Sign-sensitive and stable glyphs remain distinguishable
+UI2-M23,Appendix,1440x900,PASS,Versions policies caveats and sources present
+UI2-M24,Navigation,1440x900,PASS,Four-act navigation and progress line work
+UI2-M25,Focus,390x844,PASS,Visible focus and native controls retained
+UI2-M26,Reduced motion,390x844,PASS,Content remains complete without motion
+UI2-M27,Chrome,all required,PASS,15 of 15 browser checks passed
+UI2-M28,Edge,all required,PASS,15 of 15 browser checks passed
+UI2-M29,Firefox,1440x900,PASS,Production build rendered successfully
+UI2-M30,Before after,desktop and mobile,PASS,Six evidence pairs reviewed
+UI2-M31,Three second difference,desktop and mobile,PASS,UI 2.0 is immediately distinguishable

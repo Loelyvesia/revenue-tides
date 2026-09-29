@@ -149,3 +149,15 @@
 - TypeScript: PASS. Vitest: 62/62 PASS. Production build: PASS. Phase G isolated: 90/90 PASS. Phase I: 100/100 PASS. Phase J: 102/102 PASS. Frozen Phase K isolated: 110/110 PASS.
 - Candidate bundle: JS 112.07 kB / 41.66 kB gzip, CSS 40.46 kB / 8.22 kB gzip, HTML 0.91 kB. Total JS+CSS gzip increased 8.5%; CSS-only growth is documented as a non-blocking size note.
 - GitHub Pages was not redeployed and no 1.1.0 tag was created. Stop boundary: `STOPPED BEFORE RELEASE 1.1 FREEZE`.
+
+## 2026-09-29 — UI 2.0 presentation reconstruction completed
+
+- Created the `ui-rebuild-2.0` branch and `revenue-tides-release-2.0.0` review candidate; no deployment, tag, or release freeze was created.
+- Replaced the runtime presentation with a four-act narrative: The Number, The Quarter, The Findings, and The Archive, followed by Research Notes and a Research Appendix.
+- Built a real-data normalized Hero field with metric versions kept as separate paths; rebuilt Measurement as five-step scrollytelling and Quarter Prism as a pinned scroll/click/select/keyboard stage.
+- Rebuilt F1/F2/F4 as full-page evidence chapters, retained F3/F5/F6 as bounded research notes, and converted the Observatory to a nine-series archive with a single lazy detail pane.
+- Added no UI framework, animation library, scroll dependency, chart library, image, game art, font, backend, or analytics dependency.
+- Preserved frozen method, Findings, Web Data, 9 series, 75 observations, 26 events, entity types, evidence classes, version breaks, derived uncertainty, non-causal events, and all Finding wording/numbers.
+- Browser QA: Chrome 15/15 PASS, Edge 15/15 PASS, Firefox production render PASS. All six required viewports reported 0 px page overflow; Chrome/Edge console errors, warnings, and exceptions were zero.
+- TypeScript/build: PASS. Vitest: 62/62 PASS. Phase G isolated: 90/90 PASS. Phase I: 100/100 PASS. Phase J: 102/102 PASS. Manual UI 2.0 QA: 31/31 PASS.
+- Candidate bundle: JS 113.98 kB / 43.00 kB gzip; CSS 29.80 kB / 6.94 kB gzip. Two consecutive production builds were byte-identical. Stop boundary: `STOPPED BEFORE UI 2.0 RELEASE`.

@@ -1,0 +1,55 @@
+/* Revenue Tides UI 2.0 — Typography (fluid scale) */
+
+h1, h2, h3, h4, p, ul, ol, figure { margin-block: 0; }
+
+h1, h2, h3, h4 { line-height: 1.12; letter-spacing: -0.02em; font-weight: 700; text-wrap: balance; }
+
+.display-hero {
+  font-size: clamp(3.2rem, 9.5vw, 7.5rem);
+  font-weight: 750;
+  letter-spacing: -0.035em;
+  line-height: 0.98;
+}
+.display-chapter {
+  font-size: clamp(2.1rem, 4.6vw, 3.9rem);
+  font-weight: 720;
+  letter-spacing: -0.028em;
+  line-height: 1.05;
+}
+.display-figure {
+  font-family: var(--font-numeric);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.03em;
+}
+.headline-1 { font-size: clamp(1.9rem, 3.6vw, 3.1rem); font-weight: 720; }
+.headline-2 { font-size: clamp(1.5rem, 2.6vw, 2.2rem); font-weight: 680; }
+.body-lg { font-size: clamp(1.02rem, 1.4vw, 1.16rem); line-height: 1.75; }
+.body { font-size: clamp(0.97rem, 1.1vw, 1.02rem); line-height: 1.7; }
+.caption { font-size: 0.78rem; line-height: 1.5; color: var(--ink-3); letter-spacing: 0.01em; }
+
+.eyebrow {
+  font-family: var(--font-numeric);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.chapter-index {
+  font-family: var(--font-numeric);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+}
+
+.numeric { font-family: var(--font-numeric); font-variant-numeric: tabular-nums; }
+
+/* Dark-surface type overrides */
+.chapter--dark h1, .chapter--dark h2, .chapter--dark h3, .chapter--dark .display-hero, .chapter--dark .display-chapter {
+  color: var(--on-dark);
+}
+.chapter--dark .eyebrow { color: var(--on-dark-2); }
+.chapter--dark .caption { color: var(--on-dark-2); }
+.chapter--dark .body, .chapter--dark .body-lg { color: var(--on-dark); }
+.chapter--dark p.body-lg strong { color: var(--teal-bright); }

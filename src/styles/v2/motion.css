@@ -1,0 +1,15 @@
+/* Revenue Tides UI 2.0 — Motion */
+/* Reduced motion handled in tokens + story; entry transitions only */
+
+.fade-switch-enter-active, .fade-switch-leave-active { transition: opacity var(--t-med) var(--ease-out); }
+.fade-switch-enter-from, .fade-switch-leave-to { opacity: 0; }
+
+.stage-shift-enter-active { transition: opacity var(--t-med) var(--ease-out), transform var(--t-med) var(--ease-out); }
+.stage-shift-enter-from { opacity: 0; transform: translateY(0.6rem); }
+.stage-shift-leave-active { transition: opacity var(--t-fast) var(--ease-out); position: absolute; inset: 0; }
+.stage-shift-leave-to { opacity: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-switch-enter-active, .fade-switch-leave-active,
+  .stage-shift-enter-active, .stage-shift-leave-active { transition: none; }
+}

@@ -2,7 +2,7 @@ import { mount } from '@vue/test-utils'
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { describe, expect, it } from 'vitest'
-import QuarterPrism from '../components/prism/QuarterPrism.vue'
+import QuarterPrism from '../testing/QuarterPrismContractHarness.vue'
 import type { Caveat, Finding, ProjectMetadata, SeriesDetail, SeriesIndexRecord, SourceRecord, WebManifest } from '../types/webData'
 import {
   assertNormalizedComparison,

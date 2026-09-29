@@ -1,0 +1,71 @@
+/* Revenue Tides UI 2.0 — Base */
+
+* { box-sizing: border-box; }
+
+html {
+  color: var(--ink);
+  background: var(--surface-paper);
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-size: 1rem;
+  line-height: 1.7;
+  overflow-x: clip;
+  background: var(--surface-paper);
+}
+
+#app { overflow-x: clip; }
+
+button, select, input { font: inherit; color: inherit; }
+button, select, summary, a { touch-action: manipulation; }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.24em; }
+
+::selection { background: rgba(31, 111, 100, 0.22); }
+
+:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+.skip-link {
+  position: fixed;
+  z-index: 200;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding: 0.6rem 1rem;
+  background: var(--surface-paper);
+  border: 1px solid var(--ink);
+  font-size: 0.85rem;
+  transform: translateY(-180%);
+  transition: transform var(--t-fast) var(--ease-out);
+}
+.skip-link:focus { transform: none; }
+
+.native-control {
+  background: transparent;
+  border: 1px solid var(--ink-2);
+  padding: 0.5rem 1rem;
+  min-height: 44px;
+  cursor: pointer;
+}
+.native-control:hover { border-color: var(--ink); }
+.native-control:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0;
+  overflow: hidden; clip: rect(0 0 0 0);
+  white-space: nowrap; border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

@@ -1,0 +1,134 @@
+/* Revenue Tides UI 2.0 — Layout & chapter surfaces */
+
+.chapter {
+  position: relative;
+  padding-block: clamp(4.5rem, 9vw, 8.5rem);
+  overflow: clip;
+}
+
+.chapter--dark { background: var(--surface-dark); color: var(--on-dark); }
+.chapter--dark .rule { border-color: var(--rule-light); }
+.chapter--paper { background: var(--surface-paper); color: var(--ink); }
+.chapter--inklight { background: var(--surface-inklight); color: var(--ink); }
+
+/* ambient radial wash per chapter (single soft spotlight, no beams) */
+.chapter--dark::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(60% 45% at 78% 8%, rgba(89, 179, 155, 0.07), transparent 70%),
+    radial-gradient(50% 40% at 12% 92%, rgba(208, 154, 106, 0.05), transparent 70%);
+}
+.chapter--paper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(70% 50% at 50% 0%, rgba(255, 255, 255, 0.5), transparent 70%);
+}
+.chapter--inklight::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(70% 55% at 50% 0%, rgba(255, 255, 255, 0.36), transparent 72%);
+}
+
+.shell {
+  position: relative;
+  width: min(calc(100% - 3rem), 76rem);
+  margin-inline: auto;
+}
+.shell--wide { width: min(calc(100% - 2.5rem), 96rem); }
+.shell--narrow { width: min(calc(100% - 3rem), 46rem); }
+
+.chapter-head {
+  max-width: var(--measure-narrative);
+  margin-bottom: clamp(2.5rem, 5vw, 4.5rem);
+}
+.chapter-head .eyebrow { margin-bottom: 1.1rem; display: block; }
+.chapter-head .lede {
+  margin-top: 1.3rem;
+  font-size: clamp(1.02rem, 1.5vw, 1.18rem);
+  line-height: 1.75;
+  color: var(--ink-3);
+}
+.chapter--dark .chapter-head .lede { color: var(--on-dark-2); }
+
+.rule { border: 0; border-top: 1px solid var(--rule-dark); }
+.chapter--dark .rule { border-top-color: var(--rule-light); }
+
+/* 2-col editorial grids */
+.grid-2 { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(1.5rem, 3vw, 3.5rem); }
+.grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1rem, 2vw, 2.5rem); }
+
+/* Sticky stage */
+.stage {
+  position: relative;
+}
+.stage--sticky {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  display: flex;
+  align-items: center;
+  overflow: clip;
+}
+
+/* Nav */
+.site-nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 90;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0.9rem max(1.25rem, calc((100vw - 96rem) / 2));
+  border-bottom: 1px solid transparent;
+  transition: background var(--t-med) var(--ease-out), border-color var(--t-med) var(--ease-out);
+}
+.site-nav.is-scrolled {
+  background: rgba(242, 238, 227, 0.92);
+  border-bottom-color: var(--rule-dark);
+}
+.site-nav--dark.is-scrolled { background: rgba(16, 22, 26, 0.92); border-bottom-color: var(--rule-light); }
+.site-nav__brand {
+  font-family: var(--font-numeric);
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ink);
+}
+.site-nav--dark .site-nav__brand { color: var(--on-dark); }
+.site-nav__links { display: flex; gap: 1.6rem; }
+.site-nav__links a {
+  font-family: var(--font-numeric);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ink-2);
+  border-bottom: 1px solid transparent;
+  padding-bottom: 0.15rem;
+  transition: color var(--t-fast) var(--ease-out), border-color var(--t-fast) var(--ease-out);
+}
+.site-nav__links a:hover { color: var(--ink); border-bottom-color: var(--teal); }
+.site-nav--dark .site-nav__links a { color: var(--on-dark-2); }
+.site-nav--dark .site-nav__links a:hover { color: var(--on-dark); border-bottom-color: var(--teal-bright); }
+
+/* Reading progress — 2px line, no numbers */
+.read-progress {
+  position: fixed;
+  top: 0; left: 0;
+  height: 2px;
+  width: 100%;
+  z-index: 91;
+  transform-origin: 0 0;
+  transform: scaleX(var(--progress, 0));
+  background: linear-gradient(90deg, var(--teal-bright) 0 60%, var(--copper-bright) 100%);
+  pointer-events: none;
+}

@@ -1,0 +1,60 @@
+/* Revenue Tides UI 2.0 — Design tokens (TIDAL LEDGER) */
+
+:root {
+  /* Chapter surfaces */
+  --surface-dark: #10161a;
+  --surface-dark-soft: #162028;
+  --surface-paper: #f2eee3;
+  --surface-paper-2: #eae4d3;
+  --surface-inklight: #e7e2d4;
+  --surface-inklight-2: #ddd7c5;
+
+  /* Ink / text */
+  --ink: #1c2328;
+  --ink-2: #3d474e;
+  --ink-3: #69737b;
+  --on-dark: #eef2ea;
+  --on-dark-2: #aebbc0;
+  --on-dark-3: #7c8a92;
+
+  /* Data accents */
+  --teal: #1f6f64;
+  --teal-bright: #59b39b;
+  --teal-wash: rgba(31, 111, 100, 0.09);
+  --copper: #a6632f;
+  --copper-bright: #d09a6a;
+  --amber: #c98a2b;
+  --coral: #c2604f;
+  --violet: #7d6a9e;
+  --steel: #5b6a77;
+
+  /* Rules */
+  --rule-dark: rgba(28, 35, 40, 0.28);
+  --rule-dark-strong: rgba(28, 35, 40, 0.55);
+  --rule-light: rgba(238, 242, 234, 0.22);
+  --rule-light-strong: rgba(238, 242, 234, 0.42);
+
+  /* Type */
+  --font-sans: "Source Han Sans SC", "Noto Sans SC", system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+  --font-serif: "Source Han Serif SC", "Noto Serif SC", Georgia, "Songti SC", serif;
+  --font-numeric: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace;
+
+  /* Reading measures */
+  --measure-narrative: 34em;
+  --measure-lede: 26em;
+
+  /* Motion */
+  --t-fast: 140ms;
+  --t-med: 280ms;
+  --t-slow: 480ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --t-fast: 0ms;
+    --t-med: 0ms;
+    --t-slow: 0ms;
+  }
+}
