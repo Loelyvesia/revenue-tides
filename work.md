@@ -196,3 +196,16 @@
 - Vitest 62/62, UI 2.1 28/28, Phase I 100/100, Phase J 102/102, and color continuity 29/29 all pass.
 - Corrected bundle: JS 125.02 kB / 46.31 kB gzip; CSS 50.40 kB / 10.52 kB gzip. No dependency, research data, Finding, deployment, tag, or freeze change was made.
 - Stop boundary: `STOPPED BEFORE COLOR SYSTEM REVIEW`.
+
+## 2026-09-29 — Quarter Prism main interface reconstructed
+
+- Limited the deep graphite surface to the local measurement stage; the outer chapter, controls, entity metadata, reading output, source disclosure, and quarter navigation remain on warm mineral surfaces.
+- Reduced dark pixels in the matched 1440×900 Lineage overlap screenshot from 71.1% to 35.4%, approximately halving the former dark area.
+- Replaced thin trajectories with straight-edged measured tidal bands generated only from canonical quarterly points; added peak caps and validated-drawdown notches without interpolation.
+- Replaced the translucent selection rectangle with a calibrated prism aperture containing outer/inner rails, repeated ticks, a subtle reading field, top quarter label, and ruler alignment.
+- Clipped the Lineage royalty-integrated lane to the aperture during overlap quarters, making the split read as local refraction rather than a full dual-series chart.
+- Rebuilt the right column as a compact warm reading output and replaced the boxed quarter select/right-side floating controls with a bottom tick-and-label quarter ruler.
+- Preserved direct, overlap, derived uncertainty, event context, issuer attribution, source access, native quarter access, previous/next, and Left/Right keyboard behavior.
+- Browser QA: Chrome 15/15 PASS, Edge 15/15 PASS, Firefox 14/14 PASS; six required viewports have 0 px page overflow and console/network failures remain zero.
+- Vitest 62/62, UI 2.1 28/28, Phase I 100/100, Phase J 102/102, and Prism reconstruction 27/27 all pass.
+- Bundle after reconstruction: JS 125.67 kB / 46.53 kB gzip; CSS 50.01 kB / 10.50 kB gzip. No dependency, research data, Finding, deployment, tag, or freeze change was made.

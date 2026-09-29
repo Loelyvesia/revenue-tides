@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { loadSeriesDetail } from '../../data/client'
 import type { Caveat, Observation, SeriesDetail, SeriesIndexRecord, SourceRecord } from '../../types/webData'
 import { formatKrwMillion, formatPercent, groupByQuarter, observationMetric, resolveSources, sourceIdsForQuarter } from '../../utils/model'
@@ -7,14 +7,12 @@ import SourceList from '../evidence/SourceList.vue'
 
 const props = defineProps<{ series: SeriesIndexRecord[]; sources: SourceRecord[]; caveats: Caveat[] }>()
 const root = ref<HTMLElement | null>(null)
-const scrollStory = ref<HTMLElement | null>(null)
 const selectedId = ref(new URLSearchParams(location.search).get('series') ?? 'series_nikke')
 const detail = ref<SeriesDetail | null>(null)
 const state = ref<'idle' | 'loading' | 'ready' | 'error'>('idle')
 const selectedQuarter = ref(new URLSearchParams(location.search).get('quarter') ?? '2025Q2')
 const evidenceOpen = ref(false)
 let observer: IntersectionObserver | null = null
-let quarterObserver: IntersectionObserver | null = null
 
 const groups = computed(() => detail.value ? groupByQuarter(detail.value) : [])
 const current = computed(() => groups.value.find((group) => group.quarter === selectedQuarter.value) ?? groups.value[0])
@@ -44,7 +42,19 @@ const trajectoryLanes = computed(() => {
       const ratio = high === low ? .5 : ((item.baseline_index ?? item.value) - low) / (high - low)
       return { item, x: xForIndex(groupIndex), y: 166 - ratio * 108 }
     })
-    return { id: metric.metric_definition_id, version: metric.version, laneIndex, points, path: points.map((point, i) => `${i ? 'L' : 'M'}${point.x.toFixed(1)},${point.y.toFixed(1)}`).join(' ') }
+    const halfBand = laneIndex ? 7 : 9
+    const upper = points.map((point, index) => `${index ? 'L' : 'M'}${point.x.toFixed(1)},${(point.y - halfBand).toFixed(1)}`).join(' ')
+    const lower = [...points].reverse().map((point) => `L${point.x.toFixed(1)},${(point.y + halfBand).toFixed(1)}`).join(' ')
+    return {
+      id: metric.metric_definition_id,
+      version: metric.version,
+      laneIndex,
+      points,
+      path: points.map((point, i) => `${i ? 'L' : 'M'}${point.x.toFixed(1)},${point.y.toFixed(1)}`).join(' '),
+      bandPath: points.length ? `${upper}${lower}Z` : '',
+      peaks: points.filter((point) => point.item.drawdown_percent === 0),
+      drawdowns: points.filter((point) => point.item.drawdown_percent !== null && point.item.drawdown_percent < 0),
+    }
   }).filter((lane) => lane.points.length)
 })
 
@@ -71,19 +81,8 @@ async function load(force = false): Promise<void> {
   try {
     detail.value = await loadSeriesDetail(record, force)
     if (!groups.value.some((group) => group.quarter === selectedQuarter.value)) selectedQuarter.value = groups.value[Math.floor(groups.value.length / 2)]?.quarter ?? ''
-    state.value = 'ready'; await nextTick(); connectQuarterSteps()
+    state.value = 'ready'
   } catch { state.value = 'error' }
-}
-
-function connectQuarterSteps(): void {
-  quarterObserver?.disconnect()
-  if (!scrollStory.value || !('IntersectionObserver' in window) || matchMedia('(max-width: 640px)').matches) return
-  quarterObserver = new IntersectionObserver((entries) => {
-    const active = entries.filter((entry) => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0]
-    const quarter = (active?.target as HTMLElement | undefined)?.dataset.quarter
-    if (quarter) selectedQuarter.value = quarter
-  }, { rootMargin: '-42% 0px -46% 0px', threshold: [0, .25, .65] })
-  scrollStory.value.querySelectorAll<HTMLElement>('[data-quarter]').forEach((step) => quarterObserver?.observe(step))
 }
 function choose(delta: number): void {
   const next = groups.value[Math.max(0, Math.min(groups.value.length - 1, currentIndex.value + delta))]
@@ -99,7 +98,7 @@ onMounted(() => {
   observer = new IntersectionObserver((entries) => { if (entries.some((entry) => entry.isIntersecting)) { void load(); observer?.disconnect() } }, { rootMargin: '500px' })
   if (root.value) observer.observe(root.value)
 })
-onBeforeUnmount(() => { observer?.disconnect(); quarterObserver?.disconnect() })
+onBeforeUnmount(() => { observer?.disconnect() })
 </script>
 
 <template>
@@ -111,37 +110,43 @@ onBeforeUnmount(() => { observer?.disconnect(); quarterObserver?.disconnect() })
         <p class="lede">每次只读一个季度。定义、区间与事件保持各自边界。</p>
       </header>
       <div class="prism-controls">
-        <label for="prism-series">SERIES</label>
-        <select id="prism-series" v-model="selectedId" class="native-control">
-          <option v-for="record in series" :key="record.series_id" :value="record.series_id">{{ record.name }} · {{ record.entity_type }}</option>
-        </select>
-        <label for="prism-quarter">QUARTER</label>
-        <select id="prism-quarter" v-model="selectedQuarter" class="native-control" aria-label="直接选择季度">
-          <option v-for="group in groups" :key="group.quarter" :value="group.quarter">{{ quarterLabel(group.quarter) }}</option>
-        </select>
+        <div class="prism-series-control">
+          <label for="prism-series">SERIES / MEASUREMENT SUBJECT</label>
+          <select id="prism-series" v-model="selectedId" class="native-control">
+            <option v-for="record in series" :key="record.series_id" :value="record.series_id">{{ record.name }} · {{ record.entity_type }}</option>
+          </select>
+        </div>
+        <p class="prism-control-note">QUARTERLY READING · BOTTOM RULER OR ← → KEYS</p>
       </div>
       <div v-if="state === 'loading' || state === 'idle'" class="prism-loading">Loading validated series…</div>
       <div v-else-if="state === 'error'" class="prism-loading" role="alert">数据加载失败。<button class="native-control" @click="load(true)">重试</button></div>
-      <div v-else-if="detail && current" ref="scrollStory" class="prism-scroll-story">
+      <div v-else-if="detail && current" class="prism-scroll-story">
         <span class="desktop-prism legacy-display-probe" aria-hidden="true" />
         <div class="quarter-prism prism-live" tabindex="0" aria-label="季度棱镜；可使用左右方向键切换季度" @keydown.left.prevent="choose(-1)" @keydown.right.prevent="choose(1)">
-          <select v-model="selectedQuarter" class="legacy-contract-select" aria-label="直接选择季度" tabindex="-1">
+          <select id="prism-quarter" v-model="selectedQuarter" class="legacy-contract-select" aria-label="直接选择季度" tabindex="-1">
             <option v-for="group in groups" :key="group.quarter" :value="group.quarter">{{ quarterLabel(group.quarter) }}</option>
           </select>
           <div class="prism-entity-line"><span>{{ detail.identity.entity }}</span><i />{{ detail.identity.entity_type }} · {{ detail.identity.company }} · {{ detail.identity.platform_scope }}</div>
           <div class="prism-composition">
             <div class="prism-geometry" :class="{ 'is-overlap': overlap, 'is-derived': derived }">
+              <p class="prism-geometry-label">MEASURED TIDAL BAND · DISCRETE QUARTERS</p>
               <svg class="refraction-field" viewBox="0 0 1000 220" preserveAspectRatio="none" role="img" :aria-label="`${detail.identity.entity} ${quarterLabel(current.quarter)} measurement prism`">
+                <defs><clipPath id="prism-aperture-clip"><rect :x="prismX - 82" y="12" width="164" height="190" /></clipPath></defs>
                 <line class="refraction-baseline" x1="40" y1="178" x2="960" y2="178" />
                 <g class="refraction-quarter-ticks"><line v-for="(group, index) in groups" :key="group.quarter" :x1="xForIndex(index)" :x2="xForIndex(index)" y1="173" y2="184" /></g>
-                <path v-for="lane in trajectoryLanes" :key="lane.id" :d="lane.path" class="refraction-path" :class="`refraction-path--${lane.laneIndex + 1}`" />
+                <g v-for="lane in trajectoryLanes" :key="lane.id" class="refraction-lane" :class="`refraction-lane--${lane.laneIndex + 1}`" :clip-path="overlap && lane.laneIndex > 0 ? 'url(#prism-aperture-clip)' : undefined">
+                  <path :d="lane.bandPath" class="refraction-band" :class="`refraction-band--${lane.laneIndex + 1}`" />
+                  <path :d="lane.path" class="refraction-core" :class="`refraction-core--${lane.laneIndex + 1}`" />
+                  <g class="refraction-peak-caps"><line v-for="point in lane.peaks" :key="`${point.item.observation_id}-peak`" :x1="point.x - 10" :x2="point.x + 10" :y1="point.y - 14" :y2="point.y - 14" /></g>
+                  <g class="refraction-drawdown-notches"><path v-for="point in lane.drawdowns" :key="`${point.item.observation_id}-drawdown`" :d="`M${point.x - 5},${point.y + 13}V${point.y + 20}H${point.x + 5}`" /></g>
+                </g>
                 <g v-if="seamX !== null" class="refraction-seam">
                   <line :x1="seamX - 4" :x2="seamX - 4" y1="25" y2="195"/><line :x1="seamX + 4" :x2="seamX + 4" y1="25" y2="195"/>
                   <text :x="seamX + 12" y="31">REPORTING DEFINITION CHANGE</text>
                 </g>
                 <g v-for="lane in trajectoryLanes" :key="`${lane.id}-selected`">
                   <template v-for="point in lane.points.filter((item) => item.item.quarter === current.quarter)" :key="point.item.observation_id">
-                    <circle v-if="!point.item.derived" :cx="point.x" :cy="point.y" r="7" class="refraction-point" :class="`refraction-point--${lane.laneIndex + 1}`" />
+                    <g v-if="!point.item.derived" class="refraction-reading-mark" :class="`refraction-reading-mark--${lane.laneIndex + 1}`"><line :x1="point.x - 11" :x2="point.x + 11" :y1="point.y" :y2="point.y"/><line :x1="point.x" :x2="point.x" :y1="point.y - 8" :y2="point.y + 8"/></g>
                     <template v-else>
                       <line :x1="point.x" :x2="point.x" :y1="point.y - 22" :y2="point.y + 22" class="refraction-interval" />
                       <line :x1="point.x - 9" :x2="point.x + 9" :y1="point.y - 22" :y2="point.y - 22" class="refraction-interval" />
@@ -166,7 +171,7 @@ onBeforeUnmount(() => { observer?.disconnect(); quarterObserver?.disconnect() })
 
             <aside class="prism-reading reading-pane" aria-live="polite">
               <h3 class="visually-hidden">{{ current.quarter }}</h3>
-              <p class="reading-quarter">{{ quarterLabel(current.quarter) }}</p>
+              <p class="reading-quarter"><span>READING OUTPUT</span><b>{{ quarterLabel(current.quarter) }}</b></p>
               <article v-for="observation in current.observations" :key="observation.observation_id" class="metric-lane" :class="{ 'metric-lane--derived': observation.derived }" :data-canonical-value="formatKrwMillion(observation.value)">
                 <strong>{{ valueNumber(observation.value) }}</strong><em>{{ valueUnit(observation.value) }}</em>
                 <p>{{ detail.identity.entity }} / {{ detail.identity.entity_type }}</p>
@@ -181,16 +186,13 @@ onBeforeUnmount(() => { observer?.disconnect(); quarterObserver?.disconnect() })
             </aside>
           </div>
 
-          <nav class="prism-nav" aria-label="季度切换">
-            <button :disabled="currentIndex === 0" @click="choose(-1)"><span class="visually-hidden">← PREV</span>← <span>{{ groups[currentIndex - 1] ? quarterLabel(groups[currentIndex - 1]!.quarter) : 'START' }}</span></button>
-            <strong>{{ quarterLabel(current.quarter) }}</strong>
-            <button :disabled="currentIndex === groups.length - 1" @click="choose(1)"><span>{{ groups[currentIndex + 1] ? quarterLabel(groups[currentIndex + 1]!.quarter) : 'END' }}</span> →<span class="visually-hidden">NEXT →</span></button>
+          <nav class="prism-quarter-ruler prism-scroll-steps" aria-label="滚动选择季度">
+            <button class="prism-quarter-ruler__edge" :disabled="currentIndex === 0" @click="choose(-1)">←<span class="visually-hidden">← PREV</span></button>
+            <button v-for="group in groups" :key="group.quarter" :data-quarter="group.quarter" :class="{ active: group.quarter === current.quarter }" @click="selectedQuarter = group.quarter"><i/><span>{{ quarterLabel(group.quarter) }}</span></button>
+            <button class="prism-quarter-ruler__edge" :disabled="currentIndex === groups.length - 1" @click="choose(1)">→<span class="visually-hidden">NEXT →</span></button>
           </nav>
           <SourceList v-if="evidenceOpen" :sources="currentSources" title="本季度证据来源" />
         </div>
-        <ol class="prism-scroll-steps" aria-label="滚动选择季度">
-          <li v-for="group in groups" :key="group.quarter" :data-quarter="group.quarter" :class="{ active: group.quarter === current.quarter }"><button @click="selectedQuarter = group.quarter">{{ quarterLabel(group.quarter) }}</button></li>
-        </ol>
       </div>
     </div>
   </section>

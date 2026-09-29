@@ -182,40 +182,14 @@
 /* Quarter Prism V2 */
 .prism-chapter { min-height: 100svh; }
 .prism-intro { margin-bottom: 2rem; }
-.prism-controls { display: grid; grid-template-columns: auto minmax(15rem, 1fr) auto minmax(9rem, 14rem); align-items: center; gap: .65rem 1rem; margin-bottom: 1.5rem; }
-.prism-controls label { font: 600 .68rem var(--font-numeric); letter-spacing: .14em; color: var(--ink-3); }
-.prism-chapter .native-control { color: var(--ink); border-color: var(--rule-dark); background: var(--surface-bg); }
+.prism-controls { display:grid;grid-template-columns:minmax(18rem,38rem) 1fr;align-items:end;gap:1rem 2rem;margin-bottom:1.5rem;padding-block:1rem;border-block:1px solid var(--rule-dark); }
+.prism-series-control { display:grid;grid-template-columns:auto minmax(12rem,1fr);align-items:center;gap:.8rem; }
+.prism-controls label { font:600 .62rem var(--font-numeric);letter-spacing:.14em;color:var(--ink-3); }
+.prism-control-note { justify-self:end;font:.58rem var(--font-numeric);letter-spacing:.09em;color:var(--ink-3); }
+.prism-chapter .native-control { min-height:40px;color:var(--ink);border:0;border-bottom:1px solid var(--rule-dark-strong);background:transparent;padding:.35rem 1.8rem .35rem .25rem; }
 .prism-chapter select option { color: var(--ink); background: var(--surface-paper); }
 .prism-loading { min-height: 28rem; display: grid; place-content: center; border-block: 1px solid var(--rule-dark); color: var(--ink-3); }
-.quarter-prism { border-block: 1px solid var(--rule-light); padding-block: 1.5rem; color: var(--instrument-ink); }
-.prism-scroll-story { position:relative; min-height:270svh; }
-.prism-scroll-story .quarter-prism { position:sticky; top:5svh; height:90svh; z-index:2; background:var(--instrument-bg); overflow:auto; }
-.prism-scroll-steps { position:absolute; inset:80svh 0 0 auto; width:7rem; z-index:3; margin:0; padding:0; list-style:none; pointer-events:none; }
-.prism-scroll-steps li { height:24svh; display:flex; align-items:center; justify-content:flex-end; opacity:.35; transition:opacity var(--t-fast); }
-.prism-scroll-steps li.active { opacity:1; }
-.prism-scroll-steps button { min-height:44px; padding:.35rem .55rem; border:1px solid var(--rule-light); color:var(--instrument-muted); background:rgba(28,36,35,.9); font:.68rem var(--font-numeric); pointer-events:auto; cursor:pointer; }
-.prism-main { display: grid; grid-template-columns: minmax(12rem, .72fr) minmax(24rem, 1.4fr) minmax(13rem, .88fr); gap: clamp(1.2rem, 3vw, 3rem); min-height: 23rem; }
-.prism-main > * { min-width: 0; }
-.prism-identity, .prism-context { padding-block: 1.2rem; }
-.prism-identity h3 { font-size: clamp(1.6rem, 3vw, 2.6rem); margin: .7rem 0; }
-.prism-reading { padding: 1.2rem clamp(1rem, 3vw, 2.2rem); border-inline: 1px solid var(--rule-light); }
-.prism-reading > h3 { font-size: clamp(2.3rem, 5vw, 4.8rem); margin: .4rem 0 1.2rem; }
-.observation-stack { display: grid; gap: .8rem; }
-.metric-lane { border-top: 2px solid var(--teal-bright); padding-top: .7rem; }
-.metric-lane--derived { border-top-color: var(--copper-bright); }
-.metric-lane .metric-version { font: .7rem var(--font-numeric); letter-spacing: .12em; color: var(--instrument-faint); }
-.metric-lane > strong { display: block; font-size: clamp(1.45rem, 2.6vw, 2.25rem); margin: .2rem 0; }
-.metric-lane > p:not(.metric-version):not(.caption) { color: var(--instrument-muted); font-size: .82rem; }
-.version-seam { margin-top:.8rem; padding:.6rem .8rem; border-inline:3px double var(--instrument-ink); color:var(--context-copper-on-instrument); font:.68rem var(--font-numeric); letter-spacing:.05em; }
-.metric-interval { display: grid; grid-template-columns: auto 1fr auto; gap: .7rem; align-items: center; color: var(--copper-bright); font: .68rem var(--font-numeric); }
-.metric-interval i { border-top: 1px solid currentColor; }
-.prism-context .event-rail { display: grid; }
-.event-rail__item { display: block; }
-.event-rail__item small { display: block; margin-left: 1rem; color: var(--instrument-faint); }
-.quarter-dot { position: absolute; top: 50%; width: 44px; height: 44px; padding: 0; border: 0; background: transparent; transform: translate(-50%,-50%); cursor: pointer; }
-.quarter-dot::after { content:''; position:absolute; left:50%; top:50%; width:11px; height:11px; border:2px solid var(--instrument-bg); border-radius:50%; background:var(--instrument-faint); transform:translate(-50%,-50%); }
-.quarter-dot.active::after { width: 16px; height: 16px; background: var(--teal-bright); }
-.prism-nav { display: flex; justify-content: space-between; margin-top: 1rem; }
+.prism-scroll-story { position:relative;min-height:0; }
 .source-action { margin-top: 1.25rem; }
 
 /* Finding stages */
@@ -275,29 +249,36 @@
 .tidal-band__events line{stroke:var(--context-copper);stroke-width:2;vector-effect:non-scaling-stroke}
 .tidal-band--compact .tidal-band__path{stroke-width:3.5}.tidal-band--compact .tidal-band__peaks path{stroke-width:1.5}.tidal-band--compact .tidal-band__seams line{stroke-width:1}
 
-/* Quarter Prism: flat refraction field */
+/* Quarter Prism: warm editorial frame with one local instrument surface */
 .prism-signature { border-top:5px double var(--data-teal); }
 .prism-intro { margin-bottom:1.5rem; }.prism-intro .lede{max-width:34rem}
-.quarter-prism { padding-block:0; border:1px solid var(--rule-light-strong); }
-.legacy-display-probe{display:block;width:0;height:0;overflow:hidden}.legacy-contract-select{display:none}.uncertainty-block{color:var(--uncertainty-violet-on-instrument);font:.58rem/1.5 var(--font-numeric);letter-spacing:.04em}
-.prism-scroll-story .quarter-prism { padding:clamp(1rem,2vw,2rem); }
-.prism-entity-line { display:flex;align-items:center;gap:.8rem;padding-bottom:.8rem;border-bottom:1px solid var(--rule-light);font:.64rem var(--font-numeric);letter-spacing:.07em;color:var(--instrument-faint);text-transform:uppercase }.prism-entity-line span{color:var(--instrument-ink);font-weight:700}.prism-entity-line i{height:1px;width:2rem;background:var(--data-teal-on-instrument)}
-.prism-composition { display:grid;grid-template-columns:minmax(0,1.72fr) minmax(18rem,.68fr);min-height:32rem; }
-.prism-geometry { position:relative;min-width:0;border-right:1px solid var(--rule-light);padding:1.2rem 1rem 4.8rem 0;display:flex;align-items:center; }
+.quarter-prism { padding:1.1rem 0 .2rem;border-block:1px solid var(--rule-dark);background:transparent;color:var(--ink); }
+.quarter-prism:focus-visible { outline-color:var(--data-teal);outline-offset:6px; }
+.legacy-display-probe{display:block;width:0;height:0;overflow:hidden}.legacy-contract-select{display:none}.uncertainty-block{color:var(--uncertainty-violet);font:.58rem/1.5 var(--font-numeric);letter-spacing:.04em}
+.prism-entity-line { display:flex;align-items:center;gap:.8rem;padding:0 0 .9rem;font:.62rem var(--font-numeric);letter-spacing:.07em;color:var(--ink-3);text-transform:uppercase }.prism-entity-line span{color:var(--ink);font-weight:700}.prism-entity-line i{height:1px;width:2rem;background:var(--data-teal)}
+.prism-composition { display:grid;grid-template-columns:minmax(0,1.65fr) minmax(18rem,.72fr);gap:clamp(.8rem,1.5vw,1.4rem);align-items:stretch;min-height:30rem; }
+.prism-geometry { position:relative;min-width:0;min-height:30rem;padding:2.7rem 1.2rem 4.7rem;background:var(--instrument-bg);border:1px solid rgba(238,236,229,.22);color:var(--instrument-ink);display:flex;align-items:center;overflow:hidden; }
+.prism-geometry-label{position:absolute;left:1.2rem;top:.9rem;font:.54rem var(--font-numeric);letter-spacing:.11em;color:var(--instrument-faint)}
 .refraction-field { width:100%;height:24rem;overflow:visible; }
-.refraction-baseline,.refraction-quarter-ticks line{stroke:var(--rule-light-strong);stroke-width:1;vector-effect:non-scaling-stroke}.refraction-path{fill:none;stroke:var(--teal-bright);stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;vector-effect:non-scaling-stroke}.refraction-path--2{stroke:var(--copper-bright)}
-.refraction-point{fill:var(--instrument-bg);stroke:var(--data-teal-on-instrument);stroke-width:4;vector-effect:non-scaling-stroke}.refraction-point--2{stroke:var(--context-copper-on-instrument)}
-.refraction-seam line{stroke:var(--context-copper-on-instrument);stroke-width:1.5;vector-effect:non-scaling-stroke}.refraction-seam text{fill:var(--context-copper-on-instrument);font:9px var(--font-numeric);letter-spacing:.08em}.refraction-interval{stroke:var(--uncertainty-violet-on-instrument);stroke-width:2;vector-effect:non-scaling-stroke}.refraction-diamond{fill:var(--instrument-bg);stroke:var(--uncertainty-violet-on-instrument);stroke-width:2;vector-effect:non-scaling-stroke}
-.refraction-window { top:1rem;bottom:4.8rem;width:clamp(9rem,18vw,15rem);transform:translateX(-50%);border:0;background:rgba(238,242,234,.035); }
-.refraction-window__rule{position:absolute;top:0;bottom:0;width:1px;background:var(--instrument-ink)}.refraction-window__rule--l{left:0}.refraction-window__rule--l2{left:6px}.refraction-window__rule--r2{right:6px}.refraction-window__rule--r{right:0}
-.refraction-window__quarter{position:absolute;top:-1.2rem;left:50%;transform:translateX(-50%);white-space:nowrap;font:650 .66rem var(--font-numeric);letter-spacing:.1em;color:var(--instrument-ink);background:var(--instrument-bg);padding:.2rem .5rem}
-.overlap-refraction { position:absolute;inset:24% .7rem 18%;display:grid;grid-template-rows:auto 1fr auto 1fr auto;align-items:center;text-align:center;color:var(--instrument-muted);font:.55rem var(--font-numeric);letter-spacing:.08em }.overlap-refraction i{display:block;height:1px;background:currentColor}.overlap-refraction strong{display:grid;gap:.18rem;color:var(--context-copper-on-instrument);font-size:.58rem}.overlap-refraction small{font-size:.47rem;color:var(--instrument-faint)}
-.derived-refraction{position:absolute;left:50%;bottom:1rem;transform:translateX(-50%);white-space:nowrap;color:var(--uncertainty-violet-on-instrument);font:650 .56rem var(--font-numeric);letter-spacing:.1em}
-.event-prism-rail{position:absolute;left:0;right:1rem;bottom:1.5rem;height:2rem;display:block;margin:0;padding:0;border-top:1px solid var(--rule-light)}.event-prism-rail>span{position:absolute;top:-.3rem;height:.6rem;border-left:1px solid var(--instrument-faint)}.event-prism-rail>span.active{height:1.1rem;border-left:3px solid var(--context-copper-on-instrument)}.event-prism-rail p{position:absolute;right:0;top:.45rem;color:var(--context-copper-on-instrument);font:.52rem var(--font-numeric);letter-spacing:.06em;text-transform:uppercase}
-.prism-reading { border:0;padding:clamp(1.4rem,3vw,2.5rem);display:flex;flex-direction:column;justify-content:center;min-width:0 }.reading-quarter{font:650 clamp(1.15rem,2vw,1.6rem) var(--font-numeric);color:var(--instrument-ink);margin-bottom:1.4rem}.prism-reading .metric-lane{border-top:1px solid var(--data-teal-on-instrument);padding:1rem 0}.prism-reading .metric-lane--derived{border-top-color:var(--uncertainty-violet-on-instrument)}.prism-reading .metric-lane>strong{display:block;font:680 clamp(2.8rem,5vw,5.6rem)/.88 var(--font-numeric);letter-spacing:-.06em;color:var(--instrument-ink)}.prism-reading .metric-lane>em{display:block;margin-top:.55rem;font:650 .68rem var(--font-numeric);letter-spacing:.14em;color:var(--data-teal-on-instrument)}.prism-reading .metric-lane>p{margin-top:1.2rem;color:var(--instrument-ink);font-size:.78rem}.prism-reading .metric-lane>span,.prism-reading .metric-lane>small{display:block;color:var(--instrument-faint);font:.58rem/1.55 var(--font-numeric);letter-spacing:.04em}.reading-interval{display:grid;grid-template-columns:auto 1fr auto;gap:.5rem;align-items:center;margin:.8rem 0;color:var(--uncertainty-violet-on-instrument);font:.62rem var(--font-numeric)}.reading-interval i{border-top:2px solid currentColor}
-.prism-source-link{align-self:flex-start;min-height:44px;padding:.7rem 0;border:0;border-bottom:1px solid var(--instrument-muted);background:transparent;color:var(--instrument-ink);font:.62rem var(--font-numeric);letter-spacing:.12em;cursor:pointer}.issuer-claim{font-size:.66rem;color:var(--context-copper-on-instrument)}
-.prism-nav{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;border-top:1px solid var(--rule-light);margin:0;padding-top:.6rem}.prism-nav button{min-height:44px;border:0;background:transparent;color:var(--instrument-muted);font:.66rem var(--font-numeric);cursor:pointer}.prism-nav button:first-child{text-align:left}.prism-nav button:last-child{text-align:right}.prism-nav button:disabled{opacity:.3}.prism-nav strong{font:700 .82rem var(--font-numeric);color:var(--instrument-ink)}
-.version-seam{border-inline:3px double var(--instrument-ink);text-align:center;line-height:1.6}
+.refraction-baseline,.refraction-quarter-ticks line{stroke:var(--rule-light-strong);stroke-width:1;vector-effect:non-scaling-stroke}
+.refraction-band{fill:rgba(100,187,167,.27);stroke:var(--data-teal-on-instrument);stroke-width:1.4;stroke-linejoin:miter;vector-effect:non-scaling-stroke}.refraction-band--2{fill:rgba(211,153,114,.24);stroke:var(--context-copper-on-instrument)}
+.refraction-core{fill:none;stroke:var(--data-teal-on-instrument);stroke-width:1;stroke-linejoin:miter;opacity:.72;vector-effect:non-scaling-stroke}.refraction-core--2{stroke:var(--context-copper-on-instrument)}
+.refraction-peak-caps line{stroke:var(--instrument-ink);stroke-width:2.4;vector-effect:non-scaling-stroke}.refraction-lane--2 .refraction-peak-caps line{stroke:var(--context-copper-on-instrument)}
+.refraction-drawdown-notches path{fill:none;stroke:var(--instrument-muted);stroke-width:1.2;vector-effect:non-scaling-stroke}
+.refraction-reading-mark line{stroke:var(--instrument-ink);stroke-width:2;vector-effect:non-scaling-stroke}.refraction-reading-mark--2 line{stroke:var(--context-copper-on-instrument)}
+.refraction-seam line{stroke:var(--context-copper-on-instrument);stroke-width:1.2;stroke-dasharray:3 4;vector-effect:non-scaling-stroke}.refraction-seam text{fill:var(--context-copper-on-instrument);font:8px var(--font-numeric);letter-spacing:.08em}.refraction-interval{stroke:var(--uncertainty-violet-on-instrument);stroke-width:2;vector-effect:non-scaling-stroke}.refraction-diamond{fill:var(--instrument-bg);stroke:var(--uncertainty-violet-on-instrument);stroke-width:2;vector-effect:non-scaling-stroke}
+.refraction-window { top:2.35rem;bottom:4.45rem;width:clamp(8.5rem,15vw,13rem);transform:translateX(-50%);border:0;background:linear-gradient(90deg,transparent,rgba(238,236,229,.055) 16%,rgba(238,236,229,.075) 50%,rgba(238,236,229,.055) 84%,transparent); }
+.refraction-window::after{content:'';position:absolute;left:50%;top:0;bottom:0;border-left:1px solid rgba(238,236,229,.2)}
+.refraction-window__rule{position:absolute;top:0;bottom:0;width:9px;border-left:1px solid var(--instrument-ink);background:repeating-linear-gradient(to bottom,transparent 0 24px,rgba(238,236,229,.6) 24px 25px,transparent 25px 48px)}.refraction-window__rule--l{left:0}.refraction-window__rule--r{right:-9px}.refraction-window__rule--l2,.refraction-window__rule--r2{top:8%;bottom:8%;width:1px;background:var(--instrument-muted);opacity:.35}.refraction-window__rule--l2{left:6px}.refraction-window__rule--r2{right:6px}
+.refraction-window__quarter{position:absolute;top:-1.35rem;left:50%;transform:translateX(-50%);white-space:nowrap;font:700 .64rem var(--font-numeric);letter-spacing:.12em;color:var(--instrument-ink);padding:.18rem .4rem}
+.overlap-refraction { position:absolute;inset:21% .6rem 16%;display:grid;grid-template-rows:auto 1fr auto 1fr auto;align-items:center;text-align:center;color:var(--instrument-muted);font:.5rem var(--font-numeric);letter-spacing:.08em }.overlap-refraction i{display:block;height:1px;background:currentColor}.overlap-refraction strong{display:grid;gap:.18rem;color:var(--context-copper-on-instrument);font-size:.54rem}.overlap-refraction small{font-size:.44rem;color:var(--instrument-faint)}
+.derived-refraction{position:absolute;left:50%;bottom:1rem;transform:translateX(-50%);white-space:nowrap;color:var(--uncertainty-violet-on-instrument);font:650 .54rem var(--font-numeric);letter-spacing:.1em}
+.event-prism-rail{position:absolute;left:1.2rem;right:1.2rem;bottom:1.35rem;height:2rem;display:block;margin:0;padding:0;border-top:1px solid var(--rule-light)}.event-prism-rail>span{position:absolute;top:-.3rem;height:.6rem;border-left:1px solid var(--instrument-faint)}.event-prism-rail>span.active{height:1.1rem;border-left:3px solid var(--context-copper-on-instrument)}.event-prism-rail p{position:absolute;right:0;top:.45rem;color:var(--context-copper-on-instrument);font:.5rem var(--font-numeric);letter-spacing:.06em;text-transform:uppercase}
+.prism-reading { align-self:start;min-width:0;padding:clamp(1.25rem,2.5vw,2.1rem);background:var(--surface-bg);border-top:3px solid var(--data-teal);display:flex;flex-direction:column;color:var(--ink) }.reading-quarter{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:1rem;margin-bottom:.75rem;padding-bottom:.75rem;border-bottom:1px solid var(--rule-dark);font-family:var(--font-numeric)}.reading-quarter span{font-size:.55rem;letter-spacing:.12em;color:var(--ink-3)}.reading-quarter b{font-size:1rem;letter-spacing:.05em}
+.prism-reading .metric-lane{display:grid;grid-template-columns:1fr auto;align-items:end;padding:.8rem 0;border-top:1px solid var(--rule-dark)}.prism-reading .metric-lane--derived{border-top-color:var(--uncertainty-violet)}.prism-reading .metric-lane>strong{font:700 clamp(2.4rem,4.5vw,4.5rem)/.88 var(--font-numeric);letter-spacing:-.06em;color:var(--ink)}.prism-reading .metric-lane>em{margin-bottom:.35rem;font:700 .58rem var(--font-numeric);letter-spacing:.12em;color:var(--data-teal)}.prism-reading .metric-lane>p,.prism-reading .metric-lane>span,.prism-reading .metric-lane>small,.reading-interval{grid-column:1/-1}.prism-reading .metric-lane>p{margin-top:.65rem;color:var(--ink);font-size:.75rem}.prism-reading .metric-lane>span,.prism-reading .metric-lane>small{display:block;color:var(--ink-3);font:.55rem/1.45 var(--font-numeric);letter-spacing:.035em}.reading-interval{display:grid;grid-template-columns:auto 1fr auto;gap:.5rem;align-items:center;margin:.55rem 0;color:var(--uncertainty-violet);font:.6rem var(--font-numeric)}.reading-interval i{border-top:2px solid currentColor}
+.prism-source-link{align-self:flex-start;min-height:40px;padding:.55rem 0;border:0;border-bottom:1px solid var(--ink-2);background:transparent;color:var(--ink);font:.6rem var(--font-numeric);letter-spacing:.12em;cursor:pointer}.issuer-claim{font-size:.62rem;color:var(--context-copper)}
+.version-seam{margin:.55rem 0 0;padding:.55rem .65rem;border-inline:3px double var(--ink);color:var(--context-copper);text-align:center;font:.56rem var(--font-numeric);line-height:1.55;letter-spacing:.04em}
+.prism-quarter-ruler{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(4.8rem,1fr);align-items:start;margin-top:.8rem;padding:0;overflow-x:auto;border-block:1px solid var(--rule-dark);scrollbar-width:thin}.prism-quarter-ruler button{position:relative;min-height:52px;padding:.55rem .25rem;border:0;background:transparent;color:var(--ink-3);font:.54rem var(--font-numeric);letter-spacing:.05em;cursor:pointer}.prism-quarter-ruler button i{display:block;width:1px;height:.55rem;margin:0 auto .35rem;background:var(--rule-dark-strong);transition:height var(--t-fast),background var(--t-fast)}.prism-quarter-ruler button.active{color:var(--ink);font-weight:700}.prism-quarter-ruler button.active i{height:1.05rem;background:var(--data-teal)}.prism-quarter-ruler__edge{width:2.5rem;min-width:2.5rem;font-size:.8rem!important}.prism-quarter-ruler button:disabled{opacity:.25;cursor:not-allowed}
 
 /* F1: dual reading page */
 .f1-heading h2{font:720 clamp(3rem,7vw,7.2rem)/.9 var(--font-serif);letter-spacing:-.04em;margin:.8rem 0}.f1-heading h2 span{color:var(--teal)}.f1-heading>p:last-child{font-size:1rem;color:var(--ink-2)}

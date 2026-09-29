@@ -1,0 +1,279 @@
+{
+  "browser": "Firefox",
+  "url": "http://127.0.0.1:4173/",
+  "checks": [
+    {
+      "id": "production_page_loads",
+      "status": "PASS",
+      "detail": "01 Black Desert 02 Jackpot World 03 Lineage 2M 04 Lineage M 05 Lineage W 06 Lotsa Slots 07 MARVEL Contest of Champions 0"
+    },
+    {
+      "id": "opening_scope",
+      "status": "PASS",
+      "detail": "01 Black Desert 02 Jackpot World 03 Lineage 2M 04 Lineage M 05 Lineage W 06 Lotsa Slots 07 MARVEL Contest of Champions 08 Goddess of Victory: NIKKE 09 Stellar Blade 2024 Q3 2025 Q1 2025 Q3 2026 Q1 2026 Q2 REVENUE TIDES / COMMERCIAL MEASUREMENT 付费潮汐 游戏商业生命线 REVENUE TIDES 流水不是一个统一数字。 报告口径、实体范围与证据方式，会改变我们看到的商业轨迹。 Normalized shape · absolute revenue is not compared · 不同公司绝对收入不可比较 09 / SERIES 75 / OBSERVATIONS 04 / PUBLISHERS 进入季度棱镜 ↓ 9 条序列 · 75 个观察 · 4 家发行商 · 2024Q3—2026Q2"
+    },
+    {
+      "id": "nine_series",
+      "status": "PASS",
+      "detail": "Nine series"
+    },
+    {
+      "id": "six_findings",
+      "status": "PASS",
+      "detail": "Six Findings"
+    },
+    {
+      "id": "lineage_overlap",
+      "status": "PASS",
+      "detail": "Two definitions and seam"
+    },
+    {
+      "id": "derived_sign_sensitive",
+      "status": "PASS",
+      "detail": "兼容区间 48.670—55.170 · 方向受取整区间影响"
+    },
+    {
+      "id": "event_noncausal",
+      "status": "PASS",
+      "detail": "STELLAR BLADE PC LAUNCH · NON-CAUSAL · 同季度不等于因果"
+    },
+    {
+      "id": "responsive_no_overflow",
+      "status": "PASS",
+      "detail": "[{\"requested\":\"1280x800\",\"width\":1280,\"scrollWidth\":1280,\"overflow\":0,\"mobile\":false},{\"requested\":\"390x844\",\"width\":390,\"scrollWidth\":390,\"overflow\":0,\"mobile\":true},{\"requested\":\"320x700\",\"width\":320,\"scrollWidth\":320,\"overflow\":0,\"mobile\":true}]"
+    },
+    {
+      "id": "mobile_mode",
+      "status": "PASS",
+      "detail": "Mobile Prism active"
+    },
+    {
+      "id": "hash_navigation",
+      "status": "PASS",
+      "detail": "{\"hash\":\"#finding-F1\",\"top\":0.25,\"y\":4378}"
+    },
+    {
+      "id": "safe_external_links",
+      "status": "PASS",
+      "detail": "{\"count\":42,\"safe\":true}"
+    },
+    {
+      "id": "network_clean",
+      "status": "PASS",
+      "detail": "{\"httpErrors\":[],\"fetchErrors\":[]}"
+    },
+    {
+      "id": "console_clean",
+      "status": "PASS",
+      "detail": "{\"errors\":[],\"warnings\":[]}"
+    },
+    {
+      "id": "warnings_reviewed",
+      "status": "PASS",
+      "detail": "[]"
+    }
+  ],
+  "viewport_audits": [
+    {
+      "requested": "1280x800",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "overflow": 0,
+      "mobile": false
+    },
+    {
+      "requested": "390x844",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "mobile": true
+    },
+    {
+      "requested": "320x700",
+      "width": 320,
+      "scrollWidth": 320,
+      "overflow": 0,
+      "mobile": true
+    }
+  ],
+  "console": {
+    "errors": [],
+    "warnings": []
+  },
+  "network": {
+    "responses": [
+      {
+        "url": "http://127.0.0.1:4173/",
+        "status": 200
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23f3f0e7'/%3E%3Cpath d='M12 40h12V20h12v24h16' fill='none' stroke='%231f6763' stroke-width='6'/%3E%3C/svg%3E",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/index-DlHSZgcS.css",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/index-BT6QzHU1.js",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/manifest.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/project.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series_index.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/findings.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/caveats.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_m.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_jackpot_world.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_stellar_blade.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_black_desert.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_2m.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_w.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lotsa_slots.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_nikke.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_mcoc.json",
+        "status": 200
+      },
+      {
+        "url": "data:font/woff2;base64,d09GMgABAAAAAAScAAsAAAAACfAAAARNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAhBIRCAqGMIRJATYCJAMsCxgABCAFhF4HaBsuCMgehXEsLOlXaXd7sgbPQ172fjLwdhYFM92mABaiTuRVdO5/mx9I5UJiJom3phLRQw/TSF2M/vo25+pNyWkNws81NrUDAAf0QOdfcf7nmPEyBPZtCbbZEDuosskKZG922ZhBenh05qcSXktf6s3Oy9dAkWsyDzMoM5QTKcwKNjFayUPSREGFhUMrdE8MJsH052qGcYNO3pbEaYIBoDTItIKGAqhDdKHRD0kkKg6QGSCWEfueTNr3P6OvYaIbDH/8ULEAbjQtUt+hT/qmX/SH/twwMLDqN4jxzXjy4PHtltSA6lINqkpRd7N7onVBP20y7YBWyDIHFEBjqKBFMmECfQcTZtD3MmEB/SATVtCPM2ED/TQTdtCfS0/pEsN4ySin3r8q8xHE+0D0XMg8gJi4YrNpNv3qetXuDyeo6OBNZrq5gi7ouC1zcmB2Fd+FewIhcUIfszpF1hzXhrmMCwxaznRyZjig6Y2W7+bBn2DL8fJu/2oHbWc6X80+LUTXcVzv8O3IOy4qKVyFw/DHaMtfzNQEi5gbFT/EDpiofbpkYq2dQui6WcpfxrVBEJ/KxbLA4ZroZoVx+iE+QeTIiI7oKuoUIk/a1ekEOoNFjozm0suYYUelq13/88K1c3PTH9O9Q0d5LZbu7+J2aT7XP23KyQs+34WTU7r8d/k0l6dLl98Dn+/BSUZc7U0mm7FqhSMO9EHV/j5FB4qYX4aXNaKwz/4RRfAWsW8xGW+hvr8PTAf6IP9mRpkDwwv7QFz9HRuOeGWfd8rkyYsWTVy4vpG/pgVNWzBx0aTeIgeq58XFVfZXVduwuOq51a77aT0XLVw4v1PBFjRsQzO+tVeVp3KIwqfKbd6sdjzGvFSuPMquGpMT29lkrhwbE5uz6cGHhIETB06oUk+6tHLJgfnu/3nVnJzYxiXNjQNjYqsu+vCgYKDla5uUOzTNDZg46eCBd3d3gSk9Kz/bFiv8hvOzCT5eqyjBGerT+EiG/JGqwbC+UQ6Bv9bmKGWMj8Yn+fPVRJxKBGqTFXQyM9DhHSlvEHmLVxyYjY/Fdd3hACfLyP3VVZLvVR7B0pxSsGIBqHhwT5sSMOMkRG0BJhpsWMkEO24KwE0pqp3tIYTWCIjJjuBiGNTKTj8JoBLKAn4TmPFnj9oywZwFGx4egp1g3oObeLHdwUO2pFcYTITZCa2c1GQbNg6RCsu9bpikThhAWnLaBi3LM8+5VbMU6rUn30owOC83ULcfBlClb5BBre46BinaWRal85SUvlCbUx1Nbyj2HWCxBTkEgWScQKzsTioJW0IanAYRZqET4mZLSKU2JABII9np01lQ7lOt3srtM1KAeqgQPhYJSMCZJRuAukRZB1CF35gB1MJBr4ilIPZchNyIlDkpRt+3s96cz9K8XKQvCdZfcqWxgtLoXZ2AoKAyVSRRxSRmsYjVOriP089q3z6gdMjE5KI7kzumWzpnAwAAAA==",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/sources.json",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/#finding-F1",
+        "status": 304
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23f3f0e7'/%3E%3Cpath d='M12 40h12V20h12v24h16' fill='none' stroke='%231f6763' stroke-width='6'/%3E%3C/svg%3E",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/index-BT6QzHU1.js",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/index-DlHSZgcS.css",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/manifest.json",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/project.json",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series_index.json",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/findings.json",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/caveats.json",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_m.json",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_jackpot_world.json",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_stellar_blade.json",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_black_desert.json",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_2m.json",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lineage_w.json",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_lotsa_slots.json",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_mcoc.json",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/series/series_nikke.json",
+        "status": 304
+      },
+      {
+        "url": "http://127.0.0.1:4173/data/sources.json",
+        "status": 304
+      }
+    ],
+    "errors": []
+  },
+  "browser_version": "156.0.1",
+  "summary": {
+    "passed": 14,
+    "failed": 0
+  },
+  "browser_stderr_tail": [
+    "*** You are running in headless mode.",
+    "Dynamically enable window occlusion 0",
+    "WebDriver BiDi listening on ws://127.0.0.1:9465",
+    "[WARN  rkv::backend::impl_safe::environment] `load_ratio()` is irrelevant for this storage backend.",
+    "[ERROR shell_windows::limited_access_features] Error generating feature token: NS_ERROR_FAILURE",
+    "[ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: \"未指定的错误\" }",
+    "[ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: \"未指定的错误\" }",
+    "[ERROR shell_windows::taskbar::shortcut] Error matching shortcut: Error { code: HRESULT(0x80004005), message: \"未指定的错误\" }"
+  ]
+}
