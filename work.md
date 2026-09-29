@@ -161,3 +161,11 @@
 - Browser QA: Chrome 15/15 PASS, Edge 15/15 PASS, Firefox production render PASS. All six required viewports reported 0 px page overflow; Chrome/Edge console errors, warnings, and exceptions were zero.
 - TypeScript/build: PASS. Vitest: 62/62 PASS. Phase G isolated: 90/90 PASS. Phase I: 100/100 PASS. Phase J: 102/102 PASS. Manual UI 2.0 QA: 31/31 PASS.
 - Candidate bundle: JS 113.98 kB / 43.00 kB gzip; CSS 29.80 kB / 6.94 kB gzip. Two consecutive production builds were byte-identical. Stop boundary: `STOPPED BEFORE UI 2.0 RELEASE`.
+
+## 2026-09-29 — UI 2.0 deployed to GitHub Pages
+
+- Published the reviewed UI 2.0 static build to `https://loelyvesia.github.io/revenue-tides/` from GitHub repository `Loelyvesia/revenue-tides` branch `main`.
+- GitHub deployment commit: `78cfa0a896f10eb0fd04d109b11fed11ca0c8931`; Pages run `36513179278` completed successfully.
+- Fresh production build and Vitest validation passed (62/62). Public HTTP checks passed for the page shell, hashed JavaScript, hashed CSS, and Web Data manifest.
+- Online manifest verification retained Web Data `revenue-tides-webdata-1.0.0`, 9 series, 75 observations, and 6 Findings.
+- Added `.nojekyll` as deployment infrastructure only. No method, Finding, research value, public data record, corpus scope, frontend dependency, release tag, or freeze version changed.
