@@ -169,3 +169,16 @@
 - Fresh production build and Vitest validation passed (62/62). Public HTTP checks passed for the page shell, hashed JavaScript, hashed CSS, and Web Data manifest.
 - Online manifest verification retained Web Data `revenue-tides-webdata-1.0.0`, 9 series, 75 observations, and 6 Findings.
 - Added `.nojekyll` as deployment infrastructure only. No method, Finding, research value, public data record, corpus scope, frontend dependency, release tag, or freeze version changed.
+
+## 2026-09-29 — UI 2.1 signature visual pass completed
+
+- Created branch `ui-signature-2.1` and candidate `revenue-tides-release-2.1.0`; no deployment, tag, or release freeze was created.
+- Introduced the data-driven Tidal Band grammar across Hero and Observatory: quarter baseline/ticks, normalized relative height, peak caps, version double seams, derived interval sleeves, and contextual event ticks.
+- Rebuilt Quarter Prism as a double-boundary refraction field with direct, Lineage overlap, derived-interval, version-seam, and non-causal event states.
+- Differentiated the three headline chapters as F1 Split, F2 Spike, and F4 Tide Sequence; added nine real Observatory fingerprints and bespoke 390 px compositions.
+- Reduced Measurement chapter Chinese copy by 40.6% while preserving its five-step semantics.
+- Preserved method `revenue-tides-method-freeze-1.0.0`, Findings `revenue-tides-findings-1.0.0`, Web Data `revenue-tides-webdata-1.0.0`, 9 series, 75 observations, 26 events, 18 derived observations, and all frozen interpretations.
+- TypeScript/build: PASS. Vitest: 62/62 PASS. Phase G isolated: 90/90 PASS. Phase I: 100/100 PASS. Phase J: 102/102 PASS. UI 2.1: 28/28 PASS.
+- Browser QA: Chrome 15/15 PASS, Edge 15/15 PASS, Firefox 14/14 PASS; six required viewports have 0 px page overflow and console/network failures remain zero.
+- Bundle: JS 125.10 kB / about 46.3 kB gzip; CSS 50.98 kB / about 10.6 kB gzip. Two consecutive builds were byte-identical across 20 files.
+- Stop boundary: `STOPPED BEFORE UI 2.1 RELEASE REVIEW`.

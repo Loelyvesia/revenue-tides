@@ -61,7 +61,7 @@ const scopeFrom = computed(() => (lm.value?.identity.entity_type === 'GAME_TITLE
       <header class="chapter-head">
         <span class="eyebrow">ACT I — THE NUMBER</span>
         <h2 id="measurement-title" class="display-chapter">为什么“游戏收入”不是统一指标</h2>
-        <p class="lede">同一家公司、同一个季度、同一款游戏，可能同时存在多个被官方披露过的合法收入数字。它们不是错误，而是口径。</p>
+        <p class="lede">同一季度可以有多个合法数字。差异来自测量口径。</p>
       </header>
     </div>
     <div ref="container" class="shell scrolly">
@@ -70,28 +70,28 @@ const scopeFrom = computed(() => (lm.value?.identity.entity_type === 'GAME_TITLE
           <div class="step-rule" />
           <template v-if="i === 1">
             <p class="step-label">STEP 01 · 单一数值</p>
-            <h3>一个游戏，不一定只有一个收入数字</h3>
-            <p>官方披露通常以财政季度为单位。先看一个最简单的观察：季度、数值、实体。</p>
+            <h3>一个游戏，不止一个收入数字</h3>
+            <p>先确认季度、数值与实体。</p>
           </template>
           <template v-else-if="i === 2">
             <p class="step-label">STEP 02 · 实体范围</p>
             <h3>实体范围可能不同</h3>
-            <p>同一条轨迹，有时只算一款游戏（GAME_TITLE），有时把整个 IP 合并（IP）。括号的位置，决定了数字的边界。</p>
+            <p>GAME_TITLE 与 IP 的边界不同。</p>
           </template>
           <template v-else-if="i === 3">
             <p class="step-label">STEP 03 · 口径分裂</p>
-            <h3>同一个季度，也可能存在两个合法口径</h3>
-            <p>当公司改变报告方式，旧口径与新口径会在同一季度重叠。这是整份研究最重要的预告：F1。</p>
+            <h3>同一季度，两个合法口径</h3>
+            <p>旧定义与新定义可以重叠。</p>
           </template>
           <template v-else-if="i === 4">
             <p class="step-label">STEP 04 · 推导区间</p>
-            <h3>有些数值不是直接披露，而是由官方占比推导</h3>
-            <p>当官方只给出百分比，数值会变成区间。一个点，展开成一条不确定性的线。</p>
+            <h3>推导值必须带着区间</h3>
+            <p>官方占比的取整会展开成范围。</p>
           </template>
           <template v-else>
             <p class="step-label">STEP 05 · 事件语境</p>
-            <h3>事件可以同时发生，但同期并不等于因果</h3>
-            <p>上线、联动、更新都发生在时间轴上。它们提供语境，不构成因果证明。</p>
+            <h3>同期事件不是因果证明</h3>
+            <p>事件只提供时间语境。</p>
           </template>
         </div>
       </div>

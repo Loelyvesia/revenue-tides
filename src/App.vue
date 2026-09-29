@@ -16,7 +16,7 @@ const sources = ref<SourceRecord[]>([])
 const state = ref<'loading' | 'ready' | 'error'>('loading')
 const error = ref('')
 let sourceObserver: IntersectionObserver | null = null
-let hashTimer = 0
+const hashTimers: number[] = []
 
 async function initialize(): Promise<void> {
   state.value = 'loading'; error.value = ''
@@ -30,12 +30,16 @@ async function initialize(): Promise<void> {
       }, { rootMargin: '900px' })
       if (target) sourceObserver.observe(target)
     }
-    if (location.hash) hashTimer = window.setTimeout(() => document.querySelector(location.hash)?.scrollIntoView({ block: 'start' }), 80)
+    if (location.hash) {
+      for (const delay of [80, 650, 1900]) {
+        hashTimers.push(window.setTimeout(() => document.querySelector(location.hash)?.scrollIntoView({ block: 'start' }), delay))
+      }
+    }
   } catch (reason) { error.value = reason instanceof Error ? reason.message : 'Unknown data error'; state.value = 'error' }
 }
 
 onMounted(() => { void initialize() })
-onBeforeUnmount(() => { sourceObserver?.disconnect(); window.clearTimeout(hashTimer) })
+onBeforeUnmount(() => { sourceObserver?.disconnect(); hashTimers.forEach((timer) => window.clearTimeout(timer)) })
 </script>
 
 <template>

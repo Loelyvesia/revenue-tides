@@ -11,29 +11,27 @@
 .chapter--paper { background: var(--surface-paper); color: var(--ink); }
 .chapter--inklight { background: var(--surface-inklight); color: var(--ink); }
 
-/* ambient radial wash per chapter (single soft spotlight, no beams) */
+/* UI 2.1 keeps chapter surfaces flat: depth comes from data geometry. */
 .chapter--dark::before {
   content: '';
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background:
-    radial-gradient(60% 45% at 78% 8%, rgba(89, 179, 155, 0.07), transparent 70%),
-    radial-gradient(50% 40% at 12% 92%, rgba(208, 154, 106, 0.05), transparent 70%);
+  background: none;
 }
 .chapter--paper::before {
   content: '';
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: radial-gradient(70% 50% at 50% 0%, rgba(255, 255, 255, 0.5), transparent 70%);
+  background: none;
 }
 .chapter--inklight::before {
   content: '';
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: radial-gradient(70% 55% at 50% 0%, rgba(255, 255, 255, 0.36), transparent 72%);
+  background: none;
 }
 
 .shell {
@@ -129,6 +127,6 @@
   z-index: 91;
   transform-origin: 0 0;
   transform: scaleX(var(--progress, 0));
-  background: linear-gradient(90deg, var(--teal-bright) 0 60%, var(--copper-bright) 100%);
+  background: var(--teal-bright);
   pointer-events: none;
 }

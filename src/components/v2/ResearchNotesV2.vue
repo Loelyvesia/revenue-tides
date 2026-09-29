@@ -24,8 +24,8 @@ onBeforeUnmount(() => observer?.disconnect())
       <div class="notes-grid">
         <article v-for="finding in notes" :id="`finding-${finding.finding_id}`" :key="finding.finding_id" class="note-card">
           <p class="eyebrow">{{ finding.finding_id }} · {{ finding.strength }}</p><h3>{{ finding.title_zh }}</h3><p>{{ finding.statement_zh }}</p>
-          <div v-if="finding.finding_id === 'F3'" class="note-figure"><strong class="display-figure">+32.4%</strong><span>2026Q2 rebound</span><b>4.1% below peak</b></div>
-          <div v-else-if="finding.finding_id === 'F5'" class="note-figure"><strong class="display-figure">−35.3%</strong><span>2025Q2—2026Q2</span><b>royalty-integrated v2 only</b></div>
+          <div v-if="finding.finding_id === 'F3'" class="note-figure"><strong class="display-figure">+32.4%</strong><span>2026 Q2 rebound</span><b>4.1% below peak</b></div>
+          <div v-else-if="finding.finding_id === 'F5'" class="note-figure"><strong class="display-figure">−35.3%</strong><span>2025 Q2—2026 Q2</span><b>royalty-integrated v2 only</b></div>
           <div v-else-if="finding.finding_id === 'F6'" class="interval-matrix" aria-label="15 个派生变化中 9 个方向敏感，6 个方向稳定"><i v-for="(item,index) in derivedChanges" :key="item.observation_id" :class="{ stable: item.derived?.direction_sign_stable, sensitive: !item.derived?.direction_sign_stable }" :title="`${index + 1}: ${item.derived?.direction_sign_stable ? 'sign-stable' : 'sign-sensitive'}`"/><strong>9 / 15 · 60.0%</strong></div>
           <p class="note-limit"><strong>禁止解读</strong> {{ finding.forbidden_interpretation }}</p>
         </article>

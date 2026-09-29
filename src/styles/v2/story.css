@@ -66,10 +66,10 @@
 /* Chapter transition divider */
 .divider-line {
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--rule-dark-strong) 18% 82%, transparent);
+  background: var(--rule-dark-strong);
   width: 100%;
 }
-.chapter--dark .divider-line { background: linear-gradient(90deg, transparent, var(--rule-light-strong) 18% 82%, transparent); }
+.chapter--dark .divider-line { background: var(--rule-light-strong); }
 
 /* Text reveal (chapter entrance) */
 .reveal {
