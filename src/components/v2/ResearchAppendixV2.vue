@@ -5,7 +5,7 @@ defineProps<{ project: ProjectMetadata; manifest: WebManifest; caveats: Caveat[]
 </script>
 
 <template>
-  <footer id="method" class="chapter chapter--dark appendix" aria-labelledby="method-title">
+  <footer id="method" class="chapter chapter--surface appendix" aria-labelledby="method-title">
     <div class="shell"><header class="chapter-head"><span class="eyebrow">RESEARCH APPENDIX</span><h2 id="method-title" class="display-chapter">方法、边界与来源</h2><p class="lede">浏览器只负责呈现；计算、可比性与 Finding 均由冻结研究流水线决定。</p></header>
       <div class="appendix-grid">
         <section><h3>Frozen versions</h3><dl><div><dt>Method</dt><dd>{{ project.method_version }}</dd></div><div><dt>Findings</dt><dd>{{ project.findings_version }}</dd></div><div><dt>Web data</dt><dd>{{ project.webdata_version }}</dd></div><div><dt>Cutoff</dt><dd>{{ project.data_cutoff }}</dd></div></dl></section>

@@ -182,3 +182,17 @@
 - Browser QA: Chrome 15/15 PASS, Edge 15/15 PASS, Firefox 14/14 PASS; six required viewports have 0 px page overflow and console/network failures remain zero.
 - Bundle: JS 125.10 kB / about 46.3 kB gzip; CSS 50.98 kB / about 10.6 kB gzip. Two consecutive builds were byte-identical across 20 files.
 - Stop boundary: `STOPPED BEFORE UI 2.1 RELEASE REVIEW`.
+
+## 2026-09-29 — UI 2.1 color continuity correction completed
+
+- Replaced the black/white full-page alternation with one continuous warm mineral canvas and seven explicit semantic color roles: page, surface, ink, data, context, uncertainty, and instrument.
+- Recast Hero and F2 onto warm mineral surfaces; kept Measurement, F1, F4, Observatory, Research Notes, and the Appendix in the same low-contrast surface family.
+- Kept deep graphite local to the Quarter Prism inner analytical instrument while moving its chapter title, controls, and surrounding canvas to warm paper.
+- Removed legacy dark chapter, dark text, and navigation theme-switch tokens/classes; navigation and source drawers now use one warm treatment.
+- Preserved teal for quantitative data, oxidized copper for event context, and graphite violet for uncertainty; no pure black or pure white remains in the UI source.
+- Verified small-text contrast from 4.55:1 to 4.93:1 for the lowest-contrast semantic combinations; keyboard, focus, reduced-motion, source, and non-color semantics did not regress.
+- Captured seven 1440 px sections, five required before/after pairs, a vertical continuity sheet, and a grayscale continuity sheet. Manual continuity and grayscale reviews passed.
+- Browser QA: Chrome 15/15 PASS, Edge 15/15 PASS, Firefox 14/14 PASS; all six required viewports have 0 px page-level overflow and console/network failures remain zero.
+- Vitest 62/62, UI 2.1 28/28, Phase I 100/100, Phase J 102/102, and color continuity 29/29 all pass.
+- Corrected bundle: JS 125.02 kB / 46.31 kB gzip; CSS 50.40 kB / 10.52 kB gzip. No dependency, research data, Finding, deployment, tag, or freeze change was made.
+- Stop boundary: `STOPPED BEFORE COLOR SYSTEM REVIEW`.

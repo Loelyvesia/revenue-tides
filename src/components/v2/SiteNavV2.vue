@@ -3,7 +3,6 @@ import { onBeforeUnmount, onMounted, ref } from 'vue'
 
 const active = ref('opening')
 const scrolled = ref(false)
-const dark = ref(true)
 const progress = ref(0)
 let observer: IntersectionObserver | null = null
 let raf = 0
@@ -25,7 +24,6 @@ onMounted(() => {
     const current = entries.filter((entry) => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0]
     if (!current?.target.id) return
     active.value = current.target.id
-    dark.value = current.target.classList.contains('chapter--dark')
   }, { rootMargin: '-18% 0px -66% 0px', threshold: [0, .2, .6] })
   ;['opening', 'measurement', 'prism', 'headline-findings', 'observatory', 'research-notes', 'method'].forEach((id) => {
     const target = document.getElementById(id)
@@ -42,7 +40,7 @@ onBeforeUnmount(() => {
 
 <template>
   <div class="read-progress" :style="{ '--progress': progress }" aria-hidden="true" />
-  <header class="site-nav" :class="{ 'is-scrolled': scrolled, 'site-nav--dark': dark && !scrolled }">
+  <header class="site-nav" :class="{ 'is-scrolled': scrolled }">
     <a class="site-nav__brand" href="#opening">REVENUE TIDES</a>
     <nav class="site-nav__links" aria-label="页面章节">
       <a href="#measurement" :aria-current="active === 'measurement' ? 'location' : undefined">I · NUMBER</a>

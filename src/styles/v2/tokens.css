@@ -1,38 +1,47 @@
-/* Revenue Tides UI 2.0 — Design tokens (TIDAL LEDGER) */
+/* Revenue Tides UI 2.1 — continuous mineral canvas */
 
 :root {
-  /* Chapter surfaces */
-  --surface-dark: #10161a;
-  --surface-dark-soft: #162028;
-  --surface-paper: #f2eee3;
-  --surface-paper-2: #eae4d3;
-  --surface-inklight: #e7e2d4;
-  --surface-inklight-2: #ddd7c5;
+  /* Seven semantic roles: page, surface, ink, data, context, uncertainty, instrument. */
+  --page-bg: #eeece5;
+  --surface-bg: #f5f2ea;
+  --surface-subtle: #e4e1d7;
+  --surface-muted: #d9d6cc;
 
-  /* Ink / text */
-  --ink: #1c2328;
-  --ink-2: #3d474e;
-  --ink-3: #69737b;
-  --on-dark: #eef2ea;
-  --on-dark-2: #aebbc0;
-  --on-dark-3: #7c8a92;
+  --ink: #202321;
+  --ink-2: #4d534f;
+  --ink-3: #666c67;
 
-  /* Data accents */
-  --teal: #1f6f64;
-  --teal-bright: #59b39b;
-  --teal-wash: rgba(31, 111, 100, 0.09);
-  --copper: #a6632f;
-  --copper-bright: #d09a6a;
+  --data-teal: #1f716d;
+  --data-teal-on-instrument: #64bba7;
+  --context-copper: #955a3b;
+  --context-copper-on-instrument: #d39972;
+  --uncertainty-violet: #6d667c;
+  --uncertainty-violet-on-instrument: #948ca3;
+  --instrument-bg: #1c2423;
+  --instrument-ink: #eeece5;
+  --instrument-muted: #aeb9b3;
+  --instrument-faint: #838e89;
+
+  /* Stable compatibility names used by the frozen chart grammar. */
+  --surface-paper: var(--page-bg);
+  --surface-paper-2: var(--surface-bg);
+  --surface-inklight: var(--surface-subtle);
+  --surface-inklight-2: var(--surface-muted);
+  --teal: var(--data-teal);
+  --teal-bright: var(--data-teal-on-instrument);
+  --teal-wash: rgba(31, 113, 109, 0.09);
+  --copper: var(--context-copper);
+  --copper-bright: var(--context-copper-on-instrument);
+  --violet: var(--uncertainty-violet);
   --amber: #c98a2b;
   --coral: #c2604f;
-  --violet: #7d6a9e;
   --steel: #5b6a77;
 
   /* Rules */
-  --rule-dark: rgba(28, 35, 40, 0.28);
-  --rule-dark-strong: rgba(28, 35, 40, 0.55);
-  --rule-light: rgba(238, 242, 234, 0.22);
-  --rule-light-strong: rgba(238, 242, 234, 0.42);
+  --rule-dark: rgba(32, 35, 33, 0.25);
+  --rule-dark-strong: rgba(32, 35, 33, 0.5);
+  --rule-light: rgba(238, 236, 229, 0.2);
+  --rule-light-strong: rgba(238, 236, 229, 0.4);
 
   /* Type */
   --font-sans: "Source Han Sans SC", "Noto Sans SC", system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;

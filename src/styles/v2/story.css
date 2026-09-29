@@ -69,7 +69,6 @@
   background: var(--rule-dark-strong);
   width: 100%;
 }
-.chapter--dark .divider-line { background: var(--rule-light-strong); }
 
 /* Text reveal (chapter entrance) */
 .reveal {
@@ -81,8 +80,6 @@
   opacity: 1;
   transform: none;
 }
-.chapter--dark .reveal { opacity: 0; }
-.chapter--dark .reveal.is-in { opacity: 1; }
 
 @media (prefers-reduced-motion: reduce) {
   .reveal { opacity: 1; transform: none; transition: none; }

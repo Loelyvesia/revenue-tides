@@ -103,7 +103,7 @@ onBeforeUnmount(() => { observer?.disconnect(); quarterObserver?.disconnect() })
 </script>
 
 <template>
-  <section id="prism" ref="root" class="chapter chapter--dark prism-chapter prism-signature" aria-labelledby="prism-title">
+  <section id="prism" ref="root" class="chapter chapter--paper prism-chapter prism-signature" aria-labelledby="prism-title">
     <div class="shell shell--wide">
       <header class="chapter-head prism-intro">
         <span class="eyebrow">ACT II — THE QUARTER</span>

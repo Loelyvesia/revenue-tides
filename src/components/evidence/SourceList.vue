@@ -29,11 +29,11 @@ defineProps<{
 </template>
 
 <style scoped>
-.source-list { padding: 1.25rem 1.5rem; border-left: 3px solid var(--accent-primary); border-block: 1px solid var(--rule-grid); background: rgba(248,246,239,.92); }
+.source-list { padding: 1.25rem 1.5rem; border-left: 3px solid var(--data-teal); border-block: 1px solid var(--rule-dark); background: var(--surface-bg); color: var(--ink); }
 h4 { margin: 0 0 0.75rem; font-size: 1rem; }
-.source-record { margin: 0; padding: 0.75rem 0; border-top: 1px solid var(--rule-grid); }
+.source-record { margin: 0; padding: 0.75rem 0; border-top: 1px solid var(--rule-dark); }
 .source-record div { display: grid; grid-template-columns: 5.5rem 1fr; gap: 0.75rem; }
-dt { color: var(--text-secondary); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; }
+dt { color: var(--ink-3); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; }
 dd { margin: 0; font-size: 0.875rem; overflow-wrap: anywhere; }
 .source-link-row { margin-top: 0.35rem; }
 @media (max-width: 390px) { .source-list { padding: 1rem; }.source-record div { grid-template-columns: 4.5rem minmax(0,1fr); }.source-record dd { overflow-wrap: anywhere; } }

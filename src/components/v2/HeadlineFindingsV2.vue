@@ -93,7 +93,7 @@ onBeforeUnmount(() => observer?.disconnect())
       </div>
     </article>
 
-    <article :id="`finding-${f2.finding_id}`" class="finding-page chapter chapter--dark finding-f2">
+    <article :id="`finding-${f2.finding_id}`" class="finding-page chapter chapter--surface finding-f2">
       <div class="shell shell--wide">
         <header class="finding-head f2-heading"><p class="eyebrow">FINDING / 02 · {{ f2.strength }}</p><h2 class="display-chapter">The Spike / 同期尖峰</h2><p class="finding-en">{{ f2.title_zh }}</p></header>
         <div class="f2-stage f2-spike-stage">

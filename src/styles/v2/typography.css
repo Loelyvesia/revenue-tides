@@ -44,12 +44,3 @@ h1, h2, h3, h4 { line-height: 1.12; letter-spacing: -0.02em; font-weight: 700; t
 }
 
 .numeric { font-family: var(--font-numeric); font-variant-numeric: tabular-nums; }
-
-/* Dark-surface type overrides */
-.chapter--dark h1, .chapter--dark h2, .chapter--dark h3, .chapter--dark .display-hero, .chapter--dark .display-chapter {
-  color: var(--on-dark);
-}
-.chapter--dark .eyebrow { color: var(--on-dark-2); }
-.chapter--dark .caption { color: var(--on-dark-2); }
-.chapter--dark .body, .chapter--dark .body-lg { color: var(--on-dark); }
-.chapter--dark p.body-lg strong { color: var(--teal-bright); }
