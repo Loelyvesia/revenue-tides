@@ -1,0 +1,312 @@
+{
+  "summary": {
+    "passed": 60,
+    "failed": 0,
+    "js_raw_bytes": 146012,
+    "js_gzip_bytes": 58211,
+    "css_raw_bytes": 62530,
+    "css_gzip_bytes": 14445
+  },
+  "checks": [
+    {
+      "name": "method_version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "findings_version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "webdata_version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "series_count",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "observation_count",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "event_count",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "derived_count",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "finding_count",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "headline_set",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "frozen_data_unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "frozen_research_unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "dependencies_unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "no_chart_dependency",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "hero_loads_real_details",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "hero_normalizes_within_series",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "hero_ribbons",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "hero_nodes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "hero_stagger",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "hero_parallax",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "measurement_five_states",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "measurement_uncertainty_pattern",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "measurement_event_separate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "prism_liquid_band",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "prism_real_nodes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "prism_aperture",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "prism_overlap_local",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "prism_derived_pattern",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "prism_event_noncausal",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "prism_quarter_ruler",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "prism_keyboard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "f1_dual_ribbon",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "f2_surge",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "f2_event_separate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "f4_landscape",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "archive_filled_fingerprints",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "smooth_is_presentational",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "smooth_passes_anchors",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "band_volume",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "gradient_system",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "local_glow",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "reduced_motion",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "mobile_390",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "non_color_version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "non_color_uncertainty",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "desktop_screenshots",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "mobile_screenshots",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "before_after_sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "promotional_sheet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "chrome_qa",
+      "status": "PASS",
+      "detail": "15/15"
+    },
+    {
+      "name": "edge_qa",
+      "status": "PASS",
+      "detail": "15/15"
+    },
+    {
+      "name": "firefox_qa",
+      "status": "PASS",
+      "detail": "13/13"
+    },
+    {
+      "name": "six_viewports",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "console_clean",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "network_clean",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "chapter_code_split",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "bundle_documented",
+      "status": "PASS",
+      "detail": "JS 146012; CSS 62530"
+    },
+    {
+      "name": "no_large_asset",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "required_reports",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "beauty_gate_pass",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "stop_before_deployment",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}

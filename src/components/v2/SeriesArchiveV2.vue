@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
 import { loadSeriesDetail } from '../../data/client'
-import type { Caveat, Finding, Observation, SeriesDetail, SeriesIndexRecord, SourceRecord } from '../../types/webData'
-import { formatKrwMillion, groupByQuarter, resolveSources } from '../../utils/model'
+import type { Caveat, Finding, SeriesDetail, SeriesIndexRecord, SourceRecord } from '../../types/webData'
+import { groupByQuarter, resolveSources } from '../../utils/model'
 import SourceList from '../evidence/SourceList.vue'
 import TidalBand from './TidalBand.vue'
 
@@ -25,10 +25,6 @@ async function select(record: SeriesIndexRecord, force = false): Promise<void> {
 }
 function fingerprint(record: SeriesIndexRecord): SeriesDetail | null { return fingerprints.value.find((item) => item.series_id === record.series_id) ?? null }
 function quarterLabel(value: string | undefined): string { return value ? value.replace(/(\d{4})Q(\d)/, '$1 Q$2') : '—' }
-function barHeight(observation: Observation): number {
-  const values = detail.value?.observations.filter((item): item is Observation & { value: number } => item.value !== null).map((item) => item.value) ?? []
-  return observation.value === null ? 0 : 12 + observation.value / Math.max(...values, 1) * 48
-}
 function findingTitle(id: string): string { return props.findings.find((item) => item.finding_id === id)?.title_zh ?? id }
 onMounted(() => { void loadFingerprints() })
 </script>
@@ -56,9 +52,7 @@ onMounted(() => { void loadFingerprints() })
           <div v-else-if="error" role="alert">数据加载失败。<button class="native-control" @click="select(series.find((item) => item.series_id === selectedId)!, true)">重试</button></div>
           <template v-else-if="detail">
             <p class="eyebrow">SELECTED SERIES</p><h3 class="headline-1">{{ detail.identity.entity }}</h3><p>{{ detail.identity.company }} · {{ detail.identity.entity_type }}</p><p class="caption">{{ detail.identity.platform_scope }}</p>
-            <div class="tide-strip" aria-label="序列内季度轨迹">
-              <template v-for="group in groups" :key="group.quarter"><span v-for="observation in group.observations" :key="observation.observation_id" class="tide-strip__bar" :class="{ 'tide-strip__bar--peak': observation.drawdown_percent === 0, 'tide-strip__bar--derived': observation.derived }" :style="{ height: `${barHeight(observation)}px` }" :title="`${observation.quarter} ${formatKrwMillion(observation.value)}`" /></template>
-            </div>
+            <div class="archive-detail__tide"><TidalBand :detail="detail" show-events /></div>
             <div class="detail-line"><span class="detail-line__k">WINDOW</span><span>{{ quarterLabel(groups[0]?.quarter) }}—{{ quarterLabel(groups.at(-1)?.quarter) }}</span></div>
             <div class="detail-line"><span class="detail-line__k">VERSIONS</span><span>{{ detail.metric_versions.map((item) => item.version).join(' / ') }}</span></div>
             <div class="detail-line"><span class="detail-line__k">FINDINGS</span><span>{{ detail.findings.map((id) => `${id} · ${findingTitle(id)}`).join('；') || '—' }}</span></div>

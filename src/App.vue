@@ -1,15 +1,18 @@
 <script setup lang="ts">
-import { nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
+import { defineAsyncComponent, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 import { loadBootstrap, loadSources } from './data/client'
 import type { BootstrapData, SourceRecord } from './types/webData'
 import SiteNavV2 from './components/v2/SiteNavV2.vue'
 import HeroV2 from './components/v2/HeroV2.vue'
-import MeasurementStory from './components/v2/MeasurementStory.vue'
-import QuarterPrismV2 from './components/v2/QuarterPrismV2.vue'
-import HeadlineFindingsV2 from './components/v2/HeadlineFindingsV2.vue'
-import SeriesArchiveV2 from './components/v2/SeriesArchiveV2.vue'
-import ResearchNotesV2 from './components/v2/ResearchNotesV2.vue'
-import ResearchAppendixV2 from './components/v2/ResearchAppendixV2.vue'
+
+// Each visual chapter is an independent payload. This keeps the opening field light
+// while preserving the continuous document once the browser resolves the local chunks.
+const MeasurementStory = defineAsyncComponent(() => import('./components/v2/MeasurementStory.vue'))
+const QuarterPrismV2 = defineAsyncComponent(() => import('./components/v2/QuarterPrismV2.vue'))
+const HeadlineFindingsV2 = defineAsyncComponent(() => import('./components/v2/HeadlineFindingsV2.vue'))
+const SeriesArchiveV2 = defineAsyncComponent(() => import('./components/v2/SeriesArchiveV2.vue'))
+const ResearchNotesV2 = defineAsyncComponent(() => import('./components/v2/ResearchNotesV2.vue'))
+const ResearchAppendixV2 = defineAsyncComponent(() => import('./components/v2/ResearchAppendixV2.vue'))
 
 const data = ref<BootstrapData | null>(null)
 const sources = ref<SourceRecord[]>([])

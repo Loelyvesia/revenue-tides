@@ -6,9 +6,9 @@
   overflow: clip;
 }
 
-.chapter--paper { background: var(--page-bg); color: var(--ink); }
-.chapter--surface { background: var(--surface-bg); color: var(--ink); }
-.chapter--inklight { background: var(--surface-subtle); color: var(--ink); }
+.chapter--paper { background:linear-gradient(180deg,rgba(238,236,229,.98),rgba(244,243,236,.94)); color: var(--ink); }
+.chapter--surface { background:linear-gradient(160deg,rgba(245,242,234,.98),rgba(231,238,233,.95)); color: var(--ink); }
+.chapter--inklight { background:linear-gradient(145deg,rgba(228,225,215,.98),rgba(231,239,233,.96)); color: var(--ink); }
 
 /* UI 2.1 keeps chapter surfaces flat: depth comes from data geometry. */
 .chapter--paper::before {

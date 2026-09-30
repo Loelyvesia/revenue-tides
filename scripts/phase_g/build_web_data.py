@@ -836,13 +836,14 @@ Status: `{'PASS' if uncertainty_ok else 'FAIL'}`
 
     public_text = "\n".join(path.read_text(encoding="utf-8") for path in public_files)
     raw_hashes = {row["sha256"] for row in data["sources"] if row["sha256"]}
-    separation_ok = "E:\\" not in public_text and not any(raw_hash in public_text for raw_hash in raw_hashes)
+    local_drive_marker = "E:" + chr(92)
+    separation_ok = local_drive_marker not in public_text and not any(raw_hash in public_text for raw_hash in raw_hashes)
     separation = f"""# Public / internal separation audit
 
 Status: `{'PASS' if separation_ok else 'FAIL'}`
 
 - Public directory contains only frontend-ready JSON plus `NOTICE.md`.
-- Local filesystem paths absent: {'PASS' if 'E:\\' not in public_text else 'FAIL'}
+- Local filesystem paths absent: {'PASS' if local_drive_marker not in public_text else 'FAIL'}
 - Raw PDF hashes absent: {'PASS' if not any(raw_hash in public_text for raw_hash in raw_hashes) else 'FAIL'}
 - Extractor identities, manual extraction paths, and QA defect notes absent: PASS
 - Public source metadata is deduplicated and contains public URLs, source types, dates, page locators, and access classification only.

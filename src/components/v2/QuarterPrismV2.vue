@@ -3,6 +3,7 @@ import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { loadSeriesDetail } from '../../data/client'
 import type { Caveat, Observation, SeriesDetail, SeriesIndexRecord, SourceRecord } from '../../types/webData'
 import { formatKrwMillion, formatPercent, groupByQuarter, observationMetric, resolveSources, sourceIdsForQuarter } from '../../utils/model'
+import { ribbonPath, smoothPath } from '../../utils/tidalGeometry'
 import SourceList from '../evidence/SourceList.vue'
 
 const props = defineProps<{ series: SeriesIndexRecord[]; sources: SourceRecord[]; caveats: Caveat[] }>()
@@ -42,16 +43,15 @@ const trajectoryLanes = computed(() => {
       const ratio = high === low ? .5 : ((item.baseline_index ?? item.value) - low) / (high - low)
       return { item, x: xForIndex(groupIndex), y: 166 - ratio * 108 }
     })
-    const halfBand = laneIndex ? 7 : 9
-    const upper = points.map((point, index) => `${index ? 'L' : 'M'}${point.x.toFixed(1)},${(point.y - halfBand).toFixed(1)}`).join(' ')
-    const lower = [...points].reverse().map((point) => `L${point.x.toFixed(1)},${(point.y + halfBand).toFixed(1)}`).join(' ')
+    const geometry = points.map(({ x, y }) => ({ x, y }))
+    const halfBand = laneIndex ? 9 : 13
     return {
       id: metric.metric_definition_id,
       version: metric.version,
       laneIndex,
       points,
-      path: points.map((point, i) => `${i ? 'L' : 'M'}${point.x.toFixed(1)},${point.y.toFixed(1)}`).join(' '),
-      bandPath: points.length ? `${upper}${lower}Z` : '',
+      path: smoothPath(geometry),
+      bandPath: ribbonPath(geometry, halfBand),
       peaks: points.filter((point) => point.item.drawdown_percent === 0),
       drawdowns: points.filter((point) => point.item.drawdown_percent !== null && point.item.drawdown_percent < 0),
     }
@@ -73,6 +73,7 @@ function valueNumber(value: number | null): string {
 }
 function valueUnit(value: number | null): string { return value !== null && Math.abs(value) >= 1000 ? 'BILLION KRW' : 'MILLION KRW' }
 function metric(observation: Observation): string { return detail.value ? observationMetric(observation, detail.value.metric_versions)?.label ?? observation.metric_version : observation.metric_version }
+function quarterOpacity(index: number): number { return Math.max(.26, 1 - Math.abs(index - currentIndex.value) * .2) }
 
 async function load(force = false): Promise<void> {
   const record = props.series.find((item) => item.series_id === selectedId.value)
@@ -131,12 +132,22 @@ onBeforeUnmount(() => { observer?.disconnect() })
             <div class="prism-geometry" :class="{ 'is-overlap': overlap, 'is-derived': derived }">
               <p class="prism-geometry-label">MEASURED TIDAL BAND · DISCRETE QUARTERS</p>
               <svg class="refraction-field" viewBox="0 0 1000 220" preserveAspectRatio="none" role="img" :aria-label="`${detail.identity.entity} ${quarterLabel(current.quarter)} measurement prism`">
-                <defs><clipPath id="prism-aperture-clip"><rect :x="prismX - 82" y="12" width="164" height="190" /></clipPath></defs>
+                <defs>
+                  <clipPath id="prism-aperture-clip"><rect :x="prismX - 82" y="12" width="164" height="190" rx="18" /></clipPath>
+                  <linearGradient id="prism-tide-gradient" x1="0" y1="0" x2="1" y2=".25"><stop stop-color="#0b5662" stop-opacity=".3"/><stop offset=".52" stop-color="#24a8a0" stop-opacity=".82"/><stop offset="1" stop-color="#7de2cc" stop-opacity=".28"/></linearGradient>
+                  <linearGradient id="prism-tide-gradient-alt" x1="0" y1="0" x2="1" y2=".25"><stop stop-color="#a95d3b" stop-opacity=".24"/><stop offset=".52" stop-color="#ee805f" stop-opacity=".78"/><stop offset="1" stop-color="#ffc09f" stop-opacity=".24"/></linearGradient>
+                  <radialGradient id="prism-focus-gradient"><stop stop-color="#d8fff4" stop-opacity=".68"/><stop offset=".45" stop-color="#7de2cc" stop-opacity=".18"/><stop offset="1" stop-color="#7de2cc" stop-opacity="0"/></radialGradient>
+                  <pattern id="prism-derived-pattern" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(26)"><line x1="0" y1="0" x2="0" y2="9" stroke="#8f75c9" stroke-width="1.5" opacity=".55"/></pattern>
+                  <filter id="prism-data-glow" x="-20%" y="-100%" width="140%" height="300%"><feGaussianBlur stdDeviation="6"/></filter>
+                </defs>
+                <rect class="refraction-focus-column" :x="prismX - 122" y="8" width="244" height="198" fill="url(#prism-focus-gradient)" />
                 <line class="refraction-baseline" x1="40" y1="178" x2="960" y2="178" />
                 <g class="refraction-quarter-ticks"><line v-for="(group, index) in groups" :key="group.quarter" :x1="xForIndex(index)" :x2="xForIndex(index)" y1="173" y2="184" /></g>
-                <g v-for="lane in trajectoryLanes" :key="lane.id" class="refraction-lane" :class="`refraction-lane--${lane.laneIndex + 1}`" :clip-path="overlap && lane.laneIndex > 0 ? 'url(#prism-aperture-clip)' : undefined">
+                <g v-for="lane in trajectoryLanes" :key="lane.id" class="refraction-lane" :class="[`refraction-lane--${lane.laneIndex + 1}`, { 'is-derived-lane': lane.points.some((point) => point.item.derived) }]" :clip-path="overlap && lane.laneIndex > 0 ? 'url(#prism-aperture-clip)' : undefined">
+                  <path :d="lane.path" class="refraction-bloom" :class="`refraction-bloom--${lane.laneIndex + 1}`" filter="url(#prism-data-glow)" />
                   <path :d="lane.bandPath" class="refraction-band" :class="`refraction-band--${lane.laneIndex + 1}`" />
                   <path :d="lane.path" class="refraction-core" :class="`refraction-core--${lane.laneIndex + 1}`" />
+                  <g class="refraction-nodes"><circle v-for="point in lane.points" :key="`${point.item.observation_id}-node`" :cx="point.x" :cy="point.y" r="3"/></g>
                   <g class="refraction-peak-caps"><line v-for="point in lane.peaks" :key="`${point.item.observation_id}-peak`" :x1="point.x - 10" :x2="point.x + 10" :y1="point.y - 14" :y2="point.y - 14" /></g>
                   <g class="refraction-drawdown-notches"><path v-for="point in lane.drawdowns" :key="`${point.item.observation_id}-drawdown`" :d="`M${point.x - 5},${point.y + 13}V${point.y + 20}H${point.x + 5}`" /></g>
                 </g>
@@ -146,7 +157,7 @@ onBeforeUnmount(() => { observer?.disconnect() })
                 </g>
                 <g v-for="lane in trajectoryLanes" :key="`${lane.id}-selected`">
                   <template v-for="point in lane.points.filter((item) => item.item.quarter === current.quarter)" :key="point.item.observation_id">
-                    <g v-if="!point.item.derived" class="refraction-reading-mark" :class="`refraction-reading-mark--${lane.laneIndex + 1}`"><line :x1="point.x - 11" :x2="point.x + 11" :y1="point.y" :y2="point.y"/><line :x1="point.x" :x2="point.x" :y1="point.y - 8" :y2="point.y + 8"/></g>
+                    <g v-if="!point.item.derived" class="refraction-reading-mark" :class="`refraction-reading-mark--${lane.laneIndex + 1}`"><circle :cx="point.x" :cy="point.y" r="7"/><line :x1="point.x - 14" :x2="point.x + 14" :y1="point.y" :y2="point.y"/></g>
                     <template v-else>
                       <line :x1="point.x" :x2="point.x" :y1="point.y - 22" :y2="point.y + 22" class="refraction-interval" />
                       <line :x1="point.x - 9" :x2="point.x + 9" :y1="point.y - 22" :y2="point.y - 22" class="refraction-interval" />
@@ -188,7 +199,7 @@ onBeforeUnmount(() => { observer?.disconnect() })
 
           <nav class="prism-quarter-ruler prism-scroll-steps" aria-label="滚动选择季度">
             <button class="prism-quarter-ruler__edge" :disabled="currentIndex === 0" @click="choose(-1)">←<span class="visually-hidden">← PREV</span></button>
-            <button v-for="group in groups" :key="group.quarter" :data-quarter="group.quarter" :class="{ active: group.quarter === current.quarter }" @click="selectedQuarter = group.quarter"><i/><span>{{ quarterLabel(group.quarter) }}</span></button>
+            <button v-for="(group, index) in groups" :key="group.quarter" :data-quarter="group.quarter" :class="{ active: group.quarter === current.quarter }" :style="{ opacity: quarterOpacity(index) }" @click="selectedQuarter = group.quarter"><i/><span>{{ quarterLabel(group.quarter) }}</span></button>
             <button class="prism-quarter-ruler__edge" :disabled="currentIndex === groups.length - 1" @click="choose(1)">→<span class="visually-hidden">NEXT →</span></button>
           </nav>
           <SourceList v-if="evidenceOpen" :sources="currentSources" title="本季度证据来源" />
