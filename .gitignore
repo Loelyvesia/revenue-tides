@@ -2,4 +2,6 @@ node_modules/
 tmp/
 .vite/
 *.log
+__pycache__/
+*.py[cod]
 
