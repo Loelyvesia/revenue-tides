@@ -270,3 +270,5 @@
 - Rebuilt production output: TypeScript/build PASS, Vitest 62/62 PASS, UI 2.4 validator 38/38 PASS. Prior current browser QA remains Chrome/Edge 24/24 and Firefox 20/20.
 - Existing Pages configuration retained: `main` root publishes only `dist/` content; source/audits are preserved on `ui-signature-2.1`. No force push or research version change.
 - Public URL: https://loelyvesia.github.io/revenue-tides/ . Deployment verification is reported in the accompanying chat after GitHub completes the build.
+- Verification completed: Pages commit `afc64b25ca9b1a8228538615f3e6adb148c566f4` reports `built`; live HTML HTTP 200 references the current `index-BFflsUYa.js` bundle. Sources and Lineage M lazy detail endpoints return HTTP 200.
+- Live Chrome 155.0.8059.80 production smoke: 24/24 PASS, including mobile F4, overlap/event/source operation, keyboard, reduced motion, zero console errors and zero local-site HTTP failures. Evidence: `tmp/github-ui-2-4-live-qa.json` (temporary local audit; not part of public payload).
