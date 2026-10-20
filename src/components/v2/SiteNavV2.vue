@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted, ref } from 'vue'
+import { displayCopy } from '../../content/displayCopy.zh'
 
 const active = ref('opening')
 const scrolled = ref(false)
@@ -43,10 +44,7 @@ onBeforeUnmount(() => {
   <header class="site-nav" :class="{ 'is-scrolled': scrolled }">
     <a class="site-nav__brand" href="#opening">REVENUE TIDES</a>
     <nav class="site-nav__links" aria-label="页面章节">
-      <a href="#measurement" :aria-current="active === 'measurement' ? 'location' : undefined">I · NUMBER</a>
-      <a href="#prism" :aria-current="active === 'prism' ? 'location' : undefined">II · PRISM</a>
-      <a href="#headline-findings" :aria-current="active === 'headline-findings' ? 'location' : undefined">III · FINDINGS</a>
-      <a href="#observatory" :aria-current="active === 'observatory' ? 'location' : undefined">IV · ARCHIVE</a>
+      <a v-for="item in displayCopy.nav" :key="item.href" :href="item.href" :aria-current="active === item.href.slice(1) ? 'location' : undefined">{{ item.label }}</a>
     </nav>
   </header>
 </template>

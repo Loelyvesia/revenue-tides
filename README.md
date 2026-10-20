@@ -7,7 +7,7 @@ Data cutoff: `2026-09-22`
 
 ## 1. 项目简介
 
-《付费潮汐——游戏商业生命线》通过上市游戏公司公开披露资料，观察游戏、IP 与 franchise 在财政季度中的商业轨迹变化。项目不重建所谓“全球真实流水”，而是把报告口径、证据类型、指标版本、不确定性与同期事件一起纳入观察，从而让每一个收入数字都保留其来源和边界。
+一份财报里的“游戏收入”，可能指一款游戏，也可能指整个 IP 或多个平台的合计。《付费潮汐——游戏商业生命线》整理上市游戏公司的公开披露，先说明每个数字的统计对象、报告口径、证据和不确定性，再比较同一序列在稳定口径下的季度变化。项目不重建所谓“全球真实流水”，也不把不同公司的数字做绝对排名。
 
 Revenue Tides examines fiscal-quarter commercial trajectories of publisher-defined games, IPs, and franchises using official public disclosures. Rather than reconstructing a universal “true revenue” metric, it preserves reporting definitions, evidence types, metric versions, uncertainty, and contemporaneous events so that every number retains its provenance and limits.
 
@@ -40,13 +40,13 @@ Revenue Tides examines fiscal-quarter commercial trajectories of publisher-defin
 5. **F5：Lineage W 新口径窗口连续四季下降。** 仅限 royalty-integrated v2 的 2025Q2–2026Q2，期末比窗口起点低 35.3%，不向前连接 legacy。
 6. **F6：取整占比使多数派生环比方向无法确定。** 15 个可比较变化中 9 个方向敏感、6 个方向稳定，方向敏感占 60.0%。
 
-## 7. Signature Interaction
+## 7. 核心交互
 
-**Quarter Prism / 季度棱镜**把选定季度拆成实体、指标版本、证据类别、点值或区间、事件、发行商归因与来源。它能同时显示同季度多版本观察，并把事件放在独立语境轨上，避免普通 tooltip 隐藏关键语义。
+**季度棱镜（Quarter Prism）**让读者选择一条序列和一个季度，同时查看数值、实体、报告版本、证据、推导区间、同期事件、发行商解释和来源。同季度存在两个报告口径时，两条观察会并列出现；事件始终留在独立时间轨上。
 
-## 8. Visual System
+## 8. 视觉设计
 
-**Tidal Ledger / 潮汐账本**采用暖色账页、石墨文字、低饱和青绿色数据标记、氧化铜事件轨、校准刻度与版本接缝。视觉语言来自测量和账本，而非海洋插画、游戏美术或通用仪表盘。
+页面以暖纸色为底，用深青、水绿和珊瑚色区分数据、推导区间与事件。季度序列采用有厚度的带状轨迹，但所有可读取节点仍只对应真实季度。大字号先讲结论，完整 Finding、限制和来源保留在可展开的证据层。
 
 ## 9. 数据方法
 
@@ -120,6 +120,8 @@ npm run preview
 - Findings: `revenue-tides-findings-1.0.0`
 - Web Data: `revenue-tides-webdata-1.0.0`
 - Release: `revenue-tides-release-1.0.0`
-- Deployment: `NOT_DEPLOYED`
+- Current presentation: `UI 2.4 FINAL REVIEW FIX`
+- GitHub Pages: https://loelyvesia.github.io/revenue-tides/
+- Source branch: `ui-signature-2.1`; Pages branch: `main` (static production output).
 
-Project 02 已完成 Phase K 最终审计并冻结为 `COMPLETE / FROZEN`。之后任何季度、口径、来源、Finding 或前端改动都必须建立新版本或走书面 amendment 流程。
+Project 02 的研究方法、语料与 Finding 已完成 Phase K 审计并冻结为 `COMPLETE / FROZEN`。UI 2.2 只调整展示文案和视觉层级；任何新增季度、口径、来源或 Finding 仍须建立新版本或走书面 amendment 流程。

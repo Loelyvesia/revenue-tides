@@ -123,7 +123,7 @@ check("50_f6_nine_of_fifteen_preserved", "derivedChanges" in notes_text and "9 /
 check("51_observatory_contains_all_series", "v-for=\"(record, index) in series\"" in archive_text)
 check("52_entity_types_visible", "record.entity_type" in archive_text)
 check("53_direct_derived_not_color_only", "observation.evidence_class" in prism_text and "metric-lane--derived" in prism_text and "metric-interval" in prism_text)
-check("54_version_break_not_color_only", "version-seam" in prism_text and "不拼接" in prism_text and "border-inline:3px double" in visualization_text)
+check("54_version_break_not_color_only", "version-seam" in prism_text and "不拼接" in prism_text and ("border-inline:3px double" in visualization_text or ("两种报告口径" in prism_text and "refraction-seam" in visualization_text)))
 check("55_uncertainty_not_opacity_only", "metric-interval" in prism_text and "lower_bound" in prism_text and "upper_bound" in prism_text)
 component_text = "\n".join(path.read_text(encoding="utf-8") for path in (ROOT / "src/components").rglob("*.vue"))
 check("56_no_absolute_cross_company_view", "ABSOLUTE_REVENUE" not in component_text)

@@ -1,15 +1,15 @@
-# Five-Minute Reviewer Guide
+# 五分钟评审路线
 
-Open the local production preview and follow this route.
+请打开本地生产预览，按下面顺序阅读。
 
-1. **Opening — click “命题”.** Notice the fixed facts: 9 series, 75 observations, 4 publishers, 2024Q3–2026Q2. The comparison warning appears before any chart because publisher-defined values are not a common market measure.
-2. **Measurement Primer — scroll once.** Read the distinctions between game title and IP, direct and derived evidence, metric versions, and event context. These are the project's analytical rules, not optional footnotes.
-3. **Quarter Prism — click “棱镜”.** Keep Lineage M selected and choose 2025Q2. Notice two simultaneous observations and the calibration seam. They are separate legacy and royalty-integrated definitions, not a single trajectory.
-4. **F1 — click “Findings”.** Check the same-quarter difference range. It is described as a reporting-definition effect, never as growth.
-5. **F2 — stay in Headline Findings.** Read the 2025Q1 → 2025Q2 values and +837.3%. Notice that the PC launch is explicitly contemporaneous context and no PC-only revenue is claimed.
-6. **F4 — continue to Black Desert.** Follow the sequence: initial drawdown, recovery/new peak, later drawdown. The ending state is “not recovered within observed window,” not permanent decline.
-7. **Derived uncertainty — return to Quarter Prism.** Select MARVEL Contest of Champions to see interval geometry, or Jackpot World 2024Q4 to inspect a sign-sensitive change. The point value never replaces its bounds.
-8. **Series Observatory — click “序列”.** Open any row. The list is a research order, not a revenue ranking; entity type, evidence mode, metric versions, and Finding links remain visible.
-9. **Method and Sources — click “方法”.** Expand source disclosure. Verify the global caveats, public source links, version information, and static-data architecture.
+1. **首屏**：先看 9 条序列形成的潮汐场，以及“不同公司不做绝对收入排名”的提示。这里给出项目规模，但不制造公司榜单。
+2. **口径**：向下滚动四步，依次查看统计对象、报告口径、推导数据和同期事件。这四项是全站的阅读规则。
+3. **季度棱镜**：保留 Lineage M，选择 2025Q2。棱镜中会同时出现旧口径与新口径，两者是同季度的独立观察，不是一条可拼接的轨迹。
+4. **发现 1**：查看 Lineage M 的主要比较，再看 Lineage 2M 与 Lineage W 的补充证据。差值被写成报告定义差异，而不是增长。
+5. **发现 2**：核对 2025Q1、2025Q2 和 +837.3%。PC 版上线被标为同期事件，页面没有声称 PC 单独贡献了多少。
+6. **发现 4**：顺着 Black Desert 的潮位带阅读“前一高点—回撤—恢复到新高—再次回撤”，避免把多阶段轨迹压成一句“下滑”。
+7. **补充发现**：核对 NIKKE 的反弹与未恢复、Lineage W 的新口径窗口，以及派生变化的 9/15、60.0%。
+8. **全部九条序列**：打开任意一行。这里按研究顺序陈列，不按收入高低排名；每条序列仍保留实体类型、证据和指标版本。
+9. **方法与来源**：展开完整方法与公开来源，核对版本、比较规则和原始披露链接。
 
-The intended takeaway is methodological: every value remains attached to its definition, evidence, uncertainty, context, and source.
+预期结论不是“谁最赚钱”，而是：每个数字都必须连着定义、证据、不确定性、时间背景和来源一起阅读。

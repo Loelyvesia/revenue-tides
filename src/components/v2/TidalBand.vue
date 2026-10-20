@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import type { Observation, SeriesDetail } from '../../types/webData'
-import { ribbonPath, smoothPath } from '../../utils/tidalGeometry'
+import { smoothPath, tidalBodyPath, tidalEnvelopePath, tidalFadeMask } from '../../utils/tidalGeometry'
 
 const props = withDefaults(defineProps<{
   detail: SeriesDetail
@@ -50,8 +50,15 @@ const lanes = computed(() => props.detail.metric_versions.map((metric, laneIndex
     version: metric.version,
     laneIndex,
     points,
-    path: smoothPath(geometry),
-    bandPath: ribbonPath(geometry, props.compact ? 3.8 : 7.5),
+    surfacePath: smoothPath(geometry),
+    bodyPath: tidalBodyPath(geometry, {
+      baseDepth: props.compact ? 12 : 18,
+      peakContribution: props.compact ? 3 : 6,
+      slopeContribution: .08,
+      minDepth: props.compact ? 9 : 14,
+      maxDepth: props.compact ? 17 : 27,
+    }),
+    deepPath: tidalEnvelopePath(geometry, props.compact ? 13 : 20, props.compact ? 4 : 8),
   }
 }).filter((lane) => lane.points.length))
 
@@ -70,6 +77,7 @@ const eventTicks = computed(() => props.showEvents ? props.detail.events.map((ev
 }).filter((item): item is { id: string; x: number } => item !== null) : [])
 
 const svgId = computed(() => props.detail.series_id.replace(/[^a-z0-9_-]/gi, '-'))
+const fadeStops = tidalFadeMask()
 </script>
 
 <template>
@@ -99,27 +107,25 @@ const svgId = computed(() => props.detail.series_id.replace(/[^a-z0-9_-]/gi, '-'
       <filter :id="`${svgId}-glow`" x="-20%" y="-80%" width="140%" height="260%">
         <feGaussianBlur stdDeviation="3" result="blur" />
       </filter>
+      <linearGradient :id="`${svgId}-fade`" x1="0" y1="0" x2="1" y2="0">
+        <stop v-for="stop in fadeStops" :key="stop.offset" :offset="stop.offset" stop-color="white" :stop-opacity="stop.opacity" />
+      </linearGradient>
+      <mask :id="`${svgId}-fade-mask`"><rect width="1000" :height="height" :fill="`url(#${svgId}-fade)`" /></mask>
+      <linearGradient :id="`${svgId}-body-fade`" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="white"/><stop offset=".58" stop-color="white" stop-opacity=".86"/><stop offset=".84" stop-color="white" stop-opacity=".4"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient>
+      <mask :id="`${svgId}-body-mask`"><rect width="1000" :height="height" :fill="`url(#${svgId}-body-fade)`" /></mask>
     </defs>
-    <line class="tidal-band__baseline" x1="18" :y1="usableBottom" x2="982" :y2="usableBottom" />
-    <g class="tidal-band__ticks">
-      <line v-for="index in indices" :key="index" :x1="x(index)" :x2="x(index)" :y1="usableBottom - 3" :y2="usableBottom + 4" />
-    </g>
     <g class="tidal-band__seams">
       <template v-for="seam in seams" :key="seam.id">
-        <line :x1="seam.x - 3" :x2="seam.x - 3" y1="4" :y2="height - 3" />
-        <line :x1="seam.x + 3" :x2="seam.x + 3" y1="4" :y2="height - 3" />
+        <rect :x="seam.x - 12" y="3" width="24" :height="height - 6" rx="12" />
       </template>
     </g>
-    <g v-for="lane in lanes" :key="lane.id" class="tidal-band__lane" :class="`tidal-band__lane--${lane.laneIndex + 1}`">
-      <path class="tidal-band__bloom" :d="lane.path" :stroke="lane.laneIndex ? '#ee8d64' : '#24a8a0'" :filter="`url(#${svgId}-glow)`" />
-      <path class="tidal-band__area" :class="`tidal-band__area--${lane.laneIndex + 1}`" :d="lane.bandPath" :fill="`url(#${svgId}-tide-${Math.min(lane.laneIndex + 1, 2)})`" />
-      <path class="tidal-band__path" :class="`tidal-band__path--${lane.laneIndex + 1}`" :d="lane.path" />
-      <g class="tidal-band__nodes">
-        <circle v-for="point in lane.points" :key="`${point.item.observation_id}-node`" :cx="point.x" :cy="point.y" :r="compact ? 1.5 : 2.6" />
-      </g>
+    <g v-for="lane in lanes" :key="lane.id" class="tidal-band__lane" :class="`tidal-band__lane--${lane.laneIndex + 1}`" :mask="`url(#${svgId}-fade-mask)`">
+      <g :mask="`url(#${svgId}-body-mask)`"><path class="tidal-band__deep" :class="`tidal-band__deep--${lane.laneIndex + 1}`" :d="lane.deepPath" /><path class="tidal-band__body" :class="`tidal-band__body--${lane.laneIndex + 1}`" :d="lane.bodyPath" :fill="`url(#${svgId}-tide-${Math.min(lane.laneIndex + 1, 2)})`" /></g>
+      <path class="tidal-band__bloom" :d="lane.surfacePath" :stroke="lane.laneIndex ? '#ee8d64' : '#24a8a0'" :filter="`url(#${svgId}-glow)`" />
+      <path class="tidal-band__surface" :class="`tidal-band__surface--${lane.laneIndex + 1}`" :d="lane.surfacePath" />
     </g>
     <g class="tidal-band__peaks">
-      <path v-for="peak in peaks" :key="peak.item.observation_id" :d="`M${peak.x - 5},${peak.y - 4}H${peak.x + 5}`" />
+      <circle v-for="peak in peaks" :key="peak.item.observation_id" :cx="peak.x" :cy="peak.y" :r="compact ? 1.8 : 2.8" />
     </g>
     <g class="tidal-band__derived">
       <template v-for="point in derived" :key="point.item.observation_id">
@@ -130,7 +136,7 @@ const svgId = computed(() => props.detail.series_id.replace(/[^a-z0-9_-]/gi, '-'
       </template>
     </g>
     <g class="tidal-band__events">
-      <line v-for="event in eventTicks" :key="event.id" :x1="event.x" :x2="event.x" y1="1" y2="13" />
+      <circle v-for="event in eventTicks" :key="event.id" :cx="event.x" :cy="height - 6" :r="compact ? 2.5 : 4" />
     </g>
   </svg>
 </template>

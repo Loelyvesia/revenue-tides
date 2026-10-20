@@ -1,0 +1,176 @@
+{
+  "browser": "Edge",
+  "url": "http://127.0.0.1:4173/",
+  "checks": [
+    {
+      "id": "loads",
+      "status": "PASS",
+      "detail": "hero title"
+    },
+    {
+      "id": "four_acts",
+      "status": "PASS",
+      "detail": "four act anchors"
+    },
+    {
+      "id": "six_findings",
+      "status": "PASS",
+      "detail": "F1-F6"
+    },
+    {
+      "id": "nine_series",
+      "status": "PASS",
+      "detail": "series selector"
+    },
+    {
+      "id": "overlap_lanes",
+      "status": "PASS",
+      "detail": "same-quarter versions"
+    },
+    {
+      "id": "overflow_1440",
+      "status": "PASS",
+      "detail": "{\"client\":1425,\"scroll\":1425,\"overflow\":0}"
+    },
+    {
+      "id": "overflow_1280",
+      "status": "PASS",
+      "detail": "{\"client\":1265,\"scroll\":1265,\"overflow\":0}"
+    },
+    {
+      "id": "overflow_1024",
+      "status": "PASS",
+      "detail": "{\"client\":1009,\"scroll\":1009,\"overflow\":0}"
+    },
+    {
+      "id": "overflow_768",
+      "status": "PASS",
+      "detail": "{\"client\":753,\"scroll\":753,\"overflow\":0}"
+    },
+    {
+      "id": "overflow_390",
+      "status": "PASS",
+      "detail": "{\"client\":390,\"scroll\":390,\"overflow\":0}"
+    },
+    {
+      "id": "overflow_320",
+      "status": "PASS",
+      "detail": "{\"client\":320,\"scroll\":320,\"overflow\":0}"
+    },
+    {
+      "id": "mobile_overlap_no_collision",
+      "status": "PASS",
+      "detail": "{\"first\":\"121.111\",\"second\":\"127.908\",\"gap\":12.796875,\"readingBottom\":-227.59375,\"geometryTop\":-227.59375,\"viewportWidth\":390}"
+    },
+    {
+      "id": "mobile_320_controls",
+      "status": "PASS",
+      "detail": "{\"count\":25,\"undersized\":[]}"
+    },
+    {
+      "id": "prism_event_and_source_390",
+      "status": "PASS",
+      "detail": "{\"event\":\"同期事件\\nRISING STORM update\\n事件时间用于对照，不代表收入变化的原因。\",\"eventLeft\":16,\"eventRight\":374,\"eventHeight\":57,\"eventOverflow\":false,\"sourceHeight\":40,\"sourceDisplay\":\"block\",\"width\":390}"
+    },
+    {
+      "id": "prism_source_opens_390",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "f4_complete_sequence_390",
+      "status": "PASS",
+      "detail": "{\"left\":16,\"right\":374,\"width\":390,\"labels\":[\"69.2\",\"54.9\",\"79.5\",\"55.0\"],\"lastLeft\":339.0957336425781,\"lastRight\":353.1503601074219,\"opacity\":\"1\"}"
+    },
+    {
+      "id": "prism_event_and_source_320",
+      "status": "PASS",
+      "detail": "{\"event\":\"同期事件\\nRISING STORM update\\n事件时间用于对照，不代表收入变化的原因。\",\"eventLeft\":16,\"eventRight\":304,\"eventHeight\":57,\"eventOverflow\":false,\"sourceHeight\":40,\"sourceDisplay\":\"block\",\"width\":320}"
+    },
+    {
+      "id": "prism_source_opens_320",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "f4_complete_sequence_320",
+      "status": "PASS",
+      "detail": "{\"left\":16,\"right\":304,\"width\":320,\"labels\":[\"69.2\",\"54.9\",\"79.5\",\"55.0\"],\"lastLeft\":275.93359375,\"lastRight\":287.01953125,\"opacity\":\"1\"}"
+    },
+    {
+      "id": "prism_keyboard_arrow",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "reduced_motion",
+      "status": "PASS",
+      "detail": "media honored"
+    },
+    {
+      "id": "reduced_motion_tidal_static",
+      "status": "PASS",
+      "detail": "Tidal reveal and refraction transitions disabled"
+    },
+    {
+      "id": "console_clean",
+      "status": "PASS",
+      "detail": "{\"errors\":[],\"warnings\":[],\"exceptions\":[]}"
+    },
+    {
+      "id": "network_clean",
+      "status": "PASS",
+      "detail": "[]"
+    }
+  ],
+  "viewports": [
+    {
+      "viewport": "1440x900",
+      "client": 1425,
+      "scroll": 1425,
+      "overflow": 0
+    },
+    {
+      "viewport": "1280x800",
+      "client": 1265,
+      "scroll": 1265,
+      "overflow": 0
+    },
+    {
+      "viewport": "1024x768",
+      "client": 1009,
+      "scroll": 1009,
+      "overflow": 0
+    },
+    {
+      "viewport": "768x1024",
+      "client": 753,
+      "scroll": 753,
+      "overflow": 0
+    },
+    {
+      "viewport": "390x844",
+      "client": 390,
+      "scroll": 390,
+      "overflow": 0
+    },
+    {
+      "viewport": "320x700",
+      "client": 320,
+      "scroll": 320,
+      "overflow": 0
+    }
+  ],
+  "console": {
+    "errors": [],
+    "warnings": [],
+    "exceptions": []
+  },
+  "network_errors": [],
+  "screenshots": [],
+  "browser_version": "Edg/149.0.4022.62",
+  "summary": {
+    "passed": 24,
+    "failed": 0
+  }
+}

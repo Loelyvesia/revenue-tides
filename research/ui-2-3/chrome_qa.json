@@ -1,0 +1,150 @@
+{
+  "browser": "Chrome",
+  "url": "http://127.0.0.1:4173/",
+  "checks": [
+    {
+      "id": "loads",
+      "status": "PASS",
+      "detail": "hero title"
+    },
+    {
+      "id": "four_acts",
+      "status": "PASS",
+      "detail": "four act anchors"
+    },
+    {
+      "id": "six_findings",
+      "status": "PASS",
+      "detail": "F1-F6"
+    },
+    {
+      "id": "nine_series",
+      "status": "PASS",
+      "detail": "series selector"
+    },
+    {
+      "id": "overlap_lanes",
+      "status": "PASS",
+      "detail": "same-quarter versions"
+    },
+    {
+      "id": "overflow_1440",
+      "status": "PASS",
+      "detail": "{\"client\":1425,\"scroll\":1425,\"overflow\":0}"
+    },
+    {
+      "id": "overflow_1280",
+      "status": "PASS",
+      "detail": "{\"client\":1265,\"scroll\":1265,\"overflow\":0}"
+    },
+    {
+      "id": "overflow_1024",
+      "status": "PASS",
+      "detail": "{\"client\":1009,\"scroll\":1009,\"overflow\":0}"
+    },
+    {
+      "id": "overflow_768",
+      "status": "PASS",
+      "detail": "{\"client\":753,\"scroll\":753,\"overflow\":0}"
+    },
+    {
+      "id": "overflow_390",
+      "status": "PASS",
+      "detail": "{\"client\":390,\"scroll\":390,\"overflow\":0}"
+    },
+    {
+      "id": "overflow_320",
+      "status": "PASS",
+      "detail": "{\"client\":320,\"scroll\":320,\"overflow\":0}"
+    },
+    {
+      "id": "mobile_320_controls",
+      "status": "PASS",
+      "detail": "controls >= 40px"
+    },
+    {
+      "id": "reduced_motion",
+      "status": "PASS",
+      "detail": "media honored"
+    },
+    {
+      "id": "console_clean",
+      "status": "PASS",
+      "detail": "{\"errors\":[],\"warnings\":[],\"exceptions\":[]}"
+    },
+    {
+      "id": "network_clean",
+      "status": "PASS",
+      "detail": "[]"
+    }
+  ],
+  "viewports": [
+    {
+      "viewport": "1440x900",
+      "client": 1425,
+      "scroll": 1425,
+      "overflow": 0
+    },
+    {
+      "viewport": "1280x800",
+      "client": 1265,
+      "scroll": 1265,
+      "overflow": 0
+    },
+    {
+      "viewport": "1024x768",
+      "client": 1009,
+      "scroll": 1009,
+      "overflow": 0
+    },
+    {
+      "viewport": "768x1024",
+      "client": 753,
+      "scroll": 753,
+      "overflow": 0
+    },
+    {
+      "viewport": "390x844",
+      "client": 390,
+      "scroll": 390,
+      "overflow": 0
+    },
+    {
+      "viewport": "320x700",
+      "client": 320,
+      "scroll": 320,
+      "overflow": 0
+    }
+  ],
+  "console": {
+    "errors": [],
+    "warnings": [],
+    "exceptions": []
+  },
+  "network_errors": [],
+  "screenshots": [
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/desktop-hero.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/desktop-measurement.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/desktop-prism-direct.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/desktop-prism-overlap.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/desktop-f1.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/desktop-f2.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/desktop-f4.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/desktop-observatory.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/desktop-notes.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/desktop-method.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/mobile-390-hero.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/mobile-390-measurement.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/mobile-390-prism.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/mobile-390-overlap.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/mobile-390-f1.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/mobile-390-f2.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/mobile-390-f4.webp",
+    "E:/数媒new/02-revenue-tides/research/ui-2-3/screenshots/mobile-390-observatory.webp"
+  ],
+  "browser_version": "Chrome/154.0.8037.58",
+  "summary": {
+    "passed": 15,
+    "failed": 0
+  }
+}

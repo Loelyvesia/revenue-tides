@@ -2,10 +2,10 @@
   "summary": {
     "passed": 60,
     "failed": 0,
-    "js_raw_bytes": 146012,
-    "js_gzip_bytes": 58211,
-    "css_raw_bytes": 62530,
-    "css_gzip_bytes": 14445
+    "js_raw_bytes": 150133,
+    "js_gzip_bytes": 59269,
+    "css_raw_bytes": 57197,
+    "css_gzip_bytes": 13918
   },
   "checks": [
     {
@@ -286,7 +286,7 @@
     {
       "name": "bundle_documented",
       "status": "PASS",
-      "detail": "JS 146012; CSS 62530"
+      "detail": "JS 150133; CSS 57197; UI 2.2 copy-layer budget"
     },
     {
       "name": "no_large_asset",

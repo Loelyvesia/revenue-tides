@@ -221,3 +221,52 @@
 - Vitest 62/62, isolated Phase G 90/90, Phase I 100/100, Phase J 102/102, UI 2.1 28/28, color continuity 29/29, and Prism reconstruction 27/27 all pass.
 - Captured 16 current screens, 12 after snapshots, seven before/after desktop pairs, five mobile compositions, and three promotional candidates. Beauty gate and three-second test pass.
 - Stop boundary: `STOPPED BEFORE DEPLOYMENT`.
+
+## 2026-09-30 — UI 2.2 editorial and visual refinement completed
+
+- Inventoried 456 user-facing strings before editing; completed review decisions for 225 flagged strings and removed or rewrote 114 obsolete phrases.
+- Added a Chinese-first display-copy layer without changing frozen Finding statements, limitations, sources, metric definitions, uncertainty, events, or Web Data.
+- Rewrote Hero, the four-step Measurement chapter, Quarter Prism, F1/F2/F4, the nine-series Archive, Research Notes, Method, README reader copy, and ten competition/reviewer materials.
+- Simplified F1 around Lineage M, reduced F2 percentage dominance, kept F4’s band while adding readable values, removed the Archive detail-card treatment, and compressed mobile metadata.
+- Captured 10 desktop and 7 required 390 px screens; Chrome 15/15, Edge 15/15, and Firefox 13/13 pass with zero required Chromium overflow or console/network errors.
+- Vitest 62/62, UI 2.2 27/27, Bold rebuild 60/60, Phase I 100/100, and Phase J 102/102 pass. Phase G substantive checks are 89/89; its historical stop-boundary check correctly fails because later authorized phases exist.
+- Final bundle: JS 147.52 kB / 58.72 kB gzip; CSS 63.10 kB / 14.47 kB gzip. No dependency, deployment, research data, Finding, or Web Data change was made.
+- Stop boundary: `STOPPED BEFORE DEPLOYMENT`.
+
+## 2026-09-30 — UI 2.3 flow and continuity pass completed
+
+- Replaced fixed-width centered ribbons with a canonical area surface system: exact quarterly waterline, filled body, soft deep layer, deterministic fade mask, and optional reporting-definition split.
+- Rebuilt Hero as one overlapping field; removed the Measurement panel frame; converted Quarter Prism to a borderless refraction field; changed F1 to open currents; removed F2/F4 baselines, all-quarter ticks/nodes, full-height event lines, and annotation leaders.
+- Removed Archive row separators and the full-height detail divider, enlarged all nine fingerprints, and kept selection/detail behavior without cards.
+- Preserved all frozen research, 9 series, 75 observations, 26 events, 18 derived observations, F1–F6, metric versions, uncertainty, sources, quarters and non-causal event semantics; `data/web` was unchanged.
+- Captured 18 desktop/mobile screens with distinct Prism direct and overlap states. Browser QA: Chrome 15/15, Edge 15/15, Firefox 13/13 PASS across the required viewports.
+- Vitest 62/62 and TypeScript/build PASS. Bundle: JS 146,589 B raw; CSS 52,150 B raw, 10,951 B below UI 2.2. No dependency or runtime media was added.
+- Stop boundary: `STOPPED BEFORE DEPLOYMENT`.
+
+## 2026-10-08 — UI 2.4 final review fix
+
+- Fixed actual mobile F4 clipping (42rem SVG minimum plus negative margins), preserved all anchors, and added readable four-quarter sequence labels.
+- Moved mobile Prism event copy to normal flow; preserved overlap readings and fixed async source-loading fallback so source links operate.
+- Made F2 percentage a secondary note and moved PC context outside the graph; desktop-only Measurement spacing refinements.
+- Method/Findings/Web Data unchanged. TypeScript/build, Vitest 62/62, UI 2.2 27/27, UI 2.3 36/36, UI 2.4 38/38, Phase I 100/100 and Phase J 102/102 PASS.
+- Phase G unchanged: 89/89 data/provenance checks PASS; historical STOP item remains N/A, labeled `HISTORICAL_STOP_BOUNDARY — NOT_APPLICABLE_AFTER_AUTHORIZED_PHASES`; not a fabricated 90/90.
+- Current browser reports and five before/after pairs: `research/ui-2-4/final-review/`. No new dependency or deployment. STOPPED BEFORE DEPLOYMENT.
+
+## 2026-09-30 — UI 2.4 final composition and tidal body polish completed
+
+- Added a shared floating `tidalBodyPath()` whose upper edge preserves quarterly anchors and whose lower edge follows amplitude and local slope; all principal tidal surfaces now dissolve before forming a visual floor.
+- Integrated the Hero field behind its title, compressed Measurement by roughly one quarter, removed the Prism readout panel fill, and rebuilt mobile Lineage overlap into two collision-free canonical readings followed by refraction geometry and source access.
+- Reduced F1/F2 headline dominance so their canonical values and tidal evidence fit in the first 1440×900 view; preserved F4’s exact recovery/drawdown sequence and enlarged the Archive detail without lateral selection motion.
+- Preserved all frozen research, 9 series, 75 observations, 26 events, 18 derived observations, F1–F6, metric versions, uncertainty, sources, quarters and non-causal event semantics; `data/web` remains unchanged.
+- Browser QA: Chrome 16/16, Edge 16/16 and Firefox 13/13 PASS, including a measured 12.8 px gap between mobile overlap readings. Vitest 62/62, TypeScript and production build PASS.
+- UI 2.4 validator 38/38, UI 2.3 36/36, Bold 60/60, UI 2.2 27/27, Phase I 100/100 and Phase J 102/102 PASS. Phase G substantive checks 89/89 PASS; its obsolete historical Phase H stop check remains the sole failure.
+- Bundle: JS 150,133 B raw; CSS 57,230 B raw. No dependency, deployment, research data, Finding or Web Data change was made.
+- Stop boundary: `STOPPED BEFORE DEPLOYMENT`.
+
+## 2026-10-20 — Authorized GitHub update
+
+- User explicitly requested updating the project on GitHub, authorizing publication beyond the previous presentation-review stop boundary.
+- Publishing the existing UI 2.2–2.4 work and final review fixes, without modifying Method, Findings or Web Data.
+- Rebuilt production output: TypeScript/build PASS, Vitest 62/62 PASS, UI 2.4 validator 38/38 PASS. Prior current browser QA remains Chrome/Edge 24/24 and Firefox 20/20.
+- Existing Pages configuration retained: `main` root publishes only `dist/` content; source/audits are preserved on `ui-signature-2.1`. No force push or research version change.
+- Public URL: https://loelyvesia.github.io/revenue-tides/ . Deployment verification is reported in the accompanying chat after GitHub completes the build.

@@ -1,0 +1,457 @@
+﻿location,component,old_copy,type,problem,rewrite_needed,new_copy
+src/App.vue:2,App,跳到主要内容,ANNOTATION,,NO,
+src/App.vue:3,App,REVENUE TIDES,TITLE,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+src/App.vue:3,App,正在读取冻结数据…,TITLE,AI / method-spec phrasing,YES,正在读取数据…
+src/App.vue:4,App,DATA LOAD ERROR,CONTROL,all-caps technical label,YES,加载失败
+src/App.vue:4,App,数据暂时无法加载,CONTROL,,NO,
+src/App.vue:4,App,重试,CONTROL,,NO,
+src/components/evidence/SourceList.vue:2,SourceList,证据来源,SOURCE,,NO,
+src/components/evidence/SourceList.vue:4,SourceList,来源记录暂不可用；已保留当前观察的证据标识。,SOURCE,,NO,
+src/components/evidence/SourceList.vue:6,SourceList,公司,SOURCE,,NO,
+src/components/evidence/SourceList.vue:7,SourceList,文件,SOURCE,,NO,
+src/components/evidence/SourceList.vue:8,SourceList,报告期,SOURCE,,NO,
+src/components/evidence/SourceList.vue:9,SourceList,页码,SOURCE,,NO,
+src/components/evidence/SourceList.vue:11,SourceList,公开链接,ANNOTATION,,NO,
+src/components/v2/HeadlineFindingsV2.vue:2,HeadlineFindingsV2,核心发现,FINDING,,NO,
+src/components/v2/HeadlineFindingsV2.vue:5,HeadlineFindingsV2,同一季度,FINDING,,NO,
+src/components/v2/HeadlineFindingsV2.vue:5,HeadlineFindingsV2,两个合法读数,FINDING,AI / method-spec phrasing,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:5,HeadlineFindingsV2,改变的不是时间，而是报告定义。,FINDING,AI / method-spec phrasing,YES,NCSOFT 调整了报告口径。2025Q2—Q4，旧口径和纳入 royalties 的新口径同时存在。
+src/components/v2/HeadlineFindingsV2.vue:14,HeadlineFindingsV2,LEGACY,ANNOTATION,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:15,HeadlineFindingsV2,BILLION KRW · V1,FINDING,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:17,HeadlineFindingsV2,SAME QUARTER,FINDING,all-caps technical label; translation-like metadata,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:17,HeadlineFindingsV2,REPORTING,FINDING,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:17,HeadlineFindingsV2,DEFINITION,FINDING,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:17,HeadlineFindingsV2,SEAM,FINDING,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:19,HeadlineFindingsV2,ROYALTY-INTEGRATED,ANNOTATION,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:20,HeadlineFindingsV2,BILLION KRW · V2,FINDING,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:22,HeadlineFindingsV2,definition difference ≠ growth · SAME HORIZONTAL COORDINATE · DO NOT STITCH,FINDING,all-caps technical label; dense dot-separated metadata,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:24,HeadlineFindingsV2,切换 F1 重叠季度,FINDING,,NO,
+src/components/v2/HeadlineFindingsV2.vue:29,HeadlineFindingsV2,限制,FINDING,,NO,
+src/components/v2/HeadlineFindingsV2.vue:29,HeadlineFindingsV2,禁止解读,FINDING,AI / method-spec phrasing,YES,需要注意
+src/components/v2/HeadlineFindingsV2.vue:30,HeadlineFindingsV2,F1 证据来源,CONTROL,,NO,
+src/components/v2/HeadlineFindingsV2.vue:36,HeadlineFindingsV2,The Spike / 同期尖峰,FINDING,decorative bilingual slash title,YES,Stellar Blade 在 2025Q2 出现了八个季度里的最高收入
+src/components/v2/HeadlineFindingsV2.vue:45,HeadlineFindingsV2,2025 Q1,FINDING,,NO,
+src/components/v2/HeadlineFindingsV2.vue:45,HeadlineFindingsV2,BILLION KRW,FINDING,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:46,HeadlineFindingsV2,2025 Q2 / WINDOW PEAK,FINDING,all-caps technical label; translation-like metadata,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:47,HeadlineFindingsV2,+837.3%,FINDING,,NO,
+src/components/v2/HeadlineFindingsV2.vue:48,HeadlineFindingsV2,PC RELEASE,FINDING,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:48,HeadlineFindingsV2,same quarter · not causal proof · 同期事件不是因果证据,FINDING,dense dot-separated metadata,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:52,HeadlineFindingsV2,F2 证据来源,CONTROL,,NO,
+src/components/v2/HeadlineFindingsV2.vue:58,HeadlineFindingsV2,一轮恢复之后，,FINDING,,NO,
+src/components/v2/HeadlineFindingsV2.vue:58,HeadlineFindingsV2,潮位再次退去,FINDING,,NO,
+src/components/v2/HeadlineFindingsV2.vue:60,HeadlineFindingsV2,Black Desert 先回撤、三季度后恢复到新峰值、随后再次回撤,TECHNICAL,,NO,
+src/components/v2/HeadlineFindingsV2.vue:66,HeadlineFindingsV2,PEAK,FINDING,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:66,HeadlineFindingsV2,DRAW DOWN 20.7%,FINDING,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:66,HeadlineFindingsV2,RECOVERY · 3Q,FINDING,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:66,HeadlineFindingsV2,NEW PEAK,FINDING,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:66,HeadlineFindingsV2,DRAW DOWN 30.8%,FINDING,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:68,HeadlineFindingsV2,Quarterly commercial data · 一次恢复，不等于持续增长；观察窗口末未恢复，也不等于永久下降。,TECHNICAL,AI / method-spec phrasing,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeadlineFindingsV2.vue:72,HeadlineFindingsV2,F4 证据来源,CONTROL,,NO,
+src/components/v2/HeroV2.vue:2,HeroV2,封面,TECHNICAL,,NO,
+src/components/v2/HeroV2.vue:3,HeroV2,九条研究序列的标准化季度潮汐场,TECHNICAL,,NO,
+src/components/v2/HeroV2.vue:5,HeroV2,九条序列的归一化季度潮汐场,ANNOTATION,,NO,
+src/components/v2/HeroV2.vue:5,HeroV2,所有形状只表达序列内部变化，不比较不同公司的绝对收入。,ANNOTATION,,NO,
+src/components/v2/HeroV2.vue:18,HeroV2,2024 Q3,ANNOTATION,,NO,
+src/components/v2/HeroV2.vue:18,HeroV2,2025 Q1,ANNOTATION,,NO,
+src/components/v2/HeroV2.vue:18,HeroV2,2025 Q3,ANNOTATION,,NO,
+src/components/v2/HeroV2.vue:18,HeroV2,2026 Q1,ANNOTATION,,NO,
+src/components/v2/HeroV2.vue:18,HeroV2,2026 Q2,ANNOTATION,,NO,
+src/components/v2/HeroV2.vue:22,HeroV2,REVENUE TIDES / COMMERCIAL TIDE FIELD,TITLE,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeroV2.vue:22,HeroV2,付费潮汐,TITLE,,NO,
+src/components/v2/HeroV2.vue:22,HeroV2,游戏商业生命线,TITLE,,NO,
+src/components/v2/HeroV2.vue:22,HeroV2,Revenue Tides,TITLE,,NO,
+src/components/v2/HeroV2.vue:23,HeroV2,流水不是一个统一数字。,ANNOTATION,,YES,同一款游戏，在不同财报里未必只有一个收入数字。
+src/components/v2/HeroV2.vue:23,HeroV2,报告口径、实体范围与证据方式，会改变我们看到的商业轨迹。,ANNOTATION,,YES,先看清统计口径，再看它怎么变化。
+src/components/v2/HeroV2.vue:24,HeroV2,Normalized within each series · absolute revenue is not compared · 不同公司绝对收入不可比较,LEDE,dense dot-separated metadata,YES,各公司披露口径不同，这里不做绝对收入排名。
+src/components/v2/HeroV2.vue:25,HeroV2,09,TECHNICAL,,NO,
+src/components/v2/HeroV2.vue:25,HeroV2,/ SERIES,TECHNICAL,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeroV2.vue:25,HeroV2,75,TECHNICAL,,NO,
+src/components/v2/HeroV2.vue:25,HeroV2,/ OBSERVATIONS,TECHNICAL,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeroV2.vue:25,HeroV2,04,TECHNICAL,,NO,
+src/components/v2/HeroV2.vue:25,HeroV2,/ PUBLISHERS,TECHNICAL,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/HeroV2.vue:25,HeroV2,进入潮汐场 ↓,TECHNICAL,,NO,
+src/components/v2/HeroV2.vue:25,HeroV2,项目规模,TECHNICAL,,NO,
+src/components/v2/HeroV2.vue:26,HeroV2,9 条序列 · 75 个观察 · 4 家发行商 · 2024Q3—2026Q2,ANNOTATION,dense dot-separated metadata,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+src/components/v2/MeasurementStory.vue:5,MeasurementStory,ACT I — THE NUMBER,TECHNICAL,all-caps technical label; translation-like metadata,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/MeasurementStory.vue:6,MeasurementStory,为什么“游戏收入”不是统一指标,TITLE,,NO,
+src/components/v2/MeasurementStory.vue:7,MeasurementStory,同一季度可以有多个合法数字。差异来自测量口径。,ANNOTATION,AI / method-spec phrasing,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/MeasurementStory.vue:11,MeasurementStory,测量问题叙述,TECHNICAL,,NO,
+src/components/v2/MeasurementStory.vue:15,MeasurementStory,STEP 01 · 单一数值,ANNOTATION,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/MeasurementStory.vue:16,MeasurementStory,一个游戏，不止一个收入数字,TITLE,,NO,
+src/components/v2/MeasurementStory.vue:17,MeasurementStory,先确认季度、数值与实体。,ANNOTATION,,NO,
+src/components/v2/QuarterPrismV2.vue:5,QuarterPrismV2,ACT II — THE QUARTER,TECHNICAL,all-caps technical label; translation-like metadata,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/QuarterPrismV2.vue:6,QuarterPrismV2,Quarter Prism / 季度棱镜,TITLE,decorative bilingual slash title,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+src/components/v2/QuarterPrismV2.vue:7,QuarterPrismV2,每次只读一个季度。定义、区间与事件保持各自边界。,ANNOTATION,AI / method-spec phrasing,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/QuarterPrismV2.vue:11,QuarterPrismV2,SERIES / MEASUREMENT SUBJECT,ANNOTATION,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/QuarterPrismV2.vue:16,QuarterPrismV2,QUARTERLY READING · BOTTOM RULER OR ← → KEYS,ANNOTATION,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/QuarterPrismV2.vue:18,QuarterPrismV2,Loading validated series…,ANNOTATION,,NO,
+src/components/v2/QuarterPrismV2.vue:19,QuarterPrismV2,数据加载失败。,CONTROL,,NO,
+src/components/v2/QuarterPrismV2.vue:19,QuarterPrismV2,重试,CONTROL,,NO,
+src/components/v2/QuarterPrismV2.vue:22,QuarterPrismV2,季度棱镜；可使用左右方向键切换季度,TECHNICAL,,NO,
+src/components/v2/QuarterPrismV2.vue:23,QuarterPrismV2,直接选择季度,CONTROL,,NO,
+src/components/v2/QuarterPrismV2.vue:29,QuarterPrismV2,MEASURED TIDAL BAND · DISCRETE QUARTERS,ANNOTATION,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/QuarterPrismV2.vue:30,QuarterPrismV2,`${detail.identity.entity} ${quarterLabel(current.quarter)} measurement prism`,TECHNICAL,,NO,
+src/components/v2/QuarterPrismV2.vue:52,QuarterPrismV2,REPORTING DEFINITION CHANGE,ANNOTATION,all-caps technical label; translation-like metadata,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/ResearchAppendixV2.vue:3,ResearchAppendixV2,RESEARCH APPENDIX,FINDING,all-caps technical label; translation-like metadata,YES,方法与来源
+src/components/v2/ResearchAppendixV2.vue:3,ResearchAppendixV2,方法、边界与来源,FINDING,,NO,
+src/components/v2/ResearchAppendixV2.vue:3,ResearchAppendixV2,浏览器只负责呈现；计算、可比性与 Finding 均由冻结研究流水线决定。,FINDING,AI / method-spec phrasing,YES,页面使用上市游戏公司公开披露的数据。不同公司的统计口径并不统一，因此只比较同一序列在稳定口径下的变化。
+src/components/v2/ResearchAppendixV2.vue:5,ResearchAppendixV2,Frozen versions,FINDING,,NO,
+src/components/v2/ResearchAppendixV2.vue:5,ResearchAppendixV2,Method,FINDING,,NO,
+src/components/v2/ResearchAppendixV2.vue:5,ResearchAppendixV2,Findings,FINDING,,NO,
+src/components/v2/ResearchAppendixV2.vue:5,ResearchAppendixV2,Web data,FINDING,,NO,
+src/components/v2/ResearchAppendixV2.vue:5,ResearchAppendixV2,Cutoff,FINDING,,NO,
+src/components/v2/ResearchAppendixV2.vue:6,ResearchAppendixV2,Comparison policy,TITLE,,NO,
+src/components/v2/ResearchAppendixV2.vue:6,ResearchAppendixV2,只在稳定口径的同一序列内比较。,TITLE,,NO,
+src/components/v2/ResearchAppendixV2.vue:6,ResearchAppendixV2,跨公司绝对收入不可比较。,TITLE,,NO,
+src/components/v2/ResearchAppendixV2.vue:6,ResearchAppendixV2,事件是同期语境，不证明因果。,TITLE,AI / method-spec phrasing,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/ResearchAppendixV2.vue:6,ResearchAppendixV2,派生值保留点估计、区间和方向稳定性。,TITLE,,NO,
+src/components/v2/ResearchAppendixV2.vue:9,ResearchAppendixV2,PUBLIC SOURCE REGISTRY,SOURCE,all-caps technical label; translation-like metadata,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/ResearchAppendixV2.vue:10,ResearchAppendixV2,数据由所列公司公开披露整理；来源版权归原权利人。本项目复用结构化事实观察，不复制报告版面或艺术作品。,ANNOTATION,,NO,
+src/components/v2/ResearchNotesV2.vue:3,ResearchNotesV2,RESEARCH NOTES,TITLE,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/ResearchNotesV2.vue:3,ResearchNotesV2,恢复、窗口与不确定性,TITLE,,YES,另外三条值得注意的变化
+src/components/v2/ResearchNotesV2.vue:3,ResearchNotesV2,三条补充结论保留它们的限制，不被压缩成趋势标签。,TITLE,AI / method-spec phrasing,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/ResearchNotesV2.vue:7,ResearchNotesV2,+32.4%,FINDING,,NO,
+src/components/v2/ResearchNotesV2.vue:7,ResearchNotesV2,2026 Q2 rebound,FINDING,,NO,
+src/components/v2/ResearchNotesV2.vue:7,ResearchNotesV2,4.1% below peak,FINDING,,NO,
+src/components/v2/ResearchNotesV2.vue:8,ResearchNotesV2,−35.3%,FINDING,,NO,
+src/components/v2/ResearchNotesV2.vue:8,ResearchNotesV2,2025 Q2—2026 Q2,FINDING,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+src/components/v2/ResearchNotesV2.vue:8,ResearchNotesV2,royalty-integrated v2 only,FINDING,,NO,
+src/components/v2/ResearchNotesV2.vue:9,ResearchNotesV2,9 / 15 · 60.0%,FINDING,,NO,
+src/components/v2/ResearchNotesV2.vue:9,ResearchNotesV2,15 个派生变化中 9 个方向敏感，6 个方向稳定,FINDING,,NO,
+src/components/v2/ResearchNotesV2.vue:9,ResearchNotesV2,`${index + 1}: ${item.derived?.direction_sign_stable ? 'sign-stable' : 'sign-sensitive'}`,FINDING,,NO,
+src/components/v2/ResearchNotesV2.vue:10,ResearchNotesV2,禁止解读,FINDING,AI / method-spec phrasing,YES,需要注意
+src/components/v2/SeriesArchiveV2.vue:4,SeriesArchiveV2,ACT IV — THE ARCHIVE,TITLE,all-caps technical label; translation-like metadata,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/SeriesArchiveV2.vue:4,SeriesArchiveV2,Series Observatory / 序列观察站,TITLE,decorative bilingual slash title,YES,全部九条序列
+src/components/v2/SeriesArchiveV2.vue:4,SeriesArchiveV2,九条标准化轨迹指纹。它们描述序列内部形状，不构成收入排名。,TITLE,,NO,
+src/components/v2/SeriesArchiveV2.vue:4,SeriesArchiveV2,NORMALIZED SHAPE · ABSOLUTE REVENUE IS NOT COMPARED,TITLE,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/SeriesArchiveV2.vue:6,SeriesArchiveV2,九条分析序列,TECHNICAL,,NO,
+src/components/v2/SeriesArchiveV2.vue:19,SeriesArchiveV2,选择一条序列，打开完整观察记录。,ANNOTATION,,NO,
+src/components/v2/SeriesArchiveV2.vue:20,SeriesArchiveV2,Loading validated series…,ANNOTATION,,NO,
+src/components/v2/SeriesArchiveV2.vue:21,SeriesArchiveV2,数据加载失败。,CONTROL,,NO,
+src/components/v2/SeriesArchiveV2.vue:21,SeriesArchiveV2,重试,CONTROL,,NO,
+src/components/v2/SeriesArchiveV2.vue:23,SeriesArchiveV2,SELECTED SERIES,CONTROL,all-caps technical label; translation-like metadata,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/SeriesArchiveV2.vue:25,SeriesArchiveV2,WINDOW,ANNOTATION,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+src/components/v2/SeriesArchiveV2.vue:26,SeriesArchiveV2,VERSIONS,ANNOTATION,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/SeriesArchiveV2.vue:27,SeriesArchiveV2,FINDINGS,FINDING,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/SeriesArchiveV2.vue:28,SeriesArchiveV2,指标版本与比较边界,CAVEAT,,NO,
+src/components/v2/SeriesArchiveV2.vue:28,SeriesArchiveV2,VERSION BREAK · baseline restarts · cross-version change forbidden,CAVEAT,all-caps technical label; dense dot-separated metadata,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/SiteNavV2.vue:4,SiteNavV2,REVENUE TIDES,NAV,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+src/components/v2/SiteNavV2.vue:5,SiteNavV2,页面章节,NAV,,NO,
+src/components/v2/SiteNavV2.vue:6,SiteNavV2,I · NUMBER,ANNOTATION,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/SiteNavV2.vue:7,SiteNavV2,II · PRISM,ANNOTATION,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/SiteNavV2.vue:8,SiteNavV2,III · FINDINGS,FINDING,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/SiteNavV2.vue:9,SiteNavV2,IV · ARCHIVE,ANNOTATION,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+src/components/v2/TidalBand.vue:9,TidalBand,decorative ? undefined : `${detail.identity.entity} normalized quarterly trajectory`,TECHNICAL,,NO,
+competition/abstract_en.md:1,abstract_en,Abstract,TITLE,,NO,
+competition/abstract_en.md:3,abstract_en,"Revenue Tides investigates whether official public company disclosures can support a reproducible study of game commercial trajectories. The project uses the fiscal quarter as its primary temporal unit and builds a curated corpus of nine publisher-defined game or IP series from four listed companies. The corpus contains 75 observations from 2024Q3 to 2026Q2, 26 curated official events, and three issuer-attributed claims.",LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/abstract_en.md:5,abstract_en,"Each observation retains entity scope, reporting definition, metric version, evidence class, missingness, period boundaries, and source provenance. Directly reported values are kept separate from values derived from official company totals and rounded title shares. All 18 derived observations preserve compatible lower and upper bounds and whether quarter-to-quarter direction remains stable across those bounds. Six frozen Findings address same-quarter reporting-definition differences, a peak in Stellar Blade's PC-launch quarter, bounded rebound and recovery states, persistent decline within Lineage W's separate royalty-integrated window, and directional uncertainty caused by rounded shares.",SOURCE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/abstract_en.md:7,abstract_en,"The project's signature interaction, Quarter Prism, turns a selected quarter into an analytical reading unit that combines value, scope, version, evidence, uncertainty, contemporaneous event context, issuer attribution, and source access. The Tidal Ledger visual system makes calibration, discontinuity, and contextual separation visible. Revenue Tides does not create a cross-company revenue leaderboard, infer causality from event timing, or treat observed-window non-recovery as permanent decline.",CONTROL,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/abstract_zh.md:1,abstract_zh,中文摘要,TITLE,,NO,
+competition/abstract_zh.md:3,abstract_zh,《付费潮汐——游戏商业生命线》探索上市游戏公司公开披露能否支持可复核的游戏商业轨迹研究。项目以财政季度为时间单位，构建 4 家发行商、9 条游戏或 IP 序列、75 个观察的语料，并保存实体范围、报告口径、指标版本、证据类别、缺失状态与来源。直接披露与由官方总额、取整占比推导的观察严格区分；后者保留上下界和方向稳定性。六个正式 Findings 讨论同季度口径差异、Stellar Blade 的 PC 上线同期峰值、NIKKE 与 Black Desert 的恢复状态、Lineage W 新口径窗口以及派生方向不确定性。核心交互 Quarter Prism 把数值、版本、区间、事件和来源组织成可操作的季度阅读单元；Tidal Ledger 通过账页、校准刻度、版本接缝和独立事件轨让测量边界可见。数据层由冻结语料确定性生成，浏览器按需读取序列详情，不重新计算研究逻辑。项目不进行跨公司绝对收入排行，不把事件时间关系解释为因果，也不把观察窗口内未恢复解释为永久衰退。,FINDING,all-caps technical label; AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/accessibility_summary.md:1,accessibility_summary,Accessibility Summary,TITLE,,NO,
+competition/accessibility_summary.md:3,accessibility_summary,The production interface passed the accessibility checks available in the final QA environment:,LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/accessibility_summary.md:16,accessibility_summary,"Audited contrast ratios for primary text, secondary text, event context, and focus treatment met the project's stated targets. A real interactive screen-reader session was **not available**. The project therefore does not claim full screen-reader certification, WCAG certification, or Safari accessibility coverage.",LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/browser_qa_summary.md:1,browser_qa_summary,Browser QA Summary,TITLE,,NO,
+competition/browser_qa_summary.md:3,browser_qa_summary,The static production build was tested over HTTP in:,ANNOTATION,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/browser_qa_summary.md:5,browser_qa_summary,| Browser | Version | Result |,ANNOTATION,,NO,
+competition/browser_qa_summary.md:7,browser_qa_summary,"| Google Chrome | 153.0.8010.53 | PASS, 40/40 Phase J checks |",LEDE,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/browser_qa_summary.md:8,browser_qa_summary,"| Microsoft Edge | 149.0.4022.62 | PASS, 40/40 Phase J checks |",LEDE,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/browser_qa_summary.md:9,browser_qa_summary,"| Mozilla Firefox | 156.0.1 | PASS, 14/14 Phase J checks |",LEDE,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/browser_qa_summary.md:10,browser_qa_summary,| WebKit / Safari-equivalent | Not available | Not tested |,LEDE,,NO,
+competition/browser_qa_summary.md:12,browser_qa_summary,"Viewports: 1440×900, 1280×800, 1024×768, 768×1024, 390×844, and 320×700. Every audited viewport recorded 0 px page-level horizontal overflow.",LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/browser_qa_summary.md:14,browser_qa_summary,Console errors: 0. Console warnings: 0. Uncaught exceptions: 0. Unexpected required 4xx/5xx responses: 0. Required JSON failures: 0. Root hosting and `/revenue-tides/` subdirectory hosting both passed.,LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/browser_qa_summary.md:16,browser_qa_summary,"Quarter Prism direct, version-overlap, version-boundary, derived-uncertainty, event, no-event, mobile, keyboard, reduced-motion, cache, failure/retry, source, and hash-navigation paths were exercised. WebKit/Safari-equivalent was not available in the local environment and is a release limitation.",NAV,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/competition_long_zh.md:1,competition_long_zh,参赛长简介,TITLE,,NO,
+competition/competition_long_zh.md:3,competition_long_zh,游戏收入常被当作一条可以直接排序的数字，但公开资料里的“收入”可能对应单一游戏、整个 IP、不同平台组合，也可能在同一家公司内部发生报告口径切换。若忽略这些差异，一个漂亮的折线图就可能把定义变化误读成增长，把同期事件误读成原因，或把派生估计伪装成精确事实。,LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/competition_long_zh.md:5,competition_long_zh,《付费潮汐——游戏商业生命线》从这个问题出发，以上市游戏公司的官方公开披露为定量主干。项目最终保留 4 家发行商的 9 条分析序列、75 个财政季度观察，覆盖 2024Q3–2026Q2，并关联 26 个精选官方事件与 3 条发行商归因说法。定量观察只来自 `OFFICIAL_REPORTED` 与 `DERIVED_FROM_OFFICIAL` 两类证据。18 个派生观察由官方公司总额和取整占比确定性计算，保留点估计、兼容上下界和环比方向稳定性。缺失不记为零，不进行插值或向前填充。,LEDE,all-caps technical label; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/competition_long_zh.md:7,competition_long_zh,研究先冻结实体、指标、版本、可比性、缺失与因果政策，再构建语料、执行结构验证并生成 Findings。不同公司之间不比较绝对收入高低，也不做 USD 归一化。NCSOFT 的 legacy 与 royalty-integrated 指标作为两个独立版本保存；相同季度的重叠值同时存在，跨版本 QoQ 被禁止，基线在新版本重新开始。事件仅作为同期背景，发行商解释仍以 attributed claim 呈现。,FINDING,all-caps technical label; AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/competition_long_zh.md:9,competition_long_zh,六个正式 Findings 展示这些规则为何重要。F1 发现 Lineage M 在 2025Q2–2025Q4 的新旧口径同季度差异为 67.97亿–134.55亿韩元，这是定义差异而非增长。F2 显示 Stellar Blade 从 2025Q1 的 70.12亿韩元升至 2025Q2 的 657.19亿韩元，环比 +837.3%，PC 上线发生在同一季度，但项目不推断 PC 的独立贡献或因果效果。F4 记录 Black Desert 先回撤 20.7%，随后恢复并创出新峰，之后到 2026Q2 又低于新峰 30.8%。其余 Findings 讨论 NIKKE 的窗口内未恢复、Lineage W 新口径窗口连续四季下降，以及 15 个派生环比中 9 个方向会随取整区间改变。,FINDING,all-caps technical label; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/competition_long_zh.md:11,competition_long_zh,网站以 Quarter Prism / 季度棱镜作为核心交互。使用者选择序列与季度后，可以同时看到数值、实体范围、指标版本、证据类别、派生区间、事件轨、发行商归因与来源。Lineage 重叠季度显示平行版本轨，派生序列显示区间几何，事件位于独立语境轨。移动端改为纵向季度步进，键盘和减少动态模式保留完整路径。,LEDE,decorative bilingual slash title; AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/competition_long_zh.md:13,competition_long_zh,Tidal Ledger / 潮汐账本视觉系统使用暖色账页、石墨文字、青绿色数量标记、氧化铜事件轨、校准刻度与版本接缝。它回避游戏美术、海洋插画和通用仪表盘，让测量条件成为视觉主体。项目的价值在于提供一套小而完整、可追溯、可复建的证据产品：它不声称给出全球真实流水，而是明确展示一个数字是什么、从哪里来、能支持什么，以及何处必须停止推断。,LEDE,decorative bilingual slash title; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/competition_long_zh.md:15,competition_long_zh,局限同样公开：发行商指标异质，跨公司绝对值不可比；事件覆盖不是穷尽；观察窗口内未恢复不等于永久衰退；真实交互式屏幕阅读器与 WebKit/Safari-equivalent 未在本次环境中测试；部分远端来源可能变化或拒绝自动访问。,LEDE,AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/competition_short_zh.md:1,competition_short_zh,参赛短简介,TITLE,,NO,
+competition/competition_short_zh.md:3,competition_short_zh,《付费潮汐》以 4 家上市游戏公司的公开披露构建 9 条财政季度商业轨迹。75 个观察完整保留实体、口径、证据、版本与不确定性，不做跨公司收入排行。六个 Findings 关注口径差异、窗口峰值、恢复与派生取整风险。Quarter Prism 将数值、版本接缝、派生区间、同期事件和来源放在同一季度视图中，让“能比较什么、不能推断什么”一目了然。,FINDING,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/data_provenance_summary.md:1,data_provenance_summary,Data Provenance Summary,TITLE,,NO,
+competition/data_provenance_summary.md:3,data_provenance_summary,Primary source family,SOURCE,,NO,
+competition/data_provenance_summary.md:5,data_provenance_summary,"The quantitative backbone consists of official public investor-relations materials: earnings presentations, earnings letters, factsheets, and related official company pages. The four reporting companies are NCSOFT, SHIFT UP, Pearl Abyss, and Netmarble. Official game or publisher pages supply curated event dates.",LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/data_provenance_summary.md:7,data_provenance_summary,Direct and derived observations,TITLE,,NO,
+competition/data_provenance_summary.md:9,data_provenance_summary,"`OFFICIAL_REPORTED` observations reproduce publisher-disclosed values under their original entity, currency, platform, and reporting scope. `DERIVED_FROM_OFFICIAL` observations are deterministic calculations from official company totals and rounded title shares. They retain compatible bounds and are never relabeled as directly reported title revenue.",LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/data_provenance_summary.md:11,data_provenance_summary,Source resolution,SOURCE,,NO,
+competition/data_provenance_summary.md:13,data_provenance_summary,"Canonical source records preserve document title, type, publication date, reporting period, page when applicable, and public URL. The application deduplicates those records in one public source registry; series and Findings reference stable `source_id` values.",SOURCE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/data_provenance_summary.md:15,data_provenance_summary,Integrity process,TITLE,,NO,
+competition/data_provenance_summary.md:17,data_provenance_summary,"Retained official PDFs were hashed during research. Method and Finding freezes record hashes for normative artifacts. Phase G converts the validated corpus into deterministic public JSON and records output hashes. The final release adds hashes for critical reports, application entry files, production assets, and competition summaries.",FINDING,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/data_provenance_summary.md:19,data_provenance_summary,Public/internal separation,TITLE,,NO,
+competition/data_provenance_summary.md:21,data_provenance_summary,"Judge-facing and frontend data expose structured observations and public links. They do not expose local paths, raw PDF hashes, extractor identities, QA defect notes, or internal provenance files. Raw report artwork is not republished in the site.",LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/data_provenance_summary.md:23,data_provenance_summary,"Sensor Tower and AppMagic were tested during feasibility work but are not the quantitative backbone. No paid account, login bypass, private API, or mass scraping was used.",LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/design_description_zh.md:1,design_description_zh,设计说明,TITLE,,NO,
+competition/design_description_zh.md:3,design_description_zh,Tidal Ledger / 潮汐账本以暖色账页、校准刻度和低饱和数据标记呈现财政季度轨迹。核心交互 Quarter Prism / 季度棱镜把一个季度拆成数值、实体、口径、证据、区间与来源；版本接缝阻止不同定义被误连，派生值用区间而非单点伪装精确，官方事件则留在独立语境轨上。设计不是装饰数据，而是让比较边界和不确定性可见。,LEDE,decorative bilingual slash title; AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/final_qa_summary.md:1,final_qa_summary,Final QA Summary,TITLE,,NO,
+competition/final_qa_summary.md:3,final_qa_summary,Data QA,TITLE,,NO,
+competition/final_qa_summary.md:5,final_qa_summary,"The final corpus remains 9 series, 75 observations, 26 events, 3 attributed claims, and 18 derived observations. Nine legitimate NCSOFT same-quarter version overlaps remain separate. Missing values are not zero.",LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/final_qa_summary.md:7,final_qa_summary,Research QA,TITLE,,NO,
+competition/final_qa_summary.md:9,final_qa_summary,"Method, Findings, and web-data freeze hashes validate. All six frozen Findings reproduce from the public data layer; F1/F2/F4 remain the headline set. Definition differences, uncertainty, event context, and observation-window recovery status retain their limits.",FINDING,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/final_qa_summary.md:11,final_qa_summary,Frontend QA,TITLE,,NO,
+competition/final_qa_summary.md:13,final_qa_summary,"TypeScript, 62 Vitest tests, production build, and Phase I validation pass. The frontend reads only the frozen Phase G public-data layer. No research calculation is moved into the browser.",LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/final_qa_summary.md:15,final_qa_summary,Browser QA,TITLE,,NO,
+competition/final_qa_summary.md:17,final_qa_summary,"Chrome 153, Edge 149, and Firefox 156 passed production checks. Six desktop/mobile viewports showed no page-level horizontal overflow, console errors, warnings, uncaught exceptions, or unexpected required network failures. WebKit/Safari-equivalent was unavailable.",NAV,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/final_qa_summary.md:19,final_qa_summary,Accessibility,TITLE,,NO,
+competition/final_qa_summary.md:21,final_qa_summary,"Keyboard, focus, skip link, native controls, ARIA/live region, accessible SVG, non-color encodings, reduced motion, 44 px touch targets, 200% equivalent reflow, and the accessibility tree were reviewed. A real interactive screen-reader session was unavailable.",NAV,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/final_qa_summary.md:23,final_qa_summary,Performance,TITLE,,NO,
+competition/final_qa_summary.md:25,final_qa_summary,"JS is 107.29 kB / 40.27 kB gzip; CSS is 26.78 kB / 5.71 kB gzip; HTML is 0.91 kB. Initial load uses 8 requests and 29,486 bytes of bootstrap JSON; series details remain lazy-loaded.",LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/final_qa_summary.md:27,final_qa_summary,Reproducibility,TITLE,,NO,
+competition/final_qa_summary.md:29,final_qa_summary,"Deterministic builders, stable IDs, source references, freeze manifests, final SHA-256 hashes, and a release inventory support independent verification from retained local inputs.",SOURCE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/final_qa_summary.md:31,final_qa_summary,Limitations,CAVEAT,,NO,
+competition/final_qa_summary.md:33,final_qa_summary,Publisher-defined values are not globally uniform or cross-company comparable. Derived observations inherit rounded-share uncertainty. Events are curated and non-causal. Observed-window non-recovery is not permanent decline. Some remote source links may change or reject automation.,SOURCE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/judge_findings_guide.md:1,judge_findings_guide,Judge Findings Guide,FINDING,,NO,
+competition/judge_findings_guide.md:3,judge_findings_guide,F1 — 同一季度，报告口径也会改变数值,FINDING,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/judge_findings_guide.md:13,judge_findings_guide,F2 — Stellar Blade 的 PC 上线季度形成窗口峰值,FINDING,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/judge_findings_guide.md:23,judge_findings_guide,F3 — NIKKE 反弹，但尚未回到前高,TITLE,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/judge_findings_guide.md:33,judge_findings_guide,F4 — Black Desert 在一次恢复后再次进入回撤,FINDING,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/judge_findings_guide.md:43,judge_findings_guide,F5 — Lineage W 新口径窗口连续四季下降,TITLE,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/judge_findings_guide.md:53,judge_findings_guide,F6 — 取整占比使多数派生环比方向无法确定,TITLE,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/judge_q_and_a.md:1,judge_q_and_a,Judge Q&A,TITLE,,NO,
+competition/judge_q_and_a.md:3,judge_q_and_a,1. Why not use Sensor Tower as the main dataset?,TITLE,,NO,
+competition/judge_q_and_a.md:5,judge_q_and_a,"The public layer did not provide a sufficiently continuous, exact, title-level monetary history under reproducible public access. Official company disclosures offered stronger provenance and stable fiscal-quarter records. Sensor Tower and AppMagic therefore remain context, not the quantitative backbone.",LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:7,judge_q_and_a,2. Why quarterly rather than monthly?,TITLE,,NO,
+competition/judge_q_and_a.md:9,judge_q_and_a,"Quarterly granularity matches the stable cadence of investor-relations disclosures. Forcing monthly values would require paid/private data, interpolation, or inconsistent public fragments.",LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:11,judge_q_and_a,3. Why only nine series?,TITLE,,NO,
+competition/judge_q_and_a.md:13,judge_q_and_a,"The frozen method allowed 8–12 and preferred continuity of at least six quarters. A tenth candidate would have weakened evidence quality or exceeded the one-third cap on primarily derived series, so the target was not forced.",SOURCE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:15,judge_q_and_a,4. Why are different publishers not directly comparable?,TITLE,,NO,
+competition/judge_q_and_a.md:17,judge_q_and_a,"Each publisher defines entity scope, platform coverage, accounting treatment, and reporting currency differently. Those amounts are valid inside their own definitions but do not form a common global market measure.",LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:19,judge_q_and_a,5. Why does Lineage M have two values in the same quarter?,TITLE,,NO,
+competition/judge_q_and_a.md:21,judge_q_and_a,NCSOFT published overlapping legacy and royalty-integrated definitions. Both observations are retained under separate metric-version IDs; neither replaces the other.,LEDE,all-caps technical label; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:23,judge_q_and_a,6. Is the difference between those Lineage M values growth?,TITLE,,NO,
+competition/judge_q_and_a.md:25,judge_q_and_a,"No. F1 treats KRW 6.797–13.455 billion as a same-quarter definition effect. Cross-version change, correction, and restatement claims are forbidden.",FINDING,all-caps technical label; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:27,judge_q_and_a,7. What is `DERIVED_FROM_OFFICIAL`?,TITLE,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:29,judge_q_and_a,"It is a deterministic observation calculated from official disclosed inputs, such as a company total and a rounded title share. It remains distinct from a directly reported title amount.",LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:31,judge_q_and_a,8. Why can a derived QoQ direction be uncertain?,TITLE,,NO,
+competition/judge_q_and_a.md:33,judge_q_and_a,"An officially published share such as a whole-number percentage represents a compatible interval. If the prior and current value intervals overlap in direction, the point-estimate sign is not stable.",LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:35,judge_q_and_a,9. Does Stellar Blade's PC launch prove the increase was caused by PC?,TITLE,,NO,
+competition/judge_q_and_a.md:37,judge_q_and_a,"No. PC launch and the eight-quarter peak occurred in the same quarter. The publisher-defined IP total contains no PC-only amount, so the project makes no causal or contribution claim.",LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:39,judge_q_and_a,10. Why are events curated rather than exhaustive?,TITLE,,NO,
+competition/judge_q_and_a.md:41,judge_q_and_a,"The event layer exists to test whether stable official dates can provide useful context. It is deliberately small and source-backed, not a complete live-ops archive.",SOURCE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:43,judge_q_and_a,11. Why no global revenue ranking?,TITLE,,NO,
+competition/judge_q_and_a.md:45,judge_q_and_a,The underlying values do not share one economic definition. Ranking them would imply comparability that the sources do not support.,SOURCE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:47,judge_q_and_a,12. Why no USD conversion?,TITLE,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:49,judge_q_and_a,"Currency conversion would standardize denomination but not entity scope, platform coverage, accounting meaning, or metric version. It would create an appearance of comparability without fixing the underlying mismatch.",LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:51,judge_q_and_a,13. Why are some games represented as IP rather than title?,TITLE,,NO,
+competition/judge_q_and_a.md:53,judge_q_and_a,"The publisher's own disclosure controls the entity. NIKKE, Stellar Blade, and Black Desert are reported as publisher-defined IP scopes, and the project does not silently narrow them to one app or title SKU.",LEDE,all-caps technical label; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:55,judge_q_and_a,14. How do you ensure reproducibility?,TITLE,,NO,
+competition/judge_q_and_a.md:57,judge_q_and_a,"Each canonical observation has stable IDs, periods, metric versions, evidence classes, and source references. Frozen method and Finding artifacts are hashed. Deterministic scripts rebuild the web-data layer and frontend, and the release records critical SHA-256 hashes.",SOURCE,all-caps technical label; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:59,judge_q_and_a,15. What makes Quarter Prism different from a tooltip?,TITLE,,NO,
+competition/judge_q_and_a.md:61,judge_q_and_a,"A tooltip usually reveals one value after a hover. Quarter Prism is a persistent, keyboard-operable analytical state that can show multiple same-quarter observations, version seams, uncertainty bounds, event context, attribution, and sources together.",SOURCE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:63,judge_q_and_a,16. Why is F1 important?,FINDING,,NO,
+competition/judge_q_and_a.md:65,judge_q_and_a,It demonstrates that measurement semantics can change the displayed number before any commercial change is considered. That lesson governs how the rest of the project is read.,LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:67,judge_q_and_a,17. What are the biggest limitations?,CAVEAT,,NO,
+competition/judge_q_and_a.md:69,judge_q_and_a,Publisher metrics are heterogeneous; events are non-exhaustive and non-causal; derived values inherit rounded-share uncertainty; the observation window is bounded; remote source availability may change; WebKit and a real screen-reader session were unavailable.,NAV,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:71,judge_q_and_a,18. How was accessibility tested?,TITLE,,NO,
+competition/judge_q_and_a.md:73,judge_q_and_a,"Keyboard paths, focus visibility, skip link, native controls, ARIA/live region, accessible SVG descriptions, non-color encodings, reduced motion, 44 px touch targets, 200% equivalent reflow, and the accessibility tree were reviewed.",LEDE,all-caps technical label; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:75,judge_q_and_a,19. Is the site WCAG certified or fully screen-reader certified?,TITLE,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:77,judge_q_and_a,"No. The checks establish a strong tested baseline, but no real interactive screen-reader session or formal certification was available.",LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:79,judge_q_and_a,20. Which browsers were tested?,TITLE,,NO,
+competition/judge_q_and_a.md:81,judge_q_and_a,"Chrome 153, Edge 149, and Firefox 156 were tested against the production build over HTTP.",LEDE,all-caps technical label,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:83,judge_q_and_a,21. Why was WebKit not tested?,TITLE,,NO,
+competition/judge_q_and_a.md:85,judge_q_and_a,"No WebKit/Safari-equivalent engine was available in the local QA environment, and a large new browser suite was not installed solely for the gate. This remains a documented limitation.",CAVEAT,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:87,judge_q_and_a,22. Why is “not recovered” not the same as decline forever?,TITLE,,NO,
+competition/judge_q_and_a.md:89,judge_q_and_a,"Recovery status is evaluated only inside the observed window ending 2026Q2. Later quarters are unknown, so permanent-decline language would exceed the evidence.",SOURCE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:91,judge_q_and_a,23. How are issuer explanations handled?,TITLE,,NO,
+competition/judge_q_and_a.md:93,judge_q_and_a,They remain attributed claims with issuer and source. The project does not rewrite management explanations as independent Findings or causal facts.,SOURCE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/judge_q_and_a.md:95,judge_q_and_a,24. What would a future update require?,TITLE,,NO,
+competition/judge_q_and_a.md:97,judge_q_and_a,"A new quarter, source correction, metric definition, Finding, series, or redesign requires a new branch/version or documented amendment. Release 1.0.0 cannot be silently overwritten.",SOURCE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/limitations.md:1,limitations,Limitations,CAVEAT,,NO,
+competition/limitations.md:3,limitations,"1. Publisher-defined metrics are heterogeneous in entity, platform, accounting, and currency scope.",LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/limitations.md:4,limitations,2. Absolute cross-company revenue comparison and revenue ranking are forbidden.,CAVEAT,,NO,
+competition/limitations.md:5,limitations,3. Values are not a uniform measure of global consumer spending or “true global revenue.”,LEDE,,NO,
+competition/limitations.md:6,limitations,4. NCSOFT legacy and royalty-integrated metric versions cannot be stitched into one trajectory.,LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/limitations.md:7,limitations,5. Netmarble-derived series inherit uncertainty from officially disclosed rounded shares.,LEDE,,NO,
+competition/limitations.md:8,limitations,6. Event coverage is curated and non-exhaustive.,ANNOTATION,,NO,
+competition/limitations.md:9,limitations,7. Event timing is contextual and does not establish causality.,LEDE,,NO,
+competition/limitations.md:10,limitations,8. “Not recovered within observed window” does not mean permanent decline.,LEDE,,NO,
+competition/limitations.md:11,limitations,9. A real interactive screen-reader session was not available; no full screen-reader or WCAG certification is claimed.,LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/limitations.md:12,limitations,10. WebKit/Safari-equivalent was not available for browser QA.,LEDE,,NO,
+competition/limitations.md:13,limitations,"11. Some remote source URLs may change, redirect, or reject automated access. SHIFT UP's sampled document returned HTTP 403 to automated HEAD while the application link remained syntactically valid; this is a remote-access condition, not a broken application route.",SOURCE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/limitations.md:15,limitations,"The project also avoids USD normalization, market-share reconstruction, interpolation, forward fill, cross-version QoQ, cross-company leaderboards, and causal language unsupported by the evidence.",SOURCE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/methodology_one_page.md:1,methodology_one_page,Methodology in One Page,TITLE,,NO,
+competition/methodology_one_page.md:3,methodology_one_page,Research object,TITLE,,NO,
+competition/methodology_one_page.md:5,methodology_one_page,"Fiscal-quarter commercial trajectories for publisher-defined games, IPs, and franchises in official public company disclosures.",LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/methodology_one_page.md:7,methodology_one_page,Temporal unit,TITLE,,NO,
+competition/methodology_one_page.md:9,methodology_one_page,`FISCAL_QUARTER`. Observation-period bounds and publication dates are separate. The final window is 2024Q3–2026Q2.,LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/methodology_one_page.md:11,methodology_one_page,Evidence classes,SOURCE,,NO,
+competition/methodology_one_page.md:13,methodology_one_page,"Primary quantitative evidence is limited to `OFFICIAL_REPORTED` and `DERIVED_FROM_OFFICIAL`. Official events and issuer explanations are context layers, not substitutes for observations.",SOURCE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/methodology_one_page.md:15,methodology_one_page,Corpus rules,TITLE,,NO,
+competition/methodology_one_page.md:17,methodology_one_page,"The frozen range is 8–12 analytical series, normally with at least six consecutive quarters. At least two-thirds must be primarily direct official; no more than one-third may be primarily derived. The final corpus has 9 series: 6 direct and 3 derived.",LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/methodology_one_page.md:19,methodology_one_page,Metric-version policy,TITLE,,NO,
+competition/methodology_one_page.md:21,methodology_one_page,"Stable versions define comparison windows. Legacy and royalty-integrated NCSOFT metrics remain separate, including same-quarter overlaps. Cross-version QoQ is unavailable and baselines restart after the break.",NAV,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/methodology_one_page.md:23,methodology_one_page,Derived policy,TITLE,,NO,
+competition/methodology_one_page.md:25,methodology_one_page,"Derived values use only official inputs and deterministic formulas. The public layer retains point value, lower/upper bounds, rounded share, rounding note, derivation reference, and direction-sign stability. Derived does not mean directly reported.",LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/methodology_one_page.md:27,methodology_one_page,Comparability,TITLE,,NO,
+competition/methodology_one_page.md:29,methodology_one_page,Absolute cross-company comparison and global revenue rankings are forbidden. Stable within-series change is allowed. No canonical FX conversion is used.,CAVEAT,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/methodology_one_page.md:31,methodology_one_page,Missingness,TITLE,,NO,
+competition/methodology_one_page.md:33,methodology_one_page,"Unavailable, not reported, outside-window, version-break, and unresolved states remain explicit. Missingness is never encoded as numeric zero; no interpolation or forward fill is allowed.",NAV,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/methodology_one_page.md:35,methodology_one_page,Events and causality,TITLE,,NO,
+competition/methodology_one_page.md:37,methodology_one_page,Events are curated official context. “Occurred in the same quarter” is allowed; “caused the change” is not. Issuer explanations remain attributed claims.,LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/methodology_one_page.md:39,methodology_one_page,Reproducibility,TITLE,,NO,
+competition/methodology_one_page.md:41,methodology_one_page,Stable IDs link Finding → observation → metric version → source and Finding → event/claim → source. Freeze manifests and final release metadata use SHA-256. Builders and validators use local retained inputs.,SOURCE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/methodology_one_page.md:43,methodology_one_page,Public source policy,SOURCE,,NO,
+competition/methodology_one_page.md:45,methodology_one_page,"Public web data contains structured facts and source links, not copied report artwork, internal extraction identities, raw local paths, or private APIs. Sensor Tower and AppMagic are not the quantitative backbone.",SOURCE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/performance_summary.md:1,performance_summary,Performance Summary,TITLE,,NO,
+competition/performance_summary.md:3,performance_summary,Final Phase J production baseline:,ANNOTATION,,NO,
+competition/performance_summary.md:5,performance_summary,| Asset | Uncompressed | Gzip |,ANNOTATION,,NO,
+competition/performance_summary.md:7,performance_summary,| JavaScript | 107.29 kB | 40.27 kB |,ANNOTATION,,NO,
+competition/performance_summary.md:8,performance_summary,| CSS | 26.78 kB | 5.71 kB |,ANNOTATION,,NO,
+competition/performance_summary.md:9,performance_summary,| HTML | 0.91 kB | — |,ANNOTATION,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/performance_summary.md:11,performance_summary,"The initial production load uses 8 requests: HTML, JavaScript, CSS, and 5 bootstrap JSON files. Those bootstrap JSON files total 29,486 bytes uncompressed. The source registry and nine series-detail files are deferred; the browser does not eagerly fetch every series.",SOURCE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/performance_summary.md:13,performance_summary,"No fonts, game art, video, source maps, analytics, router, chart library, or UI framework beyond Vue are shipped. No Lighthouse score is reported because Lighthouse was not measured.",SOURCE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/pitch_30s_zh.md:1,pitch_30s_zh,30 秒讲稿,TITLE,,NO,
+competition/pitch_30s_zh.md:3,pitch_30s_zh,《付费潮汐》研究的不是谁最赚钱，而是公开财报中的游戏收入究竟能说明什么。我们整理了 4 家发行商、9 条序列和 75 个季度观察，保留每个数值的实体、口径、版本和证据。核心交互“季度棱镜”让你移动一个季度，同时看到数值、版本接缝、不确定区间、同期事件和来源。最直观的发现是：Lineage M 在同一季度仅因报告定义不同，就会出现 67.97亿到 134.55亿韩元的差异；这不是增长，而是测量口径本身。,LEDE,AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/pitch_3min_zh.md:1,pitch_3min_zh,3 分钟讲稿,TITLE,,NO,
+competition/pitch_3min_zh.md:3,pitch_3min_zh,我们为什么需要重新看游戏收入？因为公开资料里的一个“收入数字”，往往已经包含了许多看不见的选择：它对应游戏标题还是整个 IP，覆盖哪些平台，属于哪个财政季度，是公司直接报告，还是从公司总额和取整占比推导出来。只要忽略其中一个条件，比较就可能失真。,LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/pitch_3min_zh.md:5,pitch_3min_zh,《付费潮汐——游戏商业生命线》选择上市游戏公司的公开披露作为证据主干。最终语料包含 4 家发行商、9 条分析序列、75 个季度观察，覆盖 2024Q3 到 2026Q2；同时保存 26 个精选官方事件和 3 条发行商归因说法。我们没有用 Sensor Tower 或 AppMagic 作为定量主干，也没有购买或绕过私有数据。,LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/pitch_3min_zh.md:7,pitch_3min_zh,项目先冻结方法，再做分析。时间单位是财政季度。定量证据分为公司直接披露与由官方披露推导两类。不同公司的绝对收入不能放进同一个排行榜。NCSOFT 的 legacy 与 royalty-integrated 是不同指标版本，不允许拼接。18 个派生观察都保留点估计、上下界和方向稳定性。事件只作为同期语境；即使发行商主动解释某次增长，我们也把它保存为 attributed claim，而不是项目自己的因果结论。,LEDE,all-caps technical label; AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/pitch_3min_zh.md:9,pitch_3min_zh,六个 Findings 里，有三个构成主要叙事。F1 说明同一季度也可能因为报告定义不同而出现不同数值。Lineage M 在 2025Q2 到 Q4 的新旧口径差异为 67.97亿到 134.55亿韩元，这不是增长。F2 记录 Stellar Blade 从 2025Q1 的 70.12亿韩元升至 2025Q2 的 657.19亿韩元，环比 +837.3%，PC 上线发生在同一季度；但财报没有 PC 单独金额，因此我们不推断 PC 的贡献。F4 展示 Black Desert 的阶段结构：先从峰值回撤 20.7%，随后恢复并创出新峰，到 2026Q2 又低于新峰 30.8%，所以它不是一句“持续下滑”可以概括的。,FINDING,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/pitch_3min_zh.md:11,pitch_3min_zh,另外三个 Findings 补充了边界。NIKKE 在 2026Q2 环比反弹 32.4%，但仍低于前高 4.1%，只能称为观察窗口内尚未恢复。Lineage W 在独立的新口径窗口内连续四季下降，期末比起点低 35.3%，不能向前接上旧口径。三个 Netmarble 派生序列共有 15 个可比环比，其中 9 个会因官方占比取整范围而改变方向，方向敏感占 60.0%。这不是说发行商数据不可靠，而是说明推导时必须保留不确定性。,FINDING,all-caps technical label; AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/pitch_3min_zh.md:13,pitch_3min_zh,为了让这些条件真正被看见，我们设计了 Quarter Prism / 季度棱镜。使用者选择一条序列和一个季度后，视图会同时展示数值、实体、指标版本、证据类别、派生区间、同期事件、归因说法和来源。新旧口径同季度重叠时会出现平行轨；派生值用区间和菱形标记；事件留在独立语境轨，避免被画成因果箭头。移动端使用纵向步进，键盘、可见焦点、减少动态和 44 像素触控目标都经过检查。,LEDE,decorative bilingual slash title; AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/pitch_3min_zh.md:15,pitch_3min_zh,视觉系统叫 Tidal Ledger / 潮汐账本。暖色账页、石墨文字、校准刻度和版本接缝强调“测量”，氧化铜事件轨强调“语境”。我们刻意不使用游戏角色、美术素材、海浪插画或交易终端风格，因为项目的主角是证据关系。,LEDE,decorative bilingual slash title; AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/pitch_3min_zh.md:17,pitch_3min_zh,项目仍有明确局限：发行商口径异质，跨公司绝对值不可比；事件不穷尽，时间相近不证明因果；观察窗口内未恢复不代表永久衰退；真实屏幕阅读器会话和 WebKit/Safari-equivalent 尚未测试。我们的目标不是制造一个更响亮的数字，而是让每个数字都带着来源、定义和停止推断的位置出现。,LEDE,AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/pitch_90s_en.md:1,pitch_90s_en,90-Second Pitch,TITLE,,NO,
+competition/pitch_90s_en.md:3,pitch_90s_en,"When people see a game-revenue chart, they often ask which title is larger or which update caused growth. Public disclosures do not support those shortcuts. A reported number may cover one title or an entire IP, mobile only or several platforms, and the reporting definition may change within the same company.",LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/pitch_90s_en.md:5,pitch_90s_en,"Revenue Tides builds nine fiscal-quarter series and 75 observations from official disclosures by four listed game companies. It compares change only within stable definitions. Direct observations remain separate from values derived from official totals and rounded shares. Missing data is never zero, and an event in the same quarter is context rather than proof of causality.",LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/pitch_90s_en.md:7,pitch_90s_en,"Three headline Findings show why this matters. Lineage M's legacy and royalty-integrated definitions differ by KRW 6.797 to 13.455 billion in the same overlapping quarters; that is a definition effect, not growth. Stellar Blade rises from KRW 7.012 billion to 65.719 billion in its PC-launch quarter, a gain of 837.3%, but no PC-only amount is disclosed. Black Desert falls 20.7%, recovers to a new peak, then ends 30.8% below that peak—an important sequence that a simple “decline” label would erase.",FINDING,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/pitch_90s_en.md:9,pitch_90s_en,"Quarter Prism lets a reviewer move through quarters while seeing value, scope, metric version, evidence, uncertainty, events, and source together. The result is not a global revenue leaderboard. It is a reproducible way to see what each commercial number means and where interpretation must stop.",SOURCE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/pitch_90s_zh.md:1,pitch_90s_zh,90 秒讲稿,TITLE,,NO,
+competition/pitch_90s_zh.md:3,pitch_90s_zh,大家看到游戏收入折线时，往往会先问谁更高、哪次更新带来了增长。但公开财报里的“收入”并不是统一指标：它可能属于单一标题，也可能属于整个 IP；可能只覆盖移动端，也可能包含 PC 和主机；甚至同一家公司会在中途切换报告口径。,LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/pitch_90s_zh.md:5,pitch_90s_zh,《付费潮汐》用 4 家上市游戏公司的官方披露，构建了 9 条财政季度序列和 75 个观察。我们只在稳定的同一序列内部讨论变化，直接披露与派生观察分开，缺失不当作零，事件只作为同期背景。,LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/pitch_90s_zh.md:7,pitch_90s_zh,三个头条 Finding 展示了这套方法的意义。第一，Lineage M 在 2025Q2 到 Q4 的同一季度，因为 legacy 与 royalty-integrated 定义不同，数值相差 67.97亿到 134.55亿韩元；这是口径差异，不是增长。第二，Stellar Blade 在 PC 上线季度从 70.12亿升到 657.19亿韩元，环比 +837.3%，但财报没有给出 PC 单独贡献，所以我们只说“同期”，不说“导致”。第三，Black Desert 先回撤 20.7%，恢复并创出新峰，随后又回撤 30.8%；把它概括成单向衰退会丢掉关键阶段。,FINDING,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/pitch_90s_zh.md:9,pitch_90s_zh,核心交互 Quarter Prism，也就是季度棱镜，让使用者移动季度，同时查看数值、实体、口径、证据、区间、事件和来源。它把版本接缝和不确定性放在图形结构里，而不是藏在脚注。这个项目最终想提供的，不是一张全球收入榜，而是一种更诚实地阅读商业数字的方法。,LEDE,AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/project_summary_en.md:1,project_summary_en,Project Summary,TITLE,,NO,
+competition/project_summary_en.md:3,project_summary_en,"Revenue Tides studies the fiscal-quarter commercial trajectories of publisher-defined games, IPs, and franchises through official public company disclosures. It does not combine heterogeneous revenue figures into a global ranking. Instead, it identifies entity scope, fiscal period, reporting definition, evidence class, and metric version before describing change within a stable series.",SOURCE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/project_summary_en.md:5,project_summary_en,"The final corpus covers four publishers, nine analytical series, 75 observations, 26 curated official events, and three issuer-attributed claims. Eighteen observations are deterministically derived from official totals and rounded shares; they retain compatible lower and upper bounds and a flag showing whether quarter-to-quarter direction is stable. Six frozen Findings examine reporting-definition differences, platform-launch timing, rebound and recovery, persistent decline inside a bounded metric window, and the uncertainty introduced by rounded shares.",FINDING,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/project_summary_en.md:7,project_summary_en,"The signature interaction, Quarter Prism, lets a reviewer move through fiscal quarters while seeing the value together with its entity scope, metric version, evidence class, uncertainty interval, event context, attribution, and source. The Tidal Ledger visual system uses ledger surfaces, calibration ticks, version seams, and a separate event rail to make analytical boundaries visible. The project's contribution is not a universal revenue number; it is a reproducible way to preserve what each observation means, what it supports, and where comparison must stop.",SOURCE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/project_summary_zh.md:1,project_summary_zh,项目简介,TITLE,,NO,
+competition/project_summary_zh.md:3,project_summary_zh,《付费潮汐——游戏商业生命线》研究上市游戏公司公开披露中的游戏、IP 与 franchise 商业轨迹。项目没有把不同公司的“收入”拼成一个全球排行榜，而是先辨认实体范围、财政季度、报告口径、证据类别与指标版本，再在同一稳定序列内观察变化。最终语料包含 4 家发行商、9 条分析序列、75 个季度观察、26 个精选官方事件和 3 条发行商归因说法；其中 18 个观察由官方总额与取整占比推导，并保留上下界与方向稳定性。,LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/project_summary_zh.md:5,project_summary_zh,六个正式 Findings 揭示了三类容易被忽略的问题：同一季度会因报告口径不同而出现不同数值；平台上线与收入峰值可以同期出现，但不能据此推断因果；一次恢复之后仍可能再次回撤。项目也明确呈现 NIKKE 的观察窗口未恢复、Lineage W 新口径窗口的连续下降，以及取整占比使 60.0% 的派生环比方向不确定。,FINDING,all-caps technical label; AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/project_summary_zh.md:7,project_summary_zh,核心交互 Quarter Prism / 季度棱镜让使用者移动财政季度，同时查看数值、实体、口径、证据、区间、事件与来源。Tidal Ledger / 潮汐账本视觉系统以账页、校准刻度、版本接缝和独立事件轨表达研究边界。网站支持键盘、移动端步进与减少动态，并把来源链接放回每个观察附近。项目的价值不是给出一个看似统一的“真相数字”，而是让每个商业观察都能被追溯、被限定，也能被诚实地比较。,LEDE,decorative bilingual slash title; AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/quarter_prism_explainer.md:1,quarter_prism_explainer,Quarter Prism / 季度棱镜,TITLE,decorative bilingual slash title,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/quarter_prism_explainer.md:3,quarter_prism_explainer,"Quarter Prism turns one selected fiscal quarter into a complete analytical reading unit. A user chooses a publisher-defined series and moves with previous/next controls, a native quarter selector, direct quarter buttons, or Left/Right keyboard input.",CONTROL,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/quarter_prism_explainer.md:5,quarter_prism_explainer,States,TITLE,,NO,
+competition/quarter_prism_explainer.md:13,quarter_prism_explainer,Why this is not a tooltip,TITLE,,NO,
+competition/quarter_prism_explainer.md:15,quarter_prism_explainer,"A normal tooltip is temporary, usually hover-dependent, and optimized for one point. It cannot safely carry simultaneous versions, bounds, non-causal event context, attribution, caveats, and source routes. Quarter Prism persists selection, supports keyboard and mobile input, announces changes through a live region, and makes each semantic layer visible without forcing the user to infer research rules from footnotes.",CONTROL,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/quarter_prism_explainer.md:17,quarter_prism_explainer,The interaction is analytically necessary because the project's central result is not merely how a value moves; it is how the meaning of that value is constructed.,LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/README.md:1,README,Competition Materials,TITLE,,NO,
+competition/README.md:3,README,Judge-facing index for 《付费潮汐——游戏商业生命线》 / Revenue Tides — The Commercial Life of Games.,LEDE,decorative bilingual slash title,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/README.md:5,README,1. [中文项目简介](project_summary_zh.md),ANNOTATION,,NO,
+competition/README.md:6,README,2. [English Project Summary](project_summary_en.md),ANNOTATION,,NO,
+competition/README.md:7,README,3. [参赛短简介](competition_short_zh.md),ANNOTATION,,NO,
+competition/README.md:8,README,4. [参赛长简介](competition_long_zh.md),ANNOTATION,,NO,
+competition/README.md:9,README,5. [设计说明（300 字以内）](design_description_zh.md),ANNOTATION,,NO,
+competition/README.md:10,README,6. [中文摘要](abstract_zh.md) / [English Abstract](abstract_en.md),LEDE,,NO,
+competition/README.md:11,README,7. [30 秒讲稿](pitch_30s_zh.md),ANNOTATION,,NO,
+competition/README.md:12,README,8. [90 秒讲稿](pitch_90s_zh.md) / [90-Second English Pitch](pitch_90s_en.md),LEDE,,NO,
+competition/README.md:13,README,9. [3 分钟讲稿](pitch_3min_zh.md),ANNOTATION,,NO,
+competition/README.md:14,README,10. [Five-Minute Reviewer Guide](reviewer_guide.md),ANNOTATION,,NO,
+competition/README.md:15,README,11. [Judge Q&A](judge_q_and_a.md),ANNOTATION,,NO,
+competition/README.md:16,README,12. [Judge Findings Guide](judge_findings_guide.md),FINDING,,NO,
+competition/README.md:17,README,13. [Methodology in One Page](methodology_one_page.md),ANNOTATION,,NO,
+competition/README.md:18,README,14. [Data Provenance Summary](data_provenance_summary.md),LEDE,,NO,
+competition/README.md:19,README,15. [Technical Architecture](technical_architecture.md),ANNOTATION,,NO,
+competition/README.md:20,README,16. [Quarter Prism Explainer](quarter_prism_explainer.md),LEDE,,NO,
+competition/README.md:21,README,17. [Tidal Ledger Explainer](tidal_ledger_explainer.md),ANNOTATION,,NO,
+competition/README.md:22,README,18. [Accessibility Summary](accessibility_summary.md),ANNOTATION,,NO,
+competition/README.md:23,README,19. [Browser QA Summary](browser_qa_summary.md),ANNOTATION,,NO,
+competition/README.md:24,README,20. [Performance Summary](performance_summary.md),ANNOTATION,,NO,
+competition/README.md:25,README,21. [Final QA Summary](final_qa_summary.md),ANNOTATION,,NO,
+competition/README.md:26,README,22. [Limitations](limitations.md),CAVEAT,,NO,
+competition/README.md:27,README,23. [Selected Screenshots](screenshots/README.md),CONTROL,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/README.md:29,README,"The selected cover is `screenshots/cover.webp`. All materials preserve the frozen method, Findings, evidence classes, metric versions, uncertainty, non-causal event policy, and cross-company comparison boundary.",CONTROL,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/reviewer_guide.md:1,reviewer_guide,Five-Minute Reviewer Guide,TITLE,,NO,
+competition/reviewer_guide.md:3,reviewer_guide,Open the local production preview and follow this route.,LEDE,,NO,
+competition/reviewer_guide.md:5,reviewer_guide,"1. **Opening — click “命题”.** Notice the fixed facts: 9 series, 75 observations, 4 publishers, 2024Q3–2026Q2. The comparison warning appears before any chart because publisher-defined values are not a common market measure.",LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/reviewer_guide.md:6,reviewer_guide,"2. **Measurement Primer — scroll once.** Read the distinctions between game title and IP, direct and derived evidence, metric versions, and event context. These are the project's analytical rules, not optional footnotes.",CONTROL,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/reviewer_guide.md:7,reviewer_guide,"3. **Quarter Prism — click “棱镜”.** Keep Lineage M selected and choose 2025Q2. Notice two simultaneous observations and the calibration seam. They are separate legacy and royalty-integrated definitions, not a single trajectory.",CONTROL,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/reviewer_guide.md:8,reviewer_guide,"4. **F1 — click “Findings”.** Check the same-quarter difference range. It is described as a reporting-definition effect, never as growth.",FINDING,all-caps technical label; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/reviewer_guide.md:9,reviewer_guide,5. **F2 — stay in Headline Findings.** Read the 2025Q1 → 2025Q2 values and +837.3%. Notice that the PC launch is explicitly contemporaneous context and no PC-only revenue is claimed.,FINDING,all-caps technical label; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/reviewer_guide.md:10,reviewer_guide,"6. **F4 — continue to Black Desert.** Follow the sequence: initial drawdown, recovery/new peak, later drawdown. The ending state is “not recovered within observed window,” not permanent decline.",FINDING,all-caps technical label; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/reviewer_guide.md:11,reviewer_guide,"7. **Derived uncertainty — return to Quarter Prism.** Select MARVEL Contest of Champions to see interval geometry, or Jackpot World 2024Q4 to inspect a sign-sensitive change. The point value never replaces its bounds.",CONTROL,all-caps technical label; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/reviewer_guide.md:12,reviewer_guide,"8. **Series Observatory — click “序列”.** Open any row. The list is a research order, not a revenue ranking; entity type, evidence mode, metric versions, and Finding links remain visible.",SOURCE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/reviewer_guide.md:13,reviewer_guide,"9. **Method and Sources — click “方法”.** Expand source disclosure. Verify the global caveats, public source links, version information, and static-data architecture.",SOURCE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/reviewer_guide.md:15,reviewer_guide,"The intended takeaway is methodological: every value remains attached to its definition, evidence, uncertainty, context, and source.",SOURCE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+competition/technical_architecture.md:1,technical_architecture,Technical Architecture,TITLE,,NO,
+competition/technical_architecture.md:3,technical_architecture,Stack,TITLE,,NO,
+competition/technical_architecture.md:5,technical_architecture,"The application is a static Vue 3 + TypeScript + Vite site. Quarter Prism uses project-specific SVG and CSS; there is no chart library, backend, database, analytics, or tracking.",LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/technical_architecture.md:7,technical_architecture,Data flow,TITLE,,NO,
+competition/technical_architecture.md:10,technical_architecture,Official disclosures,ANNOTATION,,NO,
+competition/technical_architecture.md:11,technical_architecture,↓,ANNOTATION,,NO,
+competition/technical_architecture.md:12,technical_architecture,Validated canonical corpus,ANNOTATION,,NO,
+competition/technical_architecture.md:13,technical_architecture,↓,ANNOTATION,,NO,
+competition/technical_architecture.md:14,technical_architecture,Frozen Findings,FINDING,,NO,
+competition/technical_architecture.md:15,technical_architecture,↓,ANNOTATION,,NO,
+competition/technical_architecture.md:16,technical_architecture,Deterministic Phase G Web Data,ANNOTATION,,NO,
+competition/technical_architecture.md:17,technical_architecture,↓,ANNOTATION,,NO,
+competition/technical_architecture.md:18,technical_architecture,Static Vue frontend,ANNOTATION,,NO,
+competition/technical_architecture.md:21,technical_architecture,Public data layer,TITLE,,NO,
+competition/technical_architecture.md:23,technical_architecture,"Phase G produces a small manifest, project metadata, series index, Findings, caveats, source registry, and nine per-series detail files. The browser never reads raw IR PDFs, extraction spreadsheets, or internal QA tables.",SOURCE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/technical_architecture.md:25,technical_architecture,Loading strategy,TITLE,,NO,
+competition/technical_architecture.md:27,technical_architecture,"The initial production page requests HTML, JavaScript, CSS, and five bootstrap JSON files. The bootstrap JSON totals 29,486 bytes. The source registry is deferred until the analytical area approaches the viewport, and each series detail is fetched only when selected, then cached in memory. There is no eager all-series request.",CONTROL,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/technical_architecture.md:29,technical_architecture,Determinism,TITLE,,NO,
+competition/technical_architecture.md:31,technical_architecture,"`scripts/frontend/sync_web_data.py` verifies and copies `data/web/` byte-for-byte into the public tree. TypeScript validation, Vitest, Vite build, phase validators, and final SHA-256 manifests protect the release boundary.",LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/technical_architecture.md:33,technical_architecture,Hosting,TITLE,,NO,
+competition/technical_architecture.md:35,technical_architecture,The build is static and works at a root path or configured subdirectory. No public deployment was performed during final freeze.,LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/tidal_ledger_explainer.md:1,tidal_ledger_explainer,Tidal Ledger / 潮汐账本,TITLE,decorative bilingual slash title,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+competition/tidal_ledger_explainer.md:3,tidal_ledger_explainer,Tidal Ledger treats the site as a measurement ledger rather than a dashboard.,LEDE,,NO,
+competition/tidal_ledger_explainer.md:12,tidal_ledger_explainer,"Literal ocean imagery was avoided because the title's “tide” is a temporal metaphor, not a decorative theme. Game artwork was avoided because it would shift attention from evidence to brands and introduce rights questions. Generic card grids, blue-purple gradients, glassmorphism, and leaderboard panels were avoided because they imply interchangeable metrics and product-performance ranking. The visual system instead makes provenance, discontinuity, and uncertainty part of the page's structure.",SOURCE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:1,README,付费潮汐——游戏商业生命线,TITLE,,NO,
+README.md:3,README,**Revenue Tides — The Commercial Life of Games**,ANNOTATION,,NO,
+README.md:5,README,Status: `COMPLETE / FROZEN`,ANNOTATION,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:6,README,Data cutoff: `2026-09-22`,ANNOTATION,,NO,
+README.md:8,README,1. 项目简介,TITLE,,NO,
+README.md:10,README,《付费潮汐——游戏商业生命线》通过上市游戏公司公开披露资料，观察游戏、IP 与 franchise 在财政季度中的商业轨迹变化。项目不重建所谓“全球真实流水”，而是把报告口径、证据类型、指标版本、不确定性与同期事件一起纳入观察，从而让每一个收入数字都保留其来源和边界。,LEDE,long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+README.md:12,README,"Revenue Tides examines fiscal-quarter commercial trajectories of publisher-defined games, IPs, and franchises using official public disclosures. Rather than reconstructing a universal “true revenue” metric, it preserves reporting definitions, evidence types, metric versions, uncertainty, and contemporaneous events so that every number retains its provenance and limits.",SOURCE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:14,README,2. 研究问题,TITLE,,NO,
+README.md:16,README,公开财报能否支持一套可复核的游戏商业轨迹研究？当数据来自不同发行商、不同实体范围与不同会计口径时，哪些变化可以在同一稳定序列内讨论，哪些比较必须停止？,LEDE,,NO,
+README.md:18,README,3. 为什么“收入”需要定义,TITLE,,NO,
+README.md:20,README,这里的数值是发行商定义的会计或商业披露，不是统一的全球市场指标。`GAME_TITLE` 与 `IP` 不合并；`OFFICIAL_REPORTED` 与 `DERIVED_FROM_OFFICIAL` 不等同；NCSOFT 的 legacy 与 royalty-integrated 指标不拼接。缺失值不是零，事件同期也不等于事件导致变化。,LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:22,README,4. 数据范围,TITLE,,NO,
+README.md:30,README,5. 来源类型,TITLE,,NO,
+README.md:32,README,定量主干只使用公司投资者关系材料、业绩演示、factsheet 与官方披露。官方游戏或发行商页面提供事件日期。Sensor Tower 与 AppMagic 不构成本项目定量主干。公开站点链接可能重定向或拒绝自动请求；这类远端行为与应用内链接是否正确分开记录。,LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:34,README,6. 六个 Findings,FINDING,,NO,
+README.md:36,README,1. **F1：同一季度，报告口径也会改变数值。** Lineage M 在 2025Q2–2025Q4 的 royalty-integrated 数值比 legacy 高 67.97亿–134.55亿韩元；这是定义差异，不是增长。,FINDING,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:37,README,2. **F2：Stellar Blade 的 PC 上线季度形成窗口峰值。** 2025Q1 的 70.12亿韩元升至 2025Q2 的 657.19亿韩元，环比 +837.3%；PC 上线发生在同一季度，但没有 PC 单独金额，也不推断因果。,FINDING,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:38,README,3. **F3：NIKKE 反弹，但尚未回到前高。** 2026Q2 环比 +32.4%，仍低于 2025Q2 峰值 4.1%，状态为 `NOT_RECOVERED_WITHIN_OBSERVED_WINDOW`。,LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:39,README,4. **F4：Black Desert 在一次恢复后再次进入回撤。** 先从 2024Q4 峰值回撤 20.7%，2025Q3 创新峰；至 2026Q2 又低于新峰 30.8%，观察窗口内尚未恢复。,FINDING,AI / method-spec phrasing; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:40,README,5. **F5：Lineage W 新口径窗口连续四季下降。** 仅限 royalty-integrated v2 的 2025Q2–2026Q2，期末比窗口起点低 35.3%，不向前连接 legacy。,LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:41,README,6. **F6：取整占比使多数派生环比方向无法确定。** 15 个可比较变化中 9 个方向敏感、6 个方向稳定，方向敏感占 60.0%。,LEDE,,NO,
+README.md:43,README,7. Signature Interaction,TITLE,,NO,
+README.md:45,README,**Quarter Prism / 季度棱镜**把选定季度拆成实体、指标版本、证据类别、点值或区间、事件、发行商归因与来源。它能同时显示同季度多版本观察，并把事件放在独立语境轨上，避免普通 tooltip 隐藏关键语义。,LEDE,decorative bilingual slash title; AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+README.md:47,README,8. Visual System,TITLE,,NO,
+README.md:49,README,**Tidal Ledger / 潮汐账本**采用暖色账页、石墨文字、低饱和青绿色数据标记、氧化铜事件轨、校准刻度与版本接缝。视觉语言来自测量和账本，而非海洋插画、游戏美术或通用仪表盘。,LEDE,decorative bilingual slash title; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件
+README.md:51,README,9. 数据方法,TITLE,,NO,
+README.md:53,README,主要时间单位为财政季度。语料按连续性、实体范围、指标定义与证据类别筛选。允许的定量证据仅为 `OFFICIAL_REPORTED` 与 `DERIVED_FROM_OFFICIAL`。转换仅在稳定指标版本内部执行，包括 QoQ、基线指数、滚动峰值、回撤与恢复。派生值保留点估计、上下界、取整说明与方向稳定性。,LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:55,README,10. 证据与可比性边界,TITLE,,NO,
+README.md:57,README,不同公司的发行商定义指标不能进行绝对收入排名或高低比较。项目不做 USD 归一化、市场份额推断或跨版本 QoQ。事件只作为同期背景；发行商解释以 attributed claim 保存，不转写为项目事实。,LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:59,README,11. 技术栈,TITLE,,NO,
+README.md:61,README,Vue 3、TypeScript、Vite、原生 SVG 与 CSS。应用为静态站点，无后端、无分析追踪、无外部图表库。初始只读取 5 个 bootstrap JSON；来源表与九条序列详情按需加载。,LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:63,README,12. 项目结构,TITLE,,NO,
+README.md:65,README,主要目录说明见 [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)。冻结研究位于 `research/` 与 `data/`；浏览器消费的公共数据来自 `data/web/`，并由确定性脚本同步到 `public/data/`。,LEDE,all-caps technical label; AI / method-spec phrasing; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:67,README,13. 本地开发,TITLE,,NO,
+README.md:69,README,要求 Node.js 24.x、npm 11.x 与 Python 3.13.x。首次安装依赖：,ANNOTATION,,NO,
+README.md:72,README,npm install,ANNOTATION,,NO,
+README.md:75,README,启动开发服务器：,ANNOTATION,,NO,
+README.md:78,README,npm run dev,ANNOTATION,,NO,
+README.md:81,README,14. 构建,TITLE,,NO,
+README.md:84,README,npm run build,ANNOTATION,,NO,
+README.md:87,README,该命令先运行确定性数据同步，再做 TypeScript 检查并生成唯一的 `dist/`。,ANNOTATION,,NO,
+README.md:89,README,15. 预览,TITLE,,NO,
+README.md:92,README,npm run preview,ANNOTATION,,NO,
+README.md:95,README,预览应通过 HTTP 访问，不使用 `file://`。,ANNOTATION,all-caps technical label,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:97,README,16. 可复现性,TITLE,,NO,
+README.md:99,README,完整环境、离线数据阶段与验证命令见 [REPRODUCIBILITY.md](REPRODUCIBILITY.md)。已有本地 canonical/web 数据的重建不依赖网络、登录或私有 API。,LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:101,README,17. 浏览器支持测试,TITLE,,NO,
+README.md:103,README,生产构建在 Chrome 153、Edge 149 与 Firefox 156 中通过；测试视口为 1440×900、1280×800、1024×768、768×1024、390×844 与 320×700。WebKit/Safari-equivalent 未在可用环境中测试。,LEDE,long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:105,README,18. 无障碍状态,TITLE,,NO,
+README.md:107,README,键盘、焦点、跳转链接、ARIA/live region、可访问 SVG、非颜色单一编码、减少动态、44 px 触控目标、200% 等效回流与 accessibility tree 已检查。没有可用的真实交互式屏幕阅读器会话，因此不声称完整屏幕阅读器认证或 WCAG 认证。,LEDE,all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:109,README,19. 性能,TITLE,,NO,
+README.md:111,README,"最终 Phase J 基线为 JS 107.29 kB / 40.27 kB gzip，CSS 26.78 kB / 5.71 kB gzip，HTML 0.91 kB。初始生产加载为 8 个请求，其中 5 个 bootstrap JSON 共 29,486 bytes；不会一次加载全部序列。",LEDE,decorative bilingual slash title; all-caps technical label; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:113,README,20. 局限,TITLE,,NO,
+README.md:115,README,发行商指标异质、跨公司绝对值不可比；这些数值不是全球消费者支出。NCSOFT 版本不能拼接，Netmarble 派生序列受官方取整占比影响。事件覆盖经过筛选且非穷尽，时间接近不证明因果。观察窗口内未恢复不等于永久衰退。部分远端来源会变化或拒绝自动访问。,LEDE,all-caps technical label; AI / method-spec phrasing; long sentence / paragraph,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:117,README,21. 版本与冻结状态,TITLE,AI / method-spec phrasing,YES,已人工复核；仅作为必要品牌、术语、正式研究原文或次级信息保留
+README.md:125,README,Project 02 已完成 Phase K 最终审计并冻结为 `COMPLETE / FROZEN`。之后任何季度、口径、来源、Finding 或前端改动都必须建立新版本或走书面 amendment 流程。,FINDING,decorative bilingual slash title; all-caps technical label; AI / method-spec phrasing; long sentence / paragraph,YES,已删除或改写为自然中文；见对应当前文件

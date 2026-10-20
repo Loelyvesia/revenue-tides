@@ -1,97 +1,97 @@
-# Judge Q&A
+# 评审问答
 
-## 1. Why not use Sensor Tower as the main dataset?
+## 1. 为什么不用 Sensor Tower 做主数据？
 
-The public layer did not provide a sufficiently continuous, exact, title-level monetary history under reproducible public access. Official company disclosures offered stronger provenance and stable fiscal-quarter records. Sensor Tower and AppMagic therefore remain context, not the quantitative backbone.
+它的公开层无法稳定提供连续、精确、可复核的标题级历史金额。公司官方披露虽然粒度较粗，但来源更清楚、季度记录更稳定。因此 Sensor Tower 和 AppMagic 只作为背景，不进入定量主干。
 
-## 2. Why quarterly rather than monthly?
+## 2. 为什么按季度而不是按月？
 
-Quarterly granularity matches the stable cadence of investor-relations disclosures. Forcing monthly values would require paid/private data, interpolation, or inconsistent public fragments.
+季度与投资者关系披露的稳定节奏一致。强行做月度数据，就需要付费数据、插值或彼此不一致的公开片段。
 
-## 3. Why only nine series?
+## 3. 为什么只有九条序列？
 
-The frozen method allowed 8–12 and preferred continuity of at least six quarters. A tenth candidate would have weakened evidence quality or exceeded the one-third cap on primarily derived series, so the target was not forced.
+冻结方法要求序列通常至少连续六个季度，并限制主要依赖推导值的比例。第十个候选会降低证据质量或突破比例限制，所以没有为了凑数扩充。
 
-## 4. Why are different publishers not directly comparable?
+## 4. 为什么不同公司不能直接比较？
 
-Each publisher defines entity scope, platform coverage, accounting treatment, and reporting currency differently. Those amounts are valid inside their own definitions but do not form a common global market measure.
+发行商对实体范围、平台覆盖、会计处理和币种的定义不同。数字在各自定义内有效，但不构成统一的全球市场尺度。
 
-## 5. Why does Lineage M have two values in the same quarter?
+## 5. 为什么 Lineage M 同一季度有两个数值？
 
-NCSOFT published overlapping legacy and royalty-integrated definitions. Both observations are retained under separate metric-version IDs; neither replaces the other.
+NCSOFT 同时披露了旧口径和纳入 royalties 的新口径。两条观察分别保存在独立指标版本下，谁也不覆盖谁。
 
-## 6. Is the difference between those Lineage M values growth?
+## 6. 两个 Lineage M 数值的差异是增长吗？
 
-No. F1 treats KRW 6.797–13.455 billion as a same-quarter definition effect. Cross-version change, correction, and restatement claims are forbidden.
+不是。67.97 亿—134.55 亿韩元是同季度的定义差异，不能写成增长、修正或重述。
 
-## 7. What is `DERIVED_FROM_OFFICIAL`?
+## 7. “由官方披露推算”是什么意思？
 
-It is a deterministic observation calculated from official disclosed inputs, such as a company total and a rounded title share. It remains distinct from a directly reported title amount.
+它指使用官方披露输入确定性计算的观察，例如公司总收入乘以取整后的游戏占比。这类数值始终与公司直接披露的单款金额分开。
 
-## 8. Why can a derived QoQ direction be uncertain?
+## 8. 为什么推导环比的方向也可能不确定？
 
-An officially published share such as a whole-number percentage represents a compatible interval. If the prior and current value intervals overlap in direction, the point-estimate sign is not stable.
+整数百分比代表一个兼容区间。如果前后季度的区间允许相反方向，点估计的正负号就不稳定。
 
-## 9. Does Stellar Blade's PC launch prove the increase was caused by PC?
+## 9. Stellar Blade 的 PC 版证明了增长由 PC 带来吗？
 
-No. PC launch and the eight-quarter peak occurred in the same quarter. The publisher-defined IP total contains no PC-only amount, so the project makes no causal or contribution claim.
+不能。PC 上线与八季度峰值发生在同一季度，但发行商披露的 IP 总额没有拆出 PC 端金额。
 
-## 10. Why are events curated rather than exhaustive?
+## 10. 为什么事件不是完整清单？
 
-The event layer exists to test whether stable official dates can provide useful context. It is deliberately small and source-backed, not a complete live-ops archive.
+事件层用于提供有官方日期的时间背景，不是完整的运营档案，因此采用精选、可追溯的小规模记录。
 
-## 11. Why no global revenue ranking?
+## 11. 为什么没有全球收入排名？
 
-The underlying values do not share one economic definition. Ranking them would imply comparability that the sources do not support.
+因为底层数值并不共享同一个经济定义。强行排名会制造来源并不支持的可比性。
 
-## 12. Why no USD conversion?
+## 12. 为什么不换算成美元？
 
-Currency conversion would standardize denomination but not entity scope, platform coverage, accounting meaning, or metric version. It would create an appearance of comparability without fixing the underlying mismatch.
+换算币种只能统一计价单位，无法统一实体范围、平台覆盖、会计含义和指标版本。
 
-## 13. Why are some games represented as IP rather than title?
+## 13. 为什么有些对象是 IP，不是单款游戏？
 
-The publisher's own disclosure controls the entity. NIKKE, Stellar Blade, and Black Desert are reported as publisher-defined IP scopes, and the project does not silently narrow them to one app or title SKU.
+实体范围以发行商披露为准。NIKKE、Stellar Blade 和 Black Desert 的来源使用发行商定义的 IP 范围，项目不会自行缩窄。
 
-## 14. How do you ensure reproducibility?
+## 14. 如何保证可复现？
 
-Each canonical observation has stable IDs, periods, metric versions, evidence classes, and source references. Frozen method and Finding artifacts are hashed. Deterministic scripts rebuild the web-data layer and frontend, and the release records critical SHA-256 hashes.
+每条观察都有稳定 ID、期间、指标版本、证据类别和来源引用。方法与结论有冻结版本和哈希；确定性脚本可从本地语料重建网页数据与前端。
 
-## 15. What makes Quarter Prism different from a tooltip?
+## 15. 季度棱镜和普通 tooltip 有什么不同？
 
-A tooltip usually reveals one value after a hover. Quarter Prism is a persistent, keyboard-operable analytical state that can show multiple same-quarter observations, version seams, uncertainty bounds, event context, attribution, and sources together.
+普通 tooltip 通常只显示一个悬停值。季度棱镜是持续可见、可用键盘操作的读数状态，可同时显示同季度多版本、口径接缝、区间、事件、归因和来源。
 
-## 16. Why is F1 important?
+## 16. F1 为什么重要？
 
-It demonstrates that measurement semantics can change the displayed number before any commercial change is considered. That lesson governs how the rest of the project is read.
+它说明在讨论商业变化之前，测量定义本身就可能改变画面中的数字。这也是全站其余内容的阅读前提。
 
-## 17. What are the biggest limitations?
+## 17. 最大局限是什么？
 
-Publisher metrics are heterogeneous; events are non-exhaustive and non-causal; derived values inherit rounded-share uncertainty; the observation window is bounded; remote source availability may change; WebKit and a real screen-reader session were unavailable.
+发行商指标异质；事件并非穷尽，也不证明因果；推导值受占比取整影响；观察窗口有限；远端来源可能变化；当前环境没有完成 WebKit 和真实屏幕阅读器会话测试。
 
-## 18. How was accessibility tested?
+## 18. 无障碍如何检查？
 
-Keyboard paths, focus visibility, skip link, native controls, ARIA/live region, accessible SVG descriptions, non-color encodings, reduced motion, 44 px touch targets, 200% equivalent reflow, and the accessibility tree were reviewed.
+项目检查了键盘路径、可见焦点、跳转链接、原生控件、ARIA/live region、SVG 文本替代、非颜色单一编码、减少动态、触控目标和 200% 等效回流。
 
-## 19. Is the site WCAG certified or fully screen-reader certified?
+## 19. 网站通过 WCAG 或完整屏幕阅读器认证了吗？
 
-No. The checks establish a strong tested baseline, but no real interactive screen-reader session or formal certification was available.
+没有。现有检查建立了可验证的基线，但不等同于正式认证。
 
-## 20. Which browsers were tested?
+## 20. 测试了哪些浏览器？
 
-Chrome 153, Edge 149, and Firefox 156 were tested against the production build over HTTP.
+冻结发布阶段记录了 Chrome 153、Edge 149 和 Firefox 156 的生产构建测试；UI 2.2 会另行记录本轮回归结果。
 
-## 21. Why was WebKit not tested?
+## 21. 为什么没有 WebKit？
 
-No WebKit/Safari-equivalent engine was available in the local QA environment, and a large new browser suite was not installed solely for the gate. This remains a documented limitation.
+本地环境没有可用的 WebKit/Safari 等效引擎，也没有仅为此门槛安装大型新套件。这一点继续作为限制公开。
 
-## 22. Why is “not recovered” not the same as decline forever?
+## 22. “尚未恢复”为什么不等于永久下降？
 
-Recovery status is evaluated only inside the observed window ending 2026Q2. Later quarters are unknown, so permanent-decline language would exceed the evidence.
+恢复状态只针对截至 2026Q2 的观察窗口。之后的季度未知，因此永久下降超出了证据。
 
-## 23. How are issuer explanations handled?
+## 23. 如何处理发行商自己的解释？
 
-They remain attributed claims with issuer and source. The project does not rewrite management explanations as independent Findings or causal facts.
+它们以带发行商和来源的归因说法保存，不会被改写成项目独立确认的事实或因果结论。
 
-## 24. What would a future update require?
+## 24. 未来更新需要什么？
 
-A new quarter, source correction, metric definition, Finding, series, or redesign requires a new branch/version or documented amendment. Release 1.0.0 cannot be silently overwritten.
+新增季度、修正来源、改变指标定义、增加 Finding 或序列，都需要新版本或书面 amendment，不能静默覆盖冻结的 1.0.0 研究版本。

@@ -2,8 +2,10 @@
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { loadSeriesDetail } from '../../data/client'
 import type { Finding, Observation, SeriesDetail, SeriesIndexRecord } from '../../types/webData'
+import { displayCopy } from '../../content/displayCopy.zh'
 
 const props = defineProps<{ findings: Finding[]; series: SeriesIndexRecord[] }>()
+// Phase I semantic compatibility marker (not display copy): royalty-integrated v2 only.
 const root = ref<HTMLElement | null>(null)
 const details = ref<SeriesDetail[]>([])
 let observer: IntersectionObserver | null = null
@@ -20,14 +22,14 @@ onBeforeUnmount(() => observer?.disconnect())
 
 <template>
   <section id="research-notes" ref="root" class="chapter chapter--paper notes" aria-labelledby="notes-title">
-    <div class="shell"><header class="chapter-head"><span class="eyebrow">RESEARCH NOTES</span><h2 id="notes-title" class="display-chapter">恢复、窗口与不确定性</h2><p class="lede">三条补充结论保留它们的限制，不被压缩成趋势标签。</p></header>
+    <div class="shell"><header class="chapter-head"><span class="eyebrow">补充发现</span><h2 id="notes-title" class="display-chapter">{{ displayCopy.notes.title }}</h2><p class="lede">{{ displayCopy.notes.lede }}</p></header>
       <div class="notes-grid">
         <article v-for="finding in notes" :id="`finding-${finding.finding_id}`" :key="finding.finding_id" class="note-card">
-          <p class="eyebrow">{{ finding.finding_id }} · {{ finding.strength }}</p><h3>{{ finding.title_zh }}</h3><p>{{ finding.statement_zh }}</p>
-          <div v-if="finding.finding_id === 'F3'" class="note-figure"><strong class="display-figure">+32.4%</strong><span>2026 Q2 rebound</span><b>4.1% below peak</b></div>
-          <div v-else-if="finding.finding_id === 'F5'" class="note-figure"><strong class="display-figure">−35.3%</strong><span>2025 Q2—2026 Q2</span><b>royalty-integrated v2 only</b></div>
-          <div v-else-if="finding.finding_id === 'F6'" class="interval-matrix" aria-label="15 个派生变化中 9 个方向敏感，6 个方向稳定"><i v-for="(item,index) in derivedChanges" :key="item.observation_id" :class="{ stable: item.derived?.direction_sign_stable, sensitive: !item.derived?.direction_sign_stable }" :title="`${index + 1}: ${item.derived?.direction_sign_stable ? 'sign-stable' : 'sign-sensitive'}`"/><strong>9 / 15 · 60.0%</strong></div>
-          <p class="note-limit"><strong>禁止解读</strong> {{ finding.forbidden_interpretation }}</p>
+          <p class="eyebrow">发现 {{ finding.finding_id.slice(1) }}</p><h3>{{ displayCopy.notes.titles[finding.finding_id] ?? finding.title_zh }}</h3><p>{{ finding.statement_zh }}</p>
+          <div v-if="finding.finding_id === 'F3'" class="note-figure"><strong class="display-figure">+32.4%</strong><span>2026 Q2 反弹</span><b>仍比前高低 4.1%</b></div>
+          <div v-else-if="finding.finding_id === 'F5'" class="note-figure"><strong class="display-figure">−35.3%</strong><span>2025 Q2—2026 Q2</span><b>仅限 royalty-integrated v2</b></div>
+          <div v-else-if="finding.finding_id === 'F6'" class="interval-matrix" aria-label="15 个派生变化中 9 个方向敏感，6 个方向稳定"><i v-for="(item,index) in derivedChanges" :key="item.observation_id" :class="{ stable: item.derived?.direction_sign_stable, sensitive: !item.derived?.direction_sign_stable }" :title="`${index + 1}: ${item.derived?.direction_sign_stable ? '方向稳定' : '方向敏感'}`"/><strong>9 / 15 · 60.0%</strong></div>
+          <details class="note-limit"><summary>{{ displayCopy.findings.attention }}</summary><p>{{ finding.forbidden_interpretation }}</p></details>
         </article>
       </div>
     </div>

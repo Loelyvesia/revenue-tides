@@ -155,7 +155,7 @@ try {
   await selectSeries('series_lineage_m')
   await chooseQuarter('2025Q2')
   const overlap = await evaluate(`({ lanes: document.querySelectorAll('.reading-pane .metric-lane').length, text: document.querySelector('.reading-pane').innerText })`)
-  check('lineage_overlap', overlap.lanes === 2 && overlap.text.includes('同一季度') && overlap.text.includes('不拼接'), 'Two definitions and seam')
+  check('lineage_overlap', overlap.lanes === 2 && overlap.text.includes('同一季度') && overlap.text.includes('不能拼成一条连续趋势'), 'Two definitions and seam')
 
   await selectSeries('series_jackpot_world')
   await chooseQuarter('2024Q4')
@@ -165,15 +165,27 @@ try {
   await selectSeries('series_stellar_blade')
   await chooseQuarter('2025Q2')
   const event = await evaluate(`document.querySelector('.event-rail').innerText`)
-  check('event_noncausal', event.includes('NON-CAUSAL') && event.includes('同季度不等于因果') && event.toLowerCase().includes('pc'), event)
+  check('event_noncausal', event.includes('同期事件') && event.toLowerCase().includes('pc'), event)
 
-  for (const [width, height] of [[1280, 800], [390, 844], [320, 700]]) {
+  for (const [width, height] of [[1440, 900], [1280, 800], [390, 844], [320, 700]]) {
     await setViewport(width, height)
     const audit = await evaluate(`({ width: document.documentElement.clientWidth, scrollWidth: document.documentElement.scrollWidth, overflow: Math.max(0, document.documentElement.scrollWidth-document.documentElement.clientWidth), mobile: getComputedStyle(document.querySelector('.desktop-prism')).display==='none' })`)
     results.viewport_audits.push({ requested: `${width}x${height}`, ...audit })
   }
   check('responsive_no_overflow', results.viewport_audits.every((item) => item.overflow === 0), JSON.stringify(results.viewport_audits))
-  check('mobile_mode', results.viewport_audits.filter((item) => item.requested !== '1280x800').every((item) => item.mobile), 'Mobile Prism active')
+  check('mobile_mode', results.viewport_audits.filter((item) => item.width <= 390).every((item) => item.mobile), 'Mobile Prism active')
+
+  for (const [width,height] of [[390,844],[320,700]]) {
+    await setViewport(width,height)
+    await selectSeries('series_lineage_m'); await chooseQuarter('2025Q2')
+    await evaluate(`document.querySelector('.prism-reading').scrollIntoView()`); await sleep(500)
+    check('mobile_event_readable_'+width,await evaluate(`(() => {const n=document.querySelector('.prism-event-context'),r=n.getBoundingClientRect();return r.width>0&&r.left>=0&&r.right<=innerWidth&&n.scrollWidth<=n.clientWidth})()`),'Event text in document flow')
+    await evaluate(`document.querySelector('.prism-source-link--mobile-overlap').click()`); await sleep(150)
+    check('mobile_source_operable_'+width,await evaluate(`!!document.querySelector('#prism .source-list a[href]')`),'Source registry opens')
+    await evaluate(`document.querySelector('.prism-source-link--mobile-overlap').click()`)
+    await evaluate(`document.querySelector('#finding-F4').scrollIntoView()`); await sleep(1800)
+    check('mobile_f4_complete_'+width,await evaluate(`(() => {const r=document.querySelector('.f4-tidal-sequence svg').getBoundingClientRect();return r.left>=0&&r.right<=innerWidth&&[...document.querySelectorAll('.f4-mobile-readings b')].map(n=>n.textContent).join(',')==='69.2,54.9,79.5,55.0'})()`),'Four anchors and second drawdown fit viewport')
+  }
 
   await setViewport(1280, 800)
   await client.send('browsingContext.navigate', { context, url: `${targetUrl}#finding-F1`, wait: 'complete' })

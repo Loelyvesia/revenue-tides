@@ -12,8 +12,8 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: clamp(24vh, 38vh, 46vh);
-  padding-block: 6vh;
+  gap: clamp(10vh, 15vh, 18vh);
+  padding-block: 3vh 8vh;
 }
 
 .scrolly__step {
@@ -21,13 +21,14 @@
   min-height: 0;
 }
 .scrolly__step .step-rule {
-  width: 2.2rem;
-  height: 1px;
-  background: var(--rule-dark-strong);
+  width: 1.1rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(11,86,98,.38), transparent 72%);
   margin-bottom: 1rem;
   transition: width var(--t-med) var(--ease-out);
 }
-.scrolly__step.is-active .step-rule { width: 4.5rem; background: var(--teal); }
+.scrolly__step.is-active .step-rule { width: 4.5rem; background: radial-gradient(ellipse, rgba(36,168,160,.72), transparent 72%); }
 .scrolly__step .step-label {
   font-family: var(--font-numeric);
   font-size: 0.72rem;
@@ -57,7 +58,7 @@
 .scrolly__visual {
   position: sticky;
   top: 10svh;
-  height: 76svh;
+  height: 66svh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,8 +66,8 @@
 
 /* Chapter transition divider */
 .divider-line {
-  height: 1px;
-  background: var(--rule-dark-strong);
+  height: 3rem;
+  background: radial-gradient(ellipse, rgba(36,168,160,.08), transparent 70%);
   width: 100%;
 }
 

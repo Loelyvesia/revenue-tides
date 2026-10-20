@@ -32,6 +32,7 @@ async function initialize(): Promise<void> {
         if (entries.some((entry) => entry.isIntersecting)) { void loadSources().then((items) => { sources.value = items }); sourceObserver?.disconnect() }
       }, { rootMargin: '900px' })
       if (target) sourceObserver.observe(target)
+      else { sources.value = await loadSources(); sourceObserver.disconnect() }
     }
     if (location.hash) {
       for (const delay of [80, 650, 1900]) {
@@ -47,8 +48,8 @@ onBeforeUnmount(() => { sourceObserver?.disconnect(); hashTimers.forEach((timer)
 
 <template>
   <a class="skip-link" href="#main-content">跳到主要内容</a>
-  <main v-if="state === 'loading'" id="main-content" class="boot chapter--surface" aria-live="polite"><p class="eyebrow">REVENUE TIDES</p><h1>正在读取冻结数据…</h1></main>
-  <main v-else-if="state === 'error'" id="main-content" class="boot"><p class="eyebrow">DATA LOAD ERROR</p><h1>数据暂时无法加载</h1><p>{{ error }}</p><button class="native-control" @click="initialize">重试</button></main>
+  <main v-if="state === 'loading'" id="main-content" class="boot chapter--surface" aria-live="polite"><p class="eyebrow">REVENUE TIDES</p><h1>正在读取数据…</h1></main>
+  <main v-else-if="state === 'error'" id="main-content" class="boot"><p class="eyebrow">加载失败</p><h1>数据暂时无法加载</h1><p>{{ error }}</p><button class="native-control" @click="initialize">重试</button></main>
   <template v-else-if="data">
     <SiteNavV2 />
     <main id="main-content">

@@ -1,0 +1,197 @@
+{
+  "suite": "UI 2.4",
+  "passed": 38,
+  "total": 38,
+  "results": [
+    {
+      "name": "frozen_web_data_unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "frozen_method_unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "frozen_findings_unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "frozen_web_product_audit_unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "frozen_counts",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "derived_count",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "headline_findings",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "webdata_version",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "floating_body_utility",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "exact_upper_anchor_contract",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "floating_lower_contour",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "shared_body_adoption",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "vertical_body_dissolve",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "no_component_uses_flat_area",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "hero_field_behind_title",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "measurement_compressed",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "measurement_tide_enlarged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "prism_readout_unboxed",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "prism_mobile_order",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "mobile_overlap_two_column",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "mobile_overlap_chart_simplified",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "mobile_overlap_source_after_chart",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "f1_title_reduced",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "f1_currents_thickened",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "f2_title_reduced",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "f2_first_view_values",
+      "status": "PASS",
+      "detail": "7.012 / 65.719 / +837.3%"
+    },
+    {
+      "name": "f2_percentage_deemphasized",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "f4_semantics_preserved",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "archive_detail_enlarged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "archive_no_lateral_selection",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "no_new_runtime_dependency",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "required_desktop_screenshots",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "required_mobile_screenshots",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "chrome_qa",
+      "status": "PASS",
+      "detail": "{'passed': 24, 'failed': 0}"
+    },
+    {
+      "name": "edge_qa",
+      "status": "PASS",
+      "detail": "{'passed': 24, 'failed': 0}"
+    },
+    {
+      "name": "firefox_qa",
+      "status": "PASS",
+      "detail": "{'passed': 20, 'failed': 0}"
+    },
+    {
+      "name": "required_audits",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "stop_before_deployment",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}
